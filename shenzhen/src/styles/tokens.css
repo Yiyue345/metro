@@ -1,0 +1,26 @@
+:root {
+  --ink: #192d29;
+  --ink-soft: #67736e;
+  --paper: #fff;
+  --canvas: #f3f6f1;
+  --line: #e0e6df;
+  --accent: #245c43;
+  --muted: #7a847e;
+  --faint: #8c968f;
+  --divider-ink: #bac4bd;
+  --hover: #f4f7f2;
+  --hover-strong: #eef4ee;
+  --active: #eaf1e9;
+  --station-ring: #164f3a;
+  --station-outline: #242424;
+  --station-visited: #ffc52e;
+  --station-duration: 180ms;
+  --station-connection: #252825;
+  --station-label: #333a36;
+  --station-hover: rgb(255 255 255 / 55%);
+  --station-selected: rgb(255 255 255 / 70%);
+  --station-filtered: rgb(255 255 255 / 65%);
+  --shadow: 0 3px 16px rgb(30 49 39 / 9%);
+  --radius: 8px;
+  --font: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "shenzhen-metro-footprints",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "check": "astro check",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@versatiles/style": "^6.0.3",
+    "astro": "^5.13.2",
+    "maplibre-gl": "^5.24.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@mapbox/vector-tile": "2.0.5",
+    "pbf": "4.0.2",
+    "typescript": "^5.9.2"
+  }
+}

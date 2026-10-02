@@ -1,0 +1,2108 @@
+[
+  {
+    "name": "罗湖",
+    "method": "circle",
+    "nearestContourDistance": 124.3,
+    "parts": 1
+  },
+  {
+    "name": "国贸",
+    "method": "circle",
+    "nearestContourDistance": 52.1,
+    "parts": 1
+  },
+  {
+    "name": "老街",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "大剧院",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "科学馆",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "华强路",
+    "method": "circle",
+    "nearestContourDistance": 27.0,
+    "parts": 1
+  },
+  {
+    "name": "岗厦",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "会展中心",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "购物公园",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "香蜜湖",
+    "method": "circle",
+    "nearestContourDistance": 90.9,
+    "parts": 1
+  },
+  {
+    "name": "车公庙",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "竹子林",
+    "method": "circle",
+    "nearestContourDistance": 122.2,
+    "parts": 1
+  },
+  {
+    "name": "侨城东",
+    "method": "circle",
+    "nearestContourDistance": 172.0,
+    "parts": 1
+  },
+  {
+    "name": "华侨城",
+    "method": "circle",
+    "nearestContourDistance": 95.7,
+    "parts": 1
+  },
+  {
+    "name": "世界之窗",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "白石洲",
+    "method": "circle",
+    "nearestContourDistance": 64.9,
+    "parts": 1
+  },
+  {
+    "name": "高新园",
+    "method": "circle",
+    "nearestContourDistance": 77.9,
+    "parts": 1
+  },
+  {
+    "name": "深大",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "桃园",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "大新",
+    "method": "circle",
+    "nearestContourDistance": 82.3,
+    "parts": 1
+  },
+  {
+    "name": "鲤鱼门",
+    "method": "circle",
+    "nearestContourDistance": 65.2,
+    "parts": 1
+  },
+  {
+    "name": "前海湾",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "新安",
+    "method": "circle",
+    "nearestContourDistance": 91.0,
+    "parts": 1
+  },
+  {
+    "name": "宝安中心",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "宝体",
+    "method": "circle",
+    "nearestContourDistance": 72.5,
+    "parts": 1
+  },
+  {
+    "name": "坪洲",
+    "method": "circle",
+    "nearestContourDistance": 193.8,
+    "parts": 1
+  },
+  {
+    "name": "西乡",
+    "method": "circle",
+    "nearestContourDistance": 279.7,
+    "parts": 1
+  },
+  {
+    "name": "固戍",
+    "method": "circle",
+    "nearestContourDistance": 468.8,
+    "parts": 1
+  },
+  {
+    "name": "后瑞",
+    "method": "circle",
+    "nearestContourDistance": 199.1,
+    "parts": 1
+  },
+  {
+    "name": "机场东",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "赤湾",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "蛇口港",
+    "method": "circle",
+    "nearestContourDistance": 82.5,
+    "parts": 1
+  },
+  {
+    "name": "海上世界",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "水湾",
+    "method": "circle",
+    "nearestContourDistance": 51.2,
+    "parts": 1
+  },
+  {
+    "name": "东角头",
+    "method": "circle",
+    "nearestContourDistance": 143.7,
+    "parts": 1
+  },
+  {
+    "name": "湾厦",
+    "method": "circle",
+    "nearestContourDistance": 143.1,
+    "parts": 1
+  },
+  {
+    "name": "海月",
+    "method": "circle",
+    "nearestContourDistance": 122.1,
+    "parts": 1
+  },
+  {
+    "name": "登良",
+    "method": "circle",
+    "nearestContourDistance": 93.0,
+    "parts": 1
+  },
+  {
+    "name": "后海",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "科苑",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "红树湾",
+    "method": "circle",
+    "nearestContourDistance": 34.4,
+    "parts": 1
+  },
+  {
+    "name": "侨城北",
+    "method": "circle",
+    "nearestContourDistance": 141.8,
+    "parts": 1
+  },
+  {
+    "name": "深康",
+    "method": "circle",
+    "nearestContourDistance": 60.9,
+    "parts": 1
+  },
+  {
+    "name": "安托山",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "侨香",
+    "method": "circle",
+    "nearestContourDistance": 71.3,
+    "parts": 1
+  },
+  {
+    "name": "香蜜",
+    "method": "circle",
+    "nearestContourDistance": 155.9,
+    "parts": 1
+  },
+  {
+    "name": "香梅北",
+    "method": "circle",
+    "nearestContourDistance": 88.6,
+    "parts": 1
+  },
+  {
+    "name": "景田",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "莲花西",
+    "method": "circle",
+    "nearestContourDistance": 72.7,
+    "parts": 1
+  },
+  {
+    "name": "福田",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "市民中心",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "岗厦北",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "华强北",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "燕南",
+    "method": "circle",
+    "nearestContourDistance": 44.6,
+    "parts": 1
+  },
+  {
+    "name": "湖贝",
+    "method": "circle",
+    "nearestContourDistance": 78.7,
+    "parts": 1
+  },
+  {
+    "name": "黄贝岭",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "新秀",
+    "method": "circle",
+    "nearestContourDistance": 113.2,
+    "parts": 1
+  },
+  {
+    "name": "莲塘口岸",
+    "method": "circle",
+    "nearestContourDistance": 178.8,
+    "parts": 1
+  },
+  {
+    "name": "仙湖路",
+    "method": "circle",
+    "nearestContourDistance": 65.4,
+    "parts": 1
+  },
+  {
+    "name": "莲塘",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "福保",
+    "method": "circle",
+    "nearestContourDistance": 139.0,
+    "parts": 1
+  },
+  {
+    "name": "益田",
+    "method": "circle",
+    "nearestContourDistance": 69.3,
+    "parts": 1
+  },
+  {
+    "name": "石厦",
+    "method": "contour",
+    "nearestContourDistance": 0.4,
+    "parts": 1
+  },
+  {
+    "name": "少年宫",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "莲花村",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "华新",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "通新岭",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "红岭",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "晒布",
+    "method": "circle",
+    "nearestContourDistance": 70.8,
+    "parts": 1
+  },
+  {
+    "name": "翠竹",
+    "method": "circle",
+    "nearestContourDistance": 102.0,
+    "parts": 1
+  },
+  {
+    "name": "田贝",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "水贝",
+    "method": "circle",
+    "nearestContourDistance": 76.6,
+    "parts": 1
+  },
+  {
+    "name": "草埔",
+    "method": "circle",
+    "nearestContourDistance": 158.4,
+    "parts": 1
+  },
+  {
+    "name": "布吉",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "木棉湾",
+    "method": "circle",
+    "nearestContourDistance": 90.7,
+    "parts": 1
+  },
+  {
+    "name": "大芬",
+    "method": "circle",
+    "nearestContourDistance": 184.1,
+    "parts": 1
+  },
+  {
+    "name": "丹竹头",
+    "method": "circle",
+    "nearestContourDistance": 268.6,
+    "parts": 1
+  },
+  {
+    "name": "六约",
+    "method": "circle",
+    "nearestContourDistance": 552.9,
+    "parts": 1
+  },
+  {
+    "name": "塘坑",
+    "method": "circle",
+    "nearestContourDistance": 519.9,
+    "parts": 1
+  },
+  {
+    "name": "横岗",
+    "method": "circle",
+    "nearestContourDistance": 378.5,
+    "parts": 1
+  },
+  {
+    "name": "永湖",
+    "method": "circle",
+    "nearestContourDistance": 257.9,
+    "parts": 1
+  },
+  {
+    "name": "荷坳",
+    "method": "circle",
+    "nearestContourDistance": 118.2,
+    "parts": 1
+  },
+  {
+    "name": "大运",
+    "method": "contour",
+    "nearestContourDistance": 0.7,
+    "parts": 1
+  },
+  {
+    "name": "爱联",
+    "method": "circle",
+    "nearestContourDistance": 109.0,
+    "parts": 1
+  },
+  {
+    "name": "吉祥",
+    "method": "circle",
+    "nearestContourDistance": 178.7,
+    "parts": 1
+  },
+  {
+    "name": "龙城广场",
+    "method": "circle",
+    "nearestContourDistance": 227.9,
+    "parts": 1
+  },
+  {
+    "name": "南联",
+    "method": "circle",
+    "nearestContourDistance": 120.2,
+    "parts": 1
+  },
+  {
+    "name": "双龙",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "梨园",
+    "method": "circle",
+    "nearestContourDistance": 25.9,
+    "parts": 1
+  },
+  {
+    "name": "新生",
+    "method": "circle",
+    "nearestContourDistance": 120.6,
+    "parts": 1
+  },
+  {
+    "name": "坪西",
+    "method": "circle",
+    "nearestContourDistance": 264.1,
+    "parts": 1
+  },
+  {
+    "name": "低碳城",
+    "method": "circle",
+    "nearestContourDistance": 334.9,
+    "parts": 1
+  },
+  {
+    "name": "白石塘",
+    "method": "circle",
+    "nearestContourDistance": 398.4,
+    "parts": 1
+  },
+  {
+    "name": "富坪",
+    "method": "circle",
+    "nearestContourDistance": 472.8,
+    "parts": 1
+  },
+  {
+    "name": "坪地六联",
+    "method": "circle",
+    "nearestContourDistance": 587.1,
+    "parts": 1
+  },
+  {
+    "name": "福田口岸",
+    "method": "circle",
+    "nearestContourDistance": 78.4,
+    "parts": 1
+  },
+  {
+    "name": "福民",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 2
+  },
+  {
+    "name": "莲花北",
+    "method": "circle",
+    "nearestContourDistance": 72.6,
+    "parts": 1
+  },
+  {
+    "name": "上梅林",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "民乐",
+    "method": "circle",
+    "nearestContourDistance": 217.6,
+    "parts": 1
+  },
+  {
+    "name": "白石龙",
+    "method": "circle",
+    "nearestContourDistance": 133.2,
+    "parts": 1
+  },
+  {
+    "name": "深圳北",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "红山",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "上塘",
+    "method": "circle",
+    "nearestContourDistance": 166.6,
+    "parts": 1
+  },
+  {
+    "name": "龙胜",
+    "method": "circle",
+    "nearestContourDistance": 231.7,
+    "parts": 1
+  },
+  {
+    "name": "龙华",
+    "method": "circle",
+    "nearestContourDistance": 273.5,
+    "parts": 1
+  },
+  {
+    "name": "清湖",
+    "method": "circle",
+    "nearestContourDistance": 402.3,
+    "parts": 1
+  },
+  {
+    "name": "清湖北",
+    "method": "circle",
+    "nearestContourDistance": 454.0,
+    "parts": 1
+  },
+  {
+    "name": "竹村",
+    "method": "circle",
+    "nearestContourDistance": 579.1,
+    "parts": 1
+  },
+  {
+    "name": "茜坑",
+    "method": "circle",
+    "nearestContourDistance": 669.7,
+    "parts": 1
+  },
+  {
+    "name": "长湖",
+    "method": "circle",
+    "nearestContourDistance": 782.6,
+    "parts": 1
+  },
+  {
+    "name": "观澜",
+    "method": "circle",
+    "nearestContourDistance": 813.1,
+    "parts": 1
+  },
+  {
+    "name": "松元厦",
+    "method": "circle",
+    "nearestContourDistance": 866.9,
+    "parts": 1
+  },
+  {
+    "name": "观澜湖",
+    "method": "circle",
+    "nearestContourDistance": 882.7,
+    "parts": 1
+  },
+  {
+    "name": "牛湖",
+    "method": "circle",
+    "nearestContourDistance": 932.9,
+    "parts": 1
+  },
+  {
+    "name": "荔湾",
+    "method": "circle",
+    "nearestContourDistance": 176.7,
+    "parts": 1
+  },
+  {
+    "name": "铁路公园",
+    "method": "circle",
+    "nearestContourDistance": 179.8,
+    "parts": 1
+  },
+  {
+    "name": "妈湾",
+    "method": "circle",
+    "nearestContourDistance": 154.3,
+    "parts": 1
+  },
+  {
+    "name": "前湾公园",
+    "method": "circle",
+    "nearestContourDistance": 76.9,
+    "parts": 1
+  },
+  {
+    "name": "前湾",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "桂湾",
+    "method": "circle",
+    "nearestContourDistance": 53.1,
+    "parts": 1
+  },
+  {
+    "name": "临海",
+    "method": "circle",
+    "nearestContourDistance": 95.6,
+    "parts": 1
+  },
+  {
+    "name": "宝华",
+    "method": "circle",
+    "nearestContourDistance": 51.6,
+    "parts": 1
+  },
+  {
+    "name": "翻身",
+    "method": "circle",
+    "nearestContourDistance": 70.1,
+    "parts": 1
+  },
+  {
+    "name": "灵芝",
+    "method": "contour",
+    "nearestContourDistance": 1.0,
+    "parts": 1
+  },
+  {
+    "name": "洪浪北",
+    "method": "circle",
+    "nearestContourDistance": 75.4,
+    "parts": 1
+  },
+  {
+    "name": "兴东",
+    "method": "circle",
+    "nearestContourDistance": 172.0,
+    "parts": 1
+  },
+  {
+    "name": "留仙洞",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "西丽",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "大学城",
+    "method": "circle",
+    "nearestContourDistance": 95.0,
+    "parts": 1
+  },
+  {
+    "name": "塘朗",
+    "method": "circle",
+    "nearestContourDistance": 287.7,
+    "parts": 1
+  },
+  {
+    "name": "长岭陂",
+    "method": "circle",
+    "nearestContourDistance": 200.2,
+    "parts": 1
+  },
+  {
+    "name": "民治",
+    "method": "circle",
+    "nearestContourDistance": 109.9,
+    "parts": 1
+  },
+  {
+    "name": "五和",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "坂田",
+    "method": "circle",
+    "nearestContourDistance": 86.4,
+    "parts": 1
+  },
+  {
+    "name": "杨美",
+    "method": "circle",
+    "nearestContourDistance": 164.1,
+    "parts": 1
+  },
+  {
+    "name": "上水径",
+    "method": "circle",
+    "nearestContourDistance": 235.2,
+    "parts": 1
+  },
+  {
+    "name": "下水径",
+    "method": "circle",
+    "nearestContourDistance": 152.6,
+    "parts": 1
+  },
+  {
+    "name": "长龙",
+    "method": "circle",
+    "nearestContourDistance": 89.2,
+    "parts": 1
+  },
+  {
+    "name": "百鸽笼",
+    "method": "circle",
+    "nearestContourDistance": 10.3,
+    "parts": 1
+  },
+  {
+    "name": "布心",
+    "method": "circle",
+    "nearestContourDistance": 72.6,
+    "parts": 1
+  },
+  {
+    "name": "太安",
+    "method": "contour",
+    "nearestContourDistance": 0.7,
+    "parts": 1
+  },
+  {
+    "name": "怡景",
+    "method": "circle",
+    "nearestContourDistance": 97.3,
+    "parts": 1
+  },
+  {
+    "name": "东门",
+    "method": "circle",
+    "nearestContourDistance": 24.2,
+    "parts": 1
+  },
+  {
+    "name": "体育中心",
+    "method": "circle",
+    "nearestContourDistance": 52.0,
+    "parts": 1
+  },
+  {
+    "name": "八卦岭",
+    "method": "contour",
+    "nearestContourDistance": 1.2,
+    "parts": 1
+  },
+  {
+    "name": "银湖",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "翰岭",
+    "method": "circle",
+    "nearestContourDistance": 57.6,
+    "parts": 1
+  },
+  {
+    "name": "梅林关",
+    "method": "circle",
+    "nearestContourDistance": 235.1,
+    "parts": 1
+  },
+  {
+    "name": "上芬",
+    "method": "circle",
+    "nearestContourDistance": 182.1,
+    "parts": 1
+  },
+  {
+    "name": "元芬",
+    "method": "circle",
+    "nearestContourDistance": 352.0,
+    "parts": 1
+  },
+  {
+    "name": "阳台山东",
+    "method": "circle",
+    "nearestContourDistance": 482.4,
+    "parts": 1
+  },
+  {
+    "name": "官田",
+    "method": "circle",
+    "nearestContourDistance": 103.3,
+    "parts": 1
+  },
+  {
+    "name": "上屋",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "长圳",
+    "method": "circle",
+    "nearestContourDistance": 201.7,
+    "parts": 1
+  },
+  {
+    "name": "凤凰城",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "光明大街",
+    "method": "circle",
+    "nearestContourDistance": 156.6,
+    "parts": 1
+  },
+  {
+    "name": "光明",
+    "method": "circle",
+    "nearestContourDistance": 244.3,
+    "parts": 1
+  },
+  {
+    "name": "科学公园",
+    "method": "circle",
+    "nearestContourDistance": 272.7,
+    "parts": 1
+  },
+  {
+    "name": "楼村",
+    "method": "circle",
+    "nearestContourDistance": 260.2,
+    "parts": 1
+  },
+  {
+    "name": "红花山",
+    "method": "circle",
+    "nearestContourDistance": 127.1,
+    "parts": 1
+  },
+  {
+    "name": "公明广场",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "合水口",
+    "method": "circle",
+    "nearestContourDistance": 107.8,
+    "parts": 1
+  },
+  {
+    "name": "薯田埔",
+    "method": "circle",
+    "nearestContourDistance": 218.5,
+    "parts": 1
+  },
+  {
+    "name": "松岗公园",
+    "method": "circle",
+    "nearestContourDistance": 166.1,
+    "parts": 1
+  },
+  {
+    "name": "溪头",
+    "method": "circle",
+    "nearestContourDistance": 69.9,
+    "parts": 1
+  },
+  {
+    "name": "松岗",
+    "method": "contour",
+    "nearestContourDistance": 0.7,
+    "parts": 1
+  },
+  {
+    "name": "深理工",
+    "method": "circle",
+    "nearestContourDistance": 631.1,
+    "parts": 1
+  },
+  {
+    "name": "中大",
+    "method": "circle",
+    "nearestContourDistance": 479.7,
+    "parts": 1
+  },
+  {
+    "name": "圳美",
+    "method": "circle",
+    "nearestContourDistance": 394.8,
+    "parts": 1
+  },
+  {
+    "name": "碧眼",
+    "method": "circle",
+    "nearestContourDistance": 175.5,
+    "parts": 1
+  },
+  {
+    "name": "虹桥公园",
+    "method": "circle",
+    "nearestContourDistance": 142.4,
+    "parts": 1
+  },
+  {
+    "name": "光明城",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "深大丽湖",
+    "method": "circle",
+    "nearestContourDistance": 266.2,
+    "parts": 1
+  },
+  {
+    "name": "北大",
+    "method": "circle",
+    "nearestContourDistance": 240.2,
+    "parts": 1
+  },
+  {
+    "name": "西丽湖",
+    "method": "circle",
+    "nearestContourDistance": 155.6,
+    "parts": 1
+  },
+  {
+    "name": "茶光",
+    "method": "circle",
+    "nearestContourDistance": 54.6,
+    "parts": 1
+  },
+  {
+    "name": "珠光",
+    "method": "circle",
+    "nearestContourDistance": 122.5,
+    "parts": 1
+  },
+  {
+    "name": "龙井",
+    "method": "circle",
+    "nearestContourDistance": 28.6,
+    "parts": 1
+  },
+  {
+    "name": "桃源村",
+    "method": "circle",
+    "nearestContourDistance": 62.3,
+    "parts": 1
+  },
+  {
+    "name": "深云",
+    "method": "circle",
+    "nearestContourDistance": 127.2,
+    "parts": 1
+  },
+  {
+    "name": "农林",
+    "method": "circle",
+    "nearestContourDistance": 96.4,
+    "parts": 1
+  },
+  {
+    "name": "上沙",
+    "method": "circle",
+    "nearestContourDistance": 132.1,
+    "parts": 1
+  },
+  {
+    "name": "沙尾",
+    "method": "circle",
+    "nearestContourDistance": 98.0,
+    "parts": 1
+  },
+  {
+    "name": "皇岗村",
+    "method": "circle",
+    "nearestContourDistance": 44.2,
+    "parts": 1
+  },
+  {
+    "name": "皇岗口岸",
+    "method": "circle",
+    "nearestContourDistance": 60.5,
+    "parts": 1
+  },
+  {
+    "name": "赤尾",
+    "method": "circle",
+    "nearestContourDistance": 66.1,
+    "parts": 1
+  },
+  {
+    "name": "华强南",
+    "method": "contour",
+    "nearestContourDistance": 0.5,
+    "parts": 1
+  },
+  {
+    "name": "黄木岗",
+    "method": "contour",
+    "nearestContourDistance": 1.3,
+    "parts": 1
+  },
+  {
+    "name": "红岭北",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "笋岗",
+    "method": "circle",
+    "nearestContourDistance": 58.5,
+    "parts": 1
+  },
+  {
+    "name": "洪湖",
+    "method": "circle",
+    "nearestContourDistance": 65.9,
+    "parts": 1
+  },
+  {
+    "name": "梧桐山南",
+    "method": "circle",
+    "nearestContourDistance": 101.7,
+    "parts": 1
+  },
+  {
+    "name": "沙头角",
+    "method": "circle",
+    "nearestContourDistance": 429.3,
+    "parts": 1
+  },
+  {
+    "name": "海山",
+    "method": "circle",
+    "nearestContourDistance": 549.2,
+    "parts": 1
+  },
+  {
+    "name": "盐田港西",
+    "method": "circle",
+    "nearestContourDistance": 619.6,
+    "parts": 1
+  },
+  {
+    "name": "深外高中",
+    "method": "circle",
+    "nearestContourDistance": 629.7,
+    "parts": 1
+  },
+  {
+    "name": "盐田路",
+    "method": "circle",
+    "nearestContourDistance": 732.1,
+    "parts": 1
+  },
+  {
+    "name": "鸿安围",
+    "method": "circle",
+    "nearestContourDistance": 805.8,
+    "parts": 1
+  },
+  {
+    "name": "盐田墟",
+    "method": "circle",
+    "nearestContourDistance": 896.5,
+    "parts": 1
+  },
+  {
+    "name": "大梅沙",
+    "method": "circle",
+    "nearestContourDistance": 940.6,
+    "parts": 1
+  },
+  {
+    "name": "小梅沙",
+    "method": "circle",
+    "nearestContourDistance": 829.0,
+    "parts": 1
+  },
+  {
+    "name": "溪涌",
+    "method": "circle",
+    "nearestContourDistance": 734.4,
+    "parts": 1
+  },
+  {
+    "name": "梦海",
+    "method": "circle",
+    "nearestContourDistance": 40.4,
+    "parts": 1
+  },
+  {
+    "name": "怡海",
+    "method": "circle",
+    "nearestContourDistance": 86.7,
+    "parts": 1
+  },
+  {
+    "name": "荔林",
+    "method": "circle",
+    "nearestContourDistance": 110.9,
+    "parts": 1
+  },
+  {
+    "name": "南油西",
+    "method": "circle",
+    "nearestContourDistance": 62.6,
+    "parts": 1
+  },
+  {
+    "name": "南油",
+    "method": "contour",
+    "nearestContourDistance": 0.1,
+    "parts": 1
+  },
+  {
+    "name": "南山书城",
+    "method": "circle",
+    "nearestContourDistance": 66.6,
+    "parts": 1
+  },
+  {
+    "name": "深大南",
+    "method": "circle",
+    "nearestContourDistance": 86.2,
+    "parts": 1
+  },
+  {
+    "name": "粤海门",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "高新南",
+    "method": "circle",
+    "nearestContourDistance": 50.8,
+    "parts": 1
+  },
+  {
+    "name": "红树湾南",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "深湾",
+    "method": "circle",
+    "nearestContourDistance": 58.3,
+    "parts": 1
+  },
+  {
+    "name": "深圳湾公园",
+    "method": "circle",
+    "nearestContourDistance": 180.4,
+    "parts": 1
+  },
+  {
+    "name": "下沙",
+    "method": "circle",
+    "nearestContourDistance": 74.9,
+    "parts": 1
+  },
+  {
+    "name": "香梅",
+    "method": "circle",
+    "nearestContourDistance": 79.7,
+    "parts": 1
+  },
+  {
+    "name": "梅景",
+    "method": "circle",
+    "nearestContourDistance": 83.0,
+    "parts": 1
+  },
+  {
+    "name": "下梅林",
+    "method": "circle",
+    "nearestContourDistance": 115.3,
+    "parts": 1
+  },
+  {
+    "name": "梅村",
+    "method": "circle",
+    "nearestContourDistance": 58.8,
+    "parts": 1
+  },
+  {
+    "name": "孖岭",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "泥岗",
+    "method": "circle",
+    "nearestContourDistance": 61.7,
+    "parts": 1
+  },
+  {
+    "name": "园岭",
+    "method": "circle",
+    "nearestContourDistance": 56.3,
+    "parts": 1
+  },
+  {
+    "name": "红岭南",
+    "method": "circle",
+    "nearestContourDistance": 38.0,
+    "parts": 1
+  },
+  {
+    "name": "鹿丹村",
+    "method": "circle",
+    "nearestContourDistance": 56.8,
+    "parts": 1
+  },
+  {
+    "name": "人民南",
+    "method": "circle",
+    "nearestContourDistance": 88.8,
+    "parts": 1
+  },
+  {
+    "name": "向西村",
+    "method": "circle",
+    "nearestContourDistance": 95.4,
+    "parts": 1
+  },
+  {
+    "name": "文锦",
+    "method": "circle",
+    "nearestContourDistance": 52.6,
+    "parts": 1
+  },
+  {
+    "name": "双拥街",
+    "method": "circle",
+    "nearestContourDistance": 779.4,
+    "parts": 1
+  },
+  {
+    "name": "平湖",
+    "method": "circle",
+    "nearestContourDistance": 831.4,
+    "parts": 1
+  },
+  {
+    "name": "禾花",
+    "method": "circle",
+    "nearestContourDistance": 752.0,
+    "parts": 1
+  },
+  {
+    "name": "华南城",
+    "method": "circle",
+    "nearestContourDistance": 687.1,
+    "parts": 1
+  },
+  {
+    "name": "木古",
+    "method": "circle",
+    "nearestContourDistance": 635.1,
+    "parts": 1
+  },
+  {
+    "name": "上李朗",
+    "method": "circle",
+    "nearestContourDistance": 484.3,
+    "parts": 1
+  },
+  {
+    "name": "凉帽山",
+    "method": "circle",
+    "nearestContourDistance": 411.4,
+    "parts": 1
+  },
+  {
+    "name": "甘坑",
+    "method": "circle",
+    "nearestContourDistance": 433.2,
+    "parts": 1
+  },
+  {
+    "name": "雪象",
+    "method": "circle",
+    "nearestContourDistance": 317.3,
+    "parts": 1
+  },
+  {
+    "name": "岗头",
+    "method": "circle",
+    "nearestContourDistance": 290.6,
+    "parts": 1
+  },
+  {
+    "name": "华为",
+    "method": "circle",
+    "nearestContourDistance": 222.1,
+    "parts": 1
+  },
+  {
+    "name": "贝尔路",
+    "method": "circle",
+    "nearestContourDistance": 143.7,
+    "parts": 1
+  },
+  {
+    "name": "坂田北",
+    "method": "circle",
+    "nearestContourDistance": 79.0,
+    "parts": 1
+  },
+  {
+    "name": "光雅园",
+    "method": "circle",
+    "nearestContourDistance": 95.5,
+    "parts": 1
+  },
+  {
+    "name": "南坑",
+    "method": "circle",
+    "nearestContourDistance": 148.0,
+    "parts": 1
+  },
+  {
+    "name": "雅宝",
+    "method": "circle",
+    "nearestContourDistance": 210.8,
+    "parts": 1
+  },
+  {
+    "name": "冬瓜岭",
+    "method": "circle",
+    "nearestContourDistance": 71.0,
+    "parts": 1
+  },
+  {
+    "name": "福星",
+    "method": "circle",
+    "nearestContourDistance": 58.5,
+    "parts": 1
+  },
+  {
+    "name": "南山",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "宝安",
+    "method": "circle",
+    "nearestContourDistance": 58.7,
+    "parts": 1
+  },
+  {
+    "name": "碧海湾",
+    "method": "circle",
+    "nearestContourDistance": 321.3,
+    "parts": 1
+  },
+  {
+    "name": "机场",
+    "method": "circle",
+    "nearestContourDistance": 225.0,
+    "parts": 1
+  },
+  {
+    "name": "机场北",
+    "method": "contour",
+    "nearestContourDistance": 0.3,
+    "parts": 1
+  },
+  {
+    "name": "福永",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "桥头",
+    "method": "circle",
+    "nearestContourDistance": 123.8,
+    "parts": 1
+  },
+  {
+    "name": "塘尾",
+    "method": "circle",
+    "nearestContourDistance": 266.5,
+    "parts": 1
+  },
+  {
+    "name": "马安山",
+    "method": "circle",
+    "nearestContourDistance": 324.0,
+    "parts": 1
+  },
+  {
+    "name": "沙井",
+    "method": "circle",
+    "nearestContourDistance": 386.0,
+    "parts": 1
+  },
+  {
+    "name": "后亭",
+    "method": "circle",
+    "nearestContourDistance": 183.5,
+    "parts": 1
+  },
+  {
+    "name": "碧头",
+    "method": "circle",
+    "nearestContourDistance": 141.3,
+    "parts": 1
+  },
+  {
+    "name": "左炮台东",
+    "method": "circle",
+    "nearestContourDistance": 86.2,
+    "parts": 1
+  },
+  {
+    "name": "太子湾",
+    "method": "circle",
+    "nearestContourDistance": 121.6,
+    "parts": 1
+  },
+  {
+    "name": "花果山",
+    "method": "circle",
+    "nearestContourDistance": 64.1,
+    "parts": 1
+  },
+  {
+    "name": "四海",
+    "method": "circle",
+    "nearestContourDistance": 8.6,
+    "parts": 1
+  },
+  {
+    "name": "南光",
+    "method": "circle",
+    "nearestContourDistance": 54.3,
+    "parts": 1
+  },
+  {
+    "name": "南头古城",
+    "method": "circle",
+    "nearestContourDistance": 35.3,
+    "parts": 1
+  },
+  {
+    "name": "中山公园",
+    "method": "circle",
+    "nearestContourDistance": 87.3,
+    "parts": 1
+  },
+  {
+    "name": "同乐南",
+    "method": "circle",
+    "nearestContourDistance": 174.1,
+    "parts": 1
+  },
+  {
+    "name": "新安公园",
+    "method": "circle",
+    "nearestContourDistance": 84.1,
+    "parts": 1
+  },
+  {
+    "name": "上川",
+    "method": "circle",
+    "nearestContourDistance": 114.5,
+    "parts": 1
+  },
+  {
+    "name": "流塘",
+    "method": "circle",
+    "nearestContourDistance": 187.0,
+    "parts": 1
+  },
+  {
+    "name": "宝安客运站",
+    "method": "circle",
+    "nearestContourDistance": 256.7,
+    "parts": 1
+  },
+  {
+    "name": "宝田一路",
+    "method": "circle",
+    "nearestContourDistance": 324.3,
+    "parts": 1
+  },
+  {
+    "name": "平峦山",
+    "method": "circle",
+    "nearestContourDistance": 429.0,
+    "parts": 1
+  },
+  {
+    "name": "西乡桃源",
+    "method": "circle",
+    "nearestContourDistance": 466.0,
+    "parts": 1
+  },
+  {
+    "name": "钟屋南",
+    "method": "circle",
+    "nearestContourDistance": 403.0,
+    "parts": 1
+  },
+  {
+    "name": "黄田",
+    "method": "circle",
+    "nearestContourDistance": 249.2,
+    "parts": 1
+  },
+  {
+    "name": "兴围",
+    "method": "circle",
+    "nearestContourDistance": 107.9,
+    "parts": 1
+  },
+  {
+    "name": "福围",
+    "method": "circle",
+    "nearestContourDistance": 91.6,
+    "parts": 1
+  },
+  {
+    "name": "怀德",
+    "method": "circle",
+    "nearestContourDistance": 137.0,
+    "parts": 1
+  },
+  {
+    "name": "桥头西",
+    "method": "circle",
+    "nearestContourDistance": 103.5,
+    "parts": 1
+  },
+  {
+    "name": "福海西",
+    "method": "circle",
+    "nearestContourDistance": 122.4,
+    "parts": 1
+  },
+  {
+    "name": "国展",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "国展北",
+    "method": "contour",
+    "nearestContourDistance": 0.0,
+    "parts": 1
+  },
+  {
+    "name": "海上田园南",
+    "method": "circle",
+    "nearestContourDistance": 34.8,
+    "parts": 1
+  },
+  {
+    "name": "海上田园东",
+    "method": "circle",
+    "nearestContourDistance": 121.4,
+    "parts": 1
+  },
+  {
+    "name": "蚝乡",
+    "method": "circle",
+    "nearestContourDistance": 226.6,
+    "parts": 1
+  },
+  {
+    "name": "沙蚝",
+    "method": "circle",
+    "nearestContourDistance": 274.2,
+    "parts": 1
+  },
+  {
+    "name": "沙井古墟",
+    "method": "circle",
+    "nearestContourDistance": 316.6,
+    "parts": 1
+  },
+  {
+    "name": "步涌",
+    "method": "circle",
+    "nearestContourDistance": 206.8,
+    "parts": 1
+  },
+  {
+    "name": "朗下",
+    "method": "circle",
+    "nearestContourDistance": 113.9,
+    "parts": 1
+  },
+  {
+    "name": "深圳湾口岸",
+    "method": "circle",
+    "nearestContourDistance": 49.5,
+    "parts": 1
+  },
+  {
+    "name": "人才公园",
+    "method": "circle",
+    "nearestContourDistance": 59.3,
+    "parts": 1
+  },
+  {
+    "name": "高新中",
+    "method": "circle",
+    "nearestContourDistance": 74.4,
+    "parts": 1
+  },
+  {
+    "name": "高新北",
+    "method": "circle",
+    "nearestContourDistance": 172.2,
+    "parts": 1
+  },
+  {
+    "name": "石鼓",
+    "method": "circle",
+    "nearestContourDistance": 48.5,
+    "parts": 1
+  },
+  {
+    "name": "百旺",
+    "method": "circle",
+    "nearestContourDistance": 405.4,
+    "parts": 1
+  },
+  {
+    "name": "应人石",
+    "method": "circle",
+    "nearestContourDistance": 426.6,
+    "parts": 1
+  },
+  {
+    "name": "罗租",
+    "method": "circle",
+    "nearestContourDistance": 213.6,
+    "parts": 1
+  },
+  {
+    "name": "石岩",
+    "method": "circle",
+    "nearestContourDistance": 83.0,
+    "parts": 1
+  },
+  {
+    "name": "红坳公园",
+    "method": "circle",
+    "nearestContourDistance": 107.8,
+    "parts": 1
+  },
+  {
+    "name": "德雅路",
+    "method": "circle",
+    "nearestContourDistance": 78.4,
+    "parts": 1
+  },
+  {
+    "name": "月亮路",
+    "method": "circle",
+    "nearestContourDistance": 193.0,
+    "parts": 1
+  },
+  {
+    "name": "将围",
+    "method": "circle",
+    "nearestContourDistance": 208.1,
+    "parts": 1
+  },
+  {
+    "name": "新庄",
+    "method": "circle",
+    "nearestContourDistance": 121.4,
+    "parts": 1
+  },
+  {
+    "name": "上村",
+    "method": "circle",
+    "nearestContourDistance": 71.2,
+    "parts": 1
+  },
+  {
+    "name": "下村",
+    "method": "circle",
+    "nearestContourDistance": 152.6,
+    "parts": 1
+  },
+  {
+    "name": "李松蓢",
+    "method": "circle",
+    "nearestContourDistance": 252.8,
+    "parts": 1
+  },
+  {
+    "name": "沙田",
+    "method": "circle",
+    "nearestContourDistance": 772.4,
+    "parts": 1
+  },
+  {
+    "name": "坑梓",
+    "method": "circle",
+    "nearestContourDistance": 558.1,
+    "parts": 1
+  },
+  {
+    "name": "坪山中心",
+    "method": "circle",
+    "nearestContourDistance": 169.9,
+    "parts": 1
+  },
+  {
+    "name": "坪山广场",
+    "method": "circle",
+    "nearestContourDistance": 102.5,
+    "parts": 1
+  },
+  {
+    "name": "坪山围",
+    "method": "contour",
+    "nearestContourDistance": 1.6,
+    "parts": 1
+  },
+  {
+    "name": "锦龙",
+    "method": "circle",
+    "nearestContourDistance": 125.5,
+    "parts": 1
+  },
+  {
+    "name": "宝龙",
+    "method": "circle",
+    "nearestContourDistance": 386.4,
+    "parts": 1
+  },
+  {
+    "name": "南约",
+    "method": "circle",
+    "nearestContourDistance": 379.5,
+    "parts": 1
+  },
+  {
+    "name": "嶂背",
+    "method": "circle",
+    "nearestContourDistance": 202.7,
+    "parts": 1
+  },
+  {
+    "name": "坳背",
+    "method": "circle",
+    "nearestContourDistance": 194.4,
+    "parts": 1
+  },
+  {
+    "name": "四联",
+    "method": "circle",
+    "nearestContourDistance": 446.3,
+    "parts": 1
+  },
+  {
+    "name": "六约北",
+    "method": "circle",
+    "nearestContourDistance": 579.4,
+    "parts": 1
+  },
+  {
+    "name": "石芽岭",
+    "method": "circle",
+    "nearestContourDistance": 279.8,
+    "parts": 1
+  },
+  {
+    "name": "罗湖北",
+    "method": "circle",
+    "nearestContourDistance": 189.5,
+    "parts": 1
+  },
+  {
+    "name": "田心",
+    "method": "circle",
+    "nearestContourDistance": 611.0,
+    "parts": 1
+  },
+  {
+    "name": "技术大学",
+    "method": "circle",
+    "nearestContourDistance": 497.8,
+    "parts": 1
+  },
+  {
+    "name": "石井",
+    "method": "circle",
+    "nearestContourDistance": 342.3,
+    "parts": 1
+  },
+  {
+    "name": "燕子湖",
+    "method": "circle",
+    "nearestContourDistance": 275.5,
+    "parts": 1
+  },
+  {
+    "name": "沙壆",
+    "method": "circle",
+    "nearestContourDistance": 188.5,
+    "parts": 1
+  },
+  {
+    "name": "东纵纪念馆",
+    "method": "circle",
+    "nearestContourDistance": 111.4,
+    "parts": 1
+  },
+  {
+    "name": "坪环",
+    "method": "circle",
+    "nearestContourDistance": 57.7,
+    "parts": 1
+  },
+  {
+    "name": "六和",
+    "method": "circle",
+    "nearestContourDistance": 66.4,
+    "parts": 1
+  },
+  {
+    "name": "新和",
+    "method": "circle",
+    "nearestContourDistance": 131.0,
+    "parts": 1
+  },
+  {
+    "name": "坪山",
+    "method": "circle",
+    "nearestContourDistance": 190.2,
+    "parts": 1
+  },
+  {
+    "name": "宝龙同乐",
+    "method": "circle",
+    "nearestContourDistance": 308.0,
+    "parts": 1
+  },
+  {
+    "name": "龙东",
+    "method": "circle",
+    "nearestContourDistance": 151.4,
+    "parts": 1
+  },
+  {
+    "name": "新塘围",
+    "method": "circle",
+    "nearestContourDistance": 86.1,
+    "parts": 1
+  },
+  {
+    "name": "龙园",
+    "method": "circle",
+    "nearestContourDistance": 96.9,
+    "parts": 1
+  },
+  {
+    "name": "盛平",
+    "method": "circle",
+    "nearestContourDistance": 216.6,
+    "parts": 1
+  },
+  {
+    "name": "尚景",
+    "method": "circle",
+    "nearestContourDistance": 282.6,
+    "parts": 1
+  },
+  {
+    "name": "回龙埔",
+    "method": "circle",
+    "nearestContourDistance": 247.8,
+    "parts": 1
+  },
+  {
+    "name": "愉园",
+    "method": "circle",
+    "nearestContourDistance": 217.7,
+    "parts": 1
+  },
+  {
+    "name": "黄阁坑",
+    "method": "circle",
+    "nearestContourDistance": 143.2,
+    "parts": 1
+  },
+  {
+    "name": "龙城公园",
+    "method": "circle",
+    "nearestContourDistance": 48.4,
+    "parts": 1
+  },
+  {
+    "name": "大运中心",
+    "method": "circle",
+    "nearestContourDistance": 90.1,
+    "parts": 1
+  },
+  {
+    "name": "金源",
+    "method": "circle",
+    "nearestContourDistance": 107.6,
+    "parts": 1
+  },
+  {
+    "name": "吉溪",
+    "method": "circle",
+    "nearestContourDistance": 234.5,
+    "parts": 1
+  },
+  {
+    "name": "大安",
+    "method": "circle",
+    "nearestContourDistance": 298.7,
+    "parts": 1
+  },
+  {
+    "name": "园山",
+    "method": "circle",
+    "nearestContourDistance": 383.5,
+    "parts": 1
+  },
+  {
+    "name": "大康",
+    "method": "circle",
+    "nearestContourDistance": 432.5,
+    "parts": 1
+  },
+  {
+    "name": "福坑",
+    "method": "circle",
+    "nearestContourDistance": 463.2,
+    "parts": 1
+  },
+  {
+    "name": "安良",
+    "method": "circle",
+    "nearestContourDistance": 541.7,
+    "parts": 1
+  },
+  {
+    "name": "园山西坑",
+    "method": "circle",
+    "nearestContourDistance": 632.9,
+    "parts": 1
+  },
+  {
+    "name": "国展南",
+    "method": "circle",
+    "nearestContourDistance": 107.7,
+    "parts": 1
+  },
+  {
+    "name": "会展城",
+    "method": "circle",
+    "nearestContourDistance": 82.6,
+    "parts": 1
+  }
+]

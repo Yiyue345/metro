@@ -1,0 +1,22 @@
+---
+interface Part { x: number; y: number; width: number; height: number; angle: number; lines: string[]; transfer: boolean; cornerRadius?: number; planned?: boolean }
+interface Props { part: Part; partIndex?: number; colors: Map<string, string>; gradientId: string; layer: 'border' | 'keyline' | 'fill' }
+const { part, partIndex = 0, colors, gradientId, layer } = Astro.props;
+const { width: w, height: h } = part;
+const borderGrowth = part.transfer ? .8 : 0;
+const radius = part.cornerRadius ?? Math.min(w, h) / 2;
+const palette = part.planned ? ['#a6aaa8'] : part.lines.map(id => colors.get(id) ?? '#67736e');
+---
+<g data-symbol-part={partIndex} transform={`translate(${part.x} ${part.y}) rotate(${part.angle})`}>
+  <g class:list={['station-symbol', part.transfer ? 'transfer' : 'ordinary']}>
+    {layer === 'border' && <>
+      <rect class="station-hit" x={-w / 2 - 2} y={-h / 2 - 2} width={w + 4} height={h + 4} rx={radius + 2} fill="transparent" />
+      <rect class="station-border" x={-w / 2 - borderGrowth} y={-h / 2 - borderGrowth} width={w + borderGrowth * 2} height={h + borderGrowth * 2} rx={radius + borderGrowth} fill={part.transfer ? '#202421' : '#fff'} />
+    </>}
+    {layer === 'keyline' && part.transfer && <rect class="station-keyline" x={-w / 2 + 1} y={-h / 2 + 1} width={w - 2} height={h - 2} rx={Math.max(0, radius - 1)} fill="#fff" />}
+    {layer === 'fill' && <>
+      <defs><linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="0%">{palette.map((color, i) => <stop offset={`${palette.length === 1 ? 0 : i / (palette.length - 1) * 100}%`} stop-color={color} />)}</linearGradient></defs>
+      <rect class="station-fill" x={-w / 2 + 1.8} y={-h / 2 + 1.8} width={w - 3.6} height={h - 3.6} rx={Math.max(0, radius - 1.8)} fill={`url(#${gradientId})`} />
+    </>}
+  </g>
+</g>

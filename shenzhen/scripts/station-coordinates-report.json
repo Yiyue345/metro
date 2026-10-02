@@ -1,0 +1,2491 @@
+{
+  "sources": {
+    "osm": {
+      "url": "https://overpass.kumi.systems/api/interpreter",
+      "query": "[out:json][timeout:45];nwr[\"station\"=\"subway\"](22.35,113.7,22.95,114.7);out center tags;",
+      "license": "ODbL-1.0"
+    },
+    "openmetro": {
+      "url": "https://github.com/Naptie/openmetro/blob/main/data/cn-shenzhen/stations.json",
+      "sha": "755fae239726120e7e7304b4bee29db5e1b64267"
+    },
+    "amap": {
+      "url": "https://ditu.amap.com/place/BV10997914",
+      "checked_at": "2026-09-29"
+    }
+  },
+  "crs": "WGS84",
+  "source_counts": {
+    "osm": 7,
+    "openmetro": 343,
+    "amap": 1
+  },
+  "source_partial": true,
+  "source_element_count": 115,
+  "station_count": 351,
+  "matched_count": 351,
+  "missing": [],
+  "matches": {
+    "罗湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-luohu",
+      "name": "罗湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "国贸": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guomao",
+      "name": "国贸",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "老街": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-laojie",
+      "name": "老街",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "大剧院": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-dajuyuan",
+      "name": "大剧院",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "科学馆": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-kexueguan",
+      "name": "科学馆",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "华强路": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huaqianglu",
+      "name": "华强路",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "岗厦": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gangxia",
+      "name": "岗厦",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "会展中心": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huizhanzhongxin",
+      "name": "会展中心",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "购物公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gouwugongyuan",
+      "name": "购物公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "香蜜湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xiangmihu",
+      "name": "香蜜湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "车公庙": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-chegongmiao",
+      "name": "车公庙",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "竹子林": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-zhuzilin",
+      "name": "竹子林",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "侨城东": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-qiaochengdong",
+      "name": "侨城东",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "华侨城": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huaqiaocheng",
+      "name": "华侨城",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "世界之窗": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shijiezhichuang",
+      "name": "世界之窗",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "白石洲": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baishizhou",
+      "name": "白石洲",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "高新园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gaoxinyuan",
+      "name": "高新园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "深大": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shenda",
+      "name": "深大",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "桃园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-taoyuan",
+      "name": "桃园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "大新": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-daxin",
+      "name": "大新",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "鲤鱼门": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liyumen",
+      "name": "鲤鱼门",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "前海湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-qianhaiwan",
+      "name": "前海湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "新安": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xinan",
+      "name": "新安",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "宝安中心": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baoanzhongxin",
+      "name": "宝安中心",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "宝体": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baoti",
+      "name": "宝体",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坪洲": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-pingzhou",
+      "name": "坪洲",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "西乡": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xixiang",
+      "name": "西乡",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "固戍": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gushu",
+      "name": "固戍",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "后瑞": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hourui",
+      "name": "后瑞",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "机场东": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-jichangdong",
+      "name": "机场东",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "赤湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-chiwan",
+      "name": "赤湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "蛇口港": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shekougang",
+      "name": "蛇口港",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "海上世界": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-haishangshijie",
+      "name": "海上世界",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "水湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shuiwan",
+      "name": "水湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "东角头": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-dongjiaotou",
+      "name": "东角头",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "湾厦": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-wanxia",
+      "name": "湾厦",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "海月": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-haiyue",
+      "name": "海月",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "登良": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-dengliang",
+      "name": "登良",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "后海": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-houhai",
+      "name": "后海",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "科苑": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-keyuan",
+      "name": "科苑",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "红树湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hongshuwan",
+      "name": "红树湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "侨城北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-qiaochengbie",
+      "name": "侨城北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "深康": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shenkang",
+      "name": "深康",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "安托山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-antuoshan",
+      "name": "安托山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "侨香": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-qiaoxiang",
+      "name": "侨香",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "香蜜": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xiangmi",
+      "name": "香蜜",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "香梅北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xiangmeibei",
+      "name": "香梅北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "景田": {
+      "source": "osm",
+      "source_id": "node/1716044103",
+      "name": "景田",
+      "source_crs": "WGS84",
+      "transform": "none"
+    },
+    "莲花西": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-lianhuaxi",
+      "name": "莲花西",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "福田": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-futian",
+      "name": "福田",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "市民中心": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shiminzhongxin",
+      "name": "市民中心",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "岗厦北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gangxiabei",
+      "name": "岗厦北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "华强北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huaqiangbei",
+      "name": "华强北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "燕南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yannan",
+      "name": "燕南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "湖贝": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hubei",
+      "name": "湖贝",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "黄贝岭": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huangbeiling",
+      "name": "黄贝岭",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "新秀": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xinxiu",
+      "name": "新秀",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "莲塘口岸": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liantangkoan",
+      "name": "莲塘口岸",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "仙湖路": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xianhulu",
+      "name": "仙湖路",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "莲塘": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liantang",
+      "name": "莲塘",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "福保": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-fubao",
+      "name": "福保",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "益田": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yitian",
+      "name": "益田",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "石厦": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shixia",
+      "name": "石厦",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "少年宫": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shaoniangong",
+      "name": "少年宫",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "莲花村": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-lianhuacun",
+      "name": "莲花村",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "华新": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huaxin",
+      "name": "华新",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "通新岭": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-tongxinling",
+      "name": "通新岭",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "红岭": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hongling",
+      "name": "红岭",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "晒布": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shaibu",
+      "name": "晒布",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "翠竹": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-cuizhu",
+      "name": "翠竹",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "田贝": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-tianbei",
+      "name": "田贝",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "水贝": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shuibei",
+      "name": "水贝",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "草埔": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-caopu",
+      "name": "草埔",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "布吉": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-buji",
+      "name": "布吉",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "木棉湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-mumianwan",
+      "name": "木棉湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "大芬": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-dafen",
+      "name": "大芬",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "丹竹头": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-danzhutou",
+      "name": "丹竹头",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "六约": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liuyue",
+      "name": "六约",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "塘坑": {
+      "source": "osm",
+      "source_id": "node/1943751544",
+      "name": "塘坑",
+      "source_crs": "WGS84",
+      "transform": "none"
+    },
+    "横岗": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-henggang",
+      "name": "横岗",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "永湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yonghu",
+      "name": "永湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "荷坳": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-heao",
+      "name": "荷坳",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "大运": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-dayun",
+      "name": "大运",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "爱联": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-ailian",
+      "name": "爱联",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "吉祥": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-jixiang",
+      "name": "吉祥",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "龙城广场": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-longchengguangchang",
+      "name": "龙城广场",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "南联": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nanlian",
+      "name": "南联",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "双龙": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shuanglong",
+      "name": "双龙",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "梨园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liyuan",
+      "name": "梨园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "新生": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xinsheng",
+      "name": "新生",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坪西": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-pingxi",
+      "name": "坪西",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "低碳城": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-ditancheng",
+      "name": "低碳城",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "白石塘": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baishitang",
+      "name": "白石塘",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "富坪": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-fuping",
+      "name": "富坪",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坪地六联": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-pingdiliulian",
+      "name": "坪地六联",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "福田口岸": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-futiankouan",
+      "name": "福田口岸",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "福民": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-fumin",
+      "name": "福民",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "莲花北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-lianhuabei",
+      "name": "莲花北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "上梅林": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shangmeilin",
+      "name": "上梅林",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "民乐": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-minle",
+      "name": "民乐",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "白石龙": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baishilong",
+      "name": "白石龙",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "深圳北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shenzhenbei",
+      "name": "深圳北站",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "红山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hongshan",
+      "name": "红山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "上塘": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shangtang",
+      "name": "上塘",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "龙胜": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-longsheng",
+      "name": "龙胜",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "龙华": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-longhua",
+      "name": "龙华",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "清湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-qinghu",
+      "name": "清湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "清湖北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-qinhubei",
+      "name": "清湖北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "竹村": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-zhucun",
+      "name": "竹村",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "茜坑": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xikeng",
+      "name": "茜坑",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "长湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-changhu",
+      "name": "长湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "观澜": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guanlan",
+      "name": "观澜",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "松元厦": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-songyuanxia",
+      "name": "松元厦",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "观澜湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guanlanhu",
+      "name": "观澜湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "牛湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-niuhu",
+      "name": "牛湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "荔湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liwan",
+      "name": "荔湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "铁路公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-tielugongyuan",
+      "name": "铁路公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "妈湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-mawan",
+      "name": "妈湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "前湾公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-qianwangongyuan",
+      "name": "前湾公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "前湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-qianwan",
+      "name": "前湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "桂湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guiwan",
+      "name": "桂湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "临海": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-linhai",
+      "name": "临海",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "宝华": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baohua",
+      "name": "宝华",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "翻身": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-fanshen",
+      "name": "翻身",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "灵芝": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-lingzhi",
+      "name": "灵芝",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "洪浪北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-honglangbei",
+      "name": "洪浪北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "兴东": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xingdong",
+      "name": "兴东",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "留仙洞": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liuxiandong",
+      "name": "留仙洞",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "西丽": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xili",
+      "name": "西丽",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "大学城": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-daxuecheng",
+      "name": "大学城",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "塘朗": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-tanglang",
+      "name": "塘朗",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "长岭陂": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-changlingpo",
+      "name": "长岭陂",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "民治": {
+      "source": "osm",
+      "source_id": "node/2301385055",
+      "name": "民治",
+      "source_crs": "WGS84",
+      "transform": "none"
+    },
+    "五和": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-wuhe",
+      "name": "五和",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坂田": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-bantian",
+      "name": "坂田",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "杨美": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yangmei",
+      "name": "杨美",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "上水径": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shangshuijing",
+      "name": "上水径",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "下水径": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xiashuijing",
+      "name": "下水径",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "长龙": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-changlong",
+      "name": "长龙",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "百鸽笼": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baigelong",
+      "name": "百鸽笼",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "布心": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-buxin",
+      "name": "布心",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "太安": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-taian",
+      "name": "太安",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "怡景": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yijing",
+      "name": "怡景",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "东门": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-dongmen",
+      "name": "东门",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "体育中心": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-tiyuzhongxin",
+      "name": "体育中心",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "八卦岭": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-bagualing",
+      "name": "八卦岭",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "银湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yinhu",
+      "name": "银湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "翰岭": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hanling",
+      "name": "翰岭",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "梅林关": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-meilinguan",
+      "name": "梅林关",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "上芬": {
+      "source": "osm",
+      "source_id": "node/3617121259",
+      "name": "上芬",
+      "source_crs": "WGS84",
+      "transform": "none"
+    },
+    "元芬": {
+      "source": "osm",
+      "source_id": "node/3617131451",
+      "name": "元芬",
+      "source_crs": "WGS84",
+      "transform": "none"
+    },
+    "阳台山东": {
+      "source": "osm",
+      "source_id": "node/3617131554",
+      "name": "阳台山东",
+      "source_crs": "WGS84",
+      "transform": "none"
+    },
+    "官田": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guantian",
+      "name": "官田",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "上屋": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shangwu",
+      "name": "上屋",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "长圳": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-changzhen",
+      "name": "长圳",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "凤凰城": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-fenghuangcheng",
+      "name": "凤凰城",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "光明大街": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guangmingdajie",
+      "name": "光明大街",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "光明": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guangming",
+      "name": "光明",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "科学公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-kexuegongyuan",
+      "name": "科学公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "楼村": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-loucun",
+      "name": "楼村",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "红花山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-honghuashan",
+      "name": "红花山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "公明广场": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gongmingguangchang",
+      "name": "公明广场",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "合水口": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-heshuikou",
+      "name": "合水口",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "薯田埔": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shutianpu",
+      "name": "薯田埔",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "松岗公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-songganggongyuan",
+      "name": "松岗公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "溪头": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xitou",
+      "name": "溪头",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "松岗": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-songgang",
+      "name": "松岗",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "深理工": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shenligong",
+      "name": "深理工",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "中大": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-zhongda",
+      "name": "中大",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "圳美": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shenmei",
+      "name": "圳美",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "碧眼": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-biyan",
+      "name": "碧眼",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "虹桥公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hongqiaogongyuan",
+      "name": "虹桥公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "光明城": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guangmingcheng",
+      "name": "光明城",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "深大丽湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shendalihu",
+      "name": "深大丽湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "北大": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-beida",
+      "name": "北大",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "西丽湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xilihu",
+      "name": "西丽湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "茶光": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-chaguang",
+      "name": "茶光",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "珠光": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-zhuguang",
+      "name": "珠光",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "龙井": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-longjing",
+      "name": "龙井",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "桃源村": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-taoyuancun",
+      "name": "桃源村",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "深云": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shenyun",
+      "name": "深云",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "农林": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nonglin",
+      "name": "农林",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "上沙": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shangsha",
+      "name": "上沙",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "沙尾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shawei",
+      "name": "沙尾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "皇岗村": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huanggangcun",
+      "name": "皇岗村",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "皇岗口岸": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huanggangkouan",
+      "name": "皇岗口岸",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "赤尾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-chiwei",
+      "name": "赤尾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "华强南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huaqiangnan",
+      "name": "华强南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "黄木岗": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huangmugang",
+      "name": "黄木岗",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "红岭北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-honglingbei",
+      "name": "红岭北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "笋岗": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-sungang",
+      "name": "笋岗",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "洪湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-honghu",
+      "name": "洪湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "梧桐山南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-wutongshannan",
+      "name": "梧桐山南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "沙头角": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shatoujiao",
+      "name": "沙头角",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "海山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-haishan",
+      "name": "海山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "盐田港西": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yantiangangxi",
+      "name": "盐田港西",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "深外高中": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shenwaigaozhong",
+      "name": "深外高中",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "盐田路": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yantianlu",
+      "name": "盐田路",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "鸿安围": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-honganwei",
+      "name": "鸿安围",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "盐田墟": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yantianxu",
+      "name": "盐田墟",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "大梅沙": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-dameisha",
+      "name": "大梅沙",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "小梅沙": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xiaomeisha",
+      "name": "小梅沙",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "溪涌": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xichong",
+      "name": "溪涌",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "梦海": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-menghai",
+      "name": "梦海",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "怡海": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yihai",
+      "name": "怡海",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "荔林": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-lilin",
+      "name": "荔林",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "南油西": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nanyouxi",
+      "name": "南油西",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "南油": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nanyou",
+      "name": "南油",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "南山书城": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nanshanshucheng",
+      "name": "南山书城",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "深大南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shendanan",
+      "name": "深大南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "粤海门": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yuehaimen",
+      "name": "粤海门",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "高新南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gaoxinnan",
+      "name": "高新南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "红树湾南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hongshuwannan",
+      "name": "红树湾南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "深湾": {
+      "source": "osm",
+      "source_id": "node/3433943210",
+      "name": "深湾",
+      "source_crs": "WGS84",
+      "transform": "none"
+    },
+    "深圳湾公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shenzhenwangongyuan",
+      "name": "深圳湾公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "下沙": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xiasha",
+      "name": "下沙",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "香梅": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xiangmei",
+      "name": "香梅",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "梅景": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-meijing",
+      "name": "梅景",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "下梅林": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xiameilin",
+      "name": "下梅林",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "梅村": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-meicun",
+      "name": "梅村",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "孖岭": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-maling",
+      "name": "孖岭",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "泥岗": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nigang",
+      "name": "泥岗",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "园岭": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yuanling",
+      "name": "园岭",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "红岭南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-honglingnan",
+      "name": "红岭南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "鹿丹村": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-ludancun",
+      "name": "鹿丹村",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "人民南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-renminnan",
+      "name": "人民南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "向西村": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xiangxicun",
+      "name": "向西村",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "文锦": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-wenjin",
+      "name": "文锦",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "双拥街": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shuangyongjie",
+      "name": "双拥街",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "平湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-pinghu",
+      "name": "平湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "禾花": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hehua",
+      "name": "禾花",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "华南城": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huanancheng",
+      "name": "华南城",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "木古": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-mugu",
+      "name": "木古",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "上李朗": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shanglilang",
+      "name": "上李朗",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "凉帽山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liangmaoshan",
+      "name": "凉帽山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "甘坑": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gankeng",
+      "name": "甘坑",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "雪象": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xuexiang",
+      "name": "雪象",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "岗头": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gangtou",
+      "name": "岗头",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "华为": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huawei",
+      "name": "华为",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "贝尔路": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-beierlu",
+      "name": "贝尔路",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坂田北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-bantianbei",
+      "name": "坂田北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "光雅园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guangyayuan",
+      "name": "光雅园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "南坑": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nankeng",
+      "name": "南坑",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "雅宝": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yabao",
+      "name": "雅宝",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "冬瓜岭": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-donggualing",
+      "name": "冬瓜岭",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "福星": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-fuxing",
+      "name": "福星",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "南山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nanshan",
+      "name": "南山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "宝安": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baoan",
+      "name": "宝安",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "碧海湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-bihaiwan",
+      "name": "碧海湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "机场": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-jichang",
+      "name": "机场",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "机场北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-jichangbei",
+      "name": "机场北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "福永": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-fuyong",
+      "name": "福永",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "桥头": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-qiaotou",
+      "name": "桥头",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "塘尾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-tangwei",
+      "name": "塘尾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "马安山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-maanshan",
+      "name": "马安山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "沙井": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shajing",
+      "name": "沙井",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "后亭": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-houting",
+      "name": "后亭",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "碧头": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-bitou",
+      "name": "碧头",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "左炮台东": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-zuopaotaidong",
+      "name": "左炮台东",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "太子湾": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-taiziwan",
+      "name": "太子湾",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "花果山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huaguoshan",
+      "name": "花果山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "四海": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-sihai",
+      "name": "四海",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "南光": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nanguang",
+      "name": "南光",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "南头古城": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nantougucheng",
+      "name": "南头古城",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "中山公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-zhongshangongyuan",
+      "name": "中山公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "同乐南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-tonglenan",
+      "name": "同乐南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "新安公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xinangongyuan",
+      "name": "新安公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "上川": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shangchuan",
+      "name": "上川",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "流塘": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liutang",
+      "name": "流塘",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "宝安客运站": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baoankeyunzhan",
+      "name": "宝安客运站",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "宝田一路": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baotianyilu",
+      "name": "宝田一路",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "平峦山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-pingluanshan",
+      "name": "平峦山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "西乡桃源": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xixiangtaoyuan",
+      "name": "西乡桃源",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "钟屋南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-zhongwunan",
+      "name": "钟屋南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "黄田": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huangtian",
+      "name": "黄田",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "兴围": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xingwei",
+      "name": "兴围",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "福围": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-fuwei",
+      "name": "福围",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "怀德": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huaide",
+      "name": "怀德",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "桥头西": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-qiaotouxi",
+      "name": "桥头西",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "福海西": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-fuhaixi",
+      "name": "福海西",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "国展": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guozhan",
+      "name": "国展",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "国展北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guozhanbei",
+      "name": "国展北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "海上田园南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-haishangtianyuannan",
+      "name": "海上田园南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "海上田园东": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-haishangtianyuandong",
+      "name": "海上田园东",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "蚝乡": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-haoxiang",
+      "name": "蚝乡",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "沙蚝": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shahao",
+      "name": "沙蚝",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "沙井古墟": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shajingguxu",
+      "name": "沙井古墟",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "步涌": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-buyong",
+      "name": "步涌",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "朗下": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-langxia",
+      "name": "朗下",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "深圳湾口岸": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shenzhenwankouan",
+      "name": "深圳湾口岸",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "人才公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-rencaigongyuan",
+      "name": "人才公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "高新中": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gaoxinzhong",
+      "name": "高新中",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "高新北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-gaoxinbei",
+      "name": "高新北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "石鼓": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shigu",
+      "name": "石鼓",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "百旺": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baiwanggangda",
+      "name": "百旺",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "应人石": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yingrenshi",
+      "name": "应人石",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "罗租": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-luozu",
+      "name": "罗租",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "石岩": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shiyan",
+      "name": "石岩",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "红坳公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hongaogongyuan",
+      "name": "红坳公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "德雅路": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-deyalu",
+      "name": "德雅路",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "月亮路": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yuelianglu",
+      "name": "月亮路",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "将围": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-jiangwei",
+      "name": "将围",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "新庄": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xinzhuang",
+      "name": "新庄",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "上村": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shangcun",
+      "name": "上村",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "下村": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xiacun",
+      "name": "下村",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "李松蓢": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-lisonglang",
+      "name": "李松蓢",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "沙田": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shatian",
+      "name": "沙田",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坑梓": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-kengzi",
+      "name": "坑梓",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坪山中心": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-pingshanzhongxin",
+      "name": "坪山中心",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坪山广场": {
+      "source": "amap",
+      "source_id": "BV10997914",
+      "name": "坪山广场",
+      "url": "https://ditu.amap.com/place/BV10997914",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坪山围": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-pingshanwei",
+      "name": "坪山围",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "锦龙": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-jinlong",
+      "name": "锦龙",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "宝龙": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baolong",
+      "name": "宝龙",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "南约": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-nanyue",
+      "name": "南约",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "嶂背": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-zhangbei",
+      "name": "嶂背",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坳背": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-aobei",
+      "name": "坳背",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "四联": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-silian",
+      "name": "四联",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "六约北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liuyuebei",
+      "name": "六约北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "石芽岭": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shiyaling",
+      "name": "石芽岭",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "罗湖北": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-luohubei",
+      "name": "罗湖北",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "田心": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-tianxin",
+      "name": "田心",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "技术大学": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-jishudaxue",
+      "name": "技术大学",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "石井": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shijing",
+      "name": "石井",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "燕子湖": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yanzihu",
+      "name": "燕子湖",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "沙壆": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shabo",
+      "name": "沙壆",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "东纵纪念馆": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-dongzongjinianguan",
+      "name": "东纵纪念馆",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坪环": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-pinghuan",
+      "name": "坪环",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "六和": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-liuhe",
+      "name": "六和",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "新和": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xinhe",
+      "name": "新和",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "坪山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-pingshan",
+      "name": "坪山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "宝龙同乐": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-baolongtongle",
+      "name": "宝龙同乐",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "龙东": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-longdong",
+      "name": "龙东",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "新塘围": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-xintangwei",
+      "name": "新塘围",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "龙园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-longyuan",
+      "name": "龙园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "盛平": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shengping",
+      "name": "盛平",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "尚景": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-shangjing",
+      "name": "尚景",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "回龙埔": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-hulongpu",
+      "name": "回龙埔",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "愉园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yuyuan",
+      "name": "愉园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "黄阁坑": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huanggekeng",
+      "name": "黄阁坑",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "龙城公园": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-longchenggongyuan",
+      "name": "龙城公园",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "大运中心": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-dayunzhongxin",
+      "name": "大运中心",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "金源": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-jinyuan",
+      "name": "金源",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "吉溪": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-jixi",
+      "name": "吉溪",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "大安": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-daan",
+      "name": "大安",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "园山": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yuanshan",
+      "name": "园山",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "大康": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-dakang",
+      "name": "大康",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "福坑": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-fukeng",
+      "name": "福坑",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "安良": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-anliang",
+      "name": "安良",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "园山西坑": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-yuanshanxikeng",
+      "name": "园山西坑",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "国展南": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-guozhannan",
+      "name": "国展南",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    },
+    "会展城": {
+      "source": "openmetro",
+      "source_id": "cn-shenzhen-huizhancheng",
+      "name": "会展城",
+      "source_crs": "GCJ-02",
+      "transform": "gcj02_to_wgs84_iterative"
+    }
+  },
+  "planned_missing": [
+    "西丽高铁站"
+  ]
+}

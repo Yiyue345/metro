@@ -1,0 +1,5 @@
+{
+  "installCommand": "npm --prefix shenzhen ci",
+  "buildCommand": "npm --prefix shenzhen run build",
+  "outputDirectory": "shenzhen/dist"
+}

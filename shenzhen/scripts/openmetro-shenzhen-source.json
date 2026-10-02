@@ -1,0 +1,3720 @@
+{
+  "source": "https://github.com/Naptie/openmetro/blob/main/data/cn-shenzhen/stations.json",
+  "sha": "755fae239726120e7e7304b4bee29db5e1b64267",
+  "generated_at": "2026-09-28T04:19:47.363Z",
+  "records": [
+    {
+      "id": "cn-shenzhen-ailian",
+      "name": "爱联",
+      "location": {
+        "lon": 114.234423,
+        "lat": 22.697495,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-anliang",
+      "name": "安良",
+      "location": {
+        "lon": 114.219711,
+        "lat": 22.627282,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-antuoshan",
+      "name": "安托山",
+      "location": {
+        "lon": 114.006236,
+        "lat": 22.548785,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-aobei",
+      "name": "坳背",
+      "location": {
+        "lon": 114.213518,
+        "lat": 22.668713,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-bagualing",
+      "name": "八卦岭",
+      "location": {
+        "lon": 114.094649,
+        "lat": 22.561941,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-baigelong",
+      "name": "百鸽笼",
+      "location": {
+        "lon": 114.13038,
+        "lat": 22.595442,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-baishilong",
+      "name": "白石龙",
+      "location": {
+        "lon": 114.042431,
+        "lat": 22.601505,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-baishitang",
+      "name": "白石塘",
+      "location": {
+        "lon": 114.302868,
+        "lat": 22.775124,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-baishizhou",
+      "name": "白石洲",
+      "location": {
+        "lon": 113.967048,
+        "lat": 22.539604,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-baiwanggangda",
+      "name": "百旺",
+      "location": {
+        "lon": 113.939193,
+        "lat": 22.622073,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-bantian",
+      "name": "坂田",
+      "location": {
+        "lon": 114.070852,
+        "lat": 22.627483,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-bantianbei",
+      "name": "坂田北",
+      "location": {
+        "lon": 114.063369,
+        "lat": 22.634919,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-baoan",
+      "name": "宝安",
+      "location": {
+        "lon": 113.880396,
+        "lat": 22.55459,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-baoankeyunzhan",
+      "name": "宝安客运站",
+      "location": {
+        "lon": 113.883674,
+        "lat": 22.589332,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-baoanzhongxin",
+      "name": "宝安中心",
+      "location": {
+        "lon": 113.887233,
+        "lat": 22.554575,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-baohua",
+      "name": "宝华",
+      "location": {
+        "lon": 113.88509,
+        "lat": 22.549635,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-baolong",
+      "name": "宝龙",
+      "location": {
+        "lon": 114.297826,
+        "lat": 22.688325,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-baolongtongle",
+      "name": "宝龙同乐",
+      "location": {
+        "lon": 114.312277,
+        "lat": 22.709196,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-baoti",
+      "name": "宝体",
+      "location": {
+        "lon": 113.880641,
+        "lat": 22.560741,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-baotianyilu",
+      "name": "宝田一路",
+      "location": {
+        "lon": 113.878477,
+        "lat": 22.594523,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-beida",
+      "name": "北大",
+      "location": {
+        "lon": 113.978313,
+        "lat": 22.593998,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-beierlu",
+      "name": "贝尔路",
+      "location": {
+        "lon": 114.066366,
+        "lat": 22.641719,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-beww82",
+      "name": "坪山广场",
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-bihaiwan",
+      "name": "碧海湾",
+      "location": {
+        "lon": 113.856093,
+        "lat": 22.575073,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-bitou",
+      "name": "碧头",
+      "location": {
+        "lon": 113.819958,
+        "lat": 22.784044,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-biyan",
+      "name": "碧眼",
+      "location": {
+        "lon": 113.951071,
+        "lat": 22.757988,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-buji",
+      "name": "布吉",
+      "location": {
+        "lon": 114.121159,
+        "lat": 22.60233,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-buxin",
+      "name": "布心",
+      "location": {
+        "lon": 114.138045,
+        "lat": 22.580986,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-buyong",
+      "name": "步涌",
+      "location": {
+        "lon": 113.812181,
+        "lat": 22.757325,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-caopu",
+      "name": "草埔",
+      "location": {
+        "lon": 114.1165,
+        "lat": 22.584447,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-chaguang",
+      "name": "茶光",
+      "location": {
+        "lon": 113.954311,
+        "lat": 22.574138,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-changhu",
+      "name": "长湖",
+      "location": {
+        "lon": 114.044796,
+        "lat": 22.710764,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-changlingpo",
+      "name": "长岭陂",
+      "location": {
+        "lon": 114.010275,
+        "lat": 22.599395,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-changlong",
+      "name": "长龙",
+      "location": {
+        "lon": 114.113825,
+        "lat": 22.608053,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-changzhen",
+      "name": "长圳",
+      "location": {
+        "lon": 113.930926,
+        "lat": 22.726332,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-chegongmiao",
+      "name": "车公庙",
+      "location": {
+        "lon": 114.02583,
+        "lat": 22.536247,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-chiwan",
+      "name": "赤湾",
+      "location": {
+        "lon": 113.897525,
+        "lat": 22.479227,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-chiwei",
+      "name": "赤尾",
+      "location": {
+        "lon": 114.083598,
+        "lat": 22.531374,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-cuizhu",
+      "name": "翠竹",
+      "location": {
+        "lon": 114.129883,
+        "lat": 22.556188,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-daan",
+      "name": "大安",
+      "location": {
+        "lon": 114.235939,
+        "lat": 22.654644,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-dafen",
+      "name": "大芬",
+      "location": {
+        "lon": 114.138364,
+        "lat": 22.614191,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-dajuyuan",
+      "name": "大剧院",
+      "location": {
+        "lon": 114.107811,
+        "lat": 22.5418,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-dakang",
+      "name": "大康",
+      "location": {
+        "lon": 114.228856,
+        "lat": 22.638878,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-dameisha",
+      "name": "大梅沙",
+      "location": {
+        "lon": 114.307825,
+        "lat": 22.594095,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-danzhutou",
+      "name": "丹竹头",
+      "location": {
+        "lon": 114.148054,
+        "lat": 22.619752,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-daxin",
+      "name": "大新",
+      "location": {
+        "lon": 113.915072,
+        "lat": 22.532232,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-daxuecheng",
+      "name": "大学城",
+      "location": {
+        "lon": 113.965307,
+        "lat": 22.581946,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-dayun",
+      "name": "大运",
+      "location": {
+        "lon": 114.228163,
+        "lat": 22.68572,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-dayunzhongxin",
+      "name": "大运中心",
+      "location": {
+        "lon": 114.220797,
+        "lat": 22.695241,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-dengliang",
+      "name": "登良",
+      "location": {
+        "lon": 113.937602,
+        "lat": 22.509146,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-deyalu",
+      "name": "德雅路",
+      "location": {
+        "lon": 113.947474,
+        "lat": 22.738842,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-ditancheng",
+      "name": "低碳城",
+      "location": {
+        "lon": 114.289355,
+        "lat": 22.77101,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-donggualing",
+      "name": "冬瓜岭",
+      "location": {
+        "lon": 114.067592,
+        "lat": 22.560437,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-dongjiaotou",
+      "name": "东角头",
+      "location": {
+        "lon": 113.931149,
+        "lat": 22.486325,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-dongmen",
+      "name": "东门",
+      "location": {
+        "lon": 114.117079,
+        "lat": 22.542946,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-dongzongjinianguan",
+      "name": "东纵纪念馆",
+      "location": {
+        "lon": 114.355129,
+        "lat": 22.685981,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-fanshen",
+      "name": "翻身",
+      "location": {
+        "lon": 113.893232,
+        "lat": 22.55969,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-fenghuangcheng",
+      "name": "凤凰城",
+      "location": {
+        "lon": 113.932831,
+        "lat": 22.747433,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-fubao",
+      "name": "福保",
+      "location": {
+        "lon": 114.055586,
+        "lat": 22.507884,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-fuhaixi",
+      "name": "福海西",
+      "location": {
+        "lon": 113.789475,
+        "lat": 22.688385,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-fukeng",
+      "name": "福坑",
+      "location": {
+        "lon": 114.222133,
+        "lat": 22.635664,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-fumin",
+      "name": "福民",
+      "location": {
+        "lon": 114.065915,
+        "lat": 22.523226,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-fuping",
+      "name": "富坪",
+      "location": {
+        "lon": 114.310908,
+        "lat": 22.780155,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-futian",
+      "name": "福田",
+      "location": {
+        "lon": 114.052879,
+        "lat": 22.540087,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-futiankouan",
+      "name": "福田口岸",
+      "location": {
+        "lon": 114.067731,
+        "lat": 22.515176,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-fuwei",
+      "name": "福围",
+      "location": {
+        "lon": 113.82118,
+        "lat": 22.65684,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-fuxing",
+      "name": "福星",
+      "location": {
+        "lon": 114.081538,
+        "lat": 22.537388,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-fuyong",
+      "name": "福永",
+      "location": {
+        "lon": 113.806076,
+        "lat": 22.673562,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-gangtou",
+      "name": "岗头",
+      "location": {
+        "lon": 114.071895,
+        "lat": 22.657067,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-gangxia",
+      "name": "岗厦",
+      "location": {
+        "lon": 114.06819,
+        "lat": 22.534854,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-gangxiabei",
+      "name": "岗厦北",
+      "location": {
+        "lon": 114.067964,
+        "lat": 22.53832,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-gankeng",
+      "name": "甘坑",
+      "location": {
+        "lon": 114.105826,
+        "lat": 22.647828,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-gaoxinbei",
+      "name": "高新北",
+      "location": {
+        "lon": 113.945497,
+        "lat": 22.556822,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-gaoxinnan",
+      "name": "高新南",
+      "location": {
+        "lon": 113.950079,
+        "lat": 22.532797,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-gaoxinyuan",
+      "name": "高新园",
+      "location": {
+        "lon": 113.953842,
+        "lat": 22.540236,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-gaoxinzhong",
+      "name": "高新中",
+      "location": {
+        "lon": 113.945319,
+        "lat": 22.547012,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-gongmingguangchang",
+      "name": "公明广场",
+      "location": {
+        "lon": 113.891407,
+        "lat": 22.777428,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-gouwugongyuan",
+      "name": "购物公园",
+      "location": {
+        "lon": 114.054581,
+        "lat": 22.534655,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-guangming",
+      "name": "光明",
+      "location": {
+        "lon": 113.945241,
+        "lat": 22.771707,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-guangmingcheng",
+      "name": "光明城",
+      "location": {
+        "lon": 113.953569,
+        "lat": 22.733024,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-guangmingdajie",
+      "name": "光明大街",
+      "location": {
+        "lon": 113.942714,
+        "lat": 22.761965,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-guangyayuan",
+      "name": "光雅园",
+      "location": {
+        "lon": 114.060892,
+        "lat": 22.616397,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-guanlan",
+      "name": "观澜",
+      "location": {
+        "lon": 114.054771,
+        "lat": 22.715172,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-guanlanhu",
+      "name": "观澜湖",
+      "location": {
+        "lon": 114.076271,
+        "lat": 22.721616,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-guantian",
+      "name": "官田",
+      "location": {
+        "lon": 113.949663,
+        "lat": 22.683253,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-guiwan",
+      "name": "桂湾",
+      "location": {
+        "lon": 113.897944,
+        "lat": 22.532358,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-guomao",
+      "name": "国贸",
+      "location": {
+        "lon": 114.118909,
+        "lat": 22.53968,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-guozhan",
+      "name": "国展",
+      "location": {
+        "lon": 113.777957,
+        "lat": 22.695959,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-guozhanbei",
+      "name": "国展北",
+      "location": {
+        "lon": 113.776899,
+        "lat": 22.703129,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-guozhannan",
+      "name": "国展南",
+      "location": {
+        "lon": 113.778426,
+        "lat": 22.683755,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-gushu",
+      "name": "固戍",
+      "location": {
+        "lon": 113.846792,
+        "lat": 22.601363,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-haishan",
+      "name": "海山",
+      "location": {
+        "lon": 114.237711,
+        "lat": 22.555537,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-haishangshijie",
+      "name": "海上世界",
+      "location": {
+        "lon": 113.915111,
+        "lat": 22.485101,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-haishangtianyuandong",
+      "name": "海上田园东",
+      "location": {
+        "lon": 113.781235,
+        "lat": 22.731193,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-haishangtianyuannan",
+      "name": "海上田园南",
+      "location": {
+        "lon": 113.774406,
+        "lat": 22.718275,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-haiyue",
+      "name": "海月",
+      "location": {
+        "lon": 113.937715,
+        "lat": 22.500409,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-hanling",
+      "name": "翰岭",
+      "location": {
+        "lon": 114.068894,
+        "lat": 22.574179,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-haoxiang",
+      "name": "蚝乡",
+      "location": {
+        "lon": 113.790149,
+        "lat": 22.740545,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-heao",
+      "name": "荷坳",
+      "location": {
+        "lon": 114.22431,
+        "lat": 22.673079,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-hehua",
+      "name": "禾花",
+      "location": {
+        "lon": 114.121064,
+        "lat": 22.686028,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-henggang",
+      "name": "横岗",
+      "location": {
+        "lon": 114.208994,
+        "lat": 22.648442,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-heshuikou",
+      "name": "合水口",
+      "location": {
+        "lon": 113.880928,
+        "lat": 22.78161,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-honganwei",
+      "name": "鸿安围",
+      "location": {
+        "lon": 114.264225,
+        "lat": 22.590544,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-hongaogongyuan",
+      "name": "红坳公园",
+      "location": {
+        "lon": 113.946356,
+        "lat": 22.723624,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-honghu",
+      "name": "洪湖",
+      "location": {
+        "lon": 114.122465,
+        "lat": 22.566056,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-honghuashan",
+      "name": "红花山",
+      "location": {
+        "lon": 113.907292,
+        "lat": 22.777684,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-honglangbei",
+      "name": "洪浪北",
+      "location": {
+        "lon": 113.910585,
+        "lat": 22.574543,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-hongling",
+      "name": "红岭",
+      "location": {
+        "lon": 114.104584,
+        "lat": 22.54838,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-honglingbei",
+      "name": "红岭北",
+      "location": {
+        "lon": 114.104315,
+        "lat": 22.56203,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-honglingnan",
+      "name": "红岭南",
+      "location": {
+        "lon": 114.106261,
+        "lat": 22.53849,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-hongqiaogongyuan",
+      "name": "虹桥公园",
+      "location": {
+        "lon": 113.950166,
+        "lat": 22.749968,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-hongshan",
+      "name": "红山",
+      "location": {
+        "lon": 114.0234,
+        "lat": 22.621707,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-hongshuwan",
+      "name": "红树湾",
+      "location": {
+        "lon": 113.968432,
+        "lat": 22.525142,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-hongshuwannan",
+      "name": "红树湾南",
+      "location": {
+        "lon": 113.971433,
+        "lat": 22.523023,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-houhai",
+      "name": "后海",
+      "location": {
+        "lon": 113.943503,
+        "lat": 22.518172,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-hourui",
+      "name": "后瑞",
+      "location": {
+        "lon": 113.835449,
+        "lat": 22.628835,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-houting",
+      "name": "后亭",
+      "location": {
+        "lon": 113.826874,
+        "lat": 22.752625,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huaguoshan",
+      "name": "花果山",
+      "location": {
+        "lon": 113.919046,
+        "lat": 22.494352,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-huaide",
+      "name": "怀德",
+      "location": {
+        "lon": 113.818894,
+        "lat": 22.666657,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-huanancheng",
+      "name": "华南城",
+      "location": {
+        "lon": 114.12225,
+        "lat": 22.675974,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huangbeiling",
+      "name": "黄贝岭",
+      "location": {
+        "lon": 114.136332,
+        "lat": 22.546095,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-huanggangcun",
+      "name": "皇岗村",
+      "location": {
+        "lon": 114.059823,
+        "lat": 22.523138,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huanggangkouan",
+      "name": "皇岗口岸",
+      "location": {
+        "lon": 114.073972,
+        "lat": 22.521799,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huanggekeng",
+      "name": "黄阁坑",
+      "location": {
+        "lon": 114.218135,
+        "lat": 22.719078,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-huangmugang",
+      "name": "黄木岗",
+      "location": {
+        "lon": 114.087234,
+        "lat": 22.555699,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huangtian",
+      "name": "黄田",
+      "location": {
+        "lon": 113.845683,
+        "lat": 22.630205,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-huaqiangbei",
+      "name": "华强北",
+      "location": {
+        "lon": 114.085413,
+        "lat": 22.544441,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huaqianglu",
+      "name": "华强路",
+      "location": {
+        "lon": 114.085133,
+        "lat": 22.540459,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huaqiangnan",
+      "name": "华强南",
+      "location": {
+        "lon": 114.086825,
+        "lat": 22.537214,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huaqiaocheng",
+      "name": "华侨城",
+      "location": {
+        "lon": 113.985369,
+        "lat": 22.533489,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huawei",
+      "name": "华为",
+      "location": {
+        "lon": 114.067171,
+        "lat": 22.650445,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huaxin",
+      "name": "华新",
+      "location": {
+        "lon": 114.086654,
+        "lat": 22.548981,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-hubei",
+      "name": "湖贝",
+      "location": {
+        "lon": 114.125439,
+        "lat": 22.544286,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-huizhancheng",
+      "name": "会展城",
+      "location": {
+        "lon": 113.769777,
+        "lat": 22.712135,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-huizhanzhongxin",
+      "name": "会展中心",
+      "location": {
+        "lon": 114.061101,
+        "lat": 22.534769,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-hulongpu",
+      "name": "回龙埔",
+      "location": {
+        "lon": 114.235861,
+        "lat": 22.729192,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-jiangwei",
+      "name": "将围",
+      "location": {
+        "lon": 113.905434,
+        "lat": 22.75797,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-jichang",
+      "name": "机场",
+      "location": {
+        "lon": 113.813663,
+        "lat": 22.624026,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-jichangbei",
+      "name": "机场北",
+      "location": {
+        "lon": 113.798179,
+        "lat": 22.651128,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-jichangdong",
+      "name": "机场东",
+      "location": {
+        "lon": 113.822634,
+        "lat": 22.647001,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-jingtian",
+      "name": "景田",
+      "location": {
+        "lon": 114.043343,
+        "lat": 22.553419,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-jinlong",
+      "name": "锦龙",
+      "location": {
+        "lon": 114.333847,
+        "lat": 22.680183,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-jinyuan",
+      "name": "金源",
+      "location": {
+        "lon": 114.230389,
+        "lat": 22.674019,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-jishudaxue",
+      "name": "技术大学",
+      "location": {
+        "lon": 114.401168,
+        "lat": 22.698379,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-jixi",
+      "name": "吉溪",
+      "location": {
+        "lon": 114.232812,
+        "lat": 22.660231,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-jixiang",
+      "name": "吉祥",
+      "location": {
+        "lon": 114.244318,
+        "lat": 22.709488,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-kengzi",
+      "name": "坑梓",
+      "location": {
+        "lon": 114.370956,
+        "lat": 22.745384,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-kexuegongyuan",
+      "name": "科学公园",
+      "location": {
+        "lon": 113.934115,
+        "lat": 22.777469,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-kexueguan",
+      "name": "科学馆",
+      "location": {
+        "lon": 114.095173,
+        "lat": 22.540618,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-keyuan",
+      "name": "科苑",
+      "location": {
+        "lon": 113.946195,
+        "lat": 22.527019,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-langxia",
+      "name": "朗下",
+      "location": {
+        "lon": 113.818115,
+        "lat": 22.767913,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-laojie",
+      "name": "老街",
+      "location": {
+        "lon": 114.116939,
+        "lat": 22.544232,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-liangmaoshan",
+      "name": "凉帽山",
+      "location": {
+        "lon": 114.118964,
+        "lat": 22.646323,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-lianhuabei",
+      "name": "莲花北",
+      "location": {
+        "lon": 114.059402,
+        "lat": 22.560538,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-lianhuacun",
+      "name": "莲花村",
+      "location": {
+        "lon": 114.067829,
+        "lat": 22.548646,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-lianhuaxi",
+      "name": "莲花西",
+      "location": {
+        "lon": 114.050034,
+        "lat": 22.546668,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-liantang",
+      "name": "莲塘",
+      "location": {
+        "lon": 114.174291,
+        "lat": 22.564118,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-liantangkoan",
+      "name": "莲塘口岸",
+      "location": {
+        "lon": 114.155585,
+        "lat": 22.553524,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-lilin",
+      "name": "荔林",
+      "location": {
+        "lon": 113.913128,
+        "lat": 22.511903,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-lingzhi",
+      "name": "灵芝",
+      "location": {
+        "lon": 113.904158,
+        "lat": 22.568964,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-linhai",
+      "name": "临海",
+      "location": {
+        "lon": 113.889323,
+        "lat": 22.54416,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-lisonglang",
+      "name": "李松蓢",
+      "location": {
+        "lon": 113.894265,
+        "lat": 22.805111,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-liuhe",
+      "name": "六和",
+      "location": {
+        "lon": 114.337737,
+        "lat": 22.696013,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-liutang",
+      "name": "流塘",
+      "location": {
+        "lon": 113.889292,
+        "lat": 22.583729,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-liuxiandong",
+      "name": "留仙洞",
+      "location": {
+        "lon": 113.943543,
+        "lat": 22.580534,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-liuyue",
+      "name": "六约",
+      "location": {
+        "lon": 114.180646,
+        "lat": 22.634322,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-liuyuebei",
+      "name": "六约北",
+      "location": {
+        "lon": 114.175728,
+        "lat": 22.642536,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-liwan",
+      "name": "荔湾",
+      "location": {
+        "lon": 113.893485,
+        "lat": 22.497821,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-liyuan",
+      "name": "梨园",
+      "location": {
+        "lon": 114.281737,
+        "lat": 22.734833,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-liyumen",
+      "name": "鲤鱼门",
+      "location": {
+        "lon": 113.903079,
+        "lat": 22.532005,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-longchenggongyuan",
+      "name": "龙城公园",
+      "location": {
+        "lon": 114.218373,
+        "lat": 22.704475,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-longchengguangchang",
+      "name": "龙城广场",
+      "location": {
+        "lon": 114.254592,
+        "lat": 22.716915,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-longdong",
+      "name": "龙东",
+      "location": {
+        "lon": 114.296398,
+        "lat": 22.72152,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-longhua",
+      "name": "龙华",
+      "location": {
+        "lon": 114.022419,
+        "lat": 22.651629,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-longjing",
+      "name": "龙井",
+      "location": {
+        "lon": 113.974687,
+        "lat": 22.56401,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-longsheng",
+      "name": "龙胜",
+      "location": {
+        "lon": 114.01201,
+        "lat": 22.644739,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-longyuan",
+      "name": "龙园",
+      "location": {
+        "lon": 114.266336,
+        "lat": 22.731005,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-loucun",
+      "name": "楼村",
+      "location": {
+        "lon": 113.923407,
+        "lat": 22.77591,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-ludancun",
+      "name": "鹿丹村",
+      "location": {
+        "lon": 114.108625,
+        "lat": 22.535708,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-luohu",
+      "name": "罗湖",
+      "location": {
+        "lon": 114.118666,
+        "lat": 22.532083,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-luohubei",
+      "name": "罗湖北",
+      "location": {
+        "lon": 114.113016,
+        "lat": 22.58075,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-luozu",
+      "name": "罗租",
+      "location": {
+        "lon": 113.933819,
+        "lat": 22.668178,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-maanshan",
+      "name": "马安山",
+      "location": {
+        "lon": 113.817005,
+        "lat": 22.716998,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-maling",
+      "name": "孖岭",
+      "location": {
+        "lon": 114.067778,
+        "lat": 22.568458,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-mawan",
+      "name": "妈湾",
+      "location": {
+        "lon": 113.885929,
+        "lat": 22.507904,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-meicun",
+      "name": "梅村",
+      "location": {
+        "lon": 114.052423,
+        "lat": 22.568443,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-meijing",
+      "name": "梅景",
+      "location": {
+        "lon": 114.037934,
+        "lat": 22.561028,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-meilinguan",
+      "name": "梅林关",
+      "location": {
+        "lon": 114.05374,
+        "lat": 22.593666,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-menghai",
+      "name": "梦海",
+      "location": {
+        "lon": 113.898806,
+        "lat": 22.518925,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-minle",
+      "name": "民乐",
+      "location": {
+        "lon": 114.048809,
+        "lat": 22.594144,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-minzhi",
+      "name": "民治",
+      "location": {
+        "lon": 114.04085,
+        "lat": 22.617545,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-mugu",
+      "name": "木古",
+      "location": {
+        "lon": 114.122502,
+        "lat": 22.669328,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-mumianwan",
+      "name": "木棉湾",
+      "location": {
+        "lon": 114.130293,
+        "lat": 22.606997,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-nanguang",
+      "name": "南光",
+      "location": {
+        "lon": 113.924322,
+        "lat": 22.516714,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-nankeng",
+      "name": "南坑",
+      "location": {
+        "lon": 114.060546,
+        "lat": 22.610894,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-nanlian",
+      "name": "南联",
+      "location": {
+        "lon": 114.265531,
+        "lat": 22.721967,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-nanshan",
+      "name": "南山",
+      "location": {
+        "lon": 113.923483,
+        "lat": 22.524037,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-nanshanshucheng",
+      "name": "南山书城",
+      "location": {
+        "lon": 113.928657,
+        "lat": 22.519355,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-nantougucheng",
+      "name": "南头古城",
+      "location": {
+        "lon": 113.924145,
+        "lat": 22.538465,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-nanyou",
+      "name": "南油",
+      "location": {
+        "lon": 113.925766,
+        "lat": 22.510238,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-nanyouxi",
+      "name": "南油西",
+      "location": {
+        "lon": 113.918402,
+        "lat": 22.509074,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-nanyue",
+      "name": "南约",
+      "location": {
+        "lon": 114.278075,
+        "lat": 22.688107,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-nigang",
+      "name": "泥岗",
+      "location": {
+        "lon": 114.097634,
+        "lat": 22.567804,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-niuhu",
+      "name": "牛湖",
+      "location": {
+        "lon": 114.089254,
+        "lat": 22.724608,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-nonglin",
+      "name": "农林",
+      "location": {
+        "lon": 114.018135,
+        "lat": 22.540411,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-pingdiliulian",
+      "name": "坪地六联",
+      "location": {
+        "lon": 114.322059,
+        "lat": 22.786983,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-pinghu",
+      "name": "平湖",
+      "location": {
+        "lon": 114.125805,
+        "lat": 22.69367,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-pinghuan",
+      "name": "坪环",
+      "location": {
+        "lon": 114.346631,
+        "lat": 22.685346,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-pingluanshan",
+      "name": "平峦山",
+      "location": {
+        "lon": 113.869771,
+        "lat": 22.603183,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-pingshan",
+      "name": "坪山",
+      "location": {
+        "lon": 114.327432,
+        "lat": 22.705715,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-pingshanwei",
+      "name": "坪山围",
+      "location": {
+        "lon": 114.34366,
+        "lat": 22.691398,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-pingshanzhongxin",
+      "name": "坪山中心",
+      "location": {
+        "lon": 114.351609,
+        "lat": 22.710968,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-pingxi",
+      "name": "坪西",
+      "location": {
+        "lon": 114.28224,
+        "lat": 22.763426,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-pingzhou",
+      "name": "坪洲",
+      "location": {
+        "lon": 113.870711,
+        "lat": 22.568908,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-qianhaiwan",
+      "name": "前海湾",
+      "location": {
+        "lon": 113.897932,
+        "lat": 22.537121,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-qianwan",
+      "name": "前湾",
+      "location": {
+        "lon": 113.895455,
+        "lat": 22.52182,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-qianwangongyuan",
+      "name": "前湾公园",
+      "location": {
+        "lon": 113.889552,
+        "lat": 22.516108,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-qiaochengbie",
+      "name": "侨城北",
+      "location": {
+        "lon": 113.989148,
+        "lat": 22.543992,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-qiaochengdong",
+      "name": "侨城东",
+      "location": {
+        "lon": 113.996651,
+        "lat": 22.532406,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-qiaotou",
+      "name": "桥头",
+      "location": {
+        "lon": 113.811001,
+        "lat": 22.688133,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-qiaotouxi",
+      "name": "桥头西",
+      "location": {
+        "lon": 113.797429,
+        "lat": 22.683097,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-qiaoxiang",
+      "name": "侨香",
+      "location": {
+        "lon": 114.014378,
+        "lat": 22.549784,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-qinghu",
+      "name": "清湖",
+      "location": {
+        "lon": 114.036538,
+        "lat": 22.664085,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-qinhubei",
+      "name": "清湖北",
+      "location": {
+        "lon": 114.040417,
+        "lat": 22.672087,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-rencaigongyuan",
+      "name": "人才公园",
+      "location": {
+        "lon": 113.943126,
+        "lat": 22.512078,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-renminnan",
+      "name": "人民南",
+      "location": {
+        "lon": 114.118154,
+        "lat": 22.535514,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shabo",
+      "name": "沙壆",
+      "location": {
+        "lon": 114.36493,
+        "lat": 22.686481,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shahao",
+      "name": "沙蚝",
+      "location": {
+        "lon": 113.801591,
+        "lat": 22.739607,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shaibu",
+      "name": "晒布",
+      "location": {
+        "lon": 114.122664,
+        "lat": 22.549238,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shajing",
+      "name": "沙井",
+      "location": {
+        "lon": 113.824434,
+        "lat": 22.730849,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shajingguxu",
+      "name": "沙井古墟",
+      "location": {
+        "lon": 113.808554,
+        "lat": 22.744104,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shangchuan",
+      "name": "上川",
+      "location": {
+        "lon": 113.895129,
+        "lat": 22.577838,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shangcun",
+      "name": "上村",
+      "location": {
+        "lon": 113.894399,
+        "lat": 22.784695,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shangfen",
+      "name": "上芬",
+      "location": {
+        "lon": 114.016637,
+        "lat": 22.640394,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shangjing",
+      "name": "尚景",
+      "location": {
+        "lon": 114.243587,
+        "lat": 22.729359,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shanglilang",
+      "name": "上李朗",
+      "location": {
+        "lon": 114.127071,
+        "lat": 22.654048,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shangmeilin",
+      "name": "上梅林",
+      "location": {
+        "lon": 114.059415,
+        "lat": 22.570459,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shangsha",
+      "name": "上沙",
+      "location": {
+        "lon": 114.035504,
+        "lat": 22.524612,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shangshuijing",
+      "name": "上水径",
+      "location": {
+        "lon": 114.105337,
+        "lat": 22.622046,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shangtang",
+      "name": "上塘",
+      "location": {
+        "lon": 114.012838,
+        "lat": 22.637056,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shangwu",
+      "name": "上屋",
+      "location": {
+        "lon": 113.939795,
+        "lat": 22.688855,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shaoniangong",
+      "name": "少年宫",
+      "location": {
+        "lon": 114.06017,
+        "lat": 22.548627,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shatian",
+      "name": "沙田",
+      "location": {
+        "lon": 114.400589,
+        "lat": 22.75615,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shatoujiao",
+      "name": "沙头角",
+      "location": {
+        "lon": 114.223195,
+        "lat": 22.554232,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shawei",
+      "name": "沙尾",
+      "location": {
+        "lon": 114.042579,
+        "lat": 22.520798,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shekougang",
+      "name": "蛇口港",
+      "location": {
+        "lon": 113.912331,
+        "lat": 22.476626,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shenda",
+      "name": "深大",
+      "location": {
+        "lon": 113.944173,
+        "lat": 22.538667,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shendalihu",
+      "name": "深大丽湖",
+      "location": {
+        "lon": 113.988381,
+        "lat": 22.592903,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shendanan",
+      "name": "深大南",
+      "location": {
+        "lon": 113.935675,
+        "lat": 22.526016,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shengping",
+      "name": "盛平",
+      "location": {
+        "lon": 114.252682,
+        "lat": 22.731624,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shenkang",
+      "name": "深康",
+      "location": {
+        "lon": 113.998846,
+        "lat": 22.546456,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shenligong",
+      "name": "深理工",
+      "location": {
+        "lon": 113.968595,
+        "lat": 22.806378,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shenmei",
+      "name": "圳美",
+      "location": {
+        "lon": 113.949275,
+        "lat": 22.787814,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shenwaigaozhong",
+      "name": "深外高中",
+      "location": {
+        "lon": 114.244559,
+        "lat": 22.584031,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shenwan",
+      "name": "深湾",
+      "location": {
+        "lon": 113.97862,
+        "lat": 22.523078,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shenyun",
+      "name": "深云",
+      "location": {
+        "lon": 113.993727,
+        "lat": 22.556537,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shenzhenbei",
+      "name": "深圳北站",
+      "location": {
+        "lon": 114.030865,
+        "lat": 22.610815,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shenzhenwangongyuan",
+      "name": "深圳湾公园",
+      "location": {
+        "lon": 113.993114,
+        "lat": 22.521591,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shenzhenwankouan",
+      "name": "深圳湾口岸",
+      "location": {
+        "lon": 113.950252,
+        "lat": 22.502977,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shigu",
+      "name": "石鼓",
+      "location": {
+        "lon": 113.944008,
+        "lat": 22.574429,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shijiezhichuang",
+      "name": "世界之窗",
+      "location": {
+        "lon": 113.974216,
+        "lat": 22.5369,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shijing",
+      "name": "石井",
+      "location": {
+        "lon": 114.383047,
+        "lat": 22.691854,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shiminzhongxin",
+      "name": "市民中心",
+      "location": {
+        "lon": 114.06097,
+        "lat": 22.541834,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shixia",
+      "name": "石厦",
+      "location": {
+        "lon": 114.053616,
+        "lat": 22.523708,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shiyaling",
+      "name": "石芽岭",
+      "location": {
+        "lon": 114.138014,
+        "lat": 22.628448,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shiyan",
+      "name": "石岩",
+      "location": {
+        "lon": 113.938218,
+        "lat": 22.680142,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-shuanglong",
+      "name": "双龙",
+      "location": {
+        "lon": 114.277422,
+        "lat": 22.728806,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shuangyongjie",
+      "name": "双拥街",
+      "location": {
+        "lon": 114.132978,
+        "lat": 22.698648,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shuibei",
+      "name": "水贝",
+      "location": {
+        "lon": 114.124974,
+        "lat": 22.573988,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shuiwan",
+      "name": "水湾",
+      "location": {
+        "lon": 113.919686,
+        "lat": 22.488389,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-shutianpu",
+      "name": "薯田埔",
+      "location": {
+        "lon": 113.867694,
+        "lat": 22.780928,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-sihai",
+      "name": "四海",
+      "location": {
+        "lon": 113.921978,
+        "lat": 22.500338,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-silian",
+      "name": "四联",
+      "location": {
+        "lon": 114.192858,
+        "lat": 22.648424,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-songgang",
+      "name": "松岗",
+      "location": {
+        "lon": 113.827693,
+        "lat": 22.771739,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-songganggongyuan",
+      "name": "松岗公园",
+      "location": {
+        "lon": 113.84831,
+        "lat": 22.77792,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-songyuanxia",
+      "name": "松元厦",
+      "location": {
+        "lon": 114.064767,
+        "lat": 22.721153,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-sungang",
+      "name": "笋岗",
+      "location": {
+        "lon": 114.111295,
+        "lat": 22.563406,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-taian",
+      "name": "太安",
+      "location": {
+        "lon": 114.137119,
+        "lat": 22.573466,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-taiziwan",
+      "name": "太子湾",
+      "location": {
+        "lon": 113.911117,
+        "lat": 22.472806,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-tangkeng",
+      "name": "塘坑",
+      "location": {
+        "lon": 114.192725,
+        "lat": 22.639179,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-tanglang",
+      "name": "塘朗",
+      "location": {
+        "lon": 113.999666,
+        "lat": 22.590097,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-tangwei",
+      "name": "塘尾",
+      "location": {
+        "lon": 113.817878,
+        "lat": 22.702075,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-taoyuan",
+      "name": "桃园",
+      "location": {
+        "lon": 113.924781,
+        "lat": 22.531506,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-taoyuancun",
+      "name": "桃源村",
+      "location": {
+        "lon": 113.981962,
+        "lat": 22.5599,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-tianbei",
+      "name": "田贝",
+      "location": {
+        "lon": 114.130052,
+        "lat": 22.56728,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-tianxin",
+      "name": "田心",
+      "location": {
+        "lon": 114.414221,
+        "lat": 22.69374,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-tielugongyuan",
+      "name": "铁路公园",
+      "location": {
+        "lon": 113.889969,
+        "lat": 22.502908,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-tiyuzhongxin",
+      "name": "体育中心",
+      "location": {
+        "lon": 114.096104,
+        "lat": 22.554673,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-tonglenan",
+      "name": "同乐南",
+      "location": {
+        "lon": 113.918738,
+        "lat": 22.556361,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-tongxinling",
+      "name": "通新岭",
+      "location": {
+        "lon": 114.096273,
+        "lat": 22.549126,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-wanxia",
+      "name": "湾厦",
+      "location": {
+        "lon": 113.938604,
+        "lat": 22.493353,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-wenjin",
+      "name": "文锦",
+      "location": {
+        "lon": 114.130962,
+        "lat": 22.542259,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-wuhe",
+      "name": "五和",
+      "location": {
+        "lon": 114.060681,
+        "lat": 22.626833,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-wutongshannan",
+      "name": "梧桐山南",
+      "location": {
+        "lon": 114.183207,
+        "lat": 22.55785,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xiacun",
+      "name": "下村",
+      "location": {
+        "lon": 113.894454,
+        "lat": 22.793677,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xiameilin",
+      "name": "下梅林",
+      "location": {
+        "lon": 114.041768,
+        "lat": 22.565672,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xiangmei",
+      "name": "香梅",
+      "location": {
+        "lon": 114.039683,
+        "lat": 22.545356,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xiangmeibei",
+      "name": "香梅北",
+      "location": {
+        "lon": 114.032716,
+        "lat": 22.55386,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xiangmi",
+      "name": "香蜜",
+      "location": {
+        "lon": 114.023851,
+        "lat": 22.552772,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xiangmihu",
+      "name": "香蜜湖",
+      "location": {
+        "lon": 114.038637,
+        "lat": 22.538887,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xiangxicun",
+      "name": "向西村",
+      "location": {
+        "lon": 114.125767,
+        "lat": 22.539792,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xianhulu",
+      "name": "仙湖路",
+      "location": {
+        "lon": 114.166405,
+        "lat": 22.564065,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xiaomeisha",
+      "name": "小梅沙",
+      "location": {
+        "lon": 114.326501,
+        "lat": 22.602226,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xiasha",
+      "name": "下沙",
+      "location": {
+        "lon": 114.024334,
+        "lat": 22.5289,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xiashuijing",
+      "name": "下水径",
+      "location": {
+        "lon": 114.110662,
+        "lat": 22.614833,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xichong",
+      "name": "溪涌",
+      "location": {
+        "lon": 114.360255,
+        "lat": 22.61211,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xikeng",
+      "name": "茜坑",
+      "location": {
+        "lon": 114.041087,
+        "lat": 22.697256,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xili",
+      "name": "西丽",
+      "location": {
+        "lon": 113.954396,
+        "lat": 22.580677,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xilihu",
+      "name": "西丽湖",
+      "location": {
+        "lon": 113.965648,
+        "lat": 22.593567,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xinan",
+      "name": "新安",
+      "location": {
+        "lon": 113.894625,
+        "lat": 22.547468,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xinangongyuan",
+      "name": "新安公园",
+      "location": {
+        "lon": 113.910883,
+        "lat": 22.562303,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xingdong",
+      "name": "兴东",
+      "location": {
+        "lon": 113.919013,
+        "lat": 22.581822,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xingwei",
+      "name": "兴围",
+      "location": {
+        "lon": 113.834486,
+        "lat": 22.642865,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xinhe",
+      "name": "新和",
+      "location": {
+        "lon": 114.335478,
+        "lat": 22.703141,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xinsheng",
+      "name": "新生",
+      "location": {
+        "lon": 114.283024,
+        "lat": 22.747988,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xintangwei",
+      "name": "新塘围",
+      "location": {
+        "lon": 114.286428,
+        "lat": 22.725432,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xinxiu",
+      "name": "新秀",
+      "location": {
+        "lon": 114.148765,
+        "lat": 22.547688,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xinzhuang",
+      "name": "新庄",
+      "location": {
+        "lon": 113.90263,
+        "lat": 22.765852,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xitou",
+      "name": "溪头",
+      "location": {
+        "lon": 113.83765,
+        "lat": 22.774648,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xixiang",
+      "name": "西乡",
+      "location": {
+        "lon": 113.863048,
+        "lat": 22.575149,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-xixiangtaoyuan",
+      "name": "西乡桃源",
+      "location": {
+        "lon": 113.862348,
+        "lat": 22.611019,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-xuexiang",
+      "name": "雪象",
+      "location": {
+        "lon": 114.078964,
+        "lat": 22.656909,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yabao",
+      "name": "雅宝",
+      "location": {
+        "lon": 114.060309,
+        "lat": 22.604541,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yangmei",
+      "name": "杨美",
+      "location": {
+        "lon": 114.079975,
+        "lat": 22.626777,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yangtaishangdong",
+      "name": "阳台山东",
+      "location": {
+        "lon": 113.9916,
+        "lat": 22.667894,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yannan",
+      "name": "燕南",
+      "location": {
+        "lon": 114.092561,
+        "lat": 22.544541,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yantiangangxi",
+      "name": "盐田港西",
+      "location": {
+        "lon": 114.246899,
+        "lat": 22.562536,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-yantianlu",
+      "name": "盐田路",
+      "location": {
+        "lon": 114.256321,
+        "lat": 22.589721,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-yantianxu",
+      "name": "盐田墟",
+      "location": {
+        "lon": 114.276373,
+        "lat": 22.587321,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-yanzihu",
+      "name": "燕子湖",
+      "location": {
+        "lon": 114.375337,
+        "lat": 22.688473,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-yihai",
+      "name": "怡海",
+      "location": {
+        "lon": 113.903758,
+        "lat": 22.514933,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yijing",
+      "name": "怡景",
+      "location": {
+        "lon": 114.140115,
+        "lat": 22.555856,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yingrenshi",
+      "name": "应人石",
+      "location": {
+        "lon": 113.926469,
+        "lat": 22.644471,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-yinhu",
+      "name": "银湖",
+      "location": {
+        "lon": 114.089851,
+        "lat": 22.568308,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yitian",
+      "name": "益田",
+      "location": {
+        "lon": 114.050987,
+        "lat": 22.516287,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yonghu",
+      "name": "永湖",
+      "location": {
+        "lon": 114.218042,
+        "lat": 22.658995,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yuanfen",
+      "name": "元芬",
+      "location": {
+        "lon": 114.005138,
+        "lat": 22.656327,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yuanling",
+      "name": "园岭",
+      "location": {
+        "lon": 114.104497,
+        "lat": 22.556288,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yuanshan",
+      "name": "园山",
+      "location": {
+        "lon": 114.238076,
+        "lat": 22.645162,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-yuanshanxikeng",
+      "name": "园山西坑",
+      "location": {
+        "lon": 114.224433,
+        "lat": 22.616749,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-yuehaimen",
+      "name": "粤海门",
+      "location": {
+        "lon": 113.945531,
+        "lat": 22.532695,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-yuelianglu",
+      "name": "月亮路",
+      "location": {
+        "lon": 113.91106,
+        "lat": 22.746247,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-yuyuan",
+      "name": "愉园",
+      "location": {
+        "lon": 114.223374,
+        "lat": 22.728275,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-zhangbei",
+      "name": "嶂背",
+      "location": {
+        "lon": 114.249547,
+        "lat": 22.692296,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-zhongda",
+      "name": "中大",
+      "location": {
+        "lon": 113.953546,
+        "lat": 22.796818,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-zhongshangongyuan",
+      "name": "中山公园",
+      "location": {
+        "lon": 113.923225,
+        "lat": 22.547021,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-zhongwunan",
+      "name": "钟屋南",
+      "location": {
+        "lon": 113.859227,
+        "lat": 22.618542,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-zhucun",
+      "name": "竹村",
+      "location": {
+        "lon": 114.040309,
+        "lat": 22.686728,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    },
+    {
+      "id": "cn-shenzhen-zhuguang",
+      "name": "珠光",
+      "location": {
+        "lon": 113.960559,
+        "lat": 22.56827,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-zhuzilin",
+      "name": "竹子林",
+      "location": {
+        "lon": 114.013917,
+        "lat": 22.533357,
+        "crs": "gcj02"
+      },
+      "status": "operating",
+      "location_source": "official"
+    },
+    {
+      "id": "cn-shenzhen-zuopaotaidong",
+      "name": "左炮台东",
+      "location": {
+        "lon": 113.897893,
+        "lat": 22.469514,
+        "crs": "gcj02"
+      },
+      "status": "operating"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# Local development and build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.astro/
+**/.astro/
+.npm-cache/
+*.log
+.edgeone/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# OCR and local Python environments
+.ocr-deps/
+**/.ocr-deps/
+**/__pycache__/
+
+# Source-image and review artifacts. The app uses extracted SVG/data instead.
+shenzhen/public/maps/*-reference.jpg
+nanning/public/maps/*-reference*.jpg
+**/scripts/review/
+**/scripts/ocr-tiles/
+**/scripts/ocr-clean-tiles/
+**/scripts/ocr-raw.json
+**/scripts/ocr-angle.json
+**/scripts/hotspots-draft.json
+**/scripts/missing-stations.json
+**/scripts/*-detail.jpg
+**/scripts/vector-basemap-source/
+
+# Temporary screenshots and local QA exports
+.playwright-mcp/
+qa-*.jpg
+reference-*.jpg

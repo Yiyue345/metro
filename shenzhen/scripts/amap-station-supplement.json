@@ -1,0 +1,16 @@
+{
+  "source": "https://ditu.amap.com/place/BV10997914",
+  "checked_at": "2026-09-29",
+  "records": [
+    {
+      "id": "BV10997914",
+      "name": "坪山广场",
+      "url": "https://ditu.amap.com/place/BV10997914",
+      "location": {
+        "lat": 22.700587,
+        "lon": 114.348763,
+        "crs": "gcj02"
+      }
+    }
+  ]
+}

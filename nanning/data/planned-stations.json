@@ -1,0 +1,36 @@
+[
+  {
+    "id": "五象火车站",
+    "name": "五象火车站",
+    "status": "planned",
+    "x": 1813.04,
+    "y": 1050.16,
+    "lines": [
+      "4"
+    ],
+    "aliases": [],
+    "englishName": "Wuxiang Railway Station",
+    "label": {
+      "x": 1782.1,
+      "y": 1070.2,
+      "anchor": "start",
+      "fontSize": 14
+    },
+    "symbol": {
+      "parts": [
+        {
+          "x": 1813.04,
+          "y": 1050.16,
+          "width": 10.5,
+          "height": 10.5,
+          "angle": 0,
+          "lines": [
+            "4"
+          ],
+          "transfer": false,
+          "planned": true
+        }
+      ]
+    }
+  }
+]

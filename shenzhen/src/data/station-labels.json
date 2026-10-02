@@ -1,0 +1,2108 @@
+{
+  "罗湖": {
+    "x": 3234.2,
+    "y": 3213.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "国贸": {
+    "x": 3232.0,
+    "y": 3139.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "老街": {
+    "x": 3183.0,
+    "y": 3062.44,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大剧院": {
+    "x": 3118.96,
+    "y": 3145.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "科学馆": {
+    "x": 3031.5,
+    "y": 3105.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "华强路": {
+    "x": 2887.68,
+    "y": 3110.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "岗厦": {
+    "x": 2817.63,
+    "y": 3207.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "会展中心": {
+    "x": 2729.5,
+    "y": 3210.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "购物公园": {
+    "x": 2663.5,
+    "y": 3210.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "香蜜湖": {
+    "x": 2540.08,
+    "y": 3124.2,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "车公庙": {
+    "x": 2401.0,
+    "y": 3195.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "竹子林": {
+    "x": 2308.0,
+    "y": 3215.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "侨城东": {
+    "x": 2156.5,
+    "y": 3181.2,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "华侨城": {
+    "x": 2059.5,
+    "y": 3215.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "世界之窗": {
+    "x": 1999.88,
+    "y": 3148.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "白石洲": {
+    "x": 1909.5,
+    "y": 3163.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "高新园": {
+    "x": 1829.16,
+    "y": 3158.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深大": {
+    "x": 1755.33,
+    "y": 3156.1,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "桃园": {
+    "x": 1568.5,
+    "y": 3229.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大新": {
+    "x": 1470.5,
+    "y": 3230.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "鲤鱼门": {
+    "x": 1388.03,
+    "y": 3192.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "前海湾": {
+    "x": 1354.09,
+    "y": 3164.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "新安": {
+    "x": 1315.73,
+    "y": 3051.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "宝安中心": {
+    "x": 1261.31,
+    "y": 3001.5,
+    "anchor": "start",
+    "fontSize": 13
+  },
+  "宝体": {
+    "x": 1201.6,
+    "y": 2933.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坪洲": {
+    "x": 1105.0,
+    "y": 2845.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "西乡": {
+    "x": 1046.13,
+    "y": 2795.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "固戍": {
+    "x": 916.1,
+    "y": 2579.5,
+    "anchor": "start",
+    "fontSize": 13
+  },
+  "后瑞": {
+    "x": 815.45,
+    "y": 2315.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "机场东": {
+    "x": 715.46,
+    "y": 2147.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "赤湾": {
+    "x": 1350.97,
+    "y": 3684.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "蛇口港": {
+    "x": 1409.0,
+    "y": 3702.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "海上世界": {
+    "x": 1497.41,
+    "y": 3641.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "水湾": {
+    "x": 1495.8,
+    "y": 3589.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "东角头": {
+    "x": 1603.5,
+    "y": 3656.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "湾厦": {
+    "x": 1678.5,
+    "y": 3543.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "海月": {
+    "x": 1673.0,
+    "y": 3485.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "登良": {
+    "x": 1670.5,
+    "y": 3399.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "后海": {
+    "x": 1737.89,
+    "y": 3351.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "科苑": {
+    "x": 1747.0,
+    "y": 3281.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "红树湾": {
+    "x": 1914.0,
+    "y": 3251.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "侨城北": {
+    "x": 2121.73,
+    "y": 3082.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深康": {
+    "x": 2213.05,
+    "y": 3081.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "安托山": {
+    "x": 2263.5,
+    "y": 3073.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "侨香": {
+    "x": 2329.0,
+    "y": 3064.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "香蜜": {
+    "x": 2399.0,
+    "y": 3037.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "香梅北": {
+    "x": 2484.5,
+    "y": 3029.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "景田": {
+    "x": 2578.0,
+    "y": 2991.46,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "莲花西": {
+    "x": 2579.9,
+    "y": 3073.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "福田": {
+    "x": 2662.0,
+    "y": 3163.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "市民中心": {
+    "x": 2671.5,
+    "y": 3110.52,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "岗厦北": {
+    "x": 2790.5,
+    "y": 3110.61,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "华强北": {
+    "x": 2960.73,
+    "y": 3120.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "燕南": {
+    "x": 2978.5,
+    "y": 3073.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "湖贝": {
+    "x": 3285.13,
+    "y": 3079.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "黄贝岭": {
+    "x": 3347.0,
+    "y": 3107.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "新秀": {
+    "x": 3465.5,
+    "y": 3086.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "莲塘口岸": {
+    "x": 3527.5,
+    "y": 2991.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "仙湖路": {
+    "x": 3606.5,
+    "y": 2938.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "莲塘": {
+    "x": 3677.5,
+    "y": 2939.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "福保": {
+    "x": 2695.75,
+    "y": 3434.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "益田": {
+    "x": 2653.5,
+    "y": 3359.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "石厦": {
+    "x": 2667.5,
+    "y": 3316.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "少年宫": {
+    "x": 2680.0,
+    "y": 3081.86,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "莲花村": {
+    "x": 2788.5,
+    "y": 3081.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "华新": {
+    "x": 2949.0,
+    "y": 3028.63,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "通新岭": {
+    "x": 3029.0,
+    "y": 3076.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "红岭": {
+    "x": 3101.0,
+    "y": 3071.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "晒布": {
+    "x": 3264.5,
+    "y": 3051.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "翠竹": {
+    "x": 3314.5,
+    "y": 3005.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "田贝": {
+    "x": 3329.5,
+    "y": 2892.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "水贝": {
+    "x": 3260.5,
+    "y": 2838.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "草埔": {
+    "x": 3210.75,
+    "y": 2717.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "布吉": {
+    "x": 3261.53,
+    "y": 2580.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "木棉湾": {
+    "x": 3321.5,
+    "y": 2537.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大芬": {
+    "x": 3398.25,
+    "y": 2458.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "丹竹头": {
+    "x": 3451.5,
+    "y": 2422.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "六约": {
+    "x": 3738.0,
+    "y": 2250.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "塘坑": {
+    "x": 3865.85,
+    "y": 2234.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "横岗": {
+    "x": 4001.0,
+    "y": 2149.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "永湖": {
+    "x": 4061.5,
+    "y": 2018.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "荷坳": {
+    "x": 4130.95,
+    "y": 1918.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大运": {
+    "x": 4130.5,
+    "y": 1768.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "爱联": {
+    "x": 4217.75,
+    "y": 1689.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "吉祥": {
+    "x": 4302.5,
+    "y": 1584.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "龙城广场": {
+    "x": 4374.0,
+    "y": 1531.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南联": {
+    "x": 4474.5,
+    "y": 1484.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "双龙": {
+    "x": 4566.5,
+    "y": 1424.68,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "梨园": {
+    "x": 4621.85,
+    "y": 1350.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "新生": {
+    "x": 4617.0,
+    "y": 1204.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坪西": {
+    "x": 4610.0,
+    "y": 1102.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "低碳城": {
+    "x": 4680.0,
+    "y": 1034.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "白石塘": {
+    "x": 4798.0,
+    "y": 987.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "富坪": {
+    "x": 4871.85,
+    "y": 939.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坪地六联": {
+    "x": 4975.45,
+    "y": 862.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "福田口岸": {
+    "x": 2789.0,
+    "y": 3339.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "福民": {
+    "x": 2729.0,
+    "y": 3315.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "莲花北": {
+    "x": 2707.0,
+    "y": 2970.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "上梅林": {
+    "x": 2715.0,
+    "y": 2901.02,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "民乐": {
+    "x": 2608.5,
+    "y": 2643.5,
+    "anchor": "end",
+    "fontSize": 13
+  },
+  "白石龙": {
+    "x": 2577.9,
+    "y": 2558.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深圳北": {
+    "x": 2468.4,
+    "y": 2515.19,
+    "anchor": "middle",
+    "fontSize": 13
+  },
+  "红山": {
+    "x": 2421.67,
+    "y": 2371.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "上塘": {
+    "x": 2285.5,
+    "y": 2262.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "龙胜": {
+    "x": 2264.2,
+    "y": 2163.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "龙华": {
+    "x": 2399.5,
+    "y": 2129.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "清湖": {
+    "x": 2531.35,
+    "y": 2004.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "清湖北": {
+    "x": 2497.49,
+    "y": 1915.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "竹村": {
+    "x": 2561.75,
+    "y": 1789.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "茜坑": {
+    "x": 2553.5,
+    "y": 1669.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "长湖": {
+    "x": 2601.0,
+    "y": 1573.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "观澜": {
+    "x": 2672.0,
+    "y": 1506.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "松元厦": {
+    "x": 2740.5,
+    "y": 1493.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "观澜湖": {
+    "x": 2840.0,
+    "y": 1446.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "牛湖": {
+    "x": 2979.5,
+    "y": 1442.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "荔湾": {
+    "x": 1305.2,
+    "y": 3506.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "铁路公园": {
+    "x": 1273.93,
+    "y": 3457.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "妈湾": {
+    "x": 1244.33,
+    "y": 3416.25,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "前湾公园": {
+    "x": 1274.5,
+    "y": 3361.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "前湾": {
+    "x": 1271.1,
+    "y": 3290.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "桂湾": {
+    "x": 1337.0,
+    "y": 3234.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "临海": {
+    "x": 1252.0,
+    "y": 3116.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "宝华": {
+    "x": 1187.88,
+    "y": 3050.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "翻身": {
+    "x": 1307.75,
+    "y": 2961.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "灵芝": {
+    "x": 1378.0,
+    "y": 2841.99,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "洪浪北": {
+    "x": 1456.0,
+    "y": 2827.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "兴东": {
+    "x": 1527.45,
+    "y": 2761.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "留仙洞": {
+    "x": 1732.0,
+    "y": 2789.83,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "西丽": {
+    "x": 1821.0,
+    "y": 2787.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大学城": {
+    "x": 1894.5,
+    "y": 2770.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "塘朗": {
+    "x": 2182.6,
+    "y": 2655.2,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "长岭陂": {
+    "x": 2286.0,
+    "y": 2606.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "民治": {
+    "x": 2568.0,
+    "y": 2432.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "五和": {
+    "x": 2728.0,
+    "y": 2363.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坂田": {
+    "x": 2797.5,
+    "y": 2356.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "杨美": {
+    "x": 2874.5,
+    "y": 2361.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "上水径": {
+    "x": 3084.0,
+    "y": 2401.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "下水径": {
+    "x": 3162.0,
+    "y": 2450.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "长龙": {
+    "x": 3185.5,
+    "y": 2493.25,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "百鸽笼": {
+    "x": 3331.65,
+    "y": 2634.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "布心": {
+    "x": 3378.5,
+    "y": 2775.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "太安": {
+    "x": 3347.61,
+    "y": 2800.88,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "怡景": {
+    "x": 3404.5,
+    "y": 2969.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "东门": {
+    "x": 3178.49,
+    "y": 3133.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "体育中心": {
+    "x": 3016.0,
+    "y": 3020.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "八卦岭": {
+    "x": 2989.5,
+    "y": 2911.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "银湖": {
+    "x": 2971.5,
+    "y": 2851.72,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "翰岭": {
+    "x": 2780.5,
+    "y": 2845.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "梅林关": {
+    "x": 2675.63,
+    "y": 2632.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "上芬": {
+    "x": 2354.7,
+    "y": 2195.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "元芬": {
+    "x": 2254.0,
+    "y": 2044.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "阳台山东": {
+    "x": 2140.83,
+    "y": 1941.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "官田": {
+    "x": 1764.0,
+    "y": 1842.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "上屋": {
+    "x": 1656.0,
+    "y": 1792.35,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "长圳": {
+    "x": 1610.0,
+    "y": 1448.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "凤凰城": {
+    "x": 1657.05,
+    "y": 1221.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "光明大街": {
+    "x": 1714.5,
+    "y": 1114.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "光明": {
+    "x": 1759.8,
+    "y": 1011.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "科学公园": {
+    "x": 1618.0,
+    "y": 977.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "楼村": {
+    "x": 1541.5,
+    "y": 988.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "红花山": {
+    "x": 1403.5,
+    "y": 971.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "公明广场": {
+    "x": 1296.0,
+    "y": 979.98,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "合水口": {
+    "x": 1204.13,
+    "y": 898.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "薯田埔": {
+    "x": 1079.5,
+    "y": 938.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "松岗公园": {
+    "x": 914.5,
+    "y": 969.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "溪头": {
+    "x": 823.0,
+    "y": 1001.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "松岗": {
+    "x": 746.0,
+    "y": 976.81,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深理工": {
+    "x": 1958.05,
+    "y": 680.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "中大": {
+    "x": 1800.0,
+    "y": 799.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "圳美": {
+    "x": 1770.0,
+    "y": 877.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "碧眼": {
+    "x": 1785.5,
+    "y": 1114.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "虹桥公园": {
+    "x": 1777.0,
+    "y": 1229.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "光明城": {
+    "x": 1803.5,
+    "y": 1339.62,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深大丽湖": {
+    "x": 2117.5,
+    "y": 2649.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "北大": {
+    "x": 2030.23,
+    "y": 2623.25,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "西丽湖": {
+    "x": 1896.0,
+    "y": 2664.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "茶光": {
+    "x": 1829.05,
+    "y": 2821.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "珠光": {
+    "x": 1856.0,
+    "y": 2897.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "龙井": {
+    "x": 2000.83,
+    "y": 2898.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "桃源村": {
+    "x": 2053.0,
+    "y": 2928.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深云": {
+    "x": 2140.0,
+    "y": 3004.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "农林": {
+    "x": 2346.5,
+    "y": 3150.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "上沙": {
+    "x": 2525.2,
+    "y": 3268.25,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "沙尾": {
+    "x": 2571.0,
+    "y": 3293.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "皇岗村": {
+    "x": 2695.76,
+    "y": 3272.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "皇岗口岸": {
+    "x": 2812.5,
+    "y": 3286.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "赤尾": {
+    "x": 2915.5,
+    "y": 3235.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "华强南": {
+    "x": 2950.5,
+    "y": 3177.2,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "黄木岗": {
+    "x": 2934.5,
+    "y": 2962.05,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "红岭北": {
+    "x": 3132.22,
+    "y": 2968.25,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "笋岗": {
+    "x": 3166.45,
+    "y": 2939.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "洪湖": {
+    "x": 3237.0,
+    "y": 2915.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "梧桐山南": {
+    "x": 3782.85,
+    "y": 2975.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "沙头角": {
+    "x": 4093.5,
+    "y": 3022.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "海山": {
+    "x": 4238.5,
+    "y": 3008.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "盐田港西": {
+    "x": 4304.0,
+    "y": 2948.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深外高中": {
+    "x": 4304.5,
+    "y": 2737.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "盐田路": {
+    "x": 4398.0,
+    "y": 2690.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "鸿安围": {
+    "x": 4465.9,
+    "y": 2653.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "盐田墟": {
+    "x": 4542.5,
+    "y": 2721.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大梅沙": {
+    "x": 4827.0,
+    "y": 2662.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "小梅沙": {
+    "x": 5002.05,
+    "y": 2567.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "溪涌": {
+    "x": 5301.15,
+    "y": 2469.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "梦海": {
+    "x": 1353.33,
+    "y": 3313.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "怡海": {
+    "x": 1387.13,
+    "y": 3344.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "荔林": {
+    "x": 1448.5,
+    "y": 3418.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南油西": {
+    "x": 1487.36,
+    "y": 3389.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南油": {
+    "x": 1561.0,
+    "y": 3432.11,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南山书城": {
+    "x": 1589.5,
+    "y": 3357.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深大南": {
+    "x": 1617.0,
+    "y": 3237.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "粤海门": {
+    "x": 1747.0,
+    "y": 3229.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "高新南": {
+    "x": 1802.4,
+    "y": 3189.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "红树湾南": {
+    "x": 1938.0,
+    "y": 3311.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深湾": {
+    "x": 2010.5,
+    "y": 3262.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深圳湾公园": {
+    "x": 2147.5,
+    "y": 3324.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "下沙": {
+    "x": 2402.0,
+    "y": 3256.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "香梅": {
+    "x": 2503.98,
+    "y": 3102.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "梅景": {
+    "x": 2525.0,
+    "y": 2965.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "下梅林": {
+    "x": 2579.75,
+    "y": 2912.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "梅村": {
+    "x": 2639.5,
+    "y": 2897.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "孖岭": {
+    "x": 2790.05,
+    "y": 2889.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "泥岗": {
+    "x": 3024.5,
+    "y": 2862.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "园岭": {
+    "x": 3093.0,
+    "y": 2966.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "红岭南": {
+    "x": 3060.5,
+    "y": 3167.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "鹿丹村": {
+    "x": 3118.5,
+    "y": 3196.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "人民南": {
+    "x": 3164.12,
+    "y": 3196.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "向西村": {
+    "x": 3280.5,
+    "y": 3161.25,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "文锦": {
+    "x": 3312.5,
+    "y": 3132.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "双拥街": {
+    "x": 3353.0,
+    "y": 1679.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "平湖": {
+    "x": 3291.5,
+    "y": 1730.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "禾花": {
+    "x": 3234.5,
+    "y": 1811.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "华南城": {
+    "x": 3260.85,
+    "y": 1885.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "木古": {
+    "x": 3258.93,
+    "y": 1918.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "上李朗": {
+    "x": 3284.5,
+    "y": 2064.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "凉帽山": {
+    "x": 3202.0,
+    "y": 2179.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "甘坑": {
+    "x": 3095.5,
+    "y": 2164.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "雪象": {
+    "x": 2889.33,
+    "y": 2048.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "岗头": {
+    "x": 2829.0,
+    "y": 2071.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "华为": {
+    "x": 2774.0,
+    "y": 2103.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "贝尔路": {
+    "x": 2768.0,
+    "y": 2183.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坂田北": {
+    "x": 2760.55,
+    "y": 2275.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "光雅园": {
+    "x": 2721.5,
+    "y": 2455.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南坑": {
+    "x": 2735.25,
+    "y": 2490.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "雅宝": {
+    "x": 2715.5,
+    "y": 2570.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "冬瓜岭": {
+    "x": 2779.0,
+    "y": 2926.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "福星": {
+    "x": 2874.5,
+    "y": 3185.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南山": {
+    "x": 1510.5,
+    "y": 3294.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "宝安": {
+    "x": 1145.38,
+    "y": 3008.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "碧海湾": {
+    "x": 983.4,
+    "y": 2792.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "机场": {
+    "x": 627.75,
+    "y": 2367.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "机场北": {
+    "x": 477.5,
+    "y": 2086.07,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "福永": {
+    "x": 554.0,
+    "y": 1916.86,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "桥头": {
+    "x": 584.5,
+    "y": 1756.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "塘尾": {
+    "x": 647.0,
+    "y": 1627.1,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "马安山": {
+    "x": 639.5,
+    "y": 1532.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "沙井": {
+    "x": 724.5,
+    "y": 1388.5,
+    "anchor": "start",
+    "fontSize": 13
+  },
+  "后亭": {
+    "x": 725.0,
+    "y": 1204.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "碧头": {
+    "x": 687.5,
+    "y": 890.8,
+    "anchor": "start",
+    "fontSize": 13
+  },
+  "左炮台东": {
+    "x": 1321.5,
+    "y": 3800.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "太子湾": {
+    "x": 1448.5,
+    "y": 3774.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "花果山": {
+    "x": 1527.55,
+    "y": 3563.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "四海": {
+    "x": 1536.0,
+    "y": 3522.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南光": {
+    "x": 1537.0,
+    "y": 3375.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南头古城": {
+    "x": 1556.5,
+    "y": 3134.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "中山公园": {
+    "x": 1549.0,
+    "y": 3101.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "同乐南": {
+    "x": 1496.5,
+    "y": 3007.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "新安公园": {
+    "x": 1453.33,
+    "y": 2916.55,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "上川": {
+    "x": 1323.55,
+    "y": 2776.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "流塘": {
+    "x": 1270.13,
+    "y": 2716.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "宝安客运站": {
+    "x": 1222.73,
+    "y": 2665.65,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "宝田一路": {
+    "x": 1180.25,
+    "y": 2621.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "平峦山": {
+    "x": 1104.6,
+    "y": 2539.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "西乡桃源": {
+    "x": 1042.25,
+    "y": 2478.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "钟屋南": {
+    "x": 1015.73,
+    "y": 2398.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "黄田": {
+    "x": 900.4,
+    "y": 2293.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "兴围": {
+    "x": 768.0,
+    "y": 2214.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "福围": {
+    "x": 684.5,
+    "y": 2085.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "怀德": {
+    "x": 666.0,
+    "y": 1953.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "桥头西": {
+    "x": 474.0,
+    "y": 1841.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "福海西": {
+    "x": 407.79,
+    "y": 1793.85,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "国展": {
+    "x": 307.5,
+    "y": 1675.28,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "国展北": {
+    "x": 298.5,
+    "y": 1611.06,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "海上田园南": {
+    "x": 279.5,
+    "y": 1474.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "海上田园东": {
+    "x": 337.0,
+    "y": 1398.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "蚝乡": {
+    "x": 402.5,
+    "y": 1313.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "沙蚝": {
+    "x": 500.5,
+    "y": 1324.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "沙井古墟": {
+    "x": 570.0,
+    "y": 1240.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "步涌": {
+    "x": 599.5,
+    "y": 1163.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "朗下": {
+    "x": 664.25,
+    "y": 1061.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "深圳湾口岸": {
+    "x": 1792.75,
+    "y": 3481.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "人才公园": {
+    "x": 1729.63,
+    "y": 3380.55,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "高新中": {
+    "x": 1737.0,
+    "y": 3054.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "高新北": {
+    "x": 1738.0,
+    "y": 2997.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "石鼓": {
+    "x": 1725.0,
+    "y": 2836.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "百旺": {
+    "x": 1697.75,
+    "y": 2367.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "应人石": {
+    "x": 1575.0,
+    "y": 2160.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "罗租": {
+    "x": 1628.5,
+    "y": 1996.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "石岩": {
+    "x": 1692.75,
+    "y": 1857.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "红坳公园": {
+    "x": 1748.5,
+    "y": 1471.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "德雅路": {
+    "x": 1734.5,
+    "y": 1333.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "月亮路": {
+    "x": 1450.5,
+    "y": 1220.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "将围": {
+    "x": 1412.0,
+    "y": 1131.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "新庄": {
+    "x": 1384.5,
+    "y": 1046.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "上村": {
+    "x": 1301.0,
+    "y": 863.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "下村": {
+    "x": 1318.75,
+    "y": 801.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "李松蓢": {
+    "x": 1316.5,
+    "y": 706.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "沙田": {
+    "x": 5610.0,
+    "y": 1172.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坑梓": {
+    "x": 5360.0,
+    "y": 1267.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坪山中心": {
+    "x": 5201.0,
+    "y": 1574.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坪山广场": {
+    "x": 5111.53,
+    "y": 1658.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坪山围": {
+    "x": 5149.91,
+    "y": 1751.0,
+    "anchor": "start",
+    "fontSize": 13
+  },
+  "锦龙": {
+    "x": 5056.5,
+    "y": 1867.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "宝龙": {
+    "x": 4733.5,
+    "y": 1796.1,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南约": {
+    "x": 4561.5,
+    "y": 1798.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "嶂背": {
+    "x": 4352.9,
+    "y": 1741.3,
+    "anchor": "start",
+    "fontSize": 13
+  },
+  "坳背": {
+    "x": 4023.5,
+    "y": 1971.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "四联": {
+    "x": 3848.0,
+    "y": 2158.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "六约北": {
+    "x": 3692.0,
+    "y": 2216.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "石芽岭": {
+    "x": 3391.35,
+    "y": 2332.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "罗湖北": {
+    "x": 3166.5,
+    "y": 2776.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "田心": {
+    "x": 5731.0,
+    "y": 1748.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "技术大学": {
+    "x": 5601.5,
+    "y": 1703.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "石井": {
+    "x": 5461.5,
+    "y": 1759.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "燕子湖": {
+    "x": 5389.5,
+    "y": 1791.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "沙壆": {
+    "x": 5305.0,
+    "y": 1808.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "东纵纪念馆": {
+    "x": 5206.5,
+    "y": 1810.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坪环": {
+    "x": 5149.5,
+    "y": 1819.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "六和": {
+    "x": 5094.9,
+    "y": 1687.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "新和": {
+    "x": 5062.5,
+    "y": 1614.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坪山": {
+    "x": 4988.5,
+    "y": 1635.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "宝龙同乐": {
+    "x": 4881.8,
+    "y": 1567.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "龙东": {
+    "x": 4713.5,
+    "y": 1485.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "新塘围": {
+    "x": 4631.0,
+    "y": 1456.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "龙园": {
+    "x": 4465.0,
+    "y": 1402.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "盛平": {
+    "x": 4343.5,
+    "y": 1394.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "尚景": {
+    "x": 4271.5,
+    "y": 1415.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "回龙埔": {
+    "x": 4201.0,
+    "y": 1414.6,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "愉园": {
+    "x": 4098.5,
+    "y": 1425.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "黄阁坑": {
+    "x": 4063.5,
+    "y": 1465.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "龙城公园": {
+    "x": 4065.0,
+    "y": 1600.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大运中心": {
+    "x": 4095.73,
+    "y": 1691.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "金源": {
+    "x": 4176.63,
+    "y": 1884.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "吉溪": {
+    "x": 4182.95,
+    "y": 2044.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大安": {
+    "x": 4214.5,
+    "y": 2061.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "园山": {
+    "x": 4231.5,
+    "y": 2186.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大康": {
+    "x": 4155.5,
+    "y": 2248.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "福坑": {
+    "x": 4102.0,
+    "y": 2275.3,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "安良": {
+    "x": 4093.5,
+    "y": 2328.0,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "园山西坑": {
+    "x": 4051.13,
+    "y": 2429.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "国展南": {
+    "x": 325.0,
+    "y": 1811.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "会展城": {
+    "x": 233.5,
+    "y": 1570.0,
+    "anchor": "start",
+    "fontSize": 14
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "edition": "2026.01",
+  "sourceDimensions": [
+    3220,
+    2300
+  ],
+  "crop": [
+    620,
+    60,
+    2680,
+    1420
+  ],
+  "width": 2060,
+  "height": 1360,
+  "reference": "01.公开版-南宁地铁线路3.0-a运营版（至2026年01月）纯白底.jpg",
+  "coordinateSpace": "cropped reference pixels"
+}

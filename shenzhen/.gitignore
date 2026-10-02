@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.astro/
+.npm-cache/
+.DS_Store
+*.log
+.ocr-deps/
+scripts/ocr-tiles/
+scripts/ocr-clean-tiles/
+scripts/ocr-raw.json
+scripts/ocr-angle.json
+scripts/hotspots-draft.json
+scripts/missing-stations.json
+scripts/*-detail.jpg

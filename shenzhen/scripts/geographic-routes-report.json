@@ -1,0 +1,66 @@
+{
+  "method": "regularized thin-plate spline in Web Mercator",
+  "smoothing": 0.03,
+  "stationCount": 351,
+  "routeCount": 17,
+  "pointCount": 27923,
+  "stationErrorMeters": {
+    "distanceMeasure": "EPSG:3857 projected meters; not ground distance",
+    "median": 23,
+    "p95": 111,
+    "maximum": {
+      "id": "坪山中心",
+      "meters": 202
+    }
+  },
+  "largestStationErrors": [
+    {
+      "id": "坪山中心",
+      "meters": 202
+    },
+    {
+      "id": "车公庙",
+      "meters": 181
+    },
+    {
+      "id": "上梅林",
+      "meters": 180
+    },
+    {
+      "id": "红岭南",
+      "meters": 166
+    },
+    {
+      "id": "松岗",
+      "meters": 161
+    },
+    {
+      "id": "岗厦北",
+      "meters": 157
+    },
+    {
+      "id": "福星",
+      "meters": 153
+    },
+    {
+      "id": "市民中心",
+      "meters": 143
+    },
+    {
+      "id": "华强北",
+      "meters": 139
+    },
+    {
+      "id": "福田口岸",
+      "meters": 129
+    },
+    {
+      "id": "购物公园",
+      "meters": 122
+    },
+    {
+      "id": "高新南",
+      "meters": 121
+    }
+  ]
+}

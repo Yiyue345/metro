@@ -1,0 +1,1738 @@
+[
+  {
+    "id": "1",
+    "curveStats": {
+      "kind": "globally tangent-continuous cubic Bezier",
+      "cubicCount": 203,
+      "rawPointCount": 969,
+      "maxTracedCorridorDeviation": 1.65,
+      "p95TracedCorridorDeviation": 1.14
+    },
+    "traceSource": "user supplied white-background 2026.01 operating reference",
+    "stationCount": 25,
+    "segmentCount": 24,
+    "stationCoverage": [
+      {
+        "name": "石埠",
+        "x": 72.34,
+        "y": 514.0,
+        "curveDistance": 0.0
+      },
+      {
+        "name": "南职院",
+        "x": 169.5,
+        "y": 467.5,
+        "curveDistance": 0.2803
+      },
+      {
+        "name": "鹏飞路",
+        "x": 235.37,
+        "y": 466.63,
+        "curveDistance": 0.6357
+      },
+      {
+        "name": "西乡塘客运站",
+        "x": 353.66,
+        "y": 465.0,
+        "curveDistance": 0.9051
+      },
+      {
+        "name": "民族大学",
+        "x": 439.79,
+        "y": 431.91,
+        "curveDistance": 0.3751
+      },
+      {
+        "name": "清川",
+        "x": 573.0,
+        "y": 412.24,
+        "curveDistance": 0.5826
+      },
+      {
+        "name": "动物园",
+        "x": 671.63,
+        "y": 431.37,
+        "curveDistance": 0.4268
+      },
+      {
+        "name": "鲁班路",
+        "x": 775.34,
+        "y": 460.0,
+        "curveDistance": 0.2994
+      },
+      {
+        "name": "广西大学",
+        "x": 833.0,
+        "y": 480.0,
+        "curveDistance": 1.2493
+      },
+      {
+        "name": "白苍岭",
+        "x": 937.67,
+        "y": 479.5,
+        "curveDistance": 0.9246
+      },
+      {
+        "name": "火车站",
+        "x": 1000.0,
+        "y": 526.0,
+        "curveDistance": 1.0857
+      },
+      {
+        "name": "朝阳广场",
+        "x": 1028.5,
+        "y": 577.5,
+        "curveDistance": 0.5759
+      },
+      {
+        "name": "新民路",
+        "x": 1071.37,
+        "y": 609.37,
+        "curveDistance": 0.223
+      },
+      {
+        "name": "民族广场",
+        "x": 1128.29,
+        "y": 608.29,
+        "curveDistance": 0.4927
+      },
+      {
+        "name": "麻村",
+        "x": 1201.78,
+        "y": 607.09,
+        "curveDistance": 0.5286
+      },
+      {
+        "name": "南湖",
+        "x": 1305.7,
+        "y": 601.7,
+        "curveDistance": 0.6362
+      },
+      {
+        "name": "金湖广场",
+        "x": 1362.5,
+        "y": 610.5,
+        "curveDistance": 0.5611
+      },
+      {
+        "name": "会展中心",
+        "x": 1441.67,
+        "y": 608.5,
+        "curveDistance": 0.9106
+      },
+      {
+        "name": "万象城",
+        "x": 1495.55,
+        "y": 608.58,
+        "curveDistance": 0.5055
+      },
+      {
+        "name": "东盟商务区",
+        "x": 1545.06,
+        "y": 608.42,
+        "curveDistance": 0.4427
+      },
+      {
+        "name": "凤岭",
+        "x": 1620.45,
+        "y": 609.58,
+        "curveDistance": 0.5173
+      },
+      {
+        "name": "埌东客运站",
+        "x": 1680.0,
+        "y": 611.5,
+        "curveDistance": 0.4983
+      },
+      {
+        "name": "百花岭",
+        "x": 1738.9,
+        "y": 573.32,
+        "curveDistance": 1.4299
+      },
+      {
+        "name": "佛子岭",
+        "x": 1717.59,
+        "y": 474.72,
+        "curveDistance": 0.5901
+      },
+      {
+        "name": "火车东站",
+        "x": 1646.0,
+        "y": 419.66,
+        "curveDistance": 0.0
+      }
+    ],
+    "suspiciousSegments": [],
+    "segments": [
+      {
+        "length": 116.4,
+        "directLength": 107.7,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 406,
+        "from": "石埠",
+        "to": "南职院",
+        "suspicious": false
+      },
+      {
+        "length": 66.9,
+        "directLength": 65.9,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 155,
+        "from": "南职院",
+        "to": "鹏飞路",
+        "suspicious": false
+      },
+      {
+        "length": 119.5,
+        "directLength": 118.3,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 388,
+        "from": "鹏飞路",
+        "to": "西乡塘客运站",
+        "suspicious": false
+      },
+      {
+        "length": 99.6,
+        "directLength": 92.3,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 350,
+        "from": "西乡塘客运站",
+        "to": "民族大学",
+        "suspicious": false
+      },
+      {
+        "length": 144.8,
+        "directLength": 134.7,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 550,
+        "from": "民族大学",
+        "to": "清川",
+        "suspicious": false
+      },
+      {
+        "length": 107.1,
+        "directLength": 100.5,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 381,
+        "from": "清川",
+        "to": "动物园",
+        "suspicious": false
+      },
+      {
+        "length": 115.4,
+        "directLength": 107.6,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 424,
+        "from": "动物园",
+        "to": "鲁班路",
+        "suspicious": false
+      },
+      {
+        "length": 65.7,
+        "directLength": 61.0,
+        "maxColorDistance": 10.0,
+        "offBandFraction": 0.069,
+        "expanded": 202,
+        "from": "鲁班路",
+        "to": "广西大学",
+        "suspicious": false
+      },
+      {
+        "length": 119.7,
+        "directLength": 104.7,
+        "maxColorDistance": 10.4,
+        "offBandFraction": 0.074,
+        "expanded": 487,
+        "from": "广西大学",
+        "to": "白苍岭",
+        "suspicious": false
+      },
+      {
+        "length": 93.0,
+        "directLength": 77.8,
+        "maxColorDistance": 7.2,
+        "offBandFraction": 0.053,
+        "expanded": 387,
+        "from": "白苍岭",
+        "to": "火车站",
+        "suspicious": false
+      },
+      {
+        "length": 63.2,
+        "directLength": 58.9,
+        "maxColorDistance": 7.2,
+        "offBandFraction": 0.111,
+        "expanded": 169,
+        "from": "火车站",
+        "to": "朝阳广场",
+        "suspicious": false
+      },
+      {
+        "length": 65.5,
+        "directLength": 53.4,
+        "maxColorDistance": 7.2,
+        "offBandFraction": 0.033,
+        "expanded": 201,
+        "from": "朝阳广场",
+        "to": "新民路",
+        "suspicious": false
+      },
+      {
+        "length": 57.8,
+        "directLength": 56.9,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 122,
+        "from": "新民路",
+        "to": "民族广场",
+        "suspicious": false
+      },
+      {
+        "length": 73.7,
+        "directLength": 73.5,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 207,
+        "from": "民族广场",
+        "to": "麻村",
+        "suspicious": false
+      },
+      {
+        "length": 106.6,
+        "directLength": 104.1,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 338,
+        "from": "麻村",
+        "to": "南湖",
+        "suspicious": false
+      },
+      {
+        "length": 60.2,
+        "directLength": 57.5,
+        "maxColorDistance": 10.0,
+        "offBandFraction": 0.103,
+        "expanded": 219,
+        "from": "南湖",
+        "to": "金湖广场",
+        "suspicious": false
+      },
+      {
+        "length": 81.8,
+        "directLength": 79.2,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.024,
+        "expanded": 230,
+        "from": "金湖广场",
+        "to": "会展中心",
+        "suspicious": false
+      },
+      {
+        "length": 54.0,
+        "directLength": 53.9,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 115,
+        "from": "会展中心",
+        "to": "万象城",
+        "suspicious": false
+      },
+      {
+        "length": 49.7,
+        "directLength": 49.5,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 103,
+        "from": "万象城",
+        "to": "东盟商务区",
+        "suspicious": false
+      },
+      {
+        "length": 76.3,
+        "directLength": 75.4,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 203,
+        "from": "东盟商务区",
+        "to": "凤岭",
+        "suspicious": false
+      },
+      {
+        "length": 60.5,
+        "directLength": 59.6,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 139,
+        "from": "凤岭",
+        "to": "埌东客运站",
+        "suspicious": false
+      },
+      {
+        "length": 86.3,
+        "directLength": 70.2,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 326,
+        "from": "埌东客运站",
+        "to": "百花岭",
+        "suspicious": false
+      },
+      {
+        "length": 107.2,
+        "directLength": 100.9,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 379,
+        "from": "百花岭",
+        "to": "佛子岭",
+        "suspicious": false
+      },
+      {
+        "length": 111.5,
+        "directLength": 90.3,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 448,
+        "from": "佛子岭",
+        "to": "火车东站",
+        "suspicious": false
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "curveStats": {
+      "kind": "globally tangent-continuous cubic Bezier",
+      "cubicCount": 173,
+      "rawPointCount": 801,
+      "maxTracedCorridorDeviation": 1.89,
+      "p95TracedCorridorDeviation": 1.35
+    },
+    "traceSource": "user supplied white-background 2026.01 operating reference",
+    "stationCount": 23,
+    "segmentCount": 22,
+    "stationCoverage": [
+      {
+        "name": "西津",
+        "x": 876.37,
+        "y": 63.37,
+        "curveDistance": 0.0
+      },
+      {
+        "name": "安吉客运站",
+        "x": 869.0,
+        "y": 131.5,
+        "curveDistance": 0.0786
+      },
+      {
+        "name": "苏卢",
+        "x": 882.66,
+        "y": 208.0,
+        "curveDistance": 0.6019
+      },
+      {
+        "name": "三十三中",
+        "x": 901.82,
+        "y": 288.82,
+        "curveDistance": 0.2762
+      },
+      {
+        "name": "秀厢",
+        "x": 931.0,
+        "y": 355.66,
+        "curveDistance": 0.8976
+      },
+      {
+        "name": "明秀路",
+        "x": 967.0,
+        "y": 418.0,
+        "curveDistance": 1.0347
+      },
+      {
+        "name": "火车站",
+        "x": 994.5,
+        "y": 529.5,
+        "curveDistance": 1.7145
+      },
+      {
+        "name": "朝阳广场",
+        "x": 1022.5,
+        "y": 580.5,
+        "curveDistance": 1.7621
+      },
+      {
+        "name": "南宁剧场",
+        "x": 976.83,
+        "y": 674.4,
+        "curveDistance": 0.8478
+      },
+      {
+        "name": "福建园",
+        "x": 962.0,
+        "y": 728.5,
+        "curveDistance": 0.4786
+      },
+      {
+        "name": "亭洪路",
+        "x": 962.17,
+        "y": 784.4,
+        "curveDistance": 0.1489
+      },
+      {
+        "name": "石柱岭",
+        "x": 962.63,
+        "y": 837.63,
+        "curveDistance": 0.7399
+      },
+      {
+        "name": "江南客运站",
+        "x": 966.63,
+        "y": 944.37,
+        "curveDistance": 1.3572
+      },
+      {
+        "name": "大沙田",
+        "x": 1000.0,
+        "y": 983.5,
+        "curveDistance": 1.964
+      },
+      {
+        "name": "建设路",
+        "x": 1008.18,
+        "y": 1047.82,
+        "curveDistance": 0.6554
+      },
+      {
+        "name": "石子塘",
+        "x": 1049.0,
+        "y": 1125.66,
+        "curveDistance": 0.9156
+      },
+      {
+        "name": "金象",
+        "x": 1100.06,
+        "y": 1194.42,
+        "curveDistance": 1.6013
+      },
+      {
+        "name": "玉洞",
+        "x": 1129.72,
+        "y": 1257.59,
+        "curveDistance": 0.3816
+      },
+      {
+        "name": "东风路",
+        "x": 1235.0,
+        "y": 1278.5,
+        "curveDistance": 0.3488
+      },
+      {
+        "name": "玉岭路",
+        "x": 1285.63,
+        "y": 1264.37,
+        "curveDistance": 0.5492
+      },
+      {
+        "name": "那福路",
+        "x": 1376.72,
+        "y": 1239.59,
+        "curveDistance": 0.2525
+      },
+      {
+        "name": "平良立交",
+        "x": 1442.5,
+        "y": 1230.5,
+        "curveDistance": 0.2311
+      },
+      {
+        "name": "坛泽",
+        "x": 1529.58,
+        "y": 1232.94,
+        "curveDistance": 0.0
+      }
+    ],
+    "suspiciousSegments": [],
+    "segments": [
+      {
+        "length": 71.8,
+        "directLength": 68.5,
+        "maxColorDistance": 8.4,
+        "offBandFraction": 0.086,
+        "expanded": 215,
+        "from": "西津",
+        "to": "安吉客运站",
+        "suspicious": false
+      },
+      {
+        "length": 82.6,
+        "directLength": 77.7,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.026,
+        "expanded": 242,
+        "from": "安吉客运站",
+        "to": "苏卢",
+        "suspicious": false
+      },
+      {
+        "length": 89.2,
+        "directLength": 83.1,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 285,
+        "from": "苏卢",
+        "to": "三十三中",
+        "suspicious": false
+      },
+      {
+        "length": 78.7,
+        "directLength": 72.9,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 250,
+        "from": "三十三中",
+        "to": "秀厢",
+        "suspicious": false
+      },
+      {
+        "length": 76.9,
+        "directLength": 72.0,
+        "maxColorDistance": 7.2,
+        "offBandFraction": 0.062,
+        "expanded": 260,
+        "from": "秀厢",
+        "to": "明秀路",
+        "suspicious": false
+      },
+      {
+        "length": 123.6,
+        "directLength": 114.8,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.088,
+        "expanded": 840,
+        "from": "明秀路",
+        "to": "火车站",
+        "suspicious": false
+      },
+      {
+        "length": 62.9,
+        "directLength": 58.2,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.077,
+        "expanded": 159,
+        "from": "火车站",
+        "to": "朝阳广场",
+        "suspicious": false
+      },
+      {
+        "length": 117.4,
+        "directLength": 104.4,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.021,
+        "expanded": 458,
+        "from": "朝阳广场",
+        "to": "南宁剧场",
+        "suspicious": false
+      },
+      {
+        "length": 62.4,
+        "directLength": 56.1,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 165,
+        "from": "南宁剧场",
+        "to": "福建园",
+        "suspicious": false
+      },
+      {
+        "length": 55.9,
+        "directLength": 55.9,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 118,
+        "from": "福建园",
+        "to": "亭洪路",
+        "suspicious": false
+      },
+      {
+        "length": 53.4,
+        "directLength": 53.2,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 114,
+        "from": "亭洪路",
+        "to": "石柱岭",
+        "suspicious": false
+      },
+      {
+        "length": 108.6,
+        "directLength": 106.8,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 355,
+        "from": "石柱岭",
+        "to": "江南客运站",
+        "suspicious": false
+      },
+      {
+        "length": 53.1,
+        "directLength": 51.4,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.095,
+        "expanded": 181,
+        "from": "江南客运站",
+        "to": "大沙田",
+        "suspicious": false
+      },
+      {
+        "length": 67.6,
+        "directLength": 64.8,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.03,
+        "expanded": 177,
+        "from": "大沙田",
+        "to": "建设路",
+        "suspicious": false
+      },
+      {
+        "length": 95.4,
+        "directLength": 87.9,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 299,
+        "from": "建设路",
+        "to": "石子塘",
+        "suspicious": false
+      },
+      {
+        "length": 89.6,
+        "directLength": 85.6,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 275,
+        "from": "石子塘",
+        "to": "金象",
+        "suspicious": false
+      },
+      {
+        "length": 75.5,
+        "directLength": 69.8,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 234,
+        "from": "金象",
+        "to": "玉洞",
+        "suspicious": false
+      },
+      {
+        "length": 132.3,
+        "directLength": 107.3,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 607,
+        "from": "玉洞",
+        "to": "东风路",
+        "suspicious": false
+      },
+      {
+        "length": 56.5,
+        "directLength": 52.6,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 146,
+        "from": "东风路",
+        "to": "玉岭路",
+        "suspicious": false
+      },
+      {
+        "length": 101.1,
+        "directLength": 94.4,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 343,
+        "from": "玉岭路",
+        "to": "那福路",
+        "suspicious": false
+      },
+      {
+        "length": 70.0,
+        "directLength": 66.4,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.029,
+        "expanded": 192,
+        "from": "那福路",
+        "to": "平良立交",
+        "suspicious": false
+      },
+      {
+        "length": 89.9,
+        "directLength": 87.1,
+        "maxColorDistance": 10.0,
+        "offBandFraction": 0.067,
+        "expanded": 285,
+        "from": "平良立交",
+        "to": "坛泽",
+        "suspicious": false
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "curveStats": {
+      "kind": "globally tangent-continuous cubic Bezier",
+      "cubicCount": 176,
+      "rawPointCount": 825,
+      "maxTracedCorridorDeviation": 1.88,
+      "p95TracedCorridorDeviation": 1.15
+    },
+    "traceSource": "user supplied white-background 2026.01 operating reference",
+    "stationCount": 23,
+    "segmentCount": 22,
+    "stationCoverage": [
+      {
+        "name": "科园大道",
+        "x": 682.42,
+        "y": 139.94,
+        "curveDistance": 0.0
+      },
+      {
+        "name": "创业路",
+        "x": 779.84,
+        "y": 137.62,
+        "curveDistance": 0.39
+      },
+      {
+        "name": "安吉客运站",
+        "x": 874.0,
+        "y": 132.0,
+        "curveDistance": 0.4126
+      },
+      {
+        "name": "北湖北路",
+        "x": 995.61,
+        "y": 156.52,
+        "curveDistance": 0.9562
+      },
+      {
+        "name": "秀峰路",
+        "x": 1098.09,
+        "y": 140.21,
+        "curveDistance": 0.5163
+      },
+      {
+        "name": "邕武路",
+        "x": 1153.91,
+        "y": 157.79,
+        "curveDistance": 0.4768
+      },
+      {
+        "name": "大鸡村",
+        "x": 1228.38,
+        "y": 179.16,
+        "curveDistance": 0.6577
+      },
+      {
+        "name": "兴桂路",
+        "x": 1262.21,
+        "y": 234.91,
+        "curveDistance": 0.8541
+      },
+      {
+        "name": "小鸡村",
+        "x": 1261.0,
+        "y": 296.0,
+        "curveDistance": 1.3454
+      },
+      {
+        "name": "东沟岭",
+        "x": 1251.5,
+        "y": 374.12,
+        "curveDistance": 0.4665
+      },
+      {
+        "name": "长堽路",
+        "x": 1263.94,
+        "y": 435.42,
+        "curveDistance": 0.6003
+      },
+      {
+        "name": "东葛路",
+        "x": 1284.09,
+        "y": 484.21,
+        "curveDistance": 0.6445
+      },
+      {
+        "name": "滨湖路",
+        "x": 1348.24,
+        "y": 521.0,
+        "curveDistance": 0.9037
+      },
+      {
+        "name": "金湖广场",
+        "x": 1358.0,
+        "y": 610.0,
+        "curveDistance": 0.5099
+      },
+      {
+        "name": "埌西",
+        "x": 1334.5,
+        "y": 647.5,
+        "curveDistance": 0.2225
+      },
+      {
+        "name": "青竹立交",
+        "x": 1315.55,
+        "y": 706.42,
+        "curveDistance": 0.5971
+      },
+      {
+        "name": "青秀山",
+        "x": 1342.5,
+        "y": 752.5,
+        "curveDistance": 0.6207
+      },
+      {
+        "name": "市博物馆",
+        "x": 1393.16,
+        "y": 880.62,
+        "curveDistance": 0.4708
+      },
+      {
+        "name": "总部基地",
+        "x": 1397.0,
+        "y": 932.5,
+        "curveDistance": 1.6652
+      },
+      {
+        "name": "广西规划馆",
+        "x": 1404.25,
+        "y": 1008.25,
+        "curveDistance": 0.6088
+      },
+      {
+        "name": "庆歌路",
+        "x": 1440.5,
+        "y": 1056.5,
+        "curveDistance": 0.7204
+      },
+      {
+        "name": "五象湖",
+        "x": 1444.5,
+        "y": 1141.5,
+        "curveDistance": 0.5726
+      },
+      {
+        "name": "平良立交",
+        "x": 1447.0,
+        "y": 1230.0,
+        "curveDistance": 0.0
+      }
+    ],
+    "suspiciousSegments": [],
+    "segments": [
+      {
+        "length": 98.3,
+        "directLength": 97.4,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 290,
+        "from": "科园大道",
+        "to": "创业路",
+        "suspicious": false
+      },
+      {
+        "length": 96.7,
+        "directLength": 94.3,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.042,
+        "expanded": 384,
+        "from": "创业路",
+        "to": "安吉客运站",
+        "suspicious": false
+      },
+      {
+        "length": 134.9,
+        "directLength": 124.1,
+        "maxColorDistance": 6.0,
+        "offBandFraction": 0.0,
+        "expanded": 511,
+        "from": "安吉客运站",
+        "to": "北湖北路",
+        "suspicious": false
+      },
+      {
+        "length": 109.2,
+        "directLength": 103.8,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 380,
+        "from": "北湖北路",
+        "to": "秀峰路",
+        "suspicious": false
+      },
+      {
+        "length": 63.2,
+        "directLength": 58.5,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 181,
+        "from": "秀峰路",
+        "to": "邕武路",
+        "suspicious": false
+      },
+      {
+        "length": 83.8,
+        "directLength": 77.5,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 246,
+        "from": "邕武路",
+        "to": "大鸡村",
+        "suspicious": false
+      },
+      {
+        "length": 83.4,
+        "directLength": 65.2,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 298,
+        "from": "大鸡村",
+        "to": "兴桂路",
+        "suspicious": false
+      },
+      {
+        "length": 62.2,
+        "directLength": 61.1,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 142,
+        "from": "兴桂路",
+        "to": "小鸡村",
+        "suspicious": false
+      },
+      {
+        "length": 81.7,
+        "directLength": 78.7,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 234,
+        "from": "小鸡村",
+        "to": "东沟岭",
+        "suspicious": false
+      },
+      {
+        "length": 66.3,
+        "directLength": 62.5,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 193,
+        "from": "东沟岭",
+        "to": "长堽路",
+        "suspicious": false
+      },
+      {
+        "length": 57.1,
+        "directLength": 52.8,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 146,
+        "from": "长堽路",
+        "to": "东葛路",
+        "suspicious": false
+      },
+      {
+        "length": 79.2,
+        "directLength": 74.0,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 254,
+        "from": "东葛路",
+        "to": "滨湖路",
+        "suspicious": false
+      },
+      {
+        "length": 101.1,
+        "directLength": 89.5,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.021,
+        "expanded": 395,
+        "from": "滨湖路",
+        "to": "金湖广场",
+        "suspicious": false
+      },
+      {
+        "length": 47.2,
+        "directLength": 44.3,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.05,
+        "expanded": 107,
+        "from": "金湖广场",
+        "to": "埌西",
+        "suspicious": false
+      },
+      {
+        "length": 76.1,
+        "directLength": 61.9,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 268,
+        "from": "埌西",
+        "to": "青竹立交",
+        "suspicious": false
+      },
+      {
+        "length": 57.4,
+        "directLength": 53.4,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 154,
+        "from": "青竹立交",
+        "to": "青秀山",
+        "suspicious": false
+      },
+      {
+        "length": 149.9,
+        "directLength": 137.8,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 617,
+        "from": "青秀山",
+        "to": "市博物馆",
+        "suspicious": false
+      },
+      {
+        "length": 53.1,
+        "directLength": 52.0,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.074,
+        "expanded": 116,
+        "from": "市博物馆",
+        "to": "总部基地",
+        "suspicious": false
+      },
+      {
+        "length": 81.1,
+        "directLength": 76.1,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.026,
+        "expanded": 242,
+        "from": "总部基地",
+        "to": "广西规划馆",
+        "suspicious": false
+      },
+      {
+        "length": 63.1,
+        "directLength": 60.4,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 178,
+        "from": "广西规划馆",
+        "to": "庆歌路",
+        "suspicious": false
+      },
+      {
+        "length": 86.8,
+        "directLength": 85.1,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 241,
+        "from": "庆歌路",
+        "to": "五象湖",
+        "suspicious": false
+      },
+      {
+        "length": 90.4,
+        "directLength": 88.5,
+        "maxColorDistance": 8.4,
+        "offBandFraction": 0.044,
+        "expanded": 261,
+        "from": "五象湖",
+        "to": "平良立交",
+        "suspicious": false
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "curveStats": {
+      "kind": "globally tangent-continuous cubic Bezier",
+      "cubicCount": 159,
+      "rawPointCount": 751,
+      "maxTracedCorridorDeviation": 1.91,
+      "p95TracedCorridorDeviation": 1.31
+    },
+    "traceSource": "user supplied white-background 2026.01 operating reference",
+    "stationCount": 18,
+    "segmentCount": 17,
+    "stationCoverage": [
+      {
+        "name": "洪运路",
+        "x": 501.09,
+        "y": 948.7,
+        "curveDistance": 0.0
+      },
+      {
+        "name": "那历村",
+        "x": 611.65,
+        "y": 983.26,
+        "curveDistance": 0.405
+      },
+      {
+        "name": "那洪立交",
+        "x": 693.0,
+        "y": 985.0,
+        "curveDistance": 1.0185
+      },
+      {
+        "name": "金阳路",
+        "x": 762.79,
+        "y": 986.09,
+        "curveDistance": 0.5955
+      },
+      {
+        "name": "通源路",
+        "x": 884.5,
+        "y": 1002.5,
+        "curveDistance": 0.5328
+      },
+      {
+        "name": "大沙田",
+        "x": 995.5,
+        "y": 984.5,
+        "curveDistance": 0.7352
+      },
+      {
+        "name": "金象大道",
+        "x": 1038.5,
+        "y": 985.5,
+        "curveDistance": 0.4305
+      },
+      {
+        "name": "五象岭",
+        "x": 1139.18,
+        "y": 979.82,
+        "curveDistance": 0.5023
+      },
+      {
+        "name": "玉象路",
+        "x": 1307.75,
+        "y": 927.75,
+        "curveDistance": 0.5349
+      },
+      {
+        "name": "总部基地",
+        "x": 1392.0,
+        "y": 931.5,
+        "curveDistance": 0.2378
+      },
+      {
+        "name": "飞龙路",
+        "x": 1460.91,
+        "y": 943.79,
+        "curveDistance": 0.4933
+      },
+      {
+        "name": "体育中心西",
+        "x": 1502.0,
+        "y": 952.5,
+        "curveDistance": 0.2231
+      },
+      {
+        "name": "体育中心东",
+        "x": 1546.94,
+        "y": 985.58,
+        "curveDistance": 0.8976
+      },
+      {
+        "name": "良庆大桥南",
+        "x": 1596.21,
+        "y": 1037.55,
+        "curveDistance": 1.3758
+      },
+      {
+        "name": "良庆圩",
+        "x": 1672.88,
+        "y": 1042.5,
+        "curveDistance": 0.5609
+      },
+      {
+        "name": "楞塘村",
+        "x": 1741.79,
+        "y": 1032.91,
+        "curveDistance": 0.4967
+      },
+      {
+        "name": "清平坡",
+        "x": 1915.79,
+        "y": 992.91,
+        "curveDistance": 0.7844
+      },
+      {
+        "name": "龙岗",
+        "x": 1990.21,
+        "y": 964.09,
+        "curveDistance": 0.0
+      }
+    ],
+    "suspiciousSegments": [],
+    "segments": [
+      {
+        "length": 125.7,
+        "directLength": 115.8,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 442,
+        "from": "洪运路",
+        "to": "那历村",
+        "suspicious": false
+      },
+      {
+        "length": 81.6,
+        "directLength": 81.4,
+        "maxColorDistance": 6.0,
+        "offBandFraction": 0.0,
+        "expanded": 202,
+        "from": "那历村",
+        "to": "那洪立交",
+        "suspicious": false
+      },
+      {
+        "length": 71.0,
+        "directLength": 69.8,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.056,
+        "expanded": 206,
+        "from": "那洪立交",
+        "to": "金阳路",
+        "suspicious": false
+      },
+      {
+        "length": 128.4,
+        "directLength": 122.8,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 461,
+        "from": "金阳路",
+        "to": "通源路",
+        "suspicious": false
+      },
+      {
+        "length": 118.6,
+        "directLength": 112.4,
+        "maxColorDistance": 11.6,
+        "offBandFraction": 0.07,
+        "expanded": 634,
+        "from": "通源路",
+        "to": "大沙田",
+        "suspicious": false
+      },
+      {
+        "length": 43.9,
+        "directLength": 43.0,
+        "maxColorDistance": 10.0,
+        "offBandFraction": 0.091,
+        "expanded": 86,
+        "from": "大沙田",
+        "to": "金象大道",
+        "suspicious": false
+      },
+      {
+        "length": 103.3,
+        "directLength": 100.8,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 370,
+        "from": "金象大道",
+        "to": "五象岭",
+        "suspicious": false
+      },
+      {
+        "length": 191.8,
+        "directLength": 176.4,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 857,
+        "from": "五象岭",
+        "to": "玉象路",
+        "suspicious": false
+      },
+      {
+        "length": 86.0,
+        "directLength": 84.3,
+        "maxColorDistance": 8.4,
+        "offBandFraction": 0.047,
+        "expanded": 256,
+        "from": "玉象路",
+        "to": "总部基地",
+        "suspicious": false
+      },
+      {
+        "length": 73.9,
+        "directLength": 70.0,
+        "maxColorDistance": 10.0,
+        "offBandFraction": 0.086,
+        "expanded": 224,
+        "from": "总部基地",
+        "to": "飞龙路",
+        "suspicious": false
+      },
+      {
+        "length": 44.5,
+        "directLength": 42.0,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 102,
+        "from": "飞龙路",
+        "to": "体育中心西",
+        "suspicious": false
+      },
+      {
+        "length": 58.7,
+        "directLength": 55.8,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 137,
+        "from": "体育中心西",
+        "to": "体育中心东",
+        "suspicious": false
+      },
+      {
+        "length": 72.4,
+        "directLength": 71.6,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 198,
+        "from": "体育中心东",
+        "to": "良庆大桥南",
+        "suspicious": false
+      },
+      {
+        "length": 81.7,
+        "directLength": 76.8,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 250,
+        "from": "良庆大桥南",
+        "to": "良庆圩",
+        "suspicious": false
+      },
+      {
+        "length": 73.4,
+        "directLength": 69.6,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 216,
+        "from": "良庆圩",
+        "to": "楞塘村",
+        "suspicious": false
+      },
+      {
+        "length": 211.7,
+        "directLength": 178.5,
+        "maxColorDistance": 6.0,
+        "offBandFraction": 0.0,
+        "expanded": 1357,
+        "from": "楞塘村",
+        "to": "清平坡",
+        "suspicious": false
+      },
+      {
+        "length": 86.2,
+        "directLength": 79.8,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 271,
+        "from": "清平坡",
+        "to": "龙岗",
+        "suspicious": false
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "curveStats": {
+      "kind": "globally tangent-continuous cubic Bezier",
+      "cubicCount": 127,
+      "rawPointCount": 585,
+      "maxTracedCorridorDeviation": 2.0,
+      "p95TracedCorridorDeviation": 1.25
+    },
+    "traceSource": "user supplied white-background 2026.01 operating reference",
+    "stationCount": 17,
+    "segmentCount": 16,
+    "stationCoverage": [
+      {
+        "name": "国凯大道",
+        "x": 695.71,
+        "y": 1033.29,
+        "curveDistance": 0.0
+      },
+      {
+        "name": "那洪立交",
+        "x": 698.5,
+        "y": 984.5,
+        "curveDistance": 1.2114
+      },
+      {
+        "name": "金凯路",
+        "x": 695.55,
+        "y": 927.42,
+        "curveDistance": 0.483
+      },
+      {
+        "name": "江南公园",
+        "x": 696.06,
+        "y": 839.42,
+        "curveDistance": 0.0563
+      },
+      {
+        "name": "周家坡",
+        "x": 698.8,
+        "y": 778.33,
+        "curveDistance": 0.4075
+      },
+      {
+        "name": "五一立交",
+        "x": 725.22,
+        "y": 697.09,
+        "curveDistance": 0.7177
+      },
+      {
+        "name": "新秀公园",
+        "x": 795.06,
+        "y": 573.42,
+        "curveDistance": 0.6814
+      },
+      {
+        "name": "广西大学",
+        "x": 837.0,
+        "y": 482.0,
+        "curveDistance": 0.3434
+      },
+      {
+        "name": "秀灵路",
+        "x": 924.5,
+        "y": 437.5,
+        "curveDistance": 0.133
+      },
+      {
+        "name": "明秀路",
+        "x": 971.0,
+        "y": 416.0,
+        "curveDistance": 1.1209
+      },
+      {
+        "name": "北湖南路",
+        "x": 1031.63,
+        "y": 385.63,
+        "curveDistance": 0.2309
+      },
+      {
+        "name": "虎邱",
+        "x": 1091.33,
+        "y": 358.5,
+        "curveDistance": 1.3215
+      },
+      {
+        "name": "狮山公园",
+        "x": 1157.5,
+        "y": 318.5,
+        "curveDistance": 1.3558
+      },
+      {
+        "name": "小鸡村",
+        "x": 1257.5,
+        "y": 296.0,
+        "curveDistance": 0.4296
+      },
+      {
+        "name": "邕宾立交",
+        "x": 1313.33,
+        "y": 292.5,
+        "curveDistance": 1.5896
+      },
+      {
+        "name": "降桥",
+        "x": 1378.5,
+        "y": 249.5,
+        "curveDistance": 0.4773
+      },
+      {
+        "name": "金桥客运站",
+        "x": 1451.63,
+        "y": 239.37,
+        "curveDistance": 0.0
+      }
+    ],
+    "suspiciousSegments": [],
+    "segments": [
+      {
+        "length": 49.7,
+        "directLength": 48.9,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.077,
+        "expanded": 112,
+        "from": "国凯大道",
+        "to": "那洪立交",
+        "suspicious": false
+      },
+      {
+        "length": 58.0,
+        "directLength": 57.2,
+        "maxColorDistance": 8.0,
+        "offBandFraction": 0.034,
+        "expanded": 117,
+        "from": "那洪立交",
+        "to": "金凯路",
+        "suspicious": false
+      },
+      {
+        "length": 88.1,
+        "directLength": 88.0,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 230,
+        "from": "金凯路",
+        "to": "江南公园",
+        "suspicious": false
+      },
+      {
+        "length": 62.1,
+        "directLength": 61.2,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 151,
+        "from": "江南公园",
+        "to": "周家坡",
+        "suspicious": false
+      },
+      {
+        "length": 92.4,
+        "directLength": 85.4,
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0,
+        "expanded": 298,
+        "from": "周家坡",
+        "to": "五一立交",
+        "suspicious": false
+      },
+      {
+        "length": 153.1,
+        "directLength": 142.0,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 650,
+        "from": "五一立交",
+        "to": "新秀公园",
+        "suspicious": false
+      },
+      {
+        "length": 109.0,
+        "directLength": 100.6,
+        "maxColorDistance": 7.2,
+        "offBandFraction": 0.021,
+        "expanded": 395,
+        "from": "新秀公园",
+        "to": "广西大学",
+        "suspicious": false
+      },
+      {
+        "length": 106.2,
+        "directLength": 98.2,
+        "maxColorDistance": 7.2,
+        "offBandFraction": 0.022,
+        "expanded": 381,
+        "from": "广西大学",
+        "to": "秀灵路",
+        "suspicious": false
+      },
+      {
+        "length": 55.7,
+        "directLength": 51.2,
+        "maxColorDistance": 8.8,
+        "offBandFraction": 0.12,
+        "expanded": 260,
+        "from": "秀灵路",
+        "to": "明秀路",
+        "suspicious": false
+      },
+      {
+        "length": 72.9,
+        "directLength": 67.8,
+        "maxColorDistance": 5.6,
+        "offBandFraction": 0.0,
+        "expanded": 201,
+        "from": "明秀路",
+        "to": "北湖南路",
+        "suspicious": false
+      },
+      {
+        "length": 71.4,
+        "directLength": 65.6,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 217,
+        "from": "北湖南路",
+        "to": "虎邱",
+        "suspicious": false
+      },
+      {
+        "length": 83.0,
+        "directLength": 77.3,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 269,
+        "from": "虎邱",
+        "to": "狮山公园",
+        "suspicious": false
+      },
+      {
+        "length": 109.3,
+        "directLength": 102.5,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 380,
+        "from": "狮山公园",
+        "to": "小鸡村",
+        "suspicious": false
+      },
+      {
+        "length": 57.6,
+        "directLength": 55.9,
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0,
+        "expanded": 140,
+        "from": "小鸡村",
+        "to": "邕宾立交",
+        "suspicious": false
+      },
+      {
+        "length": 82.8,
+        "directLength": 78.1,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 261,
+        "from": "邕宾立交",
+        "to": "降桥",
+        "suspicious": false
+      },
+      {
+        "length": 77.5,
+        "directLength": 73.8,
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0,
+        "expanded": 230,
+        "from": "降桥",
+        "to": "金桥客运站",
+        "suspicious": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,1965 @@
+{
+  "elements": [
+    {
+      "type": "node",
+      "id": 420156917,
+      "lat": 22.5450676,
+      "lon": 114.4335155,
+      "tags": {
+        "alt_name": "王爺角碼頭",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "東平洲公眾碼頭 Tung Ping Chau Public Pier",
+        "name:en": "Tung Ping Chau Public Pier",
+        "name:zh": "東平洲公眾碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 502728804,
+      "lat": 22.3948231,
+      "lon": 113.9738067,
+      "tags": {
+        "alt_name": "屯門鐵路站 Tuen Mun Railway Station",
+        "alt_name:en": "Tuen Mun Railway Station",
+        "alt_name:zh": "屯門鐵路站",
+        "amenity": "bus_station",
+        "name": "港鐵屯門站 MTR Tuen Mun Station",
+        "name:en": "MTR Tuen Mun Station",
+        "name:zh": "港鐵屯門站",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 558536376,
+      "lat": 22.4531522,
+      "lon": 114.1691265,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "大埔中心 Tai Po Central",
+        "name:en": "Tai Po Central Bus Terminus",
+        "name:yue": "大埔中心",
+        "name:zh": "大埔中心巴士總站",
+        "public_transport": "station",
+        "ref:hkbus": "大埔中心總站",
+        "wikidata": "Q10934566",
+        "wikimedia_commons": "Category:Tai Po Centre Bus Terminus",
+        "wikipedia": "zh:大埔中心巴士總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 737159800,
+      "lat": 22.3509099,
+      "lon": 114.1981328,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "慈雲山 (北) Tsz Wan Shan (North)",
+        "name:en": "Tsz Wan Shan (North) Bus Terminus",
+        "name:zh": "慈雲山 (北) 巴士總站",
+        "public_transport": "station",
+        "ref": "TWN",
+        "wikidata": "Q11074071",
+        "wikimedia_commons": "Category:Tsz Wan Shan (North) Bus Terminus",
+        "wikipedia": "zh:慈雲山（北）巴士總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832996351,
+      "lat": 22.4486,
+      "lon": 114.1744713,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "廣福 Kwong Fuk",
+        "name:en": "Kwong Fuk",
+        "name:yue": "廣福",
+        "name:zh": "廣福",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833842578,
+      "lat": 22.3528466,
+      "lon": 114.0647358,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1205458238,
+      "lat": 22.3772594,
+      "lon": 114.3004863,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "鹽田梓碼頭 Yim Tin Tsai Pier",
+        "name:en": "Yim Tin Tsai Pier",
+        "name:zh": "鹽田梓碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1208581122,
+      "lat": 22.3528708,
+      "lon": 114.0646645,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "珀麗灣碼頭 Park Island Pier",
+        "name:en": "Park Island Pier",
+        "name:zh": "珀麗灣碼頭",
+        "operator": "Park Island Transport Company",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1234839078,
+      "lat": 22.6176014,
+      "lon": 114.2887873,
+      "tags": {
+        "aerialway": "station",
+        "name": "云中部落",
+        "operator": "东部华侨城",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1234839169,
+      "lat": 22.6105423,
+      "lon": 114.2978603,
+      "tags": {
+        "railway": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1234839598,
+      "lat": 22.6203069,
+      "lon": 114.2847424,
+      "tags": {
+        "aerialway": "station",
+        "name": "大拐弯",
+        "operator": "东部华侨城",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1234839600,
+      "lat": 22.6178692,
+      "lon": 114.2886913,
+      "tags": {
+        "aerialway": "station",
+        "name": "云中部落",
+        "operator": "东部华侨城",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1234841199,
+      "lat": 22.6207198,
+      "lon": 114.2848696,
+      "tags": {
+        "name": "大拐弯",
+        "operator": "东部华侨城",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1272836490,
+      "lat": 22.4613202,
+      "lon": 114.3418222,
+      "tags": {
+        "access": "yes",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "灣仔(南風灣)碼頭 Wan Chai(Nam Fung Wan)Pier",
+        "name:en": "Wan Chai(Nam Fung Wan)Pier",
+        "name:zh": "灣仔(南風灣)碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1276680598,
+      "lat": 22.3682216,
+      "lon": 114.1125367,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "indoor": "yes",
+        "name": "荃灣 (如心廣場)巴士總站 Tsuen Wan (Nina Tower) Bus Terminus",
+        "name:en": "Tsuen Wan (Nina Tower) Bus Terminus",
+        "name:zh": "荃灣 (如心廣場)巴士總站",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1447974924,
+      "lat": 22.4505576,
+      "lon": 114.1610847,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "internet_access": "no",
+        "name": "太和 Tai Wo",
+        "name:en": "Tai Wo Bus Terminus",
+        "name:zh": "太和總站",
+        "operator": "九龍巴士有限公司",
+        "public_transport": "station",
+        "wheelchair": "yes",
+        "wheelchair:description": "When raining, rather than other people, need rain equipment to bus stop. 當下雨時，比較其他人，需要防雨裝備，才可到巴士站。"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1449544268,
+      "lat": 22.4976841,
+      "lon": 114.1251607,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "太平 Tai Ping",
+        "name:en": "Tai Ping Terminus",
+        "name:zh": "太平總站",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1484564981,
+      "lat": 22.4582705,
+      "lon": 114.1718867,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "富亨 Fu Heng",
+        "name:en": "Fu Heng",
+        "name:yue": "富亨",
+        "name:zh": "富亨",
+        "public_transport": "station",
+        "ref:hkbus": "富亨公共運輸交匯處",
+        "wikidata": "Q10953890",
+        "wikimedia_commons": "Category:Fu Heng Public Transport Interchange",
+        "wikipedia": "zh:富亨巴士總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1551247388,
+      "lat": 22.3677215,
+      "lon": 114.2870879,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "橋咀碼頭 Sharp Island Pier",
+        "name:en": "Sharp Island Pier",
+        "name:zh": "橋咀碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558351841,
+      "lat": 22.3572175,
+      "lon": 114.2713508,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558351870,
+      "lat": 22.3573099,
+      "lon": 114.2688109,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1561111122,
+      "lat": 22.3629161,
+      "lon": 114.1314457,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name:en": "Kwai Hing Station",
+        "name:zh": "葵興站",
+        "public_transport": "station",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1597620320,
+      "lat": 22.4541119,
+      "lon": 114.1747762,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "富善邨 Fu Shin Estate",
+        "name:en": "Fu Shin Estate Bus Terminus",
+        "name:yue": "富善邨",
+        "name:zh": "富善邨總站",
+        "network": "KMB",
+        "network:wikidata": "Q312243",
+        "operator": "九龍巴士有限公司",
+        "public_transport": "station",
+        "ref:hkbus": "富善邨總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1597620323,
+      "lat": 22.4438379,
+      "lon": 114.1690867,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "大埔墟站 Tai Po Market Station",
+        "name:en": "Tai Po Market Station",
+        "name:zh": "大埔墟站",
+        "public_transport": "station",
+        "ref:hkbus": "大埔墟站公共運輸交匯處"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1597620324,
+      "lat": 22.4548255,
+      "lon": 114.1610276,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "internet_access": "no",
+        "name": "大埔頭總站 Tai Po Tau Terminus",
+        "name:en": "Tai Po Tau Terminus",
+        "name:yue": "大埔頭總站",
+        "name:zh": "大埔頭總站",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1606823727,
+      "lat": 22.5007338,
+      "lon": 114.126016,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "彩園 Choi Yuen",
+        "name:en": "Choi Yuen",
+        "name:zh": "彩園",
+        "public_transport": "station",
+        "ref:hkbus": "彩園總站",
+        "wikidata": "Q11069568",
+        "wikipedia": "zh:彩園巴士總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1628445047,
+      "lat": 22.3762347,
+      "lon": 114.1706736,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "美田邨 Mei Tin Estate",
+        "name:en": "Mei Tin Estate",
+        "name:zh": "美田邨",
+        "operator": "KMB, Minibus",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1668242847,
+      "lat": 22.5668637,
+      "lon": 113.894335,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "深圳宝安汽车站",
+        "public_transport": "station",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1710883161,
+      "lat": 22.3915127,
+      "lon": 113.975813,
+      "tags": {
+        "access:bus": "private",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "bus:conditional": "yes @ (franchised)",
+        "name": "屯門市中心 Tuen Mun Central",
+        "name:en": "Tuen Mun Central",
+        "name:zh": "屯門市中心",
+        "public_transport": "station",
+        "public_transport:bus": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1711507867,
+      "lat": 22.376114,
+      "lon": 114.1246076,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "石圍角 Shek Wai Kok",
+        "name:en": "Shek Wai Kok",
+        "name:zh": "石圍角",
+        "name:zh-Hans": "石围角",
+        "name:zh-Hant": "石圍角",
+        "public_transport": "station",
+        "ref:hkbus": "石圍角總站",
+        "ref:kmb": "SH11-T-1000-0",
+        "wikidata": "Q15927193",
+        "wikimedia_commons": "Category:Shek Wai Kok Bus Terminus",
+        "wikipedia": "zh:石圍角巴士總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1716044103,
+      "lat": 22.5561853,
+      "lon": 114.0385546,
+      "tags": {
+        "name": "景田",
+        "name:en": "Jingtian",
+        "name:zh": "景田",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q383429"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1723162853,
+      "lat": 22.3724215,
+      "lon": 113.9670349,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "屯門碼頭 Tuen Mun Pier Head",
+        "name:en": "Tuen Mun Pier Head",
+        "name:zh": "屯門碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1735275658,
+      "lat": 22.4141764,
+      "lon": 113.9788499,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "兆康苑 Siu Hong Court",
+        "name:en": "Siu Hong Court",
+        "name:zh": "兆康苑",
+        "name:zh-Hans": "兆康苑",
+        "name:zh-Hant": "兆康苑",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1779419942,
+      "lat": 22.4625595,
+      "lon": 113.9965089,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "天恩邨 Tin Yan Estate",
+        "name:en": "Tin Yan Estate",
+        "name:zh": "天恩邨",
+        "official_name": "天恩邨公共運輸交匯處 Tin Yan Estate Public Transport Interchange",
+        "official_name:en": "Tin Yan Estate Public Transport Interchange",
+        "official_name:zh": "天恩邨公共運輸交匯處",
+        "public_transport": "station",
+        "ref": "TYE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1786981496,
+      "lat": 22.3777161,
+      "lon": 114.1366445,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "梨木樹 Lei Muk Shue",
+        "name:en": "Lei Muk Shue",
+        "name:zh": "梨木樹",
+        "name:zh-Hans": "梨木树",
+        "name:zh-Hant": "梨木樹",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1803892046,
+      "lat": 22.4283599,
+      "lon": 114.2434694,
+      "tags": {
+        "alt_name": "烏溪沙鐵路站 Wu Kai Sha Railway Station",
+        "alt_name:en": "Wu Kai Sha Railway Station",
+        "alt_name:zh": "烏溪沙鐵路站",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "minibus": "yes",
+        "name": "烏溪沙站 Wu Kai Sha Station",
+        "name:en": "Wu Kai Sha Station",
+        "name:zh": "烏溪沙站",
+        "official_name": "烏溪沙站公共運輸交匯處 Wu Kai Sha Station Public Transport Interchange",
+        "official_name:en": "Wu Kai Sha Station Public Transport Interchange",
+        "official_name:zh": "烏溪沙站公共運輸交匯處",
+        "public_transport": "station",
+        "ref": "WKS",
+        "taxi": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1809540702,
+      "lat": 22.4567754,
+      "lon": 114.2137128,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "三門仔總站 Sam Mun Tsai Bus Terminus",
+        "name:en": "Sam Mun Tsai Bus Terminus",
+        "name:zh": "三門仔總站",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1809981785,
+      "lat": 22.4242485,
+      "lon": 114.2317959,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "馬鞍山市中心 Ma On Shan Town Centre",
+        "name:en": "Ma On Shan Town Centre",
+        "name:zh": "馬鞍山市中心",
+        "public_transport": "station",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1885064987,
+      "lat": 22.3834092,
+      "lon": 114.1880234,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "沙田站巴士總站 Sha Tin Station Bus Terminus",
+        "name:en": "Sha Tin Station Bus Terminus",
+        "name:zh": "沙田站巴士總站",
+        "public_transport": "station",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1933660973,
+      "lat": 22.5500882,
+      "lon": 114.2899525,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "吉澳碼頭 Kat O Pier",
+        "name:en": "Kat O Pier",
+        "name:zh": "吉澳碼頭",
+        "name:zh-Hant": "吉澳碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1942735574,
+      "lat": 22.604916,
+      "lon": 114.1144127,
+      "tags": {
+        "alt_name": "深圳东站;Shenzhen East;Shenzhen East Railway Station;Shenzhendong Railway Station",
+        "name": "深圳东",
+        "name:en": "Shenzhendong",
+        "name:zh": "深圳东",
+        "old_name": "布吉",
+        "operator": "中国铁路广州局集团有限公司",
+        "platforms": "4",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact:广深:四": "138.588",
+        "railway:ref": "23795",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1943751544,
+      "lat": 22.6423791,
+      "lon": 114.1877011,
+      "tags": {
+        "name": "塘坑",
+        "name:en": "Tangkeng",
+        "operator": "Shenzhen Metro Line 3 Operations Branch Corporation",
+        "platforms": "3",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q5941634",
+        "wikipedia": "zh:塘坑站 (深圳市)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1961354212,
+      "lat": 22.5028853,
+      "lon": 114.0820851,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "過境穿梭巴士新田總站 Huanggang Shuttle Bus",
+        "name:en": "Huanggang Shuttle Bus",
+        "name:zh": "過境穿梭巴士新田總站 ",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1985832490,
+      "lat": 22.3802779,
+      "lon": 114.1964164,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "沙田圍 Sha Tin Wai",
+        "name:en": "Sha Tin Wai",
+        "name:zh": "沙田圍",
+        "public_transport": "station",
+        "ref:hkbus": "沙田圍總站",
+        "wikidata": "Q11140597",
+        "wikimedia_commons": "Category:Sha Tin Wai Bus Terminus",
+        "wikipedia": "zh:沙田圍巴士總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1985833597,
+      "lat": 22.3885325,
+      "lon": 114.1944673,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "禾輋 Wo Che",
+        "name:en": "Wo Che Bus Terminus",
+        "name:zh": "禾輋巴士總站",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2001310610,
+      "lat": 22.5015248,
+      "lon": 114.1744541,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "鶴藪 Hok Tau (52B)",
+        "name:en": "Hok Tau",
+        "name:zh": "鶴藪",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2019400838,
+      "lat": 22.4422469,
+      "lon": 114.1665597,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "運頭塘 Wan Tau Tong",
+        "name:en": "Wan Tau Tong",
+        "name:zh": "運頭塘",
+        "official_name": "運頭塘公共運輸交匯處 Wan Tau Tong Public Transport Interchange",
+        "public_transport": "station",
+        "ref:hkbus": "運頭塘公共運輸交匯處"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2029411421,
+      "lat": 22.4843789,
+      "lon": 114.1414368,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "華明 Wah Ming",
+        "name:en": "Wah Ming Bus Terminus",
+        "name:zh": "華明總站",
+        "operator": "九巴",
+        "public_transport": "station",
+        "wikidata": "Q15904396",
+        "wikimedia_commons": "Category:Wah Ming Bus Terminus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2052978238,
+      "lat": 22.3824829,
+      "lon": 114.2751645,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2055482396,
+      "lat": 22.3979499,
+      "lon": 113.9658645,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "山景邨（景樂樓） Shan King Estate (King Lok House)",
+        "name:en": "Shan King Estate (King Lok House)",
+        "name:zh": "山景邨（景樂樓）",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2062669802,
+      "lat": 22.4585518,
+      "lon": 114.3604791,
+      "tags": {
+        "access": "yes",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "高流灣公眾碼頭 Ko Lau Wan Public Pier",
+        "name:en": "Ko Lau Wan Public Pier",
+        "name:zh": "高流灣公眾碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2088054695,
+      "lat": 22.3661226,
+      "lon": 114.0568942,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "浪翠園 Sea Crest Villa",
+        "name:en": "Sea Crest Villa",
+        "name:zh": "浪翠園",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2139043202,
+      "lat": 22.3626012,
+      "lon": 114.1384608,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "石籬 (梨貝街) Shek Lei (Lei Pui Street)",
+        "name:en": "Shek Lei (Lei Pui Street)",
+        "name:zh": "石籬 (梨貝街)",
+        "public_transport": "station",
+        "wikidata": "Q15923748"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2145437346,
+      "lat": 22.4151765,
+      "lon": 114.2147362,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "馬料水3號梯台 Ma Liu Shui Landing No. 3",
+        "name:en": "Ma Liu Shui Landing No. 3",
+        "name:zh": "馬料水3號梯台",
+        "public_transport": "station",
+        "ref": "NP154",
+        "seamark:small_craft_facility:category": "visitor_berth",
+        "seamark:type": "small_craft_facility"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2145447120,
+      "lat": 22.4143659,
+      "lon": 114.2146124,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "馬料水二號梯台 Ma Liu Shui Landing No. 2",
+        "name:en": "Ma Liu Shui Landing No. 2",
+        "name:zh": "馬料水二號梯台",
+        "public_transport": "station",
+        "ref": "NP153",
+        "seamark:small_craft_facility:category": "visitor_berth",
+        "seamark:type": "small_craft_facility"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2145447123,
+      "lat": 22.4138798,
+      "lon": 114.2144471,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "馬料水一號梯台 Ma Liu Shui Landing No. 1",
+        "name:en": "Ma Liu Shui Landing No. 1",
+        "name:zh": "馬料水一號梯台",
+        "public_transport": "station",
+        "ref": "NP152",
+        "seamark:small_craft_facility:category": "visitor_berth",
+        "seamark:type": "small_craft_facility"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2199147934,
+      "lat": 22.3623775,
+      "lon": 114.1741406,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "minibus",
+        "minibus": "private",
+        "minibus:conditional": "yes @ (public)",
+        "name": "顯徑小巴總站 Hin Keng Minibus Terminus",
+        "name:en": "Hin Keng Minibus Terminus",
+        "name:zh": "顯徑小巴總站",
+        "public_transport": "station",
+        "ref:hkbus": "顯田村總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2201004897,
+      "lat": 22.3574136,
+      "lon": 114.0964052,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "長宏巴士總站 Cheung Wang Bus Terminal",
+        "name:en": "Cheung Wang Bus Terminal",
+        "name:zh": "長宏巴士總站",
+        "public_transport": "station",
+        "ref:hkbus": "長宏總站",
+        "wikidata": "Q15908559",
+        "wikimedia_commons": "Category:Cheung Wang Bus Terminus",
+        "wikipedia": "zh:長宏巴士總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2297097624,
+      "lat": 22.3966939,
+      "lon": 113.9660529,
+      "tags": {
+        "brand": "輕鐵 Light Rail",
+        "brand:en": "Light Rail",
+        "brand:wikidata": "Q3083033",
+        "brand:zh": "輕鐵",
+        "fare_zone": "2",
+        "light_rail": "yes",
+        "name": "山景 (南) Shan King (South)",
+        "name:en": "Shan King (South)",
+        "name:zh": "山景 (南)",
+        "network": "港鐵 MTR",
+        "network:en": "MTR",
+        "network:wikidata": "Q14751",
+        "network:zh": "港鐵",
+        "operator": "香港鐵路有限公司 MTR Corporation Limited",
+        "operator:en": "MTR Corporation Limited",
+        "operator:loc_name": "港鐵公司 MTR Corporation",
+        "operator:loc_name:en": "MTR Corporation",
+        "operator:loc_name:zh": "港鐵公司",
+        "operator:ref": "MTR",
+        "operator:short": "港鐵 MTRCL",
+        "operator:short:en": "MTRCL",
+        "operator:short:zh": "港鐵",
+        "operator:short_name": "港鐵 MTRCL",
+        "operator:short_name:en": "MTRCL",
+        "operator:short_name:zh": "港鐵",
+        "operator:wikidata": "Q1479375",
+        "operator:zh": "香港鐵路有限公司",
+        "operator:zh-Hans": "香港铁路有限公司",
+        "operator:zh-Hant": "香港鐵路有限公司",
+        "owner": "九廣鐵路公司 Kowloon-Canton Railway Corporation",
+        "owner:en": "Kowloon-Canton Railway Corporation",
+        "owner:wikidata": "Q838436",
+        "owner:zh": "九廣鐵路公司",
+        "ownership": "public",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "190",
+        "start_date": "1988-09-24",
+        "station": "light_rail",
+        "wikidata": "Q7487830"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2301385055,
+      "lat": 22.6203757,
+      "lon": 114.0360964,
+      "tags": {
+        "name": "民治",
+        "name:en": "Minzhi",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q5939058"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2310688619,
+      "lat": 22.5413178,
+      "lon": 114.0511799,
+      "tags": {
+        "addr:city": "深圳市",
+        "addr:district": "福田区",
+        "addr:province": "广东省",
+        "alt_name": "福田站;福田火车站;Futian Railway Station",
+        "location": "underground",
+        "name": "福田",
+        "name:en": "Futian",
+        "name:ru": "Футянь ж.д.",
+        "name:zh": "福田",
+        "official_name": "福田站",
+        "official_name:en": "Futian Railway Station",
+        "official_name:zh": "福田站",
+        "operator": "中国铁路广州局集团有限公司",
+        "platforms": "4",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "65891",
+        "train": "yes",
+        "wikidata": "Q986721",
+        "wikipedia": "zh:福田站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2313840301,
+      "lat": 22.6274146,
+      "lon": 114.0482652,
+      "tags": {
+        "addr:city": "深圳市",
+        "addr:district": "龙岗区",
+        "addr:postcode": "518131",
+        "addr:province": "广东省",
+        "addr:street": "民德路",
+        "alt_name": "坂田站;坂田火车站;Bantian Railway Station",
+        "local_ref": "1",
+        "name": "坂田",
+        "name:en": "Bantian",
+        "name:zh": "坂田",
+        "name:zh-Hans": "坂田",
+        "operator": "中国铁路广州局集团有限公司",
+        "railway": "station",
+        "railway:position:exact:平南": "11.813",
+        "railway:ref": "23945",
+        "train": "yes",
+        "wikidata": "Q10928499",
+        "wikipedia": "zh:坂田站 (平南铁路)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2320260190,
+      "lat": 22.3870491,
+      "lon": 113.9790925,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "屯門（置樂花園​） Tuen Mun (Chi Lok Fa Yuen)",
+        "name:en": "Tuen Mun (Chi Lok Fa Yuen)",
+        "name:zh": "屯門（置樂花園）",
+        "public_transport": "station",
+        "ref": "CLY"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2323122572,
+      "lat": 22.3854077,
+      "lon": 113.9661883,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "龍門居 Lung Mun Oasis",
+        "name:en": "Lung Mun Oasis",
+        "name:zh": "龍門居",
+        "public_transport": "station",
+        "ref": "LUM",
+        "ref:hkbus": "龍門居總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2325225341,
+      "lat": 22.4004756,
+      "lon": 114.2028994,
+      "tags": {
+        "name": "馬場 Racecourse",
+        "name:en": "Racecourse",
+        "name:zh": "馬場",
+        "network": "MTR",
+        "operator": "香港鐵路有限公司 MTR Corporation Limited",
+        "operator:en": "MTR Corporation Limited",
+        "operator:loc_name": "港鐵公司 MTR Corporation",
+        "operator:loc_name:en": "MTR Corporation",
+        "operator:loc_name:zh": "港鐵公司",
+        "operator:ref": "MTR",
+        "operator:short": "港鐵 MTRCL",
+        "operator:short:en": "MTRCL",
+        "operator:short:zh": "港鐵",
+        "operator:short_name": "港鐵 MTRCL",
+        "operator:short_name:en": "MTRCL",
+        "operator:short_name:zh": "港鐵",
+        "operator:wikidata": "Q1479375",
+        "operator:zh": "香港鐵路有限公司",
+        "operator:zh-Hans": "香港铁路有限公司",
+        "operator:zh-Hant": "香港鐵路有限公司",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "RAC",
+        "ref:note": "Common use in MTR app indoor navigation labels, station shop units, etc",
+        "start_date": "1985-10-01",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q841864",
+        "wikipedia": "zh:馬場站 (香港)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2333150385,
+      "lat": 22.3532608,
+      "lon": 114.0626444,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "珀麗灣 Park Island",
+        "name:en": "Park Island",
+        "name:zh": "珀麗灣",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2391106875,
+      "lat": 22.3635376,
+      "lon": 114.1270804,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "葵盛（東） Kwai Shing (East)",
+        "name:en": "Kwai Shing (East)",
+        "name:zh": "葵盛（東）",
+        "public_transport": "station",
+        "ref:hkbus": "葵盛 (東) 總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2391108580,
+      "lat": 22.3611587,
+      "lon": 114.1224162,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "葵盛（中） Kwai Shing (Central)",
+        "name:en": "Kwai Shing (Central)",
+        "name:zh": "葵盛（中）",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2392540912,
+      "lat": 22.3602059,
+      "lon": 114.1075872,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "青衣站 Tsing Yi Station",
+        "name:en": "Tsing Yi Station",
+        "name:zh": "青衣站",
+        "official_name": "青衣站公共運輸交匯處 Tsing Yi Station Public Transport Interchange",
+        "official_name:en": "Tsing Yi Station Public Transport Interchange",
+        "official_name:zh": "青衣站公共運輸交匯處",
+        "public_transport": "station",
+        "ref:hkbus": "青衣站公共運輸交匯處"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2447800707,
+      "lat": 22.451662,
+      "lon": 114.0013341,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "樂湖居 Locwood Court",
+        "name:en": "Locwood Court",
+        "name:zh": "樂湖居",
+        "public_transport": "station",
+        "ref:hkbus": "樂湖居總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2451515725,
+      "lat": 22.4505109,
+      "lon": 114.0228391,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "朗屏邨 Long Ping Estate",
+        "name:en": "Long Ping Estate",
+        "name:zh": "朗屏邨",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2479032229,
+      "lat": 22.5467193,
+      "lon": 114.2472673,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2526208824,
+      "lat": 22.424851,
+      "lon": 114.3535231,
+      "tags": {
+        "access": "yes",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "loc_name": "灰窰角碼頭 Fui Yiu Kok Pier",
+        "loc_name:en": "Fui Yiu Kok Pier",
+        "loc_name:zh": "灰窰角碼頭",
+        "name": "赤徑公眾碼頭 Chek Keng Public Pier",
+        "name:en": "Chek Keng Public Pier",
+        "name:zh": "赤徑公眾碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2532212164,
+      "lat": 22.4438037,
+      "lon": 114.0307966,
+      "tags": {
+        "addr:street": "阜財街 Fau Tsoi Street",
+        "addr:street:en": "Fau Tsoi Street",
+        "addr:street:zh": "阜財街",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "元朗（阜財街） Yuen Long (Fau Tsoi Street)",
+        "name:en": "Yuen Long (Fau Tsoi Street)",
+        "name:zh": "元朗（阜財街）",
+        "public_transport": "station",
+        "share_taxi": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2609914321,
+      "lat": 22.5035506,
+      "lon": 114.1338886,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "天平邨 Tin Ping Estate",
+        "name:en": "Tin Ping Estate",
+        "name:zh": "天平邨",
+        "public_transport": "station",
+        "ref:hkbus": "天平邨總站",
+        "wheelchair": "no",
+        "wikidata": "Q10939543",
+        "wikimedia_commons": "Category:Tin Ping Estate Bus Terminus",
+        "wikipedia": "zh:天平邨巴士總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2609914337,
+      "lat": 22.5072736,
+      "lon": 114.1285584,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "翠麗花園 Tsui Lai Garden",
+        "name:en": "Tsui Lai Garden",
+        "name:zh": "翠麗花園",
+        "public_transport": "station",
+        "ref:hkbus": "翠麗花園總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2616047498,
+      "lat": 22.3978619,
+      "lon": 114.2021389,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "沙田馬場 Sha Tin Racecourse",
+        "name:en": "Sha Tin Racecourse",
+        "name:zh": "沙田馬場",
+        "public_transport": "station",
+        "ref:hkbus": "沙田馬場總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2616978798,
+      "lat": 22.4002845,
+      "lon": 114.201178,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "駿景園 Royal Ascot",
+        "name:en": "Royal Ascot",
+        "name:zh": "駿景園",
+        "public_transport": "station",
+        "ref:hkbus": "駿景園總站",
+        "ref:kmb": "LO06-S-1000-0",
+        "shelter": "yes",
+        "wikidata": "Q15927054",
+        "wikimedia_commons": "Category:Royal Ascot Bus Terminus",
+        "wikipedia": "zh:駿景園巴士總站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2629470602,
+      "lat": 22.3921328,
+      "lon": 113.9751335,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "屯門市中心 Tuen Mun Town Centre",
+        "name:en": "Tuen Mun Town Centre",
+        "name:zh": "屯門市中心",
+        "public_transport": "station",
+        "ref": "TMC",
+        "ref:hkbus": "屯門公園"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2688410282,
+      "lat": 22.4603794,
+      "lon": 113.9975892,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "天頌苑 Tin Chung Court",
+        "name:en": "Tin Chung Court",
+        "name:zh": "天頌苑",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2703686815,
+      "lat": 22.3584969,
+      "lon": 114.1067535,
+      "tags": {
+        "name": "青衣 Tsing Yi",
+        "name:en": "Tsing Yi",
+        "name:zh": "青衣",
+        "network": "MTR",
+        "operator": "香港鐵路有限公司 MTR Corporation Limited",
+        "operator:en": "MTR Corporation Limited",
+        "operator:loc_name": "港鐵公司 MTR Corporation",
+        "operator:loc_name:en": "MTR Corporation",
+        "operator:loc_name:zh": "港鐵公司",
+        "operator:ref": "MTR",
+        "operator:short": "港鐵 MTRCL",
+        "operator:short:en": "MTRCL",
+        "operator:short:zh": "港鐵",
+        "operator:short_name": "港鐵 MTRCL",
+        "operator:short_name:en": "MTRCL",
+        "operator:short_name:zh": "港鐵",
+        "operator:wikidata": "Q1479375",
+        "operator:zh": "香港鐵路有限公司",
+        "operator:zh-Hans": "香港铁路有限公司",
+        "operator:zh-Hant": "香港鐵路有限公司",
+        "platforms": "4",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "TSY",
+        "ref:note": "Common use in MTR app indoor navigation labels, station shop units, etc",
+        "start_date": "1998-06-22",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q838422",
+        "wikipedia": "zh:青衣站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2719758933,
+      "lat": 22.7866481,
+      "lon": 114.4879114,
+      "tags": {
+        "departures_board": "realtime",
+        "departures_board:speech_output": "no",
+        "description": "2023年4月10日，本站由惠州南站更名为惠阳站",
+        "name": "惠阳",
+        "name:en": "Huiyang",
+        "name:zh": "惠阳",
+        "name:zh-Latn-pinyin": "Huìyáng",
+        "old_name": "惠州南",
+        "old_name:en": "Huizhounan",
+        "old_name:zh": "惠州南",
+        "old_name:zh-Latn-pinyin": "Huìzhōu Nán",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q5935297"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3047962912,
+      "lat": 22.3672899,
+      "lon": 114.0614461,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "碧堤半島 Bellagio",
+        "name:en": "Bellagio",
+        "name:zh": "碧堤半島",
+        "public_transport": "station",
+        "ref:hkbus": "碧堤半島公共運輸交匯處"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3084661334,
+      "lat": 22.6728522,
+      "lon": 114.0247801,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "龙华汽车客运站",
+        "name:en": "Longhua Coach Terminal",
+        "name:zh": "龙华汽车站",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3152595370,
+      "lat": 22.5002832,
+      "lon": 114.1442823,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "聯和墟 Luen Wo Hui",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3218492151,
+      "lat": 22.365177,
+      "lon": 114.3041793,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "滘西洲碼頭 Kau Sai Chau Pier",
+        "name:en": "Kau Sai Chau Pier",
+        "name:zh": "滘西洲碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294550562,
+      "lat": 22.4135245,
+      "lon": 114.0678188,
+      "tags": {
+        "addr:place": "河背 Ho Pui",
+        "addr:place:en": "Ho Pui",
+        "addr:place:zh": "河背",
+        "amenity": "bus_station",
+        "bus": "minibus",
+        "minibus": "yes",
+        "name": "河背村 Ho Pui Tsuen",
+        "name:en": "Ho Pui Tsuen",
+        "name:zh": "河背村",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3305611187,
+      "lat": 22.4266185,
+      "lon": 114.209309,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "香港科學園第三期 Hong Kong Science Park Phase 3",
+        "name:en": "Hong Kong Science Park Phase 3",
+        "name:zh": "香港科學園第三期",
+        "public_transport": "station",
+        "ref:hkbus": "香港科學園 (第三期) 公共運輸交匯處"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3357802701,
+      "lat": 22.3627068,
+      "lon": 114.0458029,
+      "tags": {
+        "addr:street": "龍如路 Lung Yue Road",
+        "amenity": "bus_station",
+        "name": "96 & 96M 小巴總站",
+        "name:en": "96 & 96M Minibus Terminus",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3357894742,
+      "lat": 22.4522689,
+      "lon": 114.0353718,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "山貝路 Shan Pui Road",
+        "name:en": "Shan Pui Road",
+        "name:zh": "山貝路",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3399133994,
+      "lat": 22.5309597,
+      "lon": 114.1110748,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "深圳侨社客运站南区",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3433943210,
+      "lat": 22.5260191,
+      "lon": 113.9736703,
+      "tags": {
+        "name": "深湾",
+        "name:en": "Shenwan",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q27526006"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3440993699,
+      "lat": 22.5482523,
+      "lon": 114.2911356,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3471195267,
+      "lat": 22.9317804,
+      "lon": 113.8010498,
+      "tags": {
+        "name": "连平",
+        "name:en": "Lianping",
+        "name:zh": "连平",
+        "name:zh-Hans": "连平",
+        "name:zh-Hant": "連平",
+        "network": "东莞轨道交通",
+        "network:en": "Dongguan Rail Transit",
+        "network:wikidata": "Q1709132",
+        "network:zh": "东莞轨道交通",
+        "operator": "东莞轨道交通",
+        "operator:en": "DongGuan Rail Transit",
+        "operator:zh": "东莞轨道交通",
+        "operator:zh-Hans": "东莞轨道交通",
+        "operator:zh-Hant": "東莞軌道交通",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "114",
+        "start_date": "2025-11-28",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q131868566"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3471195556,
+      "lat": 22.9167106,
+      "lon": 113.8275489,
+      "tags": {
+        "name": "大岭山",
+        "name:en": "Dalingshan",
+        "name:zh": "大岭山",
+        "name:zh-Hans": "大岭山",
+        "name:zh-Hant": "大嶺山",
+        "network": "东莞轨道交通",
+        "network:en": "Dongguan Rail Transit",
+        "network:wikidata": "Q1709132",
+        "network:zh": "东莞轨道交通",
+        "operator": "东莞轨道交通",
+        "operator:en": "DongGuan Rail Transit",
+        "operator:zh": "东莞轨道交通",
+        "operator:zh-Hans": "东莞轨道交通",
+        "operator:zh-Hant": "東莞軌道交通",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "115",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q131868560"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3597610121,
+      "lat": 22.5004122,
+      "lon": 114.143496,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "聯和墟 Luen Wo Hui",
+        "name:en": "Luen Wo Hui Terminus",
+        "name:zh": "聯和墟總站",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3617121259,
+      "lat": 22.6432622,
+      "lon": 114.0115626,
+      "tags": {
+        "name": "上芬",
+        "name:en": "Shangfen",
+        "name:zh": "上芬",
+        "network": "深圳地铁",
+        "not:network:wikidata": "Q867680",
+        "operator": "深圳市地铁集团",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q96008672"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3617131451,
+      "lat": 22.6591092,
+      "lon": 114.0001724,
+      "tags": {
+        "name": "元芬",
+        "name:en": "Yuanfen",
+        "name:zh": "元芬",
+        "name:zh-Hans": "元芬",
+        "network": "深圳地铁",
+        "operator": "深圳市地铁集团",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q96008676"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3617131554,
+      "lat": 22.6707384,
+      "lon": 113.9866003,
+      "tags": {
+        "name": "阳台山东",
+        "name:en": "Yangtai Mountain East",
+        "name:zh": "阳台山东",
+        "name:zh-Hans": "阳台山东",
+        "network": "深圳地铁",
+        "old_name": "羊台山东",
+        "operator": "深圳市地铁集团",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q95995478"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3812657362,
+      "lat": 22.4321646,
+      "lon": 114.1636105,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "minibus": "yes",
+        "name": "新屋家 San Uk Ka",
+        "name:en": "San Uk Ka",
+        "name:zh": "新屋家",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3921826406,
+      "lat": 22.5296361,
+      "lon": 114.2633347,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "荔枝窩登岸梯級 Lai Chi Wo Landing Steps",
+        "name:en": "Lai Chi Wo Landing Steps",
+        "name:yue": "荔枝窩登岸梯級",
+        "name:zh": "荔枝窩登岸梯級",
+        "name:zh-Hant": "荔枝窩登岸梯級",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3923722278,
+      "lat": 22.4171445,
+      "lon": 114.2146769,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "馬料水渡輪碼頭 Ma Liu Shui Ferry Pier",
+        "name:en": "Ma Liu Shui Ferry Pier",
+        "name:zh": "馬料水渡輪碼頭",
+        "public_transport": "station",
+        "waterway": "access_point",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4079681321,
+      "lat": 22.3811537,
+      "lon": 114.2758326,
+      "tags": {
+        "alt_name": "西貢碼頭 Sai Kung Pier",
+        "alt_name:en": "Sai Kung Pier",
+        "alt_name:zh": "西貢碼頭",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "西貢公眾碼頭 Sai Kung Public Pier",
+        "name:en": "Sai Kung Public Pier",
+        "name:zh": "西貢公眾碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4126050823,
+      "lat": 22.3672641,
+      "lon": 114.1284959,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "葵涌邨 Kwai Chung Estate",
+        "name:en": "Kwai Chung Estate",
+        "name:zh": "葵涌邨",
+        "official_name": "葵涌邨公共運輸交匯處 Kwai Chung Estate Public Transport Interchange",
+        "official_name:en": "Kwai Chung Estate Public Transport Interchange",
+        "official_name:zh": "葵涌邨公共運輸交匯處",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4338478841,
+      "lat": 22.4446507,
+      "lon": 114.1706348,
+      "tags": {
+        "name": "大埔墟 Tai Po Market",
+        "name:en": "Tai Po Market",
+        "name:zh": "大埔墟",
+        "network": "MTR",
+        "operator": "香港鐵路有限公司 MTR Corporation Limited",
+        "operator:en": "MTR Corporation Limited",
+        "operator:loc_name": "港鐵公司 MTR Corporation",
+        "operator:loc_name:en": "MTR Corporation",
+        "operator:loc_name:zh": "港鐵公司",
+        "operator:ref": "MTR",
+        "operator:short": "港鐵 MTRCL",
+        "operator:short:en": "MTRCL",
+        "operator:short:zh": "港鐵",
+        "operator:short_name": "港鐵 MTRCL",
+        "operator:short_name:en": "MTRCL",
+        "operator:short_name:zh": "港鐵",
+        "operator:wikidata": "Q1479375",
+        "operator:zh": "香港鐵路有限公司",
+        "operator:zh-Hans": "香港铁路有限公司",
+        "operator:zh-Hant": "香港鐵路有限公司",
+        "platforms": "4",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "TAP",
+        "ref:note": "Common use in MTR app indoor navigation labels, station shop units, etc",
+        "start_date": "1983-04-07",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q996781",
+        "wikipedia": "en:Tai Po Market station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4463741729,
+      "lat": 22.451364,
+      "lon": 114.051873,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "峻巒 PARK YOHO",
+        "name:en": "Park YOHO Transport Terminus",
+        "name:zh": "峻巒交通總匯",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4575151284,
+      "lat": 22.4135212,
+      "lon": 114.0277499,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "大棠山道 Tai Tong Shan Road",
+        "name:en": "Tai Tong Shan Road",
+        "name:zh": "大棠山道",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4637933741,
+      "lat": 22.7986994,
+      "lon": 114.0972058,
+      "tags": {
+        "alt_name": "塘头厦站;塘头厦火车站;Tangtousha Railway Station",
+        "name": "塘头厦",
+        "name:de": "Tangtouxia",
+        "name:en": "Tangtouxia",
+        "name:zh": "塘头厦",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact:广深": "114.655",
+        "train": "yes",
+        "wikidata": "Q7683160"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4637945401,
+      "lat": 22.6948818,
+      "lon": 114.1195271,
+      "tags": {
+        "alt_name": "平湖站;平湖火车站;Pinghu Railway Station",
+        "name": "平湖",
+        "name:de": "Pinghu",
+        "name:en": "Pinghu",
+        "name:zh": "平湖",
+        "operator": "中国铁路广州局集团有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q7195781",
+        "wikipedia": "zh:平湖站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4638676682,
+      "lat": 22.9043667,
+      "lon": 114.0626375,
+      "tags": {
+        "alt_name": "樟木头站;樟木头火车站;Zhangmutou Railway Station",
+        "name": "樟木头",
+        "name:en": "Zhangmutou",
+        "name:zh": "樟木头",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q8070476",
+        "wikipedia": "zh:樟木头站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4814571946,
+      "lat": 22.4161743,
+      "lon": 114.1995697,
+      "tags": {
+        "addr:street": "麗坪路 Lai Ping Road",
+        "addr:street:en": "Lai Ping Road",
+        "addr:street:zh": "麗坪路",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "minibus": "yes",
+        "name": "麗坪路 Lai Ping Road",
+        "name:zh": "麗坪路",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4928577656,
+      "lat": 22.3824128,
+      "lon": 114.2751032,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4928680485,
+      "lat": 22.5504217,
+      "lon": 114.2697581,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "鴨洲公眾碼頭 Ap Chau Public Pier",
+        "name:en": "Ap Chau Public Pier",
+        "name:zh": "鴨洲公眾碼頭",
+        "name:zh-Hant": "鴨洲公眾碼頭",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4940227525,
+      "lat": 22.5284758,
+      "lon": 113.9273278,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "桂庙",
+        "name:zh": "桂庙",
+        "name:zh-Hans": "桂庙",
+        "name:zh-Hant": "桂廟",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5098496689,
+      "lat": 22.4135688,
+      "lon": 114.2101033,
+      "tags": {
+        "name": "大學 University",
+        "name:en": "University",
+        "name:zh": "大學",
+        "network": "MTR",
+        "old_name": "馬料水 Ma Liu Shui",
+        "old_name:en": "Ma Liu Shui",
+        "old_name:zh": "馬料水",
+        "operator": "香港鐵路有限公司 MTR Corporation Limited",
+        "operator:en": "MTR Corporation Limited",
+        "operator:loc_name": "港鐵公司 MTR Corporation",
+        "operator:loc_name:en": "MTR Corporation",
+        "operator:loc_name:zh": "港鐵公司",
+        "operator:ref": "MTR",
+        "operator:short": "港鐵 MTRCL",
+        "operator:short:en": "MTRCL",
+        "operator:short:zh": "港鐵",
+        "operator:short_name": "港鐵 MTRCL",
+        "operator:short_name:en": "MTRCL",
+        "operator:short_name:zh": "港鐵",
+        "operator:wikidata": "Q1479375",
+        "operator:zh": "香港鐵路有限公司",
+        "operator:zh-Hans": "香港铁路有限公司",
+        "operator:zh-Hant": "香港鐵路有限公司",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "UNI",
+        "ref:note": "Common use in MTR app indoor navigation labels, station shop units, etc",
+        "start_date": "1956-09-24",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q996480"
+      }
+    }
+  ],
+  "source_partial": true,
+  "timestamp_osm_base": "2026-07-28T02:16:18Z"
+}

@@ -1,0 +1,572 @@
+{
+  "石埠": {
+    "x": 76.89,
+    "y": 525.26,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南职院": {
+    "x": 151.14,
+    "y": 485.94,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "鹏飞路": {
+    "x": 215.91,
+    "y": 484.79,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "西乡塘客运站": {
+    "x": 317.8,
+    "y": 484.02,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "民族大学": {
+    "x": 435.23,
+    "y": 450.68,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "清川": {
+    "x": 583.0,
+    "y": 429.21,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "动物园": {
+    "x": 652.65,
+    "y": 449.91,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "鲁班路": {
+    "x": 756.44,
+    "y": 446.46,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "广西大学": {
+    "x": 825.0,
+    "y": 488.24,
+    "anchor": "end",
+    "fontSize": 14
+  },
+  "白苍岭": {
+    "x": 947.67,
+    "y": 496.28,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "火车站": {
+    "x": 1005.3,
+    "y": 528.48,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "朝阳广场": {
+    "x": 1035.31,
+    "y": 585.44,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "新民路": {
+    "x": 1051.52,
+    "y": 627.98,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "民族广场": {
+    "x": 1103.41,
+    "y": 626.44,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "麻村": {
+    "x": 1188.64,
+    "y": 624.29,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南湖": {
+    "x": 1293.18,
+    "y": 588.88,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "金湖广场": {
+    "x": 1364.02,
+    "y": 594.63,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "会展中心": {
+    "x": 1416.99,
+    "y": 626.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "万象城": {
+    "x": 1476.83,
+    "y": 596.65,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "东盟商务区": {
+    "x": 1513.81,
+    "y": 627.09,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "凤岭": {
+    "x": 1608.27,
+    "y": 627.43,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "埌东客运站": {
+    "x": 1649.62,
+    "y": 630.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "百花岭": {
+    "x": 1748.9,
+    "y": 578.68,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "佛子岭": {
+    "x": 1727.59,
+    "y": 481.54,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "火车东站": {
+    "x": 1622.05,
+    "y": 438.21,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "西津": {
+    "x": 886.37,
+    "y": 68.96,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "安吉客运站": {
+    "x": 876.14,
+    "y": 149.06,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "苏卢": {
+    "x": 892.66,
+    "y": 213.44,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "三十三中": {
+    "x": 911.82,
+    "y": 295.84,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "秀厢": {
+    "x": 935.98,
+    "y": 351.41,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "明秀路": {
+    "x": 978.15,
+    "y": 424.62,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南宁剧场": {
+    "x": 986.83,
+    "y": 685.46,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "福建园": {
+    "x": 972.0,
+    "y": 735.29,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "亭洪路": {
+    "x": 972.17,
+    "y": 790.86,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "石柱岭": {
+    "x": 972.63,
+    "y": 843.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "江南客运站": {
+    "x": 976.63,
+    "y": 944.16,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大沙田": {
+    "x": 949.24,
+    "y": 980.57,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "建设路": {
+    "x": 1018.18,
+    "y": 1054.54,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "石子塘": {
+    "x": 1052.65,
+    "y": 1119.95,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "金象": {
+    "x": 1110.06,
+    "y": 1194.74,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "玉洞": {
+    "x": 1135.23,
+    "y": 1257.51,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "东风路": {
+    "x": 1215.91,
+    "y": 1297.43,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "玉岭路": {
+    "x": 1265.91,
+    "y": 1281.54,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "那福路": {
+    "x": 1357.2,
+    "y": 1226.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "平良立交": {
+    "x": 1449.93,
+    "y": 1215.77,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "坛泽": {
+    "x": 1516.83,
+    "y": 1250.84,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "科园大道": {
+    "x": 656.82,
+    "y": 158.25,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "创业路": {
+    "x": 761.36,
+    "y": 156.72,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "北湖北路": {
+    "x": 969.32,
+    "y": 174.35,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "秀峰路": {
+    "x": 1079.92,
+    "y": 159.4,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "邕武路": {
+    "x": 1157.95,
+    "y": 152.12,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大鸡村": {
+    "x": 1209.85,
+    "y": 196.2,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "兴桂路": {
+    "x": 1272.21,
+    "y": 239.89,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "小鸡村": {
+    "x": 1269.5,
+    "y": 311.94,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "东沟岭": {
+    "x": 1261.5,
+    "y": 379.77,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "长堽路": {
+    "x": 1273.94,
+    "y": 441.1,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "东葛路": {
+    "x": 1288.26,
+    "y": 477.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "滨湖路": {
+    "x": 1351.89,
+    "y": 512.76,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "埌西": {
+    "x": 1344.5,
+    "y": 660.55,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "青竹立交": {
+    "x": 1320.17,
+    "y": 700.21,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "青秀山": {
+    "x": 1352.5,
+    "y": 757.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "市博物馆": {
+    "x": 1403.16,
+    "y": 887.09,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "总部基地": {
+    "x": 1400.38,
+    "y": 920.02,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "广西规划馆": {
+    "x": 1409.59,
+    "y": 1002.87,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "庆歌路": {
+    "x": 1450.5,
+    "y": 1063.81,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "五象湖": {
+    "x": 1454.5,
+    "y": 1148.29,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "洪运路": {
+    "x": 457.58,
+    "y": 954.89,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "那历村": {
+    "x": 593.18,
+    "y": 1001.65,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "那洪立交": {
+    "x": 701.14,
+    "y": 970.99,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "金阳路": {
+    "x": 744.32,
+    "y": 1005.1,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "通源路": {
+    "x": 864.77,
+    "y": 1021.2,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "金象大道": {
+    "x": 1013.26,
+    "y": 1002.42,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "五象岭": {
+    "x": 1119.7,
+    "y": 997.43,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "玉象路": {
+    "x": 1289.39,
+    "y": 946.46,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "飞龙路": {
+    "x": 1442.2,
+    "y": 962.24,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "体育中心西": {
+    "x": 1506.07,
+    "y": 943.96,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "体育中心东": {
+    "x": 1551.46,
+    "y": 979.51,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "良庆大桥南": {
+    "x": 1536.33,
+    "y": 1056.02,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "良庆圩": {
+    "x": 1653.99,
+    "y": 1061.44,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "楞塘村": {
+    "x": 1723.58,
+    "y": 1000.84,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "清平坡": {
+    "x": 1897.05,
+    "y": 1012.01,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "龙岗": {
+    "x": 1978.06,
+    "y": 981.88,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "国凯大道": {
+    "x": 700.38,
+    "y": 1039.98,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "金凯路": {
+    "x": 700.38,
+    "y": 933.05,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "江南公园": {
+    "x": 706.06,
+    "y": 846.43,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "周家坡": {
+    "x": 708.8,
+    "y": 785.11,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "五一立交": {
+    "x": 729.55,
+    "y": 708.46,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "新秀公园": {
+    "x": 805.06,
+    "y": 580.22,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "秀灵路": {
+    "x": 934.5,
+    "y": 452.98,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "北湖南路": {
+    "x": 1041.63,
+    "y": 401.62,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "虎邱": {
+    "x": 1101.33,
+    "y": 373.26,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "狮山公园": {
+    "x": 1160.98,
+    "y": 335.7,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "邕宾立交": {
+    "x": 1323.33,
+    "y": 309.26,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "降桥": {
+    "x": 1388.5,
+    "y": 265.89,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "金桥客运站": {
+    "x": 1458.34,
+    "y": 245.24,
+    "anchor": "start",
+    "fontSize": 14
+  }
+}
