@@ -55,6 +55,8 @@ for (const station of stations) {
   assert(Number.isFinite(label.y) && label.y >= 0 && label.y <= 4250, station.id);
   assert(['start', 'middle', 'end'].includes(label.anchor), station.id);
   assert(label.fontSize > 0 && label.fontSize <= 30, station.id);
+  if (label.englishLineLength !== undefined) assert(Number.isInteger(label.englishLineLength)
+    && label.englishLineLength >= 5 && label.englishLineLength <= 24, `Invalid English line length: ${station.id}`);
   const parts = symbols[station.id].parts;
   assert.deepEqual([...new Set(parts.flatMap(part => part.lines))].sort(), [...station.lines].sort(), `Platform line mismatch: ${station.id}`);
 }

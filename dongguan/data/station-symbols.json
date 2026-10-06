@@ -1,0 +1,588 @@
+{
+  "东莞西站": {
+    "parts": [
+      {
+        "x": 72.5,
+        "y": 484.5,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "厚德": {
+    "parts": [
+      {
+        "x": 241.22,
+        "y": 487.91,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "昌平": {
+    "parts": [
+      {
+        "x": 378.0,
+        "y": 449.0,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "人民医院": {
+    "parts": [
+      {
+        "x": 436.41,
+        "y": 395.72,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "曲海": {
+    "parts": [
+      {
+        "x": 531.06,
+        "y": 364.58,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "坝头": {
+    "parts": [
+      {
+        "x": 576.9,
+        "y": 415.52,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "元美": {
+    "parts": [
+      {
+        "x": 652.0,
+        "y": 446.5,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "中心广场": {
+    "parts": [
+      {
+        "x": 715.5,
+        "y": 460.21,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "市民中心": {
+    "parts": [
+      {
+        "x": 752,
+        "y": 475,
+        "width": 14,
+        "height": 10.5,
+        "angle": 35,
+        "transfer": true,
+        "lines": [
+          "1",
+          "2"
+        ]
+      }
+    ]
+  },
+  "立新": {
+    "parts": [
+      {
+        "x": 815.55,
+        "y": 517.58,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "东城南站": {
+    "parts": [
+      {
+        "x": 831.6,
+        "y": 609.4,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "同沙公园": {
+    "parts": [
+      {
+        "x": 827.58,
+        "y": 702.55,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "牛山": {
+    "parts": [
+      {
+        "x": 833.48,
+        "y": 764.1,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "连平": {
+    "parts": [
+      {
+        "x": 987.48,
+        "y": 938.1,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "大岭山": {
+    "parts": [
+      {
+        "x": 1127.37,
+        "y": 1022.37,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "金桔": {
+    "parts": [
+      {
+        "x": 1230.5,
+        "y": 1036.21,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "广东医大": {
+    "parts": [
+      {
+        "x": 1302.28,
+        "y": 980.41,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "松山湖": {
+    "parts": [
+      {
+        "x": 1337.5,
+        "y": 936.21,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "松佛": {
+    "parts": [
+      {
+        "x": 1484.97,
+        "y": 912.4,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "大朗": {
+    "parts": [
+      {
+        "x": 1610.4,
+        "y": 941.5,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "荔香公园": {
+    "parts": [
+      {
+        "x": 1739.9,
+        "y": 1001.52,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "凤山": {
+    "parts": [
+      {
+        "x": 1838.52,
+        "y": 1048.1,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "黄江": {
+    "parts": [
+      {
+        "x": 1980.79,
+        "y": 1130.5,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "黄牛埔": {
+    "parts": [
+      {
+        "x": 1969.5,
+        "y": 1250.0,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "梅塘": {
+    "parts": [
+      {
+        "x": 1912.5,
+        "y": 1415.0,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "东莞火车站": {
+    "parts": [
+      {
+        "x": 1269.0,
+        "y": 46.5,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "茶山": {
+    "parts": [
+      {
+        "x": 1194.5,
+        "y": 96.5,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "榴花公园": {
+    "parts": [
+      {
+        "x": 1031.7,
+        "y": 96.09,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "下桥": {
+    "parts": [
+      {
+        "x": 896.42,
+        "y": 191.42,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "天宝": {
+    "parts": [
+      {
+        "x": 846.5,
+        "y": 277.5,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "东城": {
+    "parts": [
+      {
+        "x": 834.61,
+        "y": 359.48,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "旗峰公园": {
+    "parts": [
+      {
+        "x": 791.09,
+        "y": 427.7,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "西平": {
+    "parts": [
+      {
+        "x": 682.5,
+        "y": 573.5,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "蛤地": {
+    "parts": [
+      {
+        "x": 592.3,
+        "y": 665.09,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "陈屋": {
+    "parts": [
+      {
+        "x": 392.5,
+        "y": 776.5,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "寮厦": {
+    "parts": [
+      {
+        "x": 305.5,
+        "y": 870.5,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "珊美": {
+    "parts": [
+      {
+        "x": 258.3,
+        "y": 948.91,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "展览中心": {
+    "parts": [
+      {
+        "x": 243.3,
+        "y": 1085.91,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "虎门火车站": {
+    "parts": [
+      {
+        "x": 295.68,
+        "y": 1324.32,
+        "width": 10.5,
+        "height": 10.5,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  }
+}

@@ -5,18 +5,18 @@ import { extname, isAbsolute, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 // Each city keeps its own public assets; the app serves both from one origin.
-const nanningPublic = fileURLToPath(new URL('../nanning/public/', import.meta.url));
+const cityPublicDirectories = ['nanning', 'dongguan'].map(id => ({ id, publicDirectory: fileURLToPath(new URL(`../${id}/public/`, import.meta.url)) }));
 const contentTypes = { '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.json': 'application/json' };
 const cityAssets = {
   name: 'metro-city-assets',
   hooks: {
     'astro:server:setup': ({ server }) => {
-      server.middlewares.use('/nanning/', async (request, response, next) => {
+      for (const { id, publicDirectory } of cityPublicDirectories) server.middlewares.use(`/${id}/`, async (request, response, next) => {
         let pathname;
         try { pathname = decodeURIComponent((request.url ?? '').split('?')[0]); }
         catch { response.statusCode = 400; response.end(); return; }
-        const asset = resolve(nanningPublic, `.${pathname.startsWith('/') ? pathname : `/${pathname}`}`);
-        const inside = relative(nanningPublic, asset);
+        const asset = resolve(publicDirectory, `.${pathname.startsWith('/') ? pathname : `/${pathname}`}`);
+        const inside = relative(publicDirectory, asset);
         const type = contentTypes[extname(asset).toLowerCase()];
         if (inside.startsWith('..') || isAbsolute(inside) || !type) { next(); return; }
         try {
@@ -32,10 +32,12 @@ const cityAssets = {
       });
     },
     'astro:build:done': async ({ dir }) => {
-      const destination = fileURLToPath(new URL('nanning/', dir));
-      // Only asset directories are copied, preserving the generated page index.
-      for (const entry of await readdir(nanningPublic, { withFileTypes: true })) {
-        if (entry.isDirectory()) await cp(join(nanningPublic, entry.name), join(destination, entry.name), { recursive: true });
+      for (const { id, publicDirectory } of cityPublicDirectories) {
+        const destination = fileURLToPath(new URL(`${id}/`, dir));
+        // Only asset directories are copied, preserving the generated page index.
+        for (const entry of await readdir(publicDirectory, { withFileTypes: true })) {
+          if (entry.isDirectory()) await cp(join(publicDirectory, entry.name), join(destination, entry.name), { recursive: true });
+        }
       }
     },
   },

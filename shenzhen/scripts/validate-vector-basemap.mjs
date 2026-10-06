@@ -3,9 +3,9 @@ import { readFileSync } from 'node:fs';
 import { registerDiagram } from '../src/data/map-registration.mjs';
 
 const city = process.argv.find(arg => arg.startsWith('--city='))?.slice(7) ?? 'shenzhen';
-assert(['shenzhen', 'nanning'].includes(city), 'Unknown city');
-const root = new URL(city === 'nanning' ? '../../nanning/' : '../', import.meta.url);
-const data = city === 'nanning' ? 'data' : 'src/data';
+assert(['shenzhen', 'nanning', 'dongguan'].includes(city), 'Unknown city');
+const root = new URL(city === 'shenzhen' ? '../' : `../../${city}/`, import.meta.url);
+const data = city === 'shenzhen' ? 'src/data' : 'data';
 const read = path => readFileSync(new URL(`${data}/${path}`, root), 'utf8');
 const background = JSON.parse(read('vector-basemap.json'));
 const source = read('stations.ts');

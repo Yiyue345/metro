@@ -1,61 +1,34 @@
 ---
 import { shenzhenDataset, type MetroCityDataset } from '../data/metro-city';
-import StationSymbol from './StationSymbol.astro';
+import MetroDiagram from './MetroDiagram.astro';
+import { neighboringDatasets, neighborCity } from '../data/neighbor-cities';
 import { validateVisitedStations } from '../data/validate-visited.mjs';
 import { validateStationNotes } from '../data/validate-station-notes.mjs';
 import 'maplibre-gl/dist/maplibre-gl.css';
 interface Props { dataset?: MetroCityDataset }
 const { dataset = shenzhenDataset } = Astro.props;
-const { city, mapMeta, stations, plannedStations, lines, symbols, routes, vectorBasemap, labels, englishNames, visitedStations, coordinates, stationNotes, basemap, operatorsByStation, lineNames } = dataset;
+const { city, mapMeta, stations, plannedStations, lines, englishNames, visitedStations, coordinates, stationNotes, basemap, operatorsByStation, lineNames, transportTransfers = {} } = dataset;
 const stationIds = new Set(stations.map(station => station.id));
 validateVisitedStations(visitedStations, stationIds);
 const allStations = [...stations, ...plannedStations];
 validateStationNotes(stationNotes, new Set(allStations.map(station => station.id)));
 const plannedById = new Map(plannedStations.map(station => [station.id, station]));
-interface SymbolGeometry { parts: { x: number; y: number; width: number; height: number; angle: number; lines: string[]; transfer: boolean }[]; connections?: { x1: number; y1: number; x2: number; y2: number; points?: string; kind: string }[] }
-const geometries = symbols as Record<string, SymbolGeometry>;
-const colors = new Map(lines.map(line => [line.id, line.color]));
-const geography = vectorBasemap.layers as { kind: string; fill: string; stroke?: string; strokeWidth?: number; paths: string[] }[];
 const lineBadgeWidth = (id: string) => /^\d{2}$/.test(id) ? 245 : 200;
 const bilingualStations = allStations.map(station => ({ ...station, englishName: plannedById.get(station.id)?.englishName ?? englishNames[station.id] ?? '' }));
+const neighborDatasets = neighboringDatasets(city.id);
+const neighbors = neighborDatasets.map(neighborCity);
 // Notes remain plain text even when they contain HTML script-closing sequences.
-const metroPayload = JSON.stringify({ stations: bilingualStations, lines, meta: mapMeta, visitedStations, coordinates, city, stationNotes, basemap, operatorsByStation, lineNames }).replace(/</g, '\\u003c');
-function englishLines(name: string) {
-  const result: string[] = [];
-  for (const word of name.split(' ')) {
-    if (result.length && result[result.length - 1].length + word.length < 24) result[result.length - 1] += ` ${word}`;
-    else result.push(word);
-  }
-  return result;
-}
+const metroPayload = JSON.stringify({ stations: bilingualStations, lines, meta: mapMeta, visitedStations, coordinates, city, stationNotes, basemap, operatorsByStation, lineNames, neighbors, transportTransfers }).replace(/</g, '\\u003c');
 ---
 <section class="map-workspace" data-map-mode="geographic" aria-label={`${city.name}地铁交互地图`}>
-  <svg id="metro-map" role="group" aria-label={`${city.name}地铁站点地图，可拖动和缩放`} tabindex="0" viewBox={`0 0 ${mapMeta.width} ${mapMeta.height}`}>
-    <g class="vector-layer geography-layer" aria-hidden="true">
-      {geography.map(region => <g class={`geography-${region.kind}`} fill={region.fill} stroke={region.stroke} stroke-width={region.strokeWidth} stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero">{region.paths.map(path => <path d={path} />)}</g>)}
-    </g>
-    <g class="vector-layer routes-layer" aria-hidden="true">
-      {routes.map(route => <g class="metro-route" data-route={route.id} stroke={route.color} stroke-width={route.width} fill="none">{route.paths.map(path => <path d={path} />)}</g>)}
-    </g>
-    <g id="station-hotspots">
-      {allStations.map((station, index) => {
-        const geometry: SymbolGeometry = (plannedById.get(station.id)?.symbol ?? geometries[station.id]) ?? { parts: [{ x: station.x, y: station.y, width: 10, height: 10, angle: 0, lines: station.lines, transfer: station.lines.length > 1 }] };
-        return <g class="station-hotspot" data-station={station.id} tabindex="-1" role="button" aria-disabled="true" aria-label={station.name.endsWith('站') ? station.name : `${station.name}站`}>
-          <title>{station.name}</title>
-          {geometry.connections?.map(connection => <polyline class:list={['station-connection', connection.kind]} points={connection.points ?? `${connection.x1},${connection.y1} ${connection.x2},${connection.y2}`} />)}
-          {(['border', 'keyline', 'fill'] as const).map(layer => geometry.parts.map((part, partIndex) => <StationSymbol part={part} partIndex={partIndex} colors={colors} layer={layer} gradientId={`station-gradient-${index}-${partIndex}`} />))}
-        </g>;
-      })}
-    </g>
-    <g class="vector-layer labels-layer" aria-hidden="true">
-      {allStations.map(station => {
-        const label = (plannedById.get(station.id)?.label ?? labels[station.id]) ?? { x: station.x + 11, y: station.y - 10, anchor: 'start', fontSize: 14 };
-        const englishName = plannedById.get(station.id)?.englishName ?? englishNames[station.id] ?? '';
-        return <text class:list={['station-label', { planned: 'status' in station && station.status === 'planned' }]} data-label={station.id} x={label.x} y={label.y} text-anchor={label.anchor} font-size={label.fontSize}><tspan>{station.name}</tspan>{englishLines(englishName).map(name => <tspan class="station-label-en" x={label.x} dy="9" font-size="8" lang="en">{name}</tspan>)}</text>;
-      })}
-    </g>
-</svg>
+  <MetroDiagram dataset={dataset} />
   <div id="geographic-map" aria-label={`${city.name}地铁真实地图，可拖动和缩放`}></div>
+  {neighborDatasets.map(neighbor => <template data-neighbor-diagram={neighbor.city.id}><MetroDiagram dataset={neighbor} neighbor /></template>)}
+  <nav class="neighbor-city-controls" aria-label="附近城市">
+    {neighbors.map(neighbor => <a class="neighbor-city-link" data-neighbor-city={neighbor.id} href={neighbor.href} aria-label={`切换到${neighbor.name}地铁地图`} aria-hidden="true" tabindex="-1">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5" /></svg><span>{neighbor.name}</span>
+    </a>)}
+  </nav>
   <div class="vector-attribution"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> <a href="https://esa-worldcover.org/en/data-access" target="_blank" rel="noopener noreferrer">ESA WorldCover 2021</a> · <a href="https://versatiles.org/" target="_blank" rel="noopener noreferrer">© VersaTiles</a></div>
   <p id="map-status" class="map-status" role="status">地图加载中…</p>
   <div class="map-tools">
@@ -78,6 +51,7 @@ function englishLines(name: string) {
     <div class="card-top"><div><span class="eyebrow">地铁站</span><h1 id="station-name"></h1></div><button id="close-card" class="icon-button" aria-label="关闭站点详情"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
     <p id="station-english" class="station-english" lang="en"></p>
     <div id="station-lines" class="station-lines"></div>
+    <p id="station-transfers" class="station-transfers" hidden></p>
     <div id="station-operators" class="station-operators" aria-label="线路运营公司"></div>
     <p id="station-visit-status" class="station-status" hidden>已去过</p>
     <p id="station-location-status" class="station-status" hidden></p>
@@ -91,7 +65,5 @@ function englishLines(name: string) {
   </div>
   <div id="map-tooltip" class="map-tooltip" hidden></div>
 </section>
-<script define:vars={{ metroPayload }}>
-  window.__metroData = JSON.parse(metroPayload);
-</script>
+<script id="metro-city-data" type="application/json" set:html={metroPayload} />
 <script src="./map.ts"></script>

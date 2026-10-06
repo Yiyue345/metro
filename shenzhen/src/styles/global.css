@@ -37,8 +37,9 @@ main { height: calc(100dvh - 64px); }
 .vector-attribution a { color: inherit; }
 [data-map-mode='geographic'] .vector-attribution { display: none; }
 .metro-route { stroke-linecap: round; stroke-linejoin: round; }
-.metro-route, .station-label { transition: opacity var(--station-duration) ease; }
-.metro-route.dimmed, .station-label.dimmed { opacity: .15; }
+.metro-route, .station-label-group { transition: opacity var(--station-duration) ease; }
+.metro-route.dimmed, .station-label-group.dimmed { opacity: .15; }
+.transport-badge { pointer-events: auto; }
 .station-label { fill: var(--station-label); font-family: var(--font); paint-order: stroke; stroke: var(--paper); stroke-width: 1.5; stroke-linejoin: round; }
 .station-label-en { stroke-width: 1; letter-spacing: 0; }
 .labels-layer { transition: opacity var(--station-duration) ease, visibility var(--station-duration) ease; }
@@ -55,6 +56,7 @@ main { height: calc(100dvh - 64px); }
 }
 .station-label.planned { fill: #a6aaa8; }
 .station-english { margin: -8px 0 14px; color: var(--ink-soft); font-size: 11px; line-height: 1.4; }
+.station-transfers { margin: 16px 0 0; padding-top: 14px; border-top: 1px solid var(--line); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
 #metro-map { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; outline: none; user-select: none; }
 [data-map-mode='geographic'] #metro-map { display: none; }
 #metro-map.dragging { cursor: grabbing; }
@@ -160,6 +162,25 @@ main { height: calc(100dvh - 64px); }
 .station-card { max-height: calc(100% - 100px); overflow-y: auto; }
 #station-visit-status { color: var(--ink); }
 #geographic-diagram { position: absolute; top: 0; left: 0; max-width: none; transform-origin: 0 0; pointer-events: none; overflow: visible; }
+.geographic-neighbor-diagram { position: absolute; top: 0; left: 0; max-width: none; transform-origin: 0 0; pointer-events: none; overflow: visible; opacity: .4; }
+.geographic-neighbor-diagram * { pointer-events: none; }
+.neighbor-city-link { position: absolute; z-index: 999; display: flex; align-items: center; justify-content: center; gap: 8px; min-width: 96px; min-height: 44px; padding: 10px 16px; border: 1px solid var(--line); background: var(--paper); color: var(--accent); box-shadow: var(--shadow); font-size: 14px; font-weight: 600; text-decoration: none; opacity: 0; visibility: hidden; pointer-events: none; transition: transform 220ms ease-out, opacity 220ms ease-out, visibility 220ms; }
+.neighbor-city-link svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.neighbor-city-link[data-edge='top'] { top: 0; left: var(--edge-position); border-radius: 0 0 12px 12px; transform: translate(-50%, -100%); }
+.neighbor-city-link[data-edge='bottom'] { bottom: 0; left: var(--edge-position); border-radius: 12px 12px 0 0; transform: translate(-50%, 100%); }
+.neighbor-city-link[data-edge='left'] { left: 0; top: var(--edge-position); border-radius: 0 12px 12px 0; transform: translate(-100%, -50%); }
+.neighbor-city-link[data-edge='right'] { right: 0; top: var(--edge-position); border-radius: 12px 0 0 12px; transform: translate(100%, -50%); }
+.neighbor-city-link.is-visible { opacity: 1; visibility: visible; pointer-events: auto; }
+.neighbor-city-link.is-visible[data-edge='top'], .neighbor-city-link.is-visible[data-edge='bottom'] { transform: translate(-50%, 0); }
+.neighbor-city-link.is-visible[data-edge='left'], .neighbor-city-link.is-visible[data-edge='right'] { transform: translate(0, -50%); }
+.neighbor-city-link[data-edge='top'] svg { transform: rotate(-90deg); }
+.neighbor-city-link[data-edge='bottom'] svg { transform: rotate(90deg); }
+.neighbor-city-link[data-edge='left'] svg { transform: rotate(180deg); }
+.neighbor-city-link:hover { background: var(--hover); }
+.neighbor-city-link:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; }
+[data-map-mode='vector'] .neighbor-city-controls { display: none; }
+.city-switching .map-tools *, .city-switching .zoom-controls *, .city-switching #geographic-diagram .station-hotspot * { pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { .neighbor-city-link { transition: none; } }
 #geographic-diagram .station-hotspot { pointer-events: auto; }
 #geographic-map.stations-disabled .station-hotspot, #geographic-map.stations-disabled .station-hotspot * { pointer-events: none; }
 #geographic-diagram .station-hotspot.excluded, #geographic-diagram .station-hotspot.excluded * { pointer-events: none; }

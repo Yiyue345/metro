@@ -8,8 +8,9 @@ import visitedStations from '../../../nanning/data/visited-stations.json';
 import coordinates from '../../../nanning/data/station-coordinates.json';
 import stationNotes from '../../../nanning/data/station-notes.json';
 import basemap from '../../../nanning/data/basemap.json';
+import transportTransfers from '../../../nanning/data/transport-transfers.json';
 import { registerDiagram } from './map-registration.mjs';
-import type { MetroCityDataset, Coordinate, StationLabel, StationSymbolGeometry } from './metro-city';
+import type { MetroCityDataset, Coordinate, StationLabel, StationSymbolGeometry, TransportTransfer } from './metro-city';
 
 // Bound the viewport to the same uniformly registered linework used by the map.
 const registration = registerDiagram([...stations, ...plannedStations], coordinates, mapMeta.width);
@@ -26,5 +27,6 @@ export const nanningDataset: MetroCityDataset = {
   symbols: symbols as Record<string, StationSymbolGeometry>, routes, vectorBasemap,
   labels: labels as Record<string, StationLabel>, englishNames,
   visitedStations, coordinates, stationNotes, basemap, lineNames: {},
+  transportTransfers: transportTransfers as Record<string, TransportTransfer[]>,
   operatorsByStation: Object.fromEntries(stations.map(station => [station.id, [operator]])),
 };

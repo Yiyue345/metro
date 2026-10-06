@@ -1,7 +1,7 @@
 ---
 interface Props { currentCity?: string }
 const { currentCity = 'shenzhen' } = Astro.props;
-const cities = [{ id: 'shenzhen', name: '深圳', href: '/' }, { id: 'nanning', name: '南宁', href: '/nanning/' }];
+const cities = [{ id: 'shenzhen', name: '深圳', href: '/' }, { id: 'nanning', name: '南宁', href: '/nanning/' }, { id: 'dongguan', name: '东莞', href: '/dongguan/' }];
 ---
 <button id="city-menu-toggle" class="city-menu-toggle" type="button" aria-label="打开城市列表" aria-haspopup="dialog" aria-controls="city-menu" aria-expanded="false" title="切换城市">
   <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 25V7h18v18M7 16h18"/><circle cx="7" cy="7" r="3"/><circle cx="25" cy="25" r="3"/><circle cx="7" cy="16" r="3"/></svg>
@@ -23,9 +23,11 @@ const cities = [{ id: 'shenzhen', name: '深圳', href: '/' }, { id: 'nanning', 
     toggle.setAttribute('aria-expanded', 'true');
   });
   menu.querySelector('#city-menu-close')!.addEventListener('click', () => menu.close());
-  menu.querySelector<HTMLAnchorElement>('.city-choice[aria-current="page"]')!.addEventListener('click', event => {
-    event.preventDefault();
-    menu.close();
+  menu.addEventListener('click', event => {
+    if ((event.target as Element).closest('.city-choice[aria-current="page"]')) {
+      event.preventDefault();
+      menu.close();
+    }
   });
   menu.addEventListener('click', event => {
     const bounds = menu.getBoundingClientRect();

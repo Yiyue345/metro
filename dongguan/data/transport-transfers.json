@@ -1,0 +1,10 @@
+{
+  "东莞火车站": [{ "mode": "rail", "destination": "东莞站", "access": "direct", "railways": ["广深铁路"] }],
+  "虎门火车站": [
+    { "mode": "highSpeedRail", "destination": "虎门站", "access": "direct", "railways": ["广深港高速铁路"] },
+    { "mode": "gdIntercity", "destination": "虎门北站", "access": "walk", "railways": ["穗深城际铁路"] }
+  ],
+  "西平": [{ "mode": "gdIntercity", "destination": "西平西站", "access": "direct", "railways": ["广惠城际铁路"] }],
+  "东城南站": [{ "mode": "gdIntercity", "destination": "东城南站", "access": "direct", "railways": ["广惠城际铁路"] }],
+  "东莞西站": [{ "mode": "gdIntercity", "destination": "东莞西站", "access": "direct", "railways": ["广惠城际铁路", "穗深城际铁路"] }]
+}

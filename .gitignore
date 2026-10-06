@@ -12,6 +12,7 @@ dist/
 .env.*
 !.env.example
 .DS_Store
+.idea/
 
 # OCR and local Python environments
 .ocr-deps/
@@ -21,6 +22,7 @@ dist/
 # Source-image and review artifacts. The app uses extracted SVG/data instead.
 shenzhen/public/maps/*-reference.jpg
 nanning/public/maps/*-reference*.jpg
+dongguan/public/maps/*-reference*.jpg
 **/scripts/review/
 **/scripts/ocr-tiles/
 **/scripts/ocr-clean-tiles/
@@ -33,5 +35,7 @@ nanning/public/maps/*-reference*.jpg
 
 # Temporary screenshots and local QA exports
 .playwright-mcp/
+.playwright-cli/
+output/playwright/
 qa-*.jpg
 reference-*.jpg

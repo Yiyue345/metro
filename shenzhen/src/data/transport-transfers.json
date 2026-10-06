@@ -1,0 +1,17 @@
+{
+  "罗湖": [{ "mode": "rail", "destination": "深圳站", "access": "walk", "railways": ["广深铁路"] }],
+  "布吉": [{ "mode": "rail", "destination": "深圳东站", "access": "direct", "railways": ["广深铁路"] }],
+  "平湖": [{ "mode": "rail", "destination": "平湖站", "access": "walk", "railways": ["广深铁路"] }],
+  "深圳北": [{ "mode": "highSpeedRail", "destination": "深圳北站", "access": "direct", "railways": ["广深港高速铁路", "厦深铁路", "赣深高速铁路"] }],
+  "福田": [{ "mode": "highSpeedRail", "destination": "福田站", "access": "direct", "railways": ["广深港高速铁路"] }],
+  "光明城": [{ "mode": "highSpeedRail", "destination": "光明城站", "access": "walk", "railways": ["广深港高速铁路", "赣深高速铁路"] }],
+  "坪山": [{ "mode": "highSpeedRail", "destination": "深圳坪山站", "access": "walk", "railways": ["厦深铁路"] }],
+  "机场": [
+    { "mode": "airport", "destination": "深圳宝安国际机场 T3", "access": "direct" },
+    { "mode": "ferry", "destination": "深圳机场码头", "access": "shuttle" },
+    { "mode": "gdIntercity", "destination": "深圳机场站", "access": "direct", "railways": ["穗深城际铁路"] }
+  ],
+  "机场北": [{ "mode": "gdIntercity", "destination": "深圳机场北站", "access": "direct", "railways": ["穗深城际铁路"] }],
+  "福海西": [{ "mode": "gdIntercity", "destination": "福海西站", "access": "walk", "railways": ["穗深城际铁路"] }],
+  "太子湾": [{ "mode": "ferry", "destination": "蛇口邮轮中心", "access": "walk" }]
+}

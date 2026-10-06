@@ -1,0 +1,37 @@
+---
+import type { TransportTransfer } from '../data/metro-city';
+import { transportModeLabels, transportAccessLabels } from '../data/transport-transfers.mjs';
+interface Props { transfer: TransportTransfer; x: number; y: number; size?: number }
+const { transfer, x, y, size = 16 } = Astro.props;
+const intercity = transfer.mode === 'gdIntercity';
+const highSpeed = transfer.mode === 'highSpeedRail';
+const borderColor = intercity ? '#009543' : transfer.mode === 'rail' ? '#e60012' : highSpeed ? '#00509f' : '#6e7471';
+const title = `${transportModeLabels[transfer.mode]} · ${transfer.destination}（${transportAccessLabels[transfer.access]}）${transfer.railways?.length ? ` · ${transfer.railways.join('、')}` : ''}`;
+---
+<svg class="transport-badge" data-transport-mode={transfer.mode} x={x} y={y} width={size} height={size} viewBox="0 0 32 32" role="img" aria-label={title}>
+  <title>{title}</title>
+  <rect x="1" y="1" width="30" height="30" rx="1.8" fill="none" stroke={borderColor} stroke-width="1.5" />
+  {transfer.mode === 'rail' && <svg x="5.5" y="4" width="21" height="24" viewBox="0 0 270 312" fill="#e60012" aria-hidden="true">
+    <path d="M69 270L89 242C56 225 32 189 32 149C32 92 78 46 135 46C192 46 238 92 238 149C238 189 214 225 181 242L201 270C243 245 270 200 270 149C270 83 223 29 162 16C160 6 153 0 142 0H128C117 0 110 6 108 16C47 29 0 83 0 149C0 200 27 245 69 270Z" />
+    <path d="M111 121C97 121 86 130 86 143V169L111 178C119 181 122 183 122 190V264C122 277 117 281 98 285L53 294C47 296 45 300 45 306V312H225V306C225 300 223 296 217 294L172 285C153 281 148 277 148 264V190C148 183 151 181 159 178L184 169V143C184 130 173 121 159 121Z" />
+  </svg>}
+  {highSpeed && <svg x="4" y="5" width="24" height="22" viewBox="0 0 248 192" fill="#00509f" aria-hidden="true">
+    {/* Five separate CRH ribbons traced from the supplied emblem; gaps remain transparent. */}
+    <path d="M165 0L181 2C149.4 6.98 110.56 29.51 116 67C126.63 104.08 167.71 126.62 203 137L172 162C135.13 151.24 99.1 120.97 89 84C81.14 38.08 127.67 8.42 165 0Z" />
+    <path d="M137 5C100.69 19.86 65.37 54.54 74 99C79.15 130.32 100.51 161.37 123 183L83 192C61.74 165.44 46.71 128.9 50 93C53.27 48.96 94.99 14.38 137 5Z" />
+    <path d="M233 21L197 21C182.91 20.64 162.53 25.92 162 43C165.18 55.64 183.03 61.87 194 63L247 63L242 87L188 87C165.34 85.95 136.04 74.35 133 49C132.55 18.8 171.05 11.03 193 10L222 11L233 21Z" />
+    <path d="M89 23C65.59 40.1 32.71 77.27 38 116C35.5 141.92 44.08 166.69 50 191L20 178C17.53 163.85 17.64 149.35 17 135C18.13 89.57 47.36 42.57 89 23Z" />
+    <path d="M47 53C19.15 79.45 6.08 123.84 4 159C1.45 152.56 -0.69 142.36 0 134C1.76 101.67 23.67 71.97 47 53Z" />
+  </svg>}
+  {transfer.mode === 'airport' && <path d="M14 6C14 3 18 3 18 6V13L28 19V22L18 19V25L22 27V29L16 27L10 29V27L14 25V19L4 22V19L14 13Z" fill="#202421" />}
+  {transfer.mode === 'ferry' && <g fill="#202421">
+    <path d="M10 7H22V10H25V18L16 15L7 18V10H10ZM11 11V14H14V11ZM18 11V14H21V11Z" fill-rule="evenodd" />
+    <path d="M5 21L16 17L27 21L23 26H9Z" />
+    <path d="M5 28Q8 25 11 28T17 28T23 28T28 28" fill="none" stroke="#202421" stroke-width="1.6" />
+  </g>}
+  {intercity && <svg x="4" y="4" width="24" height="24" viewBox="0 0 1280 1086" fill="#009543" aria-hidden="true">
+    <path d="M604 0L756 0L758 6C754.5 285.5 656.6 572.1 478 782C380.9 791.1 273 816.6 182 852C439.6 655.1 609.4 327.9 604 0Z" />
+    <path d="M744 280C830.8 506.4 957.6 746.5 1179.6 874.4C1211.4 897.5 1251.4 919.9 1280 940C1266.1 978.3 1243.4 1028.5 1224 1062C981.2 950.2 776.4 730.7 680 482C701.5 418.8 721.3 342.5 744 280Z" />
+    <path d="M618 784C693 782.7 773.2 786.1 844 798L1054 998C737.2 904.2 376 929 82 1084L0 958C183.4 856.3 407.2 795.2 618 784Z" />
+  </svg>}
+</svg>

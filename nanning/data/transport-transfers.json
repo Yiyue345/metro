@@ -1,0 +1,10 @@
+{
+  "火车站": [
+    { "mode": "rail", "destination": "南宁站", "access": "walk", "railways": ["湘桂铁路", "南昆铁路", "南防铁路"] },
+    { "mode": "highSpeedRail", "destination": "南宁站", "access": "walk", "railways": ["南昆客运专线", "南凭高速铁路", "柳南客运专线", "南广铁路"] }
+  ],
+  "火车东站": [
+    { "mode": "rail", "destination": "南宁东站", "access": "direct", "railways": ["湘桂铁路"] },
+    { "mode": "highSpeedRail", "destination": "南宁东站", "access": "direct", "railways": ["柳南客运专线", "南广铁路", "南钦铁路", "贵南高速铁路", "南珠高铁南玉段"] }
+  ]
+}

@@ -1,0 +1,56 @@
+---
+import type { MetroCityDataset, StationSymbolGeometry } from '../data/metro-city';
+import StationSymbol from './StationSymbol.astro';
+import TransportBadge from './TransportBadge.astro';
+import { transportModeLabels, transportAccessLabels, validateTransportTransfers } from '../data/transport-transfers.mjs';
+interface Props { dataset: MetroCityDataset; neighbor?: boolean }
+const { dataset, neighbor = false } = Astro.props;
+const { city, mapMeta, stations, plannedStations, lines, symbols, routes, vectorBasemap, labels, englishNames } = dataset;
+const allStations = [...stations, ...plannedStations];
+const plannedById = new Map(plannedStations.map(station => [station.id, station]));
+const colors = new Map(lines.map(line => [line.id, line.color]));
+const idPrefix = neighbor ? `neighbor-${city.id}` : 'station';
+const transfers = dataset.transportTransfers ?? {};
+validateTransportTransfers(transfers, new Set(stations.map(station => station.id)));
+function englishLines(name: string, maxLength = 24) {
+  const result: string[] = [];
+  for (const word of name.split(' ')) {
+    if (result.length && result[result.length - 1].length + word.length < maxLength) result[result.length - 1] += ` ${word}`;
+    else result.push(word);
+  }
+  return result;
+}
+---
+<svg id={neighbor ? `neighbor-diagram-${city.id}` : 'metro-map'} class={neighbor ? 'geographic-neighbor-diagram' : undefined} role={neighbor ? undefined : 'group'} aria-hidden={neighbor ? 'true' : undefined} aria-label={neighbor ? undefined : `${city.name}地铁站点地图，可拖动和缩放`} tabindex={neighbor ? undefined : '0'} viewBox={`0 0 ${mapMeta.width} ${mapMeta.height}`}>
+  {!neighbor && <g class="vector-layer geography-layer" aria-hidden="true">
+    {vectorBasemap.layers.map(region => <g class={`geography-${region.kind}`} fill={region.fill} stroke={region.stroke} stroke-width={region.strokeWidth} stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero">{region.paths.map(path => <path d={path} />)}</g>)}
+  </g>}
+  <g class="vector-layer routes-layer" aria-hidden="true">
+    {routes.map(route => <g class="metro-route" data-route={route.id} stroke={route.color} stroke-width={route.width} fill="none">{route.paths.map(path => <path d={path} />)}</g>)}
+  </g>
+  <g id={neighbor ? `${idPrefix}-stations` : 'station-hotspots'}>
+    {allStations.map((station, index) => {
+      const geometry: StationSymbolGeometry = (plannedById.get(station.id)?.symbol ?? symbols[station.id]) ?? { parts: [{ x: station.x, y: station.y, width: 10, height: 10, angle: 0, lines: station.lines, transfer: station.lines.length > 1 }] };
+      const connections = (transfers[station.id] ?? []).map(transfer => `${transportModeLabels[transfer.mode]}：${transfer.destination}（${transportAccessLabels[transfer.access]}）`).join('；');
+      const stationName = station.name.endsWith('站') ? station.name : `${station.name}站`;
+      return <g class={neighbor ? 'neighbor-station' : 'station-hotspot'} data-station={station.id} tabindex={neighbor ? undefined : '-1'} role={neighbor ? undefined : 'button'} aria-disabled={neighbor ? undefined : 'true'} aria-label={neighbor ? undefined : `${stationName}${connections ? `；可换乘${connections}` : ''}`}>
+        <title>{station.name}</title>
+        {geometry.connections?.map(connection => <polyline class:list={['station-connection', connection.kind]} points={connection.points ?? `${connection.x1},${connection.y1} ${connection.x2},${connection.y2}`} />)}
+        {(['border', 'keyline', 'fill'] as const).map(layer => geometry.parts.map((part, partIndex) => <StationSymbol part={part} partIndex={partIndex} colors={colors} layer={layer} gradientId={`${idPrefix}-gradient-${index}-${partIndex}`} />))}
+      </g>;
+    })}
+  </g>
+  <g class="vector-layer labels-layer" aria-hidden="true">
+    {allStations.map(station => {
+      const label = (plannedById.get(station.id)?.label ?? labels[station.id]) ?? { x: station.x + 11, y: station.y - 10, anchor: 'start', fontSize: 14 };
+      const englishName = plannedById.get(station.id)?.englishName ?? englishNames[station.id] ?? '';
+      const textWidth = [...station.name].reduce((width, character) => width + label.fontSize * (/^[\x00-\x7f]$/.test(character) ? .6 : 1), 0);
+      const textEnd = label.x + (label.anchor === 'end' ? 0 : label.anchor === 'middle' ? textWidth / 2 : textWidth);
+      const badgeSize = label.fontSize + 2;
+      return <g class="station-label-group" data-label={station.id}>
+        <text class:list={['station-label', { planned: station.status === 'planned' }]} x={label.x} y={label.y} text-anchor={label.anchor} font-size={label.fontSize}><tspan>{station.name}</tspan>{englishLines(englishName, label.englishLineLength).map(name => <tspan class="station-label-en" x={label.x} dy="9" font-size="8" lang="en">{name}</tspan>)}</text>
+        {(transfers[station.id] ?? []).map((transfer, index) => <TransportBadge transfer={transfer} x={textEnd + 5 + index * (badgeSize + 4)} y={label.y - label.fontSize - 3} size={badgeSize} />)}
+      </g>;
+    })}
+  </g>
+</svg>
