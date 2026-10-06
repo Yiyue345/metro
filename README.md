@@ -24,7 +24,7 @@ npm run build
 
 邻接关系维护于 `shenzhen/src/data/neighbor-cities.ts`，预览与本城线网复用 `MetroDiagram.astro` 和统一等比配准。新增邻接城市时，先接入城市数据与页面，再配置双向邻接关系。导航校验可运行 `node shenzhen/scripts/validate-city-navigation.mjs`。
 
-可接驳国铁、高铁、航空、轮渡和广东城际的地铁站，在站名旁显示方形标志。三城各自维护 `transport-transfers.json`；标志提示接驳目的地及通道、出站步行或接驳巴士方式，详见 [换乘标志配置与来源](shenzhen/TRANSPORT_TRANSFERS.md)。
+可接驳国铁、高铁、航空、轮渡和珠三角城际的地铁站，在站名旁显示方形标志。三城各自维护 `transport-transfers.json`；标志提示接驳目的地及通道、出站步行或接驳巴士方式，详见 [换乘标志配置与来源](shenzhen/TRANSPORT_TRANSFERS.md)。
 
 ## EdgeOne Pages
 
@@ -39,12 +39,6 @@ npm run build
 | 构建命令 | `npm --prefix shenzhen run build` |
 | 输出目录 | `shenzhen/dist` |
 | Node.js | 22 LTS |
-
-不要把根目录设为 `shenzhen`：应用需要读取同级的 `nanning/` 与 `dongguan/` 数据。构建后的 `/`、`/nanning/` 与 `/dongguan/` 都有独立 HTML，无需添加 SPA 回退规则。配置字段与目录约定见 [EdgeOne 配置说明](https://pages.edgeone.ai/document/edgeone-json) 和 [构建指南](https://pages.edgeone.ai/document/build-guide)。
-
-参考 JPG、OCR 图片和复核截图均由 `.gitignore` 排除。网站运行所需的线路 SVG、JSON 数据、静态矢量底图和运营方图片仍会提交；参考图只在本地数据提取和复现脚本阶段使用。
-
-本地仓库分支为 `main`。发布前需要将它推送到自己的远程 Git 仓库，再在 EdgeOne Pages 中关联该仓库；远程仓库地址和上线操作需按实际账户配置。
 
 ## 国内网络下的在线底图
 

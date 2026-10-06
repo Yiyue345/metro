@@ -1,6 +1,7 @@
 import type { Map as MapLibreMap, StyleSpecification, CameraOptions, Subscription } from 'maplibre-gl';
 import { registerDiagram } from '../data/map-registration.mjs';
 import { networkBounds, neighborEdge } from '../data/neighbor-navigation.mjs';
+import { surroundingTileUrls } from '../data/tile-prefetch.mjs';
 import type { NeighborCity } from '../data/neighbor-cities';
 import type { MetroCityDataset } from '../data/metro-city';
 interface Station { id: string; name: string; englishName: string; aliases?: string[]; status?: 'planned'; x: number; y: number; lines: string[] }
@@ -48,7 +49,9 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   const mapStatus = document.querySelector<HTMLElement>('#map-status')!;
   let geographicMap = existingMap;
   let geographicLoad: Promise<void> | undefined;
-  let geographicTileFailed = false;
+  let geographicErrorLogged = false;
+  let prefetchingTiles = false;
+  const prefetchedTiles = new Set<string>();
   const geographicMarkers = new Map<string, SVGGElement>();
   let geographicOverlay: SVGSVGElement | undefined;
   const registration = registerDiagram(stations, coordinates, meta.width);
@@ -247,6 +250,9 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     const previous = map ? { center: map.getCenter().toArray(), zoom: map.getZoom(), minZoom: map.getMinZoom() } : undefined;
     if (map) for (const handler of mapHandlers(map)) handler.disable();
     try {
+      const pageRequest = requestCityPage(href, operation.signal);
+      // Handle rejection even while the destination camera is being calculated.
+      void pageRequest.catch(() => undefined);
       // Start the page request and the cross-city flight together. Neighbor
       // metadata already contains the target bounds, so the animation does not
       // need to wait for the HTML response before moving.
@@ -259,7 +265,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
         map.setMaxZoom(Math.max(basemap.maxZoom, targetNeighbor?.maxZoom ?? basemap.maxZoom));
         flight = flyToCity(map, camera, operation.signal);
       }
-      const page = await requestCityPage(href, operation.signal);
+      const page = await pageRequest;
       const next = readCityPayload(page);
       if (`${next.city.assetBase}/` !== href || !page.querySelector('.map-workspace')) throw new Error('Invalid city page');
       if (map && !camera) camera = await destinationCamera(map, next);
@@ -391,10 +397,8 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   }
   function attachMapEvents(map: MapLibreMap) {
     subscriptions.push(map.on('error', event => {
-      if (!geographicTileFailed) console.error('真实地图资源加载失败', event.error);
-      geographicTileFailed = true;
-      mapStatus.textContent = '底图加载失败，请检查网络连接';
-      mapStatus.hidden = !geographicMode();
+      if (!geographicErrorLogged) console.warn('底图资源请求失败', event.error);
+      geographicErrorLogged = true;
     }));
     subscriptions.push(map.on('zoom', renderGeographicControls));
     subscriptions.push(map.on('movestart', event => {
@@ -402,7 +406,34 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     }));
     subscriptions.push(map.on('move', positionGeographicOverlay));
     subscriptions.push(map.on('resize', updateGeographicExtent));
-    subscriptions.push(map.on('load', () => { mapStatus.hidden = !geographicTileFailed; }));
+    subscriptions.push(map.on('idle', () => { void prefetchSurroundingTiles(map); }));
+    subscriptions.push(map.on('load', () => { mapStatus.hidden = true; }));
+  }
+  async function prefetchSurroundingTiles(map: MapLibreMap) {
+    const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
+    if (prefetchingTiles || lifecycle.signal.aborted || !geographicMode() || citySwitching || connection?.saveData) return;
+    const limit = window.matchMedia('(max-width: 600px)').matches ? 8 : 16;
+    const bounds = map.getBounds().toArray().flat();
+    const urls = Object.values(map.getStyle()?.sources ?? {}).flatMap(source => source.type === 'vector'
+      ? surroundingTileUrls(source, bounds, map.getZoom(), limit) : []).filter(url => !prefetchedTiles.has(url)).slice(0, limit);
+    if (!urls.length) return;
+    prefetchingTiles = true;
+    // Warm the browser's HTTP cache only after visible tiles finish. No extra
+    // map, SVG layer or decoded off-screen tiles are created.
+    const worker = async () => {
+      while (urls.length && !lifecycle.signal.aborted && geographicMode() && !citySwitching && !map.isMoving()) {
+        const url = urls.shift()!;
+        prefetchedTiles.add(url);
+        if (prefetchedTiles.size > 256) prefetchedTiles.delete(prefetchedTiles.values().next().value!);
+        try {
+          const response = await fetch(url, { cache: 'force-cache', signal: AbortSignal.any([lifecycle.signal, AbortSignal.timeout(8000)]) });
+          if (!response.ok) { prefetchedTiles.delete(url); break; }
+          await response.arrayBuffer();
+        } catch { prefetchedTiles.delete(url); break; }
+      }
+    };
+    try { await Promise.all([worker(), worker()]); }
+    finally { prefetchingTiles = false; }
   }
   async function loadGeographicMap() {
     if (geographicMap) {
@@ -418,7 +449,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
         geographicMap.keyboard.disableRotation();
       }
       geographicMap.resize();
-      mapStatus.hidden = !geographicTileFailed;
+      mapStatus.hidden = true;
       renderGeographicControls();
       updateNeighborControls();
       return;
@@ -468,6 +499,11 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
           touchPitch: false,
           pitchWithRotate: false,
           attributionControl: false,
+          // Retain more recently visited regions, with a bounded cache on
+          // narrow screens, and let lower-zoom tiles finish during zooming.
+          maxTileCacheZoomLevels: 8,
+          maxTileCacheSize: window.matchMedia('(max-width: 600px)').matches ? 128 : 256,
+          cancelPendingTileRequestsWhileZooming: false,
         });
         geographicMap.touchZoomRotate.disableRotation();
         geographicMap.keyboard.disableRotation();
@@ -475,6 +511,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
         attachMapEvents(geographicMap);
         createGeographicOverlay();
         resetGeographicMap(initialCamera);
+        mapStatus.hidden = true;
         const selectedPoint = selected ? coordinateFor(selected) : undefined;
         if (selectedPoint) geographicMap.jumpTo({ center: [selectedPoint.lon, selectedPoint.lat], zoom: basemap.maxZoom });
         renderGeographicControls();
