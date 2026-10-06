@@ -16,6 +16,14 @@ export default async function onRequest(context) {
   const pathname = new URL(request.url).pathname;
   const target = upstreamUrl(pathname);
   if (!target) return new Response('Unknown tile path', { status: 404 });
+  const cache = globalThis.caches?.default;
+  const cacheKey = new Request(request.url, { method: 'GET' });
+  if (cache) {
+    try {
+      const cached = await cache.match(cacheKey);
+      if (cached) return request.method === 'HEAD' ? new Response(null, { status: cached.status, headers: cached.headers }) : cached;
+    } catch { /* A cache miss must not make the map unavailable. */ }
+  }
   try {
     const upstream = await fetch(target, { headers: { Accept: request.headers.get('Accept') || '*/*' } });
     const headers = new Headers(upstream.headers);
@@ -23,7 +31,12 @@ export default async function onRequest(context) {
     headers.delete('content-encoding');
     headers.delete('content-length');
     headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=86400');
-    return new Response(request.method === 'HEAD' ? null : upstream.body, { status: upstream.status, headers });
+    const response = new Response(request.method === 'HEAD' ? null : upstream.body, { status: upstream.status, headers });
+    if (cache && upstream.ok && request.method === 'GET') {
+      try { context.waitUntil(cache.put(cacheKey, response.clone())); }
+      catch { /* Caching is an optimization; the live response is still valid. */ }
+    }
+    return response;
   } catch {
     return new Response('Tile upstream unavailable', { status: 502, headers: { 'Cache-Control': 'no-store' } });
   }

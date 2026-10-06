@@ -56,6 +56,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   const homeNetworkBounds = networkBounds(Object.values(geographicCoordinates));
   const neighborOverlays = new Map<string, SVGSVGElement>();
   const neighborLinks = new Map([...document.querySelectorAll<HTMLAnchorElement>('[data-neighbor-city]')].map(link => [link.dataset.neighborCity!, link]));
+  const cityPageCache = new Map<string, Promise<Document>>();
   let navigation: AbortController | undefined;
   let citySwitching = false;
   let exploringNeighbors = false;
@@ -75,6 +76,20 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   const pointers = new Map<number, { x: number; y: number }>();
   let gesture: { view: typeof view; center: { x: number; y: number }; distance: number; count: number } | null = null;
   const minimumWidth = () => Math.min(fitWidth, svg.clientWidth * .65);
+  function requestCityPage(href: string, signal?: AbortSignal): Promise<Document> {
+    const cached = cityPageCache.get(href);
+    if (cached) return cached;
+    const request = fetch(href, signal ? { signal } : undefined).then(async response => {
+      if (!response.ok) throw new Error(`City page returned ${response.status}`);
+      return new DOMParser().parseFromString(await response.text(), 'text/html');
+    });
+    cityPageCache.set(href, request);
+    request.catch(() => { if (cityPageCache.get(href) === request) cityPageCache.delete(href); });
+    return request;
+  }
+  function preloadCityPage(href: string) {
+    if (href !== `${city.assetBase}/`) void requestCityPage(href).catch(() => undefined);
+  }
 
   function updateVisitState() {
     nodes.forEach(node => node.classList.toggle('visited', visited.has(node.dataset.station!)));
@@ -191,6 +206,18 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     const final = transform.applyConstrain(constrained.center, constrained.zoom);
     return { center: final.center.toArray(), zoom: final.zoom, bearing: 0, pitch: 0 };
   }
+  async function destinationCameraForNeighbor(map: MapLibreMap, target: NeighborCity): Promise<CameraOptions> {
+    const { LngLat, LngLatBounds } = await import('maplibre-gl');
+    const camera = map.cameraForBounds(target.networkBounds, { padding: 40, maxZoom: Math.min(12, target.maxZoom) });
+    const transform = map.transform.clone();
+    transform.setMinZoom(0);
+    transform.setMaxZoom(target.maxZoom);
+    transform.setMaxBounds(new LngLatBounds(target.geographicBounds));
+    const fallbackCenter = [(target.networkBounds[0][0] + target.networkBounds[1][0]) / 2, (target.networkBounds[0][1] + target.networkBounds[1][1]) / 2] as [number, number];
+    const constrained = transform.applyConstrain(LngLat.convert(camera?.center ?? fallbackCenter), camera?.zoom ?? 11);
+    const final = transform.applyConstrain(constrained.center, constrained.zoom);
+    return { center: final.center.toArray(), zoom: final.zoom, bearing: 0, pitch: 0 };
+  }
   function flyToCity(map: MapLibreMap, camera: CameraOptions, signal: AbortSignal) {
     return new Promise<void>((resolve, reject) => {
       const finish = () => { map.off('moveend', finish); signal.removeEventListener('abort', cancel); resolve(); };
@@ -220,20 +247,31 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     const previous = map ? { center: map.getCenter().toArray(), zoom: map.getZoom(), minZoom: map.getMinZoom() } : undefined;
     if (map) for (const handler of mapHandlers(map)) handler.disable();
     try {
-      const response = await fetch(href, { signal: operation.signal });
-      if (!response.ok) throw new Error(`City page returned ${response.status}`);
-      const page = new DOMParser().parseFromString(await response.text(), 'text/html');
+      // Start the page request and the cross-city flight together. Neighbor
+      // metadata already contains the target bounds, so the animation does not
+      // need to wait for the HTML response before moving.
+      const targetNeighbor = neighbors.find(neighbor => neighbor.href === href);
+      let camera = map && targetNeighbor ? await destinationCameraForNeighbor(map, targetNeighbor) : undefined;
+      let flight: Promise<void> | undefined;
+      if (map && camera) {
+        map.setMaxBounds(null);
+        map.setMinZoom(0);
+        map.setMaxZoom(Math.max(basemap.maxZoom, targetNeighbor?.maxZoom ?? basemap.maxZoom));
+        flight = flyToCity(map, camera, operation.signal);
+      }
+      const page = await requestCityPage(href, operation.signal);
       const next = readCityPayload(page);
       if (`${next.city.assetBase}/` !== href || !page.querySelector('.map-workspace')) throw new Error('Invalid city page');
-      const camera = map ? await destinationCamera(map, next) : undefined;
+      if (map && !camera) camera = await destinationCamera(map, next);
       if (operation.signal.aborted) throw operation.signal.reason;
-      if (map && camera) {
+      if (map && camera && !flight) {
         // Only the locked switching animation may cross the city boundary.
         map.setMaxBounds(null);
         map.setMinZoom(0);
         map.setMaxZoom(Math.max(basemap.maxZoom, next.basemap.maxZoom));
-        await flyToCity(map, camera, operation.signal);
+        flight = flyToCity(map, camera, operation.signal);
       }
+      if (flight) await flight;
       if (operation.signal.aborted) throw operation.signal.reason;
       installCity(page, next, map, camera, href, push);
     } catch (error) {
@@ -730,6 +768,11 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || !geographicMode() || !geographicMap) return;
     event.preventDefault();
     void navigateCity(neighbor.href);
+  });
+  document.querySelectorAll<HTMLAnchorElement>('.city-choice, [data-neighbor-city]').forEach(link => {
+    const href = new URL(link.href, location.href).pathname;
+    listen(link, 'pointerenter', () => preloadCityPage(href));
+    listen(link, 'focus', () => preloadCityPage(href));
   });
 
   listen(document.querySelector('#close-card')!, 'click', closeCard);
