@@ -45,6 +45,8 @@ npm run dev
 
 按 `/` 聚焦搜索、`Esc` 关闭详情。地图获得键盘焦点后，可用方向键移动、`+` / `-` 缩放、`0` 复位；放大后可通过 Tab 和 Enter 访问站点。
 
+手机双指缩放由地图区域接管，加载地图和城市切换动画期间也不会交给浏览器缩放整页；详情等滚动面板保留单指滚动。
+
 ```powershell
 npm run check
 node scripts/validate-map.mjs

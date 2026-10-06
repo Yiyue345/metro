@@ -64,6 +64,15 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   let citySwitching = false;
   let exploringNeighbors = false;
   const geographicMode = () => workspace.dataset.mapMode === 'geographic';
+  // Keep browser pinch zoom blocked even before MapLibre loads or while its
+  // handlers are disabled for a city flight. Single-touch panel scrolling stays native.
+  listen(workspace, 'touchmove', event => {
+    if (event.touches.length > 1 && event.cancelable) event.preventDefault();
+  }, { passive: false });
+  // Safari also exposes browser pinch gestures separately from Touch Events.
+  for (const type of ['gesturestart', 'gesturechange']) workspace.addEventListener(type, event => {
+    if (event.cancelable) event.preventDefault();
+  }, { passive: false, signal: lifecycle.signal });
   const coordinateFor = (id: string) => {
     const coordinate = geographicCoordinates[id];
     return coordinate && Number.isFinite(coordinate.lat) && Number.isFinite(coordinate.lon)
