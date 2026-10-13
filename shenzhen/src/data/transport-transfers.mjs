@@ -11,6 +11,8 @@ export const railwayTransportModes = {
   '南昆客运专线': 'highSpeedRail', '南凭高速铁路': 'highSpeedRail', '柳南客运专线': 'highSpeedRail',
   '南广铁路': 'highSpeedRail', '南钦铁路': 'highSpeedRail', '贵南高速铁路': 'highSpeedRail',
   '南珠高铁南玉段': 'highSpeedRail',
+  '沪昆铁路': 'rail', '成昆铁路': 'rail',
+  '沪昆高速铁路': 'highSpeedRail',
   '穗深城际铁路': 'gdIntercity', '广惠城际铁路': 'gdIntercity',
 };
 

@@ -4,8 +4,8 @@ import { cp, readdir, stat } from 'node:fs/promises';
 import { extname, isAbsolute, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-// Each city keeps its own public assets; the app serves both from one origin.
-const cityPublicDirectories = ['nanning', 'dongguan'].map(id => ({ id, publicDirectory: fileURLToPath(new URL(`../${id}/public/`, import.meta.url)) }));
+// Each city keeps its own public assets, served from the shared app origin.
+const cityPublicDirectories = ['nanning', 'dongguan', 'kunming'].map(id => ({ id, publicDirectory: fileURLToPath(new URL(`../${id}/public/`, import.meta.url)) }));
 const contentTypes = { '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.json': 'application/json' };
 const cityAssets = {
   name: 'metro-city-assets',
@@ -36,7 +36,7 @@ const cityAssets = {
         const destination = fileURLToPath(new URL(`${id}/`, dir));
         // Only asset directories are copied, preserving the generated page index.
         for (const entry of await readdir(publicDirectory, { withFileTypes: true })) {
-          if (entry.isDirectory()) await cp(join(publicDirectory, entry.name), join(destination, entry.name), { recursive: true });
+          if (entry.isDirectory() && !(id === 'kunming' && entry.name === 'maps')) await cp(join(publicDirectory, entry.name), join(destination, entry.name), { recursive: true });
         }
       }
     },

@@ -42,6 +42,6 @@ $env:PUBLIC_TILE_PROXY_BASE = 'https://tiles.example.cn'
 npm --prefix shenzhen run build
 ```
 
-配置后，浏览器访问 `https://tiles.example.cn/tiles/osm/tiles.json` 和对应的瓦片，页面不会直接请求 `tiles.versatiles.org`。未设置该变量时仍使用原始公开地址，方便本地开发和回退。代理失败时，页面仍可切换到“矢量”模式使用仓库内的静态底图。
+配置后，浏览器访问 `https://tiles.example.cn/tiles/osm/tiles.json` 和对应的瓦片，页面不会直接请求 `tiles.versatiles.org`。未设置该变量时仍使用原始公开地址，方便本地开发。四城只提供在线地图，历史静态矢量背景不再进入页面；地图初始化失败后，点击重置视野按钮重试加载。
 
 OpenStreetMap、ESA WorldCover 和 VersaTiles 的署名继续由页面保留；部署时需遵守各数据源和瓦片服务的使用条款及流量限制。

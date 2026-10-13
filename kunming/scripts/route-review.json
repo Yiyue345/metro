@@ -1,0 +1,10 @@
+{
+  "reference": "2026.07 operating white-background JPG",
+  "method": "Magnified original-pixel and extracted-curve overlay inspection; route center remains on the correct colored corridor.",
+  "reviewedSegments": [
+    { "line": "1", "from": "春融街", "to": "市级行政中心", "reason": "Branch junction station ring masks the line-color pixels; the traced branch turns east along the original red band." },
+    { "line": "2", "from": "白云路", "to": "火车北站", "reason": "The long three-line station capsule masks the blue approach; the curve enters the correct north-south track." },
+    { "line": "4", "from": "白龙路", "to": "大树营", "reason": "Black/white station capsule masks the orange approach; extracted curve follows the original diagonal corridor." },
+    { "line": "4", "from": "斗南", "to": "金桂街", "reason": "The red-orange station capsule masks the branch connection; the orange path turns south toward Jingui St." }
+  ]
+}

@@ -1,0 +1,1760 @@
+{
+  "source": "https://map.amap.com/service/subway?srhdata=5301_drw_kunming.json",
+  "snapshot": "amap-kunming-source.json",
+  "snapshotSHA256": "87e8c747d78e59b15a6c4395cef40771bdf156e7debf3e2ea595e5f0ff32de58",
+  "operatingRosterMatched": true,
+  "stations": [
+    {
+      "id": "环城南路",
+      "name": "环城南路",
+      "sourceName": "环城南路(昆明南火车站/大学城南·云南开放大学)",
+      "sourceId": "BV09552275",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.720883,
+        "lat": 25.024746,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0277115,
+        "lon": 102.719429
+      }
+    },
+    {
+      "id": "昆明火车站",
+      "name": "昆明火车站",
+      "sourceName": "昆明火车站",
+      "sourceId": "BV10288758",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.723795,
+        "lat": 25.013698,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0166618,
+        "lon": 102.7223366
+      }
+    },
+    {
+      "id": "福德",
+      "name": "福德",
+      "sourceName": "福德",
+      "sourceId": "BV10288757",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.730365,
+        "lat": 25.006896,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0098547,
+        "lon": 102.7288973
+      }
+    },
+    {
+      "id": "日新路",
+      "name": "日新路",
+      "sourceName": "日新路",
+      "sourceId": "BV10287534",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.735077,
+        "lat": 25.001354,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0043101,
+        "lon": 102.7336035
+      }
+    },
+    {
+      "id": "巫家坝",
+      "name": "巫家坝",
+      "sourceName": "巫家坝",
+      "sourceId": "BV10287012",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.741612,
+        "lat": 24.996793,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9997464,
+        "lon": 102.7401319
+      }
+    },
+    {
+      "id": "昌宏西路",
+      "name": "昌宏西路",
+      "sourceName": "昌宏西路",
+      "sourceId": "BV10288756",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.751029,
+        "lat": 24.986379,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9893317,
+        "lon": 102.7495424
+      }
+    },
+    {
+      "id": "晓东村",
+      "name": "晓东村",
+      "sourceName": "晓东村",
+      "sourceId": "BV10287249",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.761957,
+        "lat": 24.985303,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9882579,
+        "lon": 102.7604671
+      }
+    },
+    {
+      "id": "珥季路",
+      "name": "珥季路",
+      "sourceName": "珥季路",
+      "sourceId": "BV10288755",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.767018,
+        "lat": 24.972614,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9755729,
+        "lon": 102.7655285
+      }
+    },
+    {
+      "id": "星耀路",
+      "name": "星耀路",
+      "sourceName": "星耀路",
+      "sourceId": "BV10288754",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.768296,
+        "lat": 24.956967,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9599287,
+        "lon": 102.7668072
+      }
+    },
+    {
+      "id": "新亚洲体育城",
+      "name": "新亚洲体育城",
+      "sourceName": "新亚洲体育城",
+      "sourceId": "BV10287268",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.769808,
+        "lat": 24.947096,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9500599,
+        "lon": 102.7683198
+      }
+    },
+    {
+      "id": "南部汽车站",
+      "name": "南部汽车站",
+      "sourceName": "南部汽车站",
+      "sourceId": "BV10288753",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.77525,
+        "lat": 24.929345,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9323153,
+        "lon": 102.773764
+      }
+    },
+    {
+      "id": "斗南",
+      "name": "斗南",
+      "sourceName": "斗南",
+      "sourceId": "BV10287852",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.791855,
+        "lat": 24.908169,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9111607,
+        "lon": 102.7903812
+      }
+    },
+    {
+      "id": "春融街",
+      "name": "春融街",
+      "sourceName": "春融街",
+      "sourceId": "BV10288752",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.825302,
+        "lat": 24.884035,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8870863,
+        "lon": 102.8238722
+      }
+    },
+    {
+      "id": "驼峰街",
+      "name": "驼峰街",
+      "sourceName": "驼峰街",
+      "sourceId": "BV10288751",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.829427,
+        "lat": 24.872448,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8755085,
+        "lon": 102.8280037
+      }
+    },
+    {
+      "id": "联大街",
+      "name": "联大街",
+      "sourceName": "联大街",
+      "sourceId": "BV10287758",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.833951,
+        "lat": 24.859673,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8627436,
+        "lon": 102.8325348
+      }
+    },
+    {
+      "id": "谊康南路",
+      "name": "谊康南路",
+      "sourceName": "谊康南路",
+      "sourceId": "BV10288750",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.838259,
+        "lat": 24.847629,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.850709,
+        "lon": 102.8368494
+      }
+    },
+    {
+      "id": "大学城",
+      "name": "大学城",
+      "sourceName": "大学城",
+      "sourceId": "BV10288749",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.842417,
+        "lat": 24.835941,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.83903,
+        "lon": 102.8410137
+      }
+    },
+    {
+      "id": "大学城南",
+      "name": "大学城南",
+      "sourceName": "大学城南·云南开放大学",
+      "sourceId": "BV09552261",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.826176,
+        "lat": 24.822199,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8252589,
+        "lon": 102.8247493
+      }
+    },
+    {
+      "id": "市级行政中心",
+      "name": "市级行政中心·清风",
+      "sourceName": "市级行政中心清风",
+      "sourceId": "BV10786439",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.836439,
+        "lat": 24.882183,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8852556,
+        "lon": 102.8350258
+      }
+    },
+    {
+      "id": "宜和路",
+      "name": "宜和路",
+      "sourceName": "宜和路",
+      "sourceId": "BV10786440",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.844818,
+        "lat": 24.884599,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8876868,
+        "lon": 102.8434167
+      }
+    },
+    {
+      "id": "白龙潭",
+      "name": "白龙潭",
+      "sourceName": "白龙潭",
+      "sourceId": "BV10786438",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.851919,
+        "lat": 24.874763,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8778644,
+        "lon": 102.8505274
+      }
+    },
+    {
+      "id": "昆明南火车站",
+      "name": "昆明南火车站",
+      "sourceName": "昆明南火车站",
+      "sourceId": "BV10786441",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.860168,
+        "lat": 24.870209,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8733243,
+        "lon": 102.8587861
+      }
+    },
+    {
+      "id": "北部汽车站",
+      "name": "北部汽车站",
+      "sourceName": "北部汽车站",
+      "sourceId": "BV10288744",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.76335,
+        "lat": 25.107208,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.1101502,
+        "lon": 102.7618564
+      }
+    },
+    {
+      "id": "龙头街",
+      "name": "龙头街",
+      "sourceName": "龙头街",
+      "sourceId": "BV10286914",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.753801,
+        "lat": 25.111895,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.1148343,
+        "lon": 102.7523094
+      }
+    },
+    {
+      "id": "司家营",
+      "name": "司家营",
+      "sourceName": "司家营",
+      "sourceId": "BV10287661",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.74569,
+        "lat": 25.109715,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.1126551,
+        "lon": 102.7442032
+      }
+    },
+    {
+      "id": "羊肠村",
+      "name": "羊肠村",
+      "sourceName": "羊肠村",
+      "sourceId": "BV10287654",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.742021,
+        "lat": 25.101132,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.1040739,
+        "lon": 102.7405375
+      }
+    },
+    {
+      "id": "霖雨桥",
+      "name": "霖雨桥",
+      "sourceName": "霖雨桥",
+      "sourceId": "BV10286943",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.739183,
+        "lat": 25.093315,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0962588,
+        "lon": 102.7377024
+      }
+    },
+    {
+      "id": "北辰",
+      "name": "北辰",
+      "sourceName": "北辰",
+      "sourceId": "BV10288745",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.732496,
+        "lat": 25.081046,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0839949,
+        "lon": 102.7310233
+      }
+    },
+    {
+      "id": "金星",
+      "name": "金星",
+      "sourceName": "金星",
+      "sourceId": "BV10288746",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.727567,
+        "lat": 25.075547,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0785004,
+        "lon": 102.7261011
+      }
+    },
+    {
+      "id": "白云路",
+      "name": "白云路",
+      "sourceName": "白云路",
+      "sourceId": "BV10288709",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.723949,
+        "lat": 25.065956,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0689137,
+        "lon": 102.7224889
+      }
+    },
+    {
+      "id": "火车北站",
+      "name": "火车北站",
+      "sourceName": "火车北站",
+      "sourceId": "BV10286869",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.720305,
+        "lat": 25.056113,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0590756,
+        "lon": 102.7188511
+      }
+    },
+    {
+      "id": "穿心鼓楼",
+      "name": "穿心鼓楼",
+      "sourceName": "穿心鼓楼",
+      "sourceId": "BV10287453",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.719543,
+        "lat": 25.049251,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0522152,
+        "lon": 102.7180906
+      }
+    },
+    {
+      "id": "交三桥",
+      "name": "交三桥",
+      "sourceName": "交三桥",
+      "sourceId": "BV10286903",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.719484,
+        "lat": 25.042425,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0453901,
+        "lon": 102.7180319
+      }
+    },
+    {
+      "id": "东风广场",
+      "name": "东风广场",
+      "sourceName": "东风广场",
+      "sourceId": "BV10288035",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.719665,
+        "lat": 25.03808,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0410453,
+        "lon": 102.7182127
+      }
+    },
+    {
+      "id": "塘子巷",
+      "name": "塘子巷",
+      "sourceName": "塘子巷",
+      "sourceId": "BV10287392",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.72008,
+        "lat": 25.032405,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0353705,
+        "lon": 102.7186272
+      }
+    },
+    {
+      "id": "西山公园",
+      "name": "西山公园",
+      "sourceName": "西山公园",
+      "sourceId": "BV10926564",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.618095,
+        "lat": 24.984176,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9873079,
+        "lon": 102.6168599
+      }
+    },
+    {
+      "id": "车家壁",
+      "name": "车家壁",
+      "sourceName": "车家壁",
+      "sourceId": "BV10926563",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.61568,
+        "lat": 24.994413,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9975454,
+        "lon": 102.6144474
+      }
+    },
+    {
+      "id": "普坪村",
+      "name": "普坪村",
+      "sourceName": "普坪村",
+      "sourceId": "BV10926561",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.621099,
+        "lat": 25.005415,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0085417,
+        "lon": 102.6198596
+      }
+    },
+    {
+      "id": "石咀",
+      "name": "石咀",
+      "sourceName": "石咀",
+      "sourceId": "BV10544506",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.629454,
+        "lat": 25.018123,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0212395,
+        "lon": 102.6282019
+      }
+    },
+    {
+      "id": "大渔路",
+      "name": "大渔路",
+      "sourceName": "大渔路",
+      "sourceId": "BV10544514",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.635661,
+        "lat": 25.027713,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0308204,
+        "lon": 102.6343978
+      }
+    },
+    {
+      "id": "西部汽车站",
+      "name": "西部汽车站",
+      "sourceName": "西部汽车站",
+      "sourceId": "BV10544508",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.638836,
+        "lat": 25.035271,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0383731,
+        "lon": 102.6375666
+      }
+    },
+    {
+      "id": "眠山",
+      "name": "眠山",
+      "sourceName": "眠山",
+      "sourceId": "BV10544513",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.649438,
+        "lat": 25.047161,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0502451,
+        "lon": 102.6481461
+      }
+    },
+    {
+      "id": "昌源中路",
+      "name": "昌源中路",
+      "sourceName": "昌源中路",
+      "sourceId": "BV10544502",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.656855,
+        "lat": 25.046652,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0497232,
+        "lon": 102.6555461
+      }
+    },
+    {
+      "id": "西苑",
+      "name": "西苑",
+      "sourceName": "西苑",
+      "sourceId": "BV10544515",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.666506,
+        "lat": 25.045937,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0489904,
+        "lon": 102.6651738
+      }
+    },
+    {
+      "id": "梁家河",
+      "name": "梁家河",
+      "sourceName": "梁家河",
+      "sourceId": "BV10544509",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.67794,
+        "lat": 25.045082,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0481138,
+        "lon": 102.6765794
+      }
+    },
+    {
+      "id": "市体育馆",
+      "name": "市体育馆",
+      "sourceName": "市体育馆",
+      "sourceId": "BV10544511",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.687386,
+        "lat": 25.04442,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0474342,
+        "lon": 102.6860021
+      }
+    },
+    {
+      "id": "潘家湾",
+      "name": "潘家湾",
+      "sourceName": "潘家湾",
+      "sourceId": "BV10926562",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.695467,
+        "lat": 25.043765,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0467649,
+        "lon": 102.694064
+      }
+    },
+    {
+      "id": "五一路",
+      "name": "五一路",
+      "sourceName": "五一路",
+      "sourceId": "BV10544510",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.706347,
+        "lat": 25.037085,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0400681,
+        "lon": 102.7049201
+      }
+    },
+    {
+      "id": "拓东体育馆",
+      "name": "拓东体育馆",
+      "sourceName": "拓东体育馆",
+      "sourceId": "BV10544504",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.729796,
+        "lat": 25.038291,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0412465,
+        "lon": 102.7283281
+      }
+    },
+    {
+      "id": "大树营",
+      "name": "大树营",
+      "sourceName": "大树营",
+      "sourceId": "BV10544503",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.740389,
+        "lat": 25.036769,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0397181,
+        "lon": 102.7389089
+      }
+    },
+    {
+      "id": "金马寺",
+      "name": "金马寺",
+      "sourceName": "金马寺",
+      "sourceId": "BV10544501",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.751215,
+        "lat": 25.036005,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0389517,
+        "lon": 102.7497269
+      }
+    },
+    {
+      "id": "太平村",
+      "name": "太平村",
+      "sourceName": "太平村",
+      "sourceId": "BV10544507",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.760802,
+        "lat": 25.036393,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0393413,
+        "lon": 102.7593107
+      }
+    },
+    {
+      "id": "虹桥",
+      "name": "虹桥",
+      "sourceName": "虹桥",
+      "sourceId": "BV10544512",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.773152,
+        "lat": 25.03609,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0390453,
+        "lon": 102.771662
+      }
+    },
+    {
+      "id": "东部汽车站",
+      "name": "东部汽车站",
+      "sourceName": "东部汽车站",
+      "sourceId": "BV10288739",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.788301,
+        "lat": 25.03622,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.039191,
+        "lon": 102.7868202
+      }
+    },
+    {
+      "id": "金川路",
+      "name": "金川路",
+      "sourceName": "金川路",
+      "sourceId": "BV10825689",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.657389,
+        "lat": 25.099066,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.102131,
+        "lon": 102.6560774
+      }
+    },
+    {
+      "id": "大河埂",
+      "name": "大河埂",
+      "sourceName": "大河埂",
+      "sourceId": "BV10825688",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.655205,
+        "lat": 25.089785,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0928547,
+        "lon": 102.6538988
+      }
+    },
+    {
+      "id": "海屯路",
+      "name": "海屯路",
+      "sourceName": "海屯路",
+      "sourceId": "BV10825673",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.664311,
+        "lat": 25.07605,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0791043,
+        "lon": 102.6629833
+      }
+    },
+    {
+      "id": "小屯",
+      "name": "小屯",
+      "sourceName": "小屯",
+      "sourceId": "BV10825679",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.673427,
+        "lat": 25.072222,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0752595,
+        "lon": 102.6720769
+      }
+    },
+    {
+      "id": "金鼎山北路",
+      "name": "金鼎山北路",
+      "sourceName": "金鼎山北路",
+      "sourceId": "BV10825665",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.68499,
+        "lat": 25.064135,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0671515,
+        "lon": 102.6836114
+      }
+    },
+    {
+      "id": "苏家塘",
+      "name": "苏家塘",
+      "sourceName": "苏家塘",
+      "sourceId": "BV11300054",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.693246,
+        "lat": 25.063606,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0666076,
+        "lon": 102.6918476
+      }
+    },
+    {
+      "id": "小菜园",
+      "name": "小菜园",
+      "sourceName": "小菜园",
+      "sourceId": "BV10825674",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.706002,
+        "lat": 25.060485,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.063466,
+        "lon": 102.7045752
+      }
+    },
+    {
+      "id": "白龙路",
+      "name": "白龙路",
+      "sourceName": "白龙路",
+      "sourceId": "BV10825670",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.734791,
+        "lat": 25.049617,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0525676,
+        "lon": 102.7333164
+      }
+    },
+    {
+      "id": "菊花村",
+      "name": "菊花村",
+      "sourceName": "菊花村",
+      "sourceId": "BV10825681",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.743392,
+        "lat": 25.029801,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0327498,
+        "lon": 102.7419094
+      }
+    },
+    {
+      "id": "菊华",
+      "name": "菊华",
+      "sourceName": "菊华",
+      "sourceId": "BV10825677",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.749866,
+        "lat": 25.024578,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0275261,
+        "lon": 102.748379
+      }
+    },
+    {
+      "id": "和甸营",
+      "name": "和甸营",
+      "sourceName": "和甸营",
+      "sourceId": "BV10825658",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.762167,
+        "lat": 25.015702,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0186532,
+        "lon": 102.7606762
+      }
+    },
+    {
+      "id": "牛街庄",
+      "name": "牛街庄",
+      "sourceName": "牛街庄",
+      "sourceId": "BV10825698",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.779544,
+        "lat": 25.005373,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0083377,
+        "lon": 102.7780579
+      }
+    },
+    {
+      "id": "朱家村",
+      "name": "朱家村",
+      "sourceName": "朱家村",
+      "sourceId": "BV10825655",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.783935,
+        "lat": 24.993296,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9962669,
+        "lon": 102.7824521
+      }
+    },
+    {
+      "id": "羊甫头",
+      "name": "羊甫头",
+      "sourceName": "羊甫头",
+      "sourceId": "BV10825690",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.785718,
+        "lat": 24.977898,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9808729,
+        "lon": 102.7842368
+      }
+    },
+    {
+      "id": "玉缘路",
+      "name": "玉缘路",
+      "sourceName": "玉缘路",
+      "sourceId": "BV10825668",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.786496,
+        "lat": 24.964593,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9675706,
+        "lon": 102.7850158
+      }
+    },
+    {
+      "id": "广卫",
+      "name": "广卫",
+      "sourceName": "广卫",
+      "sourceId": "BV10825683",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.784886,
+        "lat": 24.950424,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9534015,
+        "lon": 102.783405
+      }
+    },
+    {
+      "id": "塔密",
+      "name": "塔密",
+      "sourceName": "塔密",
+      "sourceId": "BV10825678",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.787737,
+        "lat": 24.937376,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9403586,
+        "lon": 102.7862587
+      }
+    },
+    {
+      "id": "金桂街",
+      "name": "金桂街·斗南花市",
+      "sourceName": "金桂街·斗南花市",
+      "sourceId": "BV09482653",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.790703,
+        "lat": 24.901504,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.904495,
+        "lon": 102.7892283
+      }
+    },
+    {
+      "id": "梅子村",
+      "name": "梅子村",
+      "sourceName": "梅子村",
+      "sourceId": "BV10825693",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.785893,
+        "lat": 24.892722,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.895708,
+        "lon": 102.7844145
+      }
+    },
+    {
+      "id": "古城",
+      "name": "古城",
+      "sourceName": "古城",
+      "sourceId": "BV10825699",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.792759,
+        "lat": 24.881848,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8848442,
+        "lon": 102.7912869
+      }
+    },
+    {
+      "id": "可乐村",
+      "name": "可乐村",
+      "sourceName": "可乐村",
+      "sourceId": "BV10825663",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.796723,
+        "lat": 24.874068,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8770708,
+        "lon": 102.7952552
+      }
+    },
+    {
+      "id": "祥丰街",
+      "name": "祥丰街",
+      "sourceName": "祥丰街",
+      "sourceId": "BV10825695",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.802784,
+        "lat": 24.857587,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8606012,
+        "lon": 102.8013236
+      }
+    },
+    {
+      "id": "牛头山",
+      "name": "牛头山",
+      "sourceName": "牛头山",
+      "sourceId": "BV10825660",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.814341,
+        "lat": 24.853808,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8568425,
+        "lon": 102.8128961
+      }
+    },
+    {
+      "id": "吴家营",
+      "name": "吴家营",
+      "sourceName": "吴家营",
+      "sourceId": "BV10825675",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.848072,
+        "lat": 24.86582,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.8689158,
+        "lon": 102.8466756
+      }
+    },
+    {
+      "id": "世博园",
+      "name": "世博园",
+      "sourceName": "世博园",
+      "sourceId": "BV10825687",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.754342,
+        "lat": 25.069199,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0721423,
+        "lon": 102.7528515
+      }
+    },
+    {
+      "id": "白龙寺",
+      "name": "白龙寺",
+      "sourceName": "白龙寺",
+      "sourceId": "BV10825684",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.748117,
+        "lat": 25.060961,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0639052,
+        "lon": 102.74663
+      }
+    },
+    {
+      "id": "石闸",
+      "name": "石闸",
+      "sourceName": "石闸",
+      "sourceId": "BV10825685",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.740632,
+        "lat": 25.053412,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0563591,
+        "lon": 102.7391511
+      }
+    },
+    {
+      "id": "穿金路",
+      "name": "穿金路",
+      "sourceName": "穿金路",
+      "sourceId": "BV10825671",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.729852,
+        "lat": 25.054853,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0578066,
+        "lon": 102.7283835
+      }
+    },
+    {
+      "id": "圆通山",
+      "name": "圆通山",
+      "sourceName": "圆通山",
+      "sourceId": "BV10825669",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.712719,
+        "lat": 25.054838,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0578101,
+        "lon": 102.7112788
+      }
+    },
+    {
+      "id": "华山西路",
+      "name": "华山西路",
+      "sourceName": "华山西路",
+      "sourceId": "BV10825694",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.707544,
+        "lat": 25.04481,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0477905,
+        "lon": 102.7061144
+      }
+    },
+    {
+      "id": "弥勒寺",
+      "name": "弥勒寺",
+      "sourceName": "弥勒寺",
+      "sourceId": "BV10825700",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.699926,
+        "lat": 25.032055,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0350488,
+        "lon": 102.6985132
+      }
+    },
+    {
+      "id": "严家地",
+      "name": "严家地",
+      "sourceName": "严家地",
+      "sourceId": "BV10825686",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.698471,
+        "lat": 25.020672,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0236695,
+        "lon": 102.6970618
+      }
+    },
+    {
+      "id": "金兰路",
+      "name": "金兰路",
+      "sourceName": "金兰路",
+      "sourceId": "BV10825682",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.69036,
+        "lat": 25.013946,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0169583,
+        "lon": 102.6889699
+      }
+    },
+    {
+      "id": "福海",
+      "name": "福海",
+      "sourceName": "福海",
+      "sourceId": "BV10825691",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.685106,
+        "lat": 25.010759,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0137813,
+        "lon": 102.6837287
+      }
+    },
+    {
+      "id": "广福路西口",
+      "name": "广福路西口",
+      "sourceName": "广福路西口",
+      "sourceId": "BV10825662",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.674169,
+        "lat": 25.00419,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0072337,
+        "lon": 102.672819
+      }
+    },
+    {
+      "id": "大坝",
+      "name": "大坝",
+      "sourceName": "大坝",
+      "sourceId": "BV10825666",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.664508,
+        "lat": 24.994955,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9980182,
+        "lon": 102.6631822
+      }
+    },
+    {
+      "id": "迎海路",
+      "name": "迎海路",
+      "sourceName": "迎海路",
+      "sourceId": "BV10825656",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.663638,
+        "lat": 24.984391,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9874571,
+        "lon": 102.6623146
+      }
+    },
+    {
+      "id": "渔户村",
+      "name": "渔户村",
+      "sourceName": "渔户村",
+      "sourceId": "BV10825661",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.670544,
+        "lat": 24.97677,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.979824,
+        "lon": 102.6692038
+      }
+    },
+    {
+      "id": "兴体路",
+      "name": "兴体路",
+      "sourceName": "兴体路",
+      "sourceId": "BV10825676",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.680065,
+        "lat": 24.975297,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9783331,
+        "lon": 102.6787011
+      }
+    },
+    {
+      "id": "庄家塘立交桥",
+      "name": "庄家塘立交桥",
+      "sourceName": "庄家塘立交桥",
+      "sourceId": "BV10825696",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.692974,
+        "lat": 24.973188,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9762008,
+        "lon": 102.6915788
+      }
+    },
+    {
+      "id": "金家河",
+      "name": "金家河",
+      "sourceName": "金家河",
+      "sourceId": "BV10825692",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.693228,
+        "lat": 24.961547,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9645608,
+        "lon": 102.6918326
+      }
+    },
+    {
+      "id": "福保",
+      "name": "福保",
+      "sourceName": "福保",
+      "sourceId": "BV10825672",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.696499,
+        "lat": 24.944792,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9478023,
+        "lon": 102.6950964
+      }
+    },
+    {
+      "id": "滇池国际会展中心",
+      "name": "滇池国际会展中心",
+      "sourceName": "滇池国际会展中心",
+      "sourceId": "BV10914011",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.708414,
+        "lat": 24.939002,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9419942,
+        "lon": 102.7069857
+      }
+    },
+    {
+      "id": "宝丰",
+      "name": "宝丰",
+      "sourceName": "宝丰",
+      "sourceId": "BV10914005",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.723155,
+        "lat": 24.93055,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 24.9335249,
+        "lon": 102.7217001
+      }
+    },
+    {
+      "id": "岔街",
+      "name": "岔街",
+      "sourceName": "岔街",
+      "sourceId": "BV11352537",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.733256,
+        "lat": 25.031507,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0344607,
+        "lon": 102.7317838
+      }
+    },
+    {
+      "id": "东郊路",
+      "name": "东郊路",
+      "sourceName": "东郊路",
+      "sourceId": "BV10825702",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.74112,
+        "lat": 25.027789,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0307388,
+        "lon": 102.7396394
+      }
+    },
+    {
+      "id": "大板桥",
+      "name": "大板桥",
+      "sourceName": "大板桥",
+      "sourceId": "BV10288740",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.876471,
+        "lat": 25.053348,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0564621,
+        "lon": 102.8750971
+      }
+    },
+    {
+      "id": "机场前",
+      "name": "机场前",
+      "sourceName": "机场前",
+      "sourceId": "BV10288741",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.913491,
+        "lat": 25.084818,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0879413,
+        "lon": 102.9121063
+      }
+    },
+    {
+      "id": "机场中心",
+      "name": "机场中心",
+      "sourceName": "机场中心",
+      "sourceId": "BV10288742",
+      "sourceCRS": "gcj02",
+      "sourceLocation": {
+        "lon": 102.927756,
+        "lat": 25.095468,
+        "crs": "gcj02"
+      },
+      "outputCRS": "WGS84",
+      "coordinate": {
+        "lat": 25.0985792,
+        "lon": 102.9263494
+      }
+    }
+  ],
+  "missing": []
+}

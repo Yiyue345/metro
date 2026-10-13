@@ -23,6 +23,7 @@ dist/
 shenzhen/public/maps/*-reference.jpg
 nanning/public/maps/*-reference*.jpg
 dongguan/public/maps/*-reference*.jpg
+kunming/public/maps/*-reference*.jpg
 **/scripts/review/
 **/scripts/ocr-tiles/
 **/scripts/ocr-clean-tiles/

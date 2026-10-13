@@ -21,7 +21,7 @@ const neighbors = neighborDatasets.map(neighborCity);
 const metroPayload = JSON.stringify({ stations: bilingualStations, lines, meta: mapMeta, visitedStations, coordinates, city, stationNotes, basemap, operatorsByStation, lineNames, neighbors, transportTransfers }).replace(/</g, '\\u003c');
 ---
 <section class="map-workspace" data-map-mode="geographic" aria-label={`${city.name}地铁交互地图`}>
-  <MetroDiagram dataset={dataset} />
+  <template id="metro-diagram-source"><MetroDiagram dataset={dataset} /></template>
   <div id="geographic-map" aria-label={`${city.name}地铁真实地图，可拖动和缩放`}></div>
   {neighborDatasets.map(neighbor => <template data-neighbor-diagram={neighbor.city.id}><MetroDiagram dataset={neighbor} neighbor /></template>)}
   <nav class="neighbor-city-controls" aria-label="附近城市">
@@ -29,7 +29,6 @@ const metroPayload = JSON.stringify({ stations: bilingualStations, lines, meta: 
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5" /></svg><span>{neighbor.name}</span>
     </a>)}
   </nav>
-  <div class="vector-attribution"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> <a href="https://esa-worldcover.org/en/data-access" target="_blank" rel="noopener noreferrer">ESA WorldCover 2021</a> · <a href="https://versatiles.org/" target="_blank" rel="noopener noreferrer">© VersaTiles</a></div>
   <p id="map-status" class="map-status" role="status">地图加载中…</p>
   <div class="map-tools">
     <div class="search-panel">
@@ -42,10 +41,6 @@ const metroPayload = JSON.stringify({ stations: bilingualStations, lines, meta: 
       <summary><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14M5 12h14M5 19h14"/><circle cx="9" cy="5" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="9" cy="19" r="2"/></svg><span>线路站点</span><span id="line-count">全部</span><svg class="chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m5 6 3 3 3-3"/></svg></summary>
       <div class="line-options"><button id="all-lines" class="line-choice active" type="button" aria-pressed="true">全部线路</button>{lines.map(line => <button class="line-choice" type="button" data-line={line.id} aria-label={line.name} aria-pressed="false"><img class="line-badge" src={`${city.assetBase}/lines/${line.id}.svg`} alt={line.name} width={lineBadgeWidth(line.id)} height="100" /></button>)}</div>
     </details>
-    <div class="map-mode" role="group" aria-label="地图显示方式">
-      <button type="button" data-map-view="vector" aria-pressed="false">矢量</button>
-      <button type="button" data-map-view="geographic" aria-pressed="true">地图</button>
-    </div>
   </div>
   <aside id="station-card" class="station-card" aria-live="polite" hidden>
     <div class="card-top"><div><span class="eyebrow">地铁站</span><h1 id="station-name"></h1></div><button id="close-card" class="icon-button" aria-label="关闭站点详情"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
@@ -58,12 +53,11 @@ const metroPayload = JSON.stringify({ stations: bilingualStations, lines, meta: 
     <p id="station-note" class="station-note" hidden></p>
   </aside>
   <div class="zoom-controls" aria-label="地图缩放">
-    <button id="zoom-in" aria-label="放大地图" title="放大"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+    <button id="zoom-in" aria-label="放大地图" title="放大" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
     <span id="zoom-level" title="当前地图缩放级别">…</span>
-    <button id="zoom-out" aria-label="缩小地图" title="缩小"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg></button>
+    <button id="zoom-out" aria-label="缩小地图" title="缩小" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg></button>
     <button id="reset-map" aria-label="重置地图视野" title="重置视野"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4H4v4M16 4h4v4M20 16v4h-4M8 20H4v-4"/><circle cx="12" cy="12" r="3"/></svg></button>
   </div>
-  <div id="map-tooltip" class="map-tooltip" hidden></div>
 </section>
 <script id="metro-city-data" type="application/json" set:html={metroPayload} />
 <script src="./map.ts"></script>

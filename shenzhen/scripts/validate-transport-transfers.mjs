@@ -6,6 +6,7 @@ const cities = [
   ['深圳', new URL('../src/data/', import.meta.url)],
   ['东莞', new URL('../../dongguan/data/', import.meta.url)],
   ['南宁', new URL('../../nanning/data/', import.meta.url)],
+  ['昆明', new URL('../../kunming/data/', import.meta.url)],
 ];
 const modes = new Set();
 let stationCount = 0, badgeCount = 0;

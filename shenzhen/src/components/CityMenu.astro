@@ -1,7 +1,8 @@
 ---
 interface Props { currentCity?: string }
 const { currentCity = 'shenzhen' } = Astro.props;
-const cities = [{ id: 'shenzhen', name: '深圳', href: '/' }, { id: 'nanning', name: '南宁', href: '/nanning/' }, { id: 'dongguan', name: '东莞', href: '/dongguan/' }];
+const cities = [{ id: 'shenzhen', name: '深圳', href: '/' }, { id: 'nanning', name: '南宁', href: '/nanning/' }, { id: 'dongguan', name: '东莞', href: '/dongguan/' }, { id: 'kunming', name: '昆明', href: '/kunming/' }]
+  .sort((a, b) => a.name.localeCompare(b.name, 'zh-Hans-CN-u-co-pinyin'));
 ---
 <button id="city-menu-toggle" class="city-menu-toggle" type="button" aria-label="打开城市列表" aria-haspopup="dialog" aria-controls="city-menu" aria-expanded="false" title="切换城市">
   <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 25V7h18v18M7 16h18"/><circle cx="7" cy="7" r="3"/><circle cx="25" cy="25" r="3"/><circle cx="7" cy="16" r="3"/></svg>

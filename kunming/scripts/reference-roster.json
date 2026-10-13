@@ -1,0 +1,1269 @@
+{
+  "edition": "2026.07",
+  "reference": "01.公开版-昆明地铁线路3.0-a运营版（至2026年07月）纯白底.jpg",
+  "uniqueStationCount": 103,
+  "lineStationMembershipCount": 115,
+  "lineStationCounts": {
+    "1": 22,
+    "2": 14,
+    "3": 20,
+    "4": 29,
+    "5": 22,
+    "6": 8
+  },
+  "linePaths": {
+    "1": [
+      [
+        "环城南路",
+        "昆明火车站",
+        "福德",
+        "日新路",
+        "巫家坝",
+        "昌宏西路",
+        "晓东村",
+        "珥季路",
+        "星耀路",
+        "新亚洲体育城",
+        "南部汽车站",
+        "斗南",
+        "春融街",
+        "驼峰街",
+        "联大街",
+        "谊康南路",
+        "大学城",
+        "大学城南"
+      ],
+      [
+        "环城南路",
+        "昆明火车站",
+        "福德",
+        "日新路",
+        "巫家坝",
+        "昌宏西路",
+        "晓东村",
+        "珥季路",
+        "星耀路",
+        "新亚洲体育城",
+        "南部汽车站",
+        "斗南",
+        "春融街",
+        "市级行政中心",
+        "宜和路",
+        "白龙潭",
+        "昆明南火车站"
+      ]
+    ],
+    "2": [
+      [
+        "北部汽车站",
+        "龙头街",
+        "司家营",
+        "羊肠村",
+        "霖雨桥",
+        "北辰",
+        "金星",
+        "白云路",
+        "火车北站",
+        "穿心鼓楼",
+        "交三桥",
+        "东风广场",
+        "塘子巷",
+        "环城南路"
+      ]
+    ],
+    "3": [
+      [
+        "西山公园",
+        "车家壁",
+        "普坪村",
+        "石咀",
+        "大渔路",
+        "西部汽车站",
+        "眠山",
+        "昌源中路",
+        "西苑",
+        "梁家河",
+        "市体育馆",
+        "潘家湾",
+        "五一路",
+        "东风广场",
+        "拓东体育馆",
+        "大树营",
+        "金马寺",
+        "太平村",
+        "虹桥",
+        "东部汽车站"
+      ]
+    ],
+    "4": [
+      [
+        "金川路",
+        "大河埂",
+        "海屯路",
+        "小屯",
+        "金鼎山北路",
+        "苏家塘",
+        "小菜园",
+        "火车北站",
+        "白龙路",
+        "大树营",
+        "菊花村",
+        "菊华",
+        "和甸营",
+        "牛街庄",
+        "朱家村",
+        "羊甫头",
+        "玉缘路",
+        "广卫",
+        "塔密",
+        "斗南",
+        "金桂街",
+        "梅子村",
+        "古城",
+        "可乐村",
+        "祥丰街",
+        "牛头山",
+        "联大街",
+        "吴家营",
+        "昆明南火车站"
+      ]
+    ],
+    "5": [
+      [
+        "世博园",
+        "白龙寺",
+        "石闸",
+        "穿金路",
+        "火车北站",
+        "圆通山",
+        "华山西路",
+        "五一路",
+        "弥勒寺",
+        "严家地",
+        "金兰路",
+        "福海",
+        "广福路西口",
+        "大坝",
+        "迎海路",
+        "渔户村",
+        "兴体路",
+        "庄家塘立交桥",
+        "金家河",
+        "福保",
+        "滇池国际会展中心",
+        "宝丰"
+      ]
+    ],
+    "6": [
+      [
+        "塘子巷",
+        "岔街",
+        "东郊路",
+        "菊华",
+        "东部汽车站",
+        "大板桥",
+        "机场前",
+        "机场中心"
+      ]
+    ]
+  },
+  "stations": [
+    {
+      "id": "环城南路",
+      "name": "环城南路",
+      "englishName": "South Ring Rd",
+      "aliases": [],
+      "lines": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "昆明火车站",
+      "name": "昆明火车站",
+      "englishName": "Kunming Railway Station",
+      "aliases": [
+        "昆明站"
+      ],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "福德",
+      "name": "福德",
+      "englishName": "Fude",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "日新路",
+      "name": "日新路",
+      "englishName": "Rixin Rd",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "巫家坝",
+      "name": "巫家坝",
+      "englishName": "Wujiaba",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "昌宏西路",
+      "name": "昌宏西路",
+      "englishName": "Changhong West Rd",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "晓东村",
+      "name": "晓东村",
+      "englishName": "Xiaodongcun",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "珥季路",
+      "name": "珥季路",
+      "englishName": "Erji Rd",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "星耀路",
+      "name": "星耀路",
+      "englishName": "Xingyao Rd",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "新亚洲体育城",
+      "name": "新亚洲体育城",
+      "englishName": "New Asia Athletics Park",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "南部汽车站",
+      "name": "南部汽车站",
+      "englishName": "South Coach Station",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "斗南",
+      "name": "斗南",
+      "englishName": "Dounan",
+      "aliases": [],
+      "lines": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "春融街",
+      "name": "春融街",
+      "englishName": "Chunrong St",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "驼峰街",
+      "name": "驼峰街",
+      "englishName": "Tuofeng St",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "联大街",
+      "name": "联大街",
+      "englishName": "Lianda St",
+      "aliases": [],
+      "lines": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "谊康南路",
+      "name": "谊康南路",
+      "englishName": "Yikang South Rd",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "大学城",
+      "name": "大学城",
+      "englishName": "University Town",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "大学城南",
+      "name": "大学城南",
+      "englishName": "University Town South",
+      "aliases": [
+        "大学城南·云南开放大学",
+        "云南开放大学"
+      ],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "市级行政中心",
+      "name": "市级行政中心·清风",
+      "englishName": "Municipal Administration Center",
+      "aliases": [
+        "市级行政中心清风",
+        "市级行政中心·清风",
+        "清风"
+      ],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "宜和路",
+      "name": "宜和路",
+      "englishName": "Yihe Rd",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "白龙潭",
+      "name": "白龙潭",
+      "englishName": "Bailongtan",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "昆明南火车站",
+      "name": "昆明南火车站",
+      "englishName": "Kunming South Railway Station",
+      "aliases": [
+        "昆明南站"
+      ],
+      "lines": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "北部汽车站",
+      "name": "北部汽车站",
+      "englishName": "North Coach Station",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "龙头街",
+      "name": "龙头街",
+      "englishName": "Longtou St",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "司家营",
+      "name": "司家营",
+      "englishName": "Sijiaying",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "羊肠村",
+      "name": "羊肠村",
+      "englishName": "Yangchangcun",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "霖雨桥",
+      "name": "霖雨桥",
+      "englishName": "Linyuqiao",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "北辰",
+      "name": "北辰",
+      "englishName": "Beichen",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "金星",
+      "name": "金星",
+      "englishName": "Jinxing",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "白云路",
+      "name": "白云路",
+      "englishName": "Baiyun Rd",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "火车北站",
+      "name": "火车北站",
+      "englishName": "North Railway Station",
+      "aliases": [],
+      "lines": [
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "穿心鼓楼",
+      "name": "穿心鼓楼",
+      "englishName": "Chuanxingulou",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "交三桥",
+      "name": "交三桥",
+      "englishName": "Jiaosanqiao",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "东风广场",
+      "name": "东风广场",
+      "englishName": "Dongfeng Square",
+      "aliases": [],
+      "lines": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "塘子巷",
+      "name": "塘子巷",
+      "englishName": "Tangzixiang",
+      "aliases": [],
+      "lines": [
+        "2",
+        "6"
+      ]
+    },
+    {
+      "id": "西山公园",
+      "name": "西山公园",
+      "englishName": "Western Hills Park",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "车家壁",
+      "name": "车家壁",
+      "englishName": "Chejiabi",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "普坪村",
+      "name": "普坪村",
+      "englishName": "Pupingcun",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "石咀",
+      "name": "石咀",
+      "englishName": "Shizui",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "大渔路",
+      "name": "大渔路",
+      "englishName": "Dayu Rd",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "西部汽车站",
+      "name": "西部汽车站",
+      "englishName": "West Coach Station",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "眠山",
+      "name": "眠山",
+      "englishName": "Mianshan",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "昌源中路",
+      "name": "昌源中路",
+      "englishName": "Changyuan Central Rd",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "西苑",
+      "name": "西苑",
+      "englishName": "Xiyuan",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "梁家河",
+      "name": "梁家河",
+      "englishName": "Liangjiahe",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "市体育馆",
+      "name": "市体育馆",
+      "englishName": "Municipal Gymnasium",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "潘家湾",
+      "name": "潘家湾",
+      "englishName": "Panjiawan",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "五一路",
+      "name": "五一路",
+      "englishName": "Wuyi Rd",
+      "aliases": [],
+      "lines": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "id": "拓东体育馆",
+      "name": "拓东体育馆",
+      "englishName": "Tuodong Stadium",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "大树营",
+      "name": "大树营",
+      "englishName": "Dashuying",
+      "aliases": [],
+      "lines": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "金马寺",
+      "name": "金马寺",
+      "englishName": "Jinmasi",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "太平村",
+      "name": "太平村",
+      "englishName": "Taipingcun",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "虹桥",
+      "name": "虹桥",
+      "englishName": "Hongqiao",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "东部汽车站",
+      "name": "东部汽车站",
+      "englishName": "East Coach Station",
+      "aliases": [],
+      "lines": [
+        "3",
+        "6"
+      ]
+    },
+    {
+      "id": "金川路",
+      "name": "金川路",
+      "englishName": "Jinchuan Rd",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "大河埂",
+      "name": "大河埂",
+      "englishName": "Dahegeng",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "海屯路",
+      "name": "海屯路",
+      "englishName": "Haitun Rd",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "小屯",
+      "name": "小屯",
+      "englishName": "Xiaotun",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "金鼎山北路",
+      "name": "金鼎山北路",
+      "englishName": "Jindingshan North Rd",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "苏家塘",
+      "name": "苏家塘",
+      "englishName": "Sujiatang",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "小菜园",
+      "name": "小菜园",
+      "englishName": "Xiaocaiyuan",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "白龙路",
+      "name": "白龙路",
+      "englishName": "Bailong Rd",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "菊花村",
+      "name": "菊花村",
+      "englishName": "Juhuacun",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "菊华",
+      "name": "菊华",
+      "englishName": "Juhua",
+      "aliases": [],
+      "lines": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "id": "和甸营",
+      "name": "和甸营",
+      "englishName": "Hedianying",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "牛街庄",
+      "name": "牛街庄",
+      "englishName": "Niujiezhuang",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "朱家村",
+      "name": "朱家村",
+      "englishName": "Zhujiacun",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "羊甫头",
+      "name": "羊甫头",
+      "englishName": "Yangfutou",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "玉缘路",
+      "name": "玉缘路",
+      "englishName": "Yuyuan Rd",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "广卫",
+      "name": "广卫",
+      "englishName": "Guangwei",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "塔密",
+      "name": "塔密",
+      "englishName": "Tami",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "金桂街",
+      "name": "金桂街·斗南花市",
+      "englishName": "Jingui St",
+      "aliases": [
+        "金桂街·斗南花市",
+        "斗南花市"
+      ],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "梅子村",
+      "name": "梅子村",
+      "englishName": "Meizicun",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "古城",
+      "name": "古城",
+      "englishName": "Gucheng",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "可乐村",
+      "name": "可乐村",
+      "englishName": "Kelecun",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "祥丰街",
+      "name": "祥丰街",
+      "englishName": "Xiangfeng St",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "牛头山",
+      "name": "牛头山",
+      "englishName": "Niutoushan",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "吴家营",
+      "name": "吴家营",
+      "englishName": "Wujiaying",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "世博园",
+      "name": "世博园",
+      "englishName": "World Horti-Expo Garden",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "白龙寺",
+      "name": "白龙寺",
+      "englishName": "Bailong Temple",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "石闸",
+      "name": "石闸",
+      "englishName": "Shizha",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "穿金路",
+      "name": "穿金路",
+      "englishName": "Chuanjin Rd",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "圆通山",
+      "name": "圆通山",
+      "englishName": "Yuantong Hill",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "华山西路",
+      "name": "华山西路",
+      "englishName": "Huashan West Rd",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "弥勒寺",
+      "name": "弥勒寺",
+      "englishName": "Milesi",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "严家地",
+      "name": "严家地",
+      "englishName": "Yanjiadi",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "金兰路",
+      "name": "金兰路",
+      "englishName": "Jinlan Rd",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "福海",
+      "name": "福海",
+      "englishName": "Fuhai",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "广福路西口",
+      "name": "广福路西口",
+      "englishName": "Guangfulu Xikou",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "大坝",
+      "name": "大坝",
+      "englishName": "Daba",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "迎海路",
+      "name": "迎海路",
+      "englishName": "Yinghai Rd",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "渔户村",
+      "name": "渔户村",
+      "englishName": "Yuhucun",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "兴体路",
+      "name": "兴体路",
+      "englishName": "Xingti Rd",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "庄家塘立交桥",
+      "name": "庄家塘立交桥",
+      "englishName": "Zhuangjiatang Overpass",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "金家河",
+      "name": "金家河",
+      "englishName": "Jinjia River",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "福保",
+      "name": "福保",
+      "englishName": "Fubao",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "滇池国际会展中心",
+      "name": "滇池国际会展中心",
+      "englishName": "Dianchi International Convention and Exhibition Center",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "宝丰",
+      "name": "宝丰",
+      "englishName": "Baofeng",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "岔街",
+      "name": "岔街",
+      "englishName": "Chajie",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "东郊路",
+      "name": "东郊路",
+      "englishName": "Dongjiao Rd",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "大板桥",
+      "name": "大板桥",
+      "englishName": "Dabanqiao",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "机场前",
+      "name": "机场前",
+      "englishName": "Airport Front",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "机场中心",
+      "name": "机场中心",
+      "englishName": "Kunming Airport",
+      "aliases": [
+        "昆明长水国际机场",
+        "长水机场"
+      ],
+      "lines": [
+        "6"
+      ]
+    }
+  ],
+  "english": {
+    "环城南路": "South Ring Rd",
+    "昆明火车站": "Kunming Railway Station",
+    "福德": "Fude",
+    "日新路": "Rixin Rd",
+    "巫家坝": "Wujiaba",
+    "昌宏西路": "Changhong West Rd",
+    "晓东村": "Xiaodongcun",
+    "珥季路": "Erji Rd",
+    "星耀路": "Xingyao Rd",
+    "新亚洲体育城": "New Asia Athletics Park",
+    "南部汽车站": "South Coach Station",
+    "斗南": "Dounan",
+    "春融街": "Chunrong St",
+    "驼峰街": "Tuofeng St",
+    "联大街": "Lianda St",
+    "谊康南路": "Yikang South Rd",
+    "大学城": "University Town",
+    "大学城南": "University Town South",
+    "市级行政中心": "Municipal Administration Center",
+    "宜和路": "Yihe Rd",
+    "白龙潭": "Bailongtan",
+    "昆明南火车站": "Kunming South Railway Station",
+    "塘子巷": "Tangzixiang",
+    "东风广场": "Dongfeng Square",
+    "交三桥": "Jiaosanqiao",
+    "穿心鼓楼": "Chuanxingulou",
+    "火车北站": "North Railway Station",
+    "白云路": "Baiyun Rd",
+    "金星": "Jinxing",
+    "北辰": "Beichen",
+    "霖雨桥": "Linyuqiao",
+    "羊肠村": "Yangchangcun",
+    "司家营": "Sijiaying",
+    "龙头街": "Longtou St",
+    "北部汽车站": "North Coach Station",
+    "西山公园": "Western Hills Park",
+    "车家壁": "Chejiabi",
+    "普坪村": "Pupingcun",
+    "石咀": "Shizui",
+    "大渔路": "Dayu Rd",
+    "西部汽车站": "West Coach Station",
+    "眠山": "Mianshan",
+    "昌源中路": "Changyuan Central Rd",
+    "西苑": "Xiyuan",
+    "梁家河": "Liangjiahe",
+    "市体育馆": "Municipal Gymnasium",
+    "潘家湾": "Panjiawan",
+    "五一路": "Wuyi Rd",
+    "拓东体育馆": "Tuodong Stadium",
+    "大树营": "Dashuying",
+    "金马寺": "Jinmasi",
+    "太平村": "Taipingcun",
+    "虹桥": "Hongqiao",
+    "东部汽车站": "East Coach Station",
+    "金川路": "Jinchuan Rd",
+    "大河埂": "Dahegeng",
+    "海屯路": "Haitun Rd",
+    "小屯": "Xiaotun",
+    "金鼎山北路": "Jindingshan North Rd",
+    "苏家塘": "Sujiatang",
+    "小菜园": "Xiaocaiyuan",
+    "白龙路": "Bailong Rd",
+    "菊花村": "Juhuacun",
+    "菊华": "Juhua",
+    "和甸营": "Hedianying",
+    "牛街庄": "Niujiezhuang",
+    "朱家村": "Zhujiacun",
+    "羊甫头": "Yangfutou",
+    "玉缘路": "Yuyuan Rd",
+    "广卫": "Guangwei",
+    "塔密": "Tami",
+    "金桂街": "Jingui St",
+    "梅子村": "Meizicun",
+    "古城": "Gucheng",
+    "可乐村": "Kelecun",
+    "祥丰街": "Xiangfeng St",
+    "牛头山": "Niutoushan",
+    "吴家营": "Wujiaying",
+    "世博园": "World Horti-Expo Garden",
+    "白龙寺": "Bailong Temple",
+    "石闸": "Shizha",
+    "穿金路": "Chuanjin Rd",
+    "圆通山": "Yuantong Hill",
+    "华山西路": "Huashan West Rd",
+    "弥勒寺": "Milesi",
+    "严家地": "Yanjiadi",
+    "金兰路": "Jinlan Rd",
+    "福海": "Fuhai",
+    "广福路西口": "Guangfulu Xikou",
+    "大坝": "Daba",
+    "迎海路": "Yinghai Rd",
+    "渔户村": "Yuhucun",
+    "兴体路": "Xingti Rd",
+    "庄家塘立交桥": "Zhuangjiatang Overpass",
+    "金家河": "Jinjia River",
+    "福保": "Fubao",
+    "滇池国际会展中心": "Dianchi International Convention and Exhibition Center",
+    "宝丰": "Baofeng",
+    "机场中心": "Kunming Airport",
+    "机场前": "Airport Front",
+    "大板桥": "Dabanqiao",
+    "东郊路": "Dongjiao Rd",
+    "岔街": "Chajie"
+  },
+  "displayNames": {
+    "市级行政中心": "市级行政中心·清风",
+    "金桂街": "金桂街·斗南花市"
+  },
+  "aliases": {
+    "大学城南": [
+      "大学城南·云南开放大学",
+      "云南开放大学"
+    ],
+    "市级行政中心": [
+      "市级行政中心清风",
+      "市级行政中心·清风",
+      "清风"
+    ],
+    "金桂街": [
+      "金桂街·斗南花市",
+      "斗南花市"
+    ],
+    "昆明火车站": [
+      "昆明站"
+    ],
+    "昆明南火车站": [
+      "昆明南站"
+    ],
+    "机场中心": [
+      "昆明长水国际机场",
+      "长水机场"
+    ]
+  },
+  "notes": [
+    "1号线主线18站、支线17站共享13站，共22个站ID；1、2号线贯通运营，环城南路只计一个站ID。",
+    "英语按参考图逐站核对，统一大小写并去掉路名缩写句点；保留源图译法，非推测官方英语标准。",
+    "大学城南显示名依参考图；AMap的云南开放大学后缀仅保留为搜索别名。",
+    "市级行政中心·清风、金桂街·斗南花市保留参考中文显示名，canonical ID不重复建站。",
+    "车辆段、停车场和机场内部捷运T1站不计入地铁6线路站点。"
+  ]
+}

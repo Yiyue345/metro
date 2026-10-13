@@ -4,7 +4,7 @@
 
 ## 使用
 
-从 `../shenzhen/` 启动网站，访问 `/nanning/`，或通过左上角城市列表切换。地图与矢量视图、搜索、线路筛选及站点详情复用深圳组件；南宁数据和资源保留在本目录中。
+从 `../shenzhen/` 启动网站，访问 `/nanning/`，或通过左上角城市列表切换。四城只提供在线地图，搜索、线路筛选及站点详情复用深圳组件；南宁数据和资源保留在本目录中，不显示邻城预览。
 
 ## 配置
 
@@ -19,18 +19,23 @@
 
 参考图统一裁剪至 2060×1360，线路与站点使用同一坐标系。95 个运营站的地理坐标来自高德公开地铁数据，由 GCJ-02 转换为 WGS84。地理显示只对整张 SVG 等比缩放和平移，保持参考图比例，因此与真实道路可能存在位置偏差。五象火车站无已核实经纬度，仅展示示意位置。
 
-道路、水域和绿地底图来自 VersaTiles 的 OSM 矢量瓦片。地图模式需网络，矢量模式使用预生成的 `data/vector-basemap.json`。完整来源及重建流程见 [数据来源](scripts/source-notes.md)。
+道路、水域和绿地底图来自 VersaTiles 的在线 OSM 矢量瓦片，需要网络连接。地图初始化失败后，点击重置视野按钮重试加载。历史静态背景 `data/vector-basemap.json` 及其生成脚本仍保留，页面不再加载。完整来源及历史重建流程见 [数据来源](scripts/source-notes.md)。
 
-## 验证与更新底图
+## 验证与历史底图
 
 在 `shenzhen/` 下运行：
 
 ```powershell
 node ../nanning/scripts/validate-map.mjs
-node scripts/validate-vector-basemap.mjs --city=nanning
-node scripts/build-vector-basemap.mjs --city=nanning --check
 npm run check
 npm run build
 ```
 
-首次获取缺少的底图缓存使用 `node scripts/build-vector-basemap.mjs --city=nanning --download`；显式更新瓦片快照使用 `--refresh`。不带下载参数可使用本地缓存重建。
+以下命令仅维护历史静态背景，不影响当前页面：
+
+```powershell
+node scripts/validate-vector-basemap.mjs --city=nanning
+node scripts/build-vector-basemap.mjs --city=nanning --check
+```
+
+首次获取缺少的历史底图缓存使用 `node scripts/build-vector-basemap.mjs --city=nanning --download`；显式更新瓦片快照使用 `--refresh`。不带下载参数可使用本地缓存重建。

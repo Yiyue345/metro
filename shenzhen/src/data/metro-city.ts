@@ -1,7 +1,6 @@
 import { mapMeta, stations, plannedStations, lines } from './stations';
 import symbols from './station-symbols.json';
 import routes from './route-paths.json';
-import vectorBasemap from './vector-basemap.json';
 import labels from './station-labels.json';
 import englishNames from './station-english.json';
 import visitedStations from './visited-stations.json';
@@ -35,7 +34,6 @@ export interface MetroCityDataset {
   lines: { id: string; name: string; color: string }[];
   symbols: Record<string, StationSymbolGeometry>;
   routes: { id: string; color: string; width: number; paths: string[] }[];
-  vectorBasemap: { layers: { kind: string; fill: string; stroke?: string; strokeWidth?: number; paths: string[] }[] };
   labels: Record<string, StationLabel>; englishNames: Record<string, string>;
   visitedStations: string[]; coordinates: Record<string, Coordinate>; stationNotes: Record<string, string>;
   basemap: { base: string; tileset: string; theme: string; attribution: string; maxZoom: number };
@@ -46,7 +44,7 @@ export interface MetroCityDataset {
 export const shenzhenDataset: MetroCityDataset = {
   city: { id: 'shenzhen', name: '深圳', assetBase: '', center: [114.05, 22.62], geographicBounds: [[113.70, 22.40], [114.47, 22.86]] },
   mapMeta, stations, plannedStations, lines,
-  symbols: symbols as Record<string, StationSymbolGeometry>, routes, vectorBasemap,
+  symbols: symbols as Record<string, StationSymbolGeometry>, routes,
   labels: labels as Record<string, StationLabel>, englishNames,
   visitedStations, coordinates, stationNotes, basemap, lineNames,
   transportTransfers: transportTransfers as Record<string, TransportTransfer[]>,

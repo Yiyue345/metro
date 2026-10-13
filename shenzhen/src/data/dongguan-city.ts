@@ -1,7 +1,6 @@
 import { mapMeta, stations, plannedStations, lines } from '../../../dongguan/data/stations';
 import symbols from '../../../dongguan/data/station-symbols.json';
 import routes from '../../../dongguan/data/route-paths.json';
-import vectorBasemap from '../../../dongguan/data/vector-basemap.json';
 import labels from '../../../dongguan/data/station-labels.json';
 import englishNames from '../../../dongguan/data/station-english.json';
 import visitedStations from '../../../dongguan/data/visited-stations.json';
@@ -24,7 +23,7 @@ const operator = { id: 'dongguan', name: '东莞轨道交通', company: '东莞�
 export const dongguanDataset: MetroCityDataset = {
   city: { id: 'dongguan', name: '东莞', assetBase: '/dongguan', center: [113.85, 22.95], geographicBounds },
   mapMeta, stations, plannedStations, lines,
-  symbols: symbols as Record<string, StationSymbolGeometry>, routes, vectorBasemap,
+  symbols: symbols as Record<string, StationSymbolGeometry>, routes,
   labels: labels as Record<string, StationLabel>, englishNames,
   visitedStations, coordinates, stationNotes, basemap, lineNames: {},
   transportTransfers: transportTransfers as Record<string, TransportTransfer[]>,

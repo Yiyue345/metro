@@ -1,0 +1,11 @@
+{
+  "昆明火车站": [
+    { "mode": "rail", "destination": "昆明站", "access": "direct", "railways": ["沪昆铁路", "成昆铁路", "南昆铁路"] }
+  ],
+  "昆明南火车站": [
+    { "mode": "highSpeedRail", "destination": "昆明南站", "access": "direct", "railways": ["沪昆高速铁路", "南昆客运专线"] }
+  ],
+  "机场中心": [
+    { "mode": "airport", "destination": "昆明长水国际机场 T1", "access": "direct" }
+  ]
+}

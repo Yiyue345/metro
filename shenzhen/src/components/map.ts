@@ -31,12 +31,11 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     const number = id === '6b' ? '6 号线支线' : /^\d+$/.test(id) ? `${id} 号线` : fallback;
     return lineNames[id] ? `${number} / ${lineNames[id]}` : number;
   }
-  const svg = document.querySelector<SVGSVGElement>('#metro-map')!;
+  const svg = document.querySelector<HTMLTemplateElement>('#metro-diagram-source')!.content.querySelector<SVGSVGElement>('svg')!;
   const workspace = document.querySelector<HTMLElement>('.map-workspace')!;
   const search = document.querySelector<HTMLInputElement>('#station-search')!;
   const results = document.querySelector<HTMLElement>('#search-results')!;
   const card = document.querySelector<HTMLElement>('#station-card')!;
-  const tooltip = document.querySelector<HTMLElement>('#map-tooltip')!;
   const nodes = [...svg.querySelectorAll<SVGGElement>('.station-hotspot')];
   const routeNodes = [...svg.querySelectorAll<SVGGElement>('[data-route]')];
   const labelNodes = [...svg.querySelectorAll<SVGGElement>('[data-label]')];
@@ -45,7 +44,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   const geographicBounds = city.geographicBounds;
   const visited = new Set(visitedStations);
   const geographicContainer = document.querySelector<HTMLElement>('#geographic-map')!;
-  geographicContainer.setAttribute('aria-label', `${city.name}地铁地图；矢量线网整体等比叠加到底图`);
+  geographicContainer.setAttribute('aria-label', `${city.name}地铁地图，可拖动和缩放`);
   const mapStatus = document.querySelector<HTMLElement>('#map-status')!;
   let geographicMap = existingMap;
   let geographicLoad: Promise<void> | undefined;
@@ -78,16 +77,8 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     return coordinate && Number.isFinite(coordinate.lat) && Number.isFinite(coordinate.lon)
       && Math.abs(coordinate.lat) <= 90 && Math.abs(coordinate.lon) <= 180 ? coordinate : undefined;
   };
-  let stationsInteractive = false;
   let selected: string | null = null;
   let activeLine: string | null = null;
-  let view = { x: 0, y: 0, width: meta.width, height: meta.height };
-  let fitWidth = meta.width;
-  let dragMoved = false;
-  let suppressClickUntil = 0;
-  const pointers = new Map<number, { x: number; y: number }>();
-  let gesture: { view: typeof view; center: { x: number; y: number }; distance: number; count: number } | null = null;
-  const minimumWidth = () => Math.min(fitWidth, svg.clientWidth * .65);
   function requestCityPage(href: string, signal?: AbortSignal): Promise<Document> {
     const cached = cityPageCache.get(href);
     if (cached) return cached;
@@ -125,6 +116,8 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     geographicMarkers.forEach((element, id) => {
       const station = stationById.get(id)!;
       const included = !activeLine || station.lines.includes(activeLine);
+      element.classList.toggle('filtered', !!activeLine && included);
+      element.style.setProperty('--station-color', activeLine ? lineById.get(activeLine)?.color ?? '#245c43' : '#245c43');
       element.classList.toggle('excluded', !included);
       element.classList.toggle('visited', visited.has(id));
       element.classList.toggle('selected', selected === id);
@@ -326,7 +319,6 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     overlay.setAttribute('viewBox', `0 0 ${meta.width} ${meta.height}`);
     overlay.style.width = `${meta.width}px`;
     overlay.style.height = `${meta.height}px`;
-    overlay.querySelector('.geography-layer')?.remove();
     overlay.querySelectorAll<SVGElement>('[id]').forEach(element => {
       const original = element.id;
       element.id = `geographic-${original}`;
@@ -540,47 +532,6 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     }
     await geographicLoad;
   }
-  function updateStationInteraction() {
-    stationsInteractive = svg.clientWidth / view.width >= .6;
-    svg.classList.toggle('stations-disabled', !stationsInteractive);
-    nodes.forEach(node => {
-      const enabled = stationsInteractive && !node.classList.contains('excluded');
-      node.setAttribute('tabindex', enabled ? '0' : '-1');
-      node.setAttribute('aria-disabled', String(!enabled));
-      if (!enabled && document.activeElement === node) svg.focus({ preventScroll: true });
-    });
-    if (!stationsInteractive) tooltip.hidden = true;
-  }
-
-  function boundView() {
-    view.x = view.width >= meta.width ? (meta.width - view.width) / 2 : Math.max(0, Math.min(meta.width - view.width, view.x));
-    view.y = view.height >= meta.height ? (meta.height - view.height) / 2 : Math.max(0, Math.min(meta.height - view.height, view.y));
-  }
-  function render() {
-    if (geographicMode()) { renderGeographicControls(); return; }
-    boundView();
-    svg.setAttribute('viewBox', `${view.x} ${view.y} ${view.width} ${view.height}`);
-    updateStationInteraction();
-    document.querySelector('#zoom-level')!.textContent = `${Math.round(fitWidth / view.width * 100)}%`;
-    document.querySelector<HTMLButtonElement>('#zoom-in')!.disabled = view.width <= minimumWidth() + .1;
-    document.querySelector<HTMLButtonElement>('#zoom-out')!.disabled = view.width >= fitWidth - .1;
-  }
-  function fit() {
-    const aspect = workspace.clientWidth / workspace.clientHeight;
-    const width = Math.max(meta.width, meta.height * aspect);
-    fitWidth = width;
-    view = { x: (meta.width - width) / 2, y: (meta.height - width / aspect) / 2, width, height: width / aspect };
-    render();
-  }
-  function zoom(factor: number, clientX = svg.clientWidth / 2, clientY = svg.clientHeight / 2) {
-    const width = Math.max(minimumWidth(), Math.min(fitWidth, view.width / factor));
-    const relativeX = clientX / svg.clientWidth;
-    const relativeY = clientY / svg.clientHeight;
-    const height = width * svg.clientHeight / svg.clientWidth;
-    view = { x: view.x + (view.width - width) * relativeX, y: view.y + (view.height - height) * relativeY, width, height };
-    tooltip.hidden = true;
-    render();
-  }
   function closeCard() {
     card.hidden = true;
     selected = null;
@@ -636,20 +587,11 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     card.hidden = false;
     updateVisitState();
     updateLocationStatus();
-    tooltip.hidden = true;
     results.hidden = true;
     if (locate) {
       filterLine(null);
-      if (geographicMode()) {
-        const point = coordinateFor(id);
-        if (point) geographicMap?.jumpTo({ center: [point.lon, point.lat], zoom: basemap.maxZoom });
-        search.blur();
-        return;
-      }
-      const width = Math.min(fitWidth, svg.clientWidth * 1.1);
-      const height = width * svg.clientHeight / svg.clientWidth;
-      view = { x: station.x - width / 2, y: station.y - height / 2, width, height };
-      render();
+      const point = coordinateFor(id);
+      if (point) geographicMap?.jumpTo({ center: [point.lon, point.lat], zoom: basemap.maxZoom });
       search.blur();
     }
   }
@@ -675,95 +617,10 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
       label.classList.toggle('dimmed', !!id && !station?.lines.some(value => String(value) === id));
     });
     if (selected && id && !stationById.get(selected)?.lines.some(value => String(value) === id)) closeCard();
-    updateStationInteraction();
     updateGeographicMarkers();
     updateGeographicLines();
   }
 
-  listen(svg, 'wheel', event => {
-    event.preventDefault();
-    const rect = svg.getBoundingClientRect();
-    zoom(Math.exp(-event.deltaY * 0.0018), event.clientX - rect.left, event.clientY - rect.top);
-  }, { passive: false });
-  function pointerMetrics() {
-    const values = [...pointers.values()];
-    const center = values.length > 1 ? { x: (values[0].x + values[1].x) / 2, y: (values[0].y + values[1].y) / 2 } : values[0];
-    const distance = values.length > 1 ? Math.hypot(values[0].x - values[1].x, values[0].y - values[1].y) : 0;
-    return { center, distance };
-  }
-  function beginGesture() {
-    if (!pointers.size) { gesture = null; return; }
-    gesture = { view: { ...view }, ...pointerMetrics(), count: pointers.size };
-  }
-  listen(svg, 'pointerdown', event => {
-    if (event.button !== 0) return;
-    pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
-    if (pointers.size === 1) dragMoved = false;
-    beginGesture();
-    svg.setPointerCapture(event.pointerId);
-    svg.classList.add('dragging');
-  });
-  listen(svg, 'pointermove', event => {
-    if (!pointers.has(event.pointerId) || !gesture) return;
-    pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
-    const metrics = pointerMetrics();
-    const dx = metrics.center.x - gesture.center.x;
-    const dy = metrics.center.y - gesture.center.y;
-    if (Math.hypot(dx, dy) > 4 || pointers.size > 1) { dragMoved = true; tooltip.hidden = true; }
-    const ratio = pointers.size > 1 && gesture.distance > 0 ? metrics.distance / gesture.distance : 1;
-    const width = Math.max(minimumWidth(), Math.min(fitWidth, gesture.view.width / ratio));
-    const height = width * svg.clientHeight / svg.clientWidth;
-    const rect = svg.getBoundingClientRect();
-    const centerX = (gesture.center.x - rect.left) / rect.width;
-    const centerY = (gesture.center.y - rect.top) / rect.height;
-    view = {
-      x: gesture.view.x + (gesture.view.width - width) * centerX - dx * width / rect.width,
-      y: gesture.view.y + (gesture.view.height - height) * centerY - dy * height / rect.height,
-      width, height,
-    };
-    render();
-  });
-  function endPointer(event: PointerEvent) {
-    const wasGesture = pointers.has(event.pointerId);
-    pointers.delete(event.pointerId);
-    if (dragMoved) suppressClickUntil = performance.now() + 250;
-    if (wasGesture && !dragMoved && event.type === 'pointerup') {
-      const target = document.elementFromPoint(event.clientX, event.clientY)?.closest<SVGGElement>('[data-station]');
-      if (stationsInteractive && target?.dataset.station && !target.classList.contains('excluded')) selectStation(target.dataset.station);
-    }
-    beginGesture();
-    if (!pointers.size) svg.classList.remove('dragging');
-  }
-  listen(svg, 'pointerup', endPointer);
-  listen(svg, 'pointercancel', endPointer);
-  nodes.forEach(node => {
-    listen(node, 'focus', () => {
-      const station = stationById.get(node.dataset.station!);
-      if (station && (station.x < view.x || station.x > view.x + view.width || station.y < view.y || station.y > view.y + view.height)) {
-        view.x = station.x - view.width / 2;
-        view.y = station.y - view.height / 2;
-        render();
-      }
-    });
-    listen(node, 'click', event => {
-      if (stationsInteractive && !node.classList.contains('excluded') && event.detail === 0 && performance.now() > suppressClickUntil) selectStation(node.dataset.station!);
-    });
-    listen(node, 'keydown', event => {
-      if (stationsInteractive && !node.classList.contains('excluded') && (event.key === 'Enter' || event.key === ' ')) { event.preventDefault(); selectStation(node.dataset.station!); }
-    });
-    listen(node, 'pointerenter', () => {
-      if (pointers.size || !stationsInteractive || node.classList.contains('excluded')) return;
-      const station = stationById.get(node.dataset.station!);
-      if (!station) return;
-      const rect = workspace.getBoundingClientRect();
-      const nodeRect = node.getBoundingClientRect();
-      tooltip.textContent = station.name;
-      tooltip.style.left = `${Math.max(40, Math.min(rect.width - 40, nodeRect.left + nodeRect.width / 2 - rect.left))}px`;
-      tooltip.style.top = `${Math.max(30, nodeRect.top - rect.top - 8)}px`;
-      tooltip.hidden = false;
-    });
-    listen(node, 'pointerleave', () => tooltip.hidden = true);
-  });
   listen(search, 'input', () => {
     const query = search.value.trim();
     results.replaceChildren();
@@ -796,20 +653,6 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   });
   document.querySelectorAll<HTMLButtonElement>('[data-line]').forEach(button => listen(button, 'click', () => filterLine(activeLine === button.dataset.line ? null : button.dataset.line!)));
   listen(document.querySelector('#all-lines')!, 'click', () => filterLine(null));
-  document.querySelectorAll<HTMLButtonElement>('[data-map-view]').forEach(button => listen(button, 'click', () => {
-    workspace.dataset.mapMode = button.dataset.mapView;
-    const geographic = geographicMode();
-    svg.toggleAttribute('hidden', geographic);
-    geographicContainer.hidden = !geographic;
-    mapStatus.hidden = true;
-    updateLocationStatus();
-    if (geographic) void loadGeographicMap();
-    else render();
-    document.querySelectorAll<HTMLButtonElement>('[data-map-view]').forEach(option => option.setAttribute('aria-pressed', String(option === button)));
-    tooltip.hidden = true;
-    updateNeighborControls();
-  }));
-
   for (const neighbor of neighbors) listen(neighborLinks.get(neighbor.id)!, 'click', event => {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || !geographicMode() || !geographicMap) return;
     event.preventDefault();
@@ -822,43 +665,26 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   });
 
   listen(document.querySelector('#close-card')!, 'click', closeCard);
-  listen(document.querySelector('#zoom-in')!, 'click', () => geographicMode() ? geographicMap?.zoomIn() : zoom(1.5));
-  listen(document.querySelector('#zoom-out')!, 'click', () => geographicMode() ? geographicMap?.zoomOut() : zoom(1 / 1.5));
-  listen(document.querySelector('#reset-map')!, 'click', () => geographicMode() ? resetGeographicMap() : fit());
+  listen(document.querySelector('#zoom-in')!, 'click', () => geographicMap?.zoomIn());
+  listen(document.querySelector('#zoom-out')!, 'click', () => geographicMap?.zoomOut());
+  listen(document.querySelector('#reset-map')!, 'click', () => {
+    if (geographicMap) resetGeographicMap();
+    else void loadGeographicMap();
+  });
 
   listen(document, 'pointerdown', event => { if (!(event.target as Element).closest('.search-panel')) results.hidden = true; });
   listen(document, 'keydown', event => {
     if (citySwitching) return;
-    if (event.key === 'Escape') { closeCard(); results.hidden = true; tooltip.hidden = true; }
+    if (event.key === 'Escape') { closeCard(); results.hidden = true; }
     if (event.key === '/' && !['INPUT', 'TEXTAREA'].includes((event.target as Element).tagName)) { event.preventDefault(); search.focus(); }
-    if (event.target === svg) {
-      if (event.key === '+' || event.key === '=') { event.preventDefault(); zoom(1.5); }
-      if (event.key === '-') { event.preventDefault(); zoom(1 / 1.5); }
-      if (event.key === '0') { event.preventDefault(); fit(); }
-      const directions: Record<string, [number, number]> = { ArrowLeft: [-1, 0], ArrowRight: [1, 0], ArrowUp: [0, -1], ArrowDown: [0, 1] };
-      const direction = directions[event.key];
-      if (direction) { event.preventDefault(); view.x += direction[0] * view.width * .1; view.y += direction[1] * view.height * .1; render(); }
+    if (event.target === geographicMap?.getCanvas() && event.key === '0') {
+      event.preventDefault(); resetGeographicMap();
     }
   });
-  const resizeObserver = new ResizeObserver(() => {
-    if (!svg.clientWidth || !svg.clientHeight) return;
-    const zoomRatio = fitWidth / view.width;
-    const center = { x: view.x + view.width / 2, y: view.y + view.height / 2 };
-    const aspect = svg.clientWidth / svg.clientHeight;
-    fitWidth = Math.max(meta.width, meta.height * aspect);
-    const width = zoomRatio > 1.05 ? Math.max(minimumWidth(), Math.min(fitWidth, fitWidth / zoomRatio)) : fitWidth;
-    const height = width / aspect;
-    view = {
-      x: (zoomRatio > 1.05 ? center.x : meta.width / 2) - width / 2,
-      y: (zoomRatio > 1.05 ? center.y : meta.height / 2) - height / 2,
-      width, height,
-    };
-    render();
-  });
-  resizeObserver.observe(svg);
+  const resizeObserver = new ResizeObserver(() => { geographicMap?.resize(); });
+  resizeObserver.observe(workspace);
   updateVisitState();
-  fit();
-  if (geographicMode()) void loadGeographicMap();
+  void loadGeographicMap();
 
   return {
     navigate: navigateCity,
@@ -879,7 +705,7 @@ function readCityPayload(page: Document): MetroPayload {
   if (!source) throw new Error('Missing city data');
   const data = JSON.parse(source) as MetroPayload;
   if (!data.city || !Array.isArray(data.stations) || !Array.isArray(data.lines)
-    || !['shenzhen', 'dongguan', 'nanning'].includes(data.city.id)) throw new Error('Invalid city data');
+    || !['shenzhen', 'dongguan', 'nanning', 'kunming'].includes(data.city.id)) throw new Error('Invalid city data');
   return data;
 }
 function installCity(page: Document, data: MetroPayload, map: MapLibreMap | undefined, camera: CameraOptions | undefined, href: string, push: boolean) {
@@ -911,5 +737,5 @@ document.addEventListener('click', event => {
   void activeCity.navigate(new URL(link.href).pathname);
 });
 window.addEventListener('popstate', () => {
-  if (['/', '/dongguan/', '/nanning/'].includes(location.pathname)) void activeCity.navigate(location.pathname, false);
+  if (['/', '/dongguan/', '/nanning/', '/kunming/'].includes(location.pathname)) void activeCity.navigate(location.pathname, false);
 });
