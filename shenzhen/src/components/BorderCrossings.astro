@@ -1,0 +1,19 @@
+---
+import type { BorderCrossing } from '../data/hongkong-context';
+interface Props { crossings: BorderCrossing[] }
+const { crossings } = Astro.props;
+---
+<g class="border-crossings" aria-hidden="true">
+  {crossings.map(crossing => {
+    const { from, to } = crossing;
+    const length = Math.hypot(to.x - from.x, to.y - from.y);
+    const dx = (to.x - from.x) / length, dy = (to.y - from.y) / length;
+    const x = (from.x + to.x) / 2, y = (from.y + to.y) / 2;
+    return <g class="border-crossing" data-crossing={crossing.id}>
+      <title>{crossing.title}</title>
+      <line x1={from.x + dx * 6} y1={from.y + dy * 6} x2={to.x - dx * 6} y2={to.y - dy * 6} stroke="#333a36" stroke-width="2" />
+      <circle cx={x} cy={y} r="4.8" fill="#fff" stroke="#e60012" stroke-width="1.6" />
+      <path d={`M ${x - 2.8} ${y} H ${x + 2.8}`} fill="none" stroke="#333a36" stroke-width="1.5" />
+    </g>;
+  })}
+</g>

@@ -1,0 +1,7 @@
+{
+  "base": "https://tiles.versatiles.org",
+  "tileset": "https://tiles.versatiles.org/tiles/osm/tiles.json",
+  "theme": "muted",
+  "attribution": "<a href=\"https://versatiles.org/\">© VersaTiles</a>",
+  "maxZoom": 14
+}

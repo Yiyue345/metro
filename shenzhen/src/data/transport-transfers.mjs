@@ -12,7 +12,13 @@ export const railwayTransportModes = {
   '南广铁路': 'highSpeedRail', '南钦铁路': 'highSpeedRail', '贵南高速铁路': 'highSpeedRail',
   '南珠高铁南玉段': 'highSpeedRail',
   '沪昆铁路': 'rail', '成昆铁路': 'rail',
+  '成灌铁路': 'rail', '成蒲铁路': 'rail', '遂成铁路': 'rail', '成花铁路': 'rail',
+  '西成客运专线': 'highSpeedRail', '成贵客运专线': 'highSpeedRail',
+  '成渝高速铁路': 'highSpeedRail', '成宜高速铁路': 'highSpeedRail',
   '沪昆高速铁路': 'highSpeedRail',
+  '宣杭铁路': 'rail', '萧甬铁路': 'rail',
+  '宁杭高速铁路': 'highSpeedRail', '杭甬高速铁路': 'highSpeedRail',
+  '杭昌高速铁路': 'highSpeedRail', '合杭高速铁路': 'highSpeedRail', '杭台高速铁路': 'highSpeedRail',
   '穗深城际铁路': 'gdIntercity', '广惠城际铁路': 'gdIntercity',
 };
 

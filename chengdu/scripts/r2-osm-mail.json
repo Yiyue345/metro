@@ -1,0 +1,1054 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-23T15:14:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 5292055457,
+  "lat": 30.7608985,
+  "lon": 103.9018314,
+  "tags": {
+    "name": "天映路",
+    "name:en": "Tianying Road",
+    "name:zh": "天映路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5292055522,
+  "lat": 30.8006410,
+  "lon": 103.8678215,
+  "tags": {
+    "name": "晨光",
+    "name:en": "Chenguang",
+    "name:zh": "晨光",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/08",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5805662170,
+  "lat": 30.7701366,
+  "lon": 103.9741603,
+  "tags": {
+    "name": "犀方路",
+    "name:en": "Xifang Road",
+    "name:zh": "犀方路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161012363,
+  "lat": 30.7531956,
+  "lon": 103.9199676,
+  "tags": {
+    "name": "合信路",
+    "name:en": "Hexin Road",
+    "name:zh": "合信路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161012364,
+  "lat": 30.7563100,
+  "lon": 103.9227207,
+  "tags": {
+    "name": "合作路",
+    "name:en": "Hezuo Road",
+    "name:zh": "合作路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161012366,
+  "lat": 30.7577079,
+  "lon": 103.9223038,
+  "tags": {
+    "name": "合作路",
+    "name:en": "Hezuo Road",
+    "name:zh": "合作路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161012368,
+  "lat": 30.7597516,
+  "lon": 103.9193914,
+  "tags": {
+    "name": "天欣路",
+    "name:en": "Tianxin Road",
+    "name:zh": "天欣路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161012370,
+  "lat": 30.7603307,
+  "lon": 103.9186924,
+  "tags": {
+    "name": "天欣路",
+    "name:en": "Tianxin Road",
+    "name:zh": "天欣路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161012372,
+  "lat": 30.7671832,
+  "lon": 103.9127767,
+  "tags": {
+    "name": "安埠",
+    "name:en": "Anbu",
+    "name:zh": "安埠",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161017952,
+  "lat": 30.7678869,
+  "lon": 103.8949121,
+  "tags": {
+    "name": "天源路",
+    "name:en": "Tianyuan Road",
+    "name:zh": "天源路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161017954,
+  "lat": 30.7687741,
+  "lon": 103.8943136,
+  "tags": {
+    "name": "天源路",
+    "name:en": "Tianyuan Road",
+    "name:zh": "天源路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161017956,
+  "lat": 30.7781382,
+  "lon": 103.8594221,
+  "tags": {
+    "name": "德富大道",
+    "name:en": "Defu Avenue",
+    "name:zh": "德富大道",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161017958,
+  "lat": 30.7779392,
+  "lon": 103.8583068,
+  "tags": {
+    "name": "德富大道",
+    "name:en": "Defu Avenue",
+    "name:zh": "德富大道",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161018194,
+  "lat": 30.7767357,
+  "lon": 103.8538536,
+  "tags": {
+    "name": "红旗大道",
+    "name:en": "Hongqi Avenue",
+    "name:zh": "红旗大道",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161018196,
+  "lat": 30.7773804,
+  "lon": 103.8531409,
+  "tags": {
+    "name": "红旗大道",
+    "name:en": "Hongqi Avenue",
+    "name:zh": "红旗大道",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161018198,
+  "lat": 30.7798290,
+  "lon": 103.8503303,
+  "tags": {
+    "name": "红展东路",
+    "name:en": "Hongzhan East Road",
+    "name:zh": "红展东路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/11",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161018200,
+  "lat": 30.7811987,
+  "lon": 103.8502431,
+  "tags": {
+    "name": "红展东路",
+    "name:en": "Hongzhan East Road",
+    "name:zh": "红展东路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/11",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161018202,
+  "lat": 30.7868516,
+  "lon": 103.8564054,
+  "tags": {
+    "name": "大禹东路",
+    "name:en": "Dayu East Road",
+    "name:zh": "大禹东路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/10",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161018203,
+  "lat": 30.7862743,
+  "lon": 103.8557211,
+  "tags": {
+    "name": "大禹东路",
+    "name:en": "Dayu East Road",
+    "name:zh": "大禹东路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/10",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161018210,
+  "lat": 30.7917851,
+  "lon": 103.8604565,
+  "tags": {
+    "name": "花石",
+    "name:en": "Huashi",
+    "name:zh": "花石",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/09",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6161018211,
+  "lat": 30.7926599,
+  "lon": 103.8611147,
+  "tags": {
+    "name": "花石",
+    "name:en": "Huashi",
+    "name:zh": "花石",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/09",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6162387270,
+  "lat": 30.7672026,
+  "lon": 103.9128024,
+  "tags": {
+    "name": "安埠",
+    "name:en": "Anbu",
+    "name:zh": "安埠",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "tram",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6162388591,
+  "lat": 30.7609181,
+  "lon": 103.9018531,
+  "tags": {
+    "name": "天映路",
+    "name:en": "Tianying Road",
+    "name:zh": "天映路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "station": "train",
+    "train": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6216221290,
+  "lat": 30.8006616,
+  "lon": 103.8678064,
+  "tags": {
+    "name": "晨光",
+    "name:en": "Chenguang",
+    "name:zh": "晨光",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/08",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6942926869,
+  "lat": 30.7525258,
+  "lon": 103.9193191,
+  "tags": {
+    "name": "合信路",
+    "name:en": "Hexin Road",
+    "name:zh": "合信路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090080191,
+  "lat": 30.8255007,
+  "lon": 103.8783509,
+  "tags": {
+    "name": "郫县西站",
+    "name:en": "Pixian West Railway Station",
+    "name:zh": "郫县西站",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/01",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090080192,
+  "lat": 30.8254738,
+  "lon": 103.8783707,
+  "tags": {
+    "name": "郫县西站",
+    "name:en": "Pixian West Railway Station",
+    "name:zh": "郫县西站",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/01",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090080201,
+  "lat": 30.8187623,
+  "lon": 103.8775058,
+  "tags": {
+    "name": "梨园路",
+    "name:en": "Liyuan Road",
+    "name:zh": "梨园路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/03",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090080202,
+  "lat": 30.8177925,
+  "lon": 103.8774948,
+  "tags": {
+    "name": "梨园路",
+    "name:en": "Liyuan Road",
+    "name:zh": "梨园路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/03",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090080207,
+  "lat": 30.8098283,
+  "lon": 103.8759878,
+  "tags": {
+    "name": "望丛祠",
+    "name:en": "Wangcong Temple",
+    "name:zh": "望丛祠",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/05",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090080208,
+  "lat": 30.8098124,
+  "lon": 103.8759621,
+  "tags": {
+    "name": "望丛祠",
+    "name:en": "Wangcong Temple",
+    "name:zh": "望丛祠",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/05",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090080248,
+  "lat": 30.8054287,
+  "lon": 103.8750085,
+  "tags": {
+    "name": "何公路",
+    "name:en": "Hegong Road",
+    "name:zh": "何公路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/07",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090080261,
+  "lat": 30.8058025,
+  "lon": 103.8755241,
+  "tags": {
+    "name": "何公路",
+    "name:en": "Hegong Road",
+    "name:zh": "何公路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/07",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090254100,
+  "lat": 30.7444222,
+  "lon": 103.9271246,
+  "tags": {
+    "name": "电子科大",
+    "name:en": "University of Electronic Science and Technology of China",
+    "name:zh": "电子科大",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090254101,
+  "lat": 30.7447922,
+  "lon": 103.9261716,
+  "tags": {
+    "name": "电子科大",
+    "name:en": "University of Electronic Science and Technology of China",
+    "name:zh": "电子科大",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090306317,
+  "lat": 30.7318548,
+  "lon": 103.9487595,
+  "tags": {
+    "name": "锦城学院",
+    "name:en": "Chengdu Jincheng College",
+    "name:zh": "锦城学院",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090306536,
+  "lat": 30.6869415,
+  "lon": 103.9759146,
+  "tags": {
+    "name": "成都西站",
+    "name:en": "Chengdu West Railway Station",
+    "name:zh": "成都西站",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/33",
+    "tram": "yes",
+    "wikidata": "Q22099778",
+    "wikipedia": "zh:成都西站站"
+  }
+},
+{
+  "type": "node",
+  "id": 7090306537,
+  "lat": 30.6869735,
+  "lon": 103.9759072,
+  "tags": {
+    "name": "成都西站",
+    "name:en": "Chengdu West Railway Station",
+    "name:zh": "成都西站",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/33",
+    "tram": "yes",
+    "wikidata": "Q22099778",
+    "wikipedia": "zh:成都西站站"
+  }
+},
+{
+  "type": "node",
+  "id": 7090306545,
+  "lat": 30.6972153,
+  "lon": 103.9748322,
+  "tags": {
+    "name": "联工",
+    "name:en": "Liangong",
+    "name:zh": "联工",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090306550,
+  "lat": 30.6971984,
+  "lon": 103.9748071,
+  "tags": {
+    "name": "联工",
+    "name:en": "Liangong",
+    "name:zh": "联工",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090306555,
+  "lat": 30.7161131,
+  "lon": 103.9671291,
+  "tags": {
+    "name": "土龙路",
+    "name:en": "Tulong Road",
+    "name:zh": "土龙路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090306556,
+  "lat": 30.7166973,
+  "lon": 103.9663355,
+  "tags": {
+    "name": "土龙路",
+    "name:en": "Tulong Road",
+    "name:zh": "土龙路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090306559,
+  "lat": 30.7267653,
+  "lon": 103.9546025,
+  "tags": {
+    "name": "新业路",
+    "name:en": "Xinye Road",
+    "name:zh": "新业路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090306560,
+  "lat": 30.7268277,
+  "lon": 103.9546647,
+  "tags": {
+    "name": "新业路",
+    "name:en": "Xinye Road",
+    "name:zh": "新业路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090362253,
+  "lat": 30.7347777,
+  "lon": 103.9604425,
+  "tags": {
+    "name": "百叶路",
+    "name:en": "Baiye Road",
+    "name:zh": "百叶路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090362256,
+  "lat": 30.7355048,
+  "lon": 103.9611301,
+  "tags": {
+    "name": "百叶路",
+    "name:en": "Baiye Road",
+    "name:zh": "百叶路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090362261,
+  "lat": 30.7284332,
+  "lon": 103.9548672,
+  "tags": {
+    "name": "新业路",
+    "name:en": "Xinye Road",
+    "name:zh": "新业路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090374291,
+  "lat": 30.7482284,
+  "lon": 103.9737462,
+  "tags": {
+    "name": "天河路",
+    "name:en": "Tianhe Road",
+    "name:zh": "天河路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090374301,
+  "lat": 30.7423760,
+  "lon": 103.9691077,
+  "tags": {
+    "name": "晨风",
+    "name:en": "Chenfeng",
+    "name:zh": "晨风",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090374302,
+  "lat": 30.7431164,
+  "lon": 103.9697354,
+  "tags": {
+    "name": "晨风",
+    "name:en": "Chenfeng",
+    "name:zh": "晨风",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7090374303,
+  "lat": 30.7482092,
+  "lon": 103.9737757,
+  "tags": {
+    "name": "天河路",
+    "name:en": "Tianhe Road",
+    "name:zh": "天河路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093110874,
+  "lat": 30.7633205,
+  "lon": 103.9794495,
+  "tags": {
+    "name": "交大犀浦校区",
+    "name:en": "Xipu Campus, Southwest Jiaotong University",
+    "name:zh": "交大犀浦校区",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093170783,
+  "lat": 30.7692228,
+  "lon": 103.9748279,
+  "tags": {
+    "name": "犀方路",
+    "name:en": "Xifang Road",
+    "name:zh": "犀方路",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093177009,
+  "lat": 30.7687497,
+  "lon": 103.9661640,
+  "tags": {
+    "name": "国宁",
+    "name:en": "Guoning",
+    "name:zh": "国宁",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093177077,
+  "lat": 30.7777618,
+  "lon": 103.9624953,
+  "tags": {
+    "name": "大田",
+    "name:en": "Datian",
+    "name:zh": "大田",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093177105,
+  "lat": 30.7889065,
+  "lon": 103.9628298,
+  "tags": {
+    "name": "双林村",
+    "name:en": "Shuanglin Village",
+    "name:zh": "双林村",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093213727,
+  "lat": 30.8020833,
+  "lon": 103.9544367,
+  "tags": {
+    "name": "仁和",
+    "name:en": "Renhe",
+    "name:zh": "仁和",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093213728,
+  "lat": 30.8020300,
+  "lon": 103.9544021,
+  "tags": {
+    "name": "仁和",
+    "name:en": "Renhe",
+    "name:zh": "仁和",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093213810,
+  "lat": 30.7573163,
+  "lon": 103.9830485,
+  "tags": {
+    "name": "龙吟",
+    "name:en": "Longyin",
+    "name:zh": "龙吟",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093213811,
+  "lat": 30.7573397,
+  "lon": 103.9830233,
+  "tags": {
+    "name": "龙吟",
+    "name:en": "Longyin",
+    "name:zh": "龙吟",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093213814,
+  "lat": 30.7648888,
+  "lon": 103.9781998,
+  "tags": {
+    "name": "交大犀浦校区",
+    "name:en": "Xipu Campus, Southwest Jiaotong University",
+    "name:zh": "交大犀浦校区",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093250504,
+  "lat": 30.7687765,
+  "lon": 103.9661443,
+  "tags": {
+    "name": "国宁",
+    "name:en": "Guoning",
+    "name:zh": "国宁",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093250507,
+  "lat": 30.7821374,
+  "lon": 103.9616299,
+  "tags": {
+    "name": "西华大学",
+    "name:en": "Xihua University",
+    "name:zh": "西华大学",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/Y10",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093250508,
+  "lat": 30.7830577,
+  "lon": 103.9616510,
+  "tags": {
+    "name": "西华大学",
+    "name:en": "Xihua University",
+    "name:zh": "西华大学",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "92/Y10",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093250509,
+  "lat": 30.7777733,
+  "lon": 103.9625426,
+  "tags": {
+    "name": "大田",
+    "name:en": "Datian",
+    "name:zh": "大田",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093250514,
+  "lat": 30.7897435,
+  "lon": 103.9621816,
+  "tags": {
+    "name": "双林村",
+    "name:en": "Shuanglin Village",
+    "name:zh": "双林村",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093250515,
+  "lat": 30.7912655,
+  "lon": 103.9563703,
+  "tags": {
+    "name": "金土",
+    "name:en": "Jintu",
+    "name:zh": "金土",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093250516,
+  "lat": 30.7922014,
+  "lon": 103.9558638,
+  "tags": {
+    "name": "金土",
+    "name:en": "Jintu",
+    "name:zh": "金土",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093250531,
+  "lat": 30.7977332,
+  "lon": 103.9581753,
+  "tags": {
+    "name": "技师学院",
+    "name:en": "Chengdu Technician College",
+    "name:zh": "技师学院",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7093250532,
+  "lat": 30.7985744,
+  "lon": 103.9585673,
+  "tags": {
+    "name": "技师学院",
+    "name:en": "Chengdu Technician College",
+    "name:zh": "技师学院",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7294649638,
+  "lat": 30.7326869,
+  "lon": 103.9478134,
+  "tags": {
+    "description": "tram",
+    "name": "锦城学院",
+    "name:en": "Chengdu Jincheng College",
+    "name:zh": "锦城学院",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+}
+
+  ]
+}

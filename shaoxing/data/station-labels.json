@@ -1,0 +1,250 @@
+{
+  "姑娘桥": {
+    "x": 170,
+    "y": 84,
+    "anchor": "middle",
+    "fontSize": 14,
+    "englishLineLength": 24
+  },
+  "衙前": {
+    "x": 341.95,
+    "y": 138.9,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "杨汛桥": {
+    "x": 372.56,
+    "y": 263.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "前梅": {
+    "x": 509.33,
+    "y": 410,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "钱清": {
+    "x": 607.67,
+    "y": 420.33,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "西沙路": {
+    "x": 669,
+    "y": 451.33,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "临杭大道": {
+    "x": 790,
+    "y": 470,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "鉴水路": {
+    "x": 876.67,
+    "y": 544.33,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "越州大道": {
+    "x": 1007,
+    "y": 603,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "中国轻纺城": {
+    "x": 1048,
+    "y": 640,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "明珠广场": {
+    "x": 1095,
+    "y": 667,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "瓜渚湖": {
+    "x": 1165.33,
+    "y": 700.33,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "镜水路": {
+    "x": 1234.33,
+    "y": 735,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "黄酒小镇": {
+    "x": 1346,
+    "y": 816,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "张墅": {
+    "x": 1412,
+    "y": 872,
+    "anchor": "middle",
+    "fontSize": 14
+  },
+  "奥体中心": {
+    "x": 1510,
+    "y": 807,
+    "anchor": "end",
+    "fontSize": 14
+  },
+  "梅山广场": {
+    "x": 1533,
+    "y": 847,
+    "anchor": "end",
+    "fontSize": 14
+  },
+  "凤林": {
+    "x": 1574.5,
+    "y": 948.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大滩": {
+    "x": 1580.12,
+    "y": 1034.41,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "火车站": {
+    "x": 1574.16,
+    "y": 1101.84,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "城市广场": {
+    "x": 1572.76,
+    "y": 1160.76,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "鲁迅故里": {
+    "x": 1568.76,
+    "y": 1236.76,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "城南大道": {
+    "x": 1568.11,
+    "y": 1336.72,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "凤凰山": {
+    "x": 1553.12,
+    "y": 1422.41,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "劳家葑": {
+    "x": 1548.5,
+    "y": 1490.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "南池": {
+    "x": 1543,
+    "y": 1570.79,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "栖湖": {
+    "x": 1540.62,
+    "y": 1636.75,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "芳泉": {
+    "x": 1502,
+    "y": 1726,
+    "anchor": "middle",
+    "fontSize": 14
+  },
+  "绍兴一中": {
+    "x": 1333.5,
+    "y": 758.8,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "湖西": {
+    "x": 1334,
+    "y": 686.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "大庆寺": {
+    "x": 1334.5,
+    "y": 622.5,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "绍兴北站": {
+    "x": 1335,
+    "y": 541,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "会展中心": {
+    "x": 1205,
+    "y": 558,
+    "anchor": "middle",
+    "fontSize": 14
+  },
+  "人民医院总院": {
+    "x": 1439,
+    "y": 921,
+    "anchor": "middle",
+    "fontSize": 14,
+    "englishLineLength": 21
+  },
+  "后墅路": {
+    "x": 1588.33,
+    "y": 882,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "袍谷": {
+    "x": 1659.33,
+    "y": 881.33,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "袍中路": {
+    "x": 1714.67,
+    "y": 881.67,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "洋泾湖": {
+    "x": 1798.67,
+    "y": 881.67,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "恂南": {
+    "x": 1864,
+    "y": 885,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "豆姜": {
+    "x": 1926.67,
+    "y": 897.67,
+    "anchor": "start",
+    "fontSize": 14
+  },
+  "檀渎": {
+    "x": 2006.67,
+    "y": 921.33,
+    "anchor": "start",
+    "fontSize": 14
+  }
+}

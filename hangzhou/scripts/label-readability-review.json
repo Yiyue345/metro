@@ -1,0 +1,26 @@
+{
+  "scope": "270 displayed Chinese/English station label groups, including Hanghai Intercity and planned Tangjiacun; East Railway physical station parts share one displayed label",
+  "stationLabelsSha256": "1f52f11fffde484f7ce360e2aa6b0ed83496c2796fe7ce7f637650e2f184f495",
+  "reviewMethod": "All station labels reviewed in nine native Edge SVG contact sheets; Canvas actualBoundingBox ink measurements across all text rows; transport badge bounding boxes checked against all station symbol bounds and station text ink",
+  "positionAdjustments": ["枸桔弄", "浙大紫金港", "近江", "南星桥", "中医药大学", "滨康路", "西湖文化广场", "钱江路", "建国北路", "城站"],
+  "englishWrappingAdjustments": ["海宁高铁西站", "长安(东方学院)", "拱宸桥东", "文海南路", "音乐学院"],
+  "badgeAdjustments": ["临平南高铁站", "城站"],
+  "halo": {"scope": "Hangzhou only, including neighbor rendering", "chineseStrokeWidth": 2.6, "englishStrokeWidth": 1.8},
+  "principle": "Keep captions close to their station. Moderate track overlap is allowed when the white halo maintains readability; do not move captions far away merely to avoid tracks.",
+  "verification": {
+    "displayedLabelGroups": 270,
+    "interStationTextInkOverlaps": 0,
+    "transportBadges": 9,
+    "badgeStationBoundingOverlaps": 0,
+    "badgeTextInkOverlaps": 0,
+    "browser": "Microsoft Edge",
+    "desktopViewport": [1440, 950],
+    "mobileViewport": [390, 844],
+    "screenZooms": [12.8, 14],
+    "screenReviewedStations": ["西湖文化广场", "钱江路", "城站", "临平南高铁站"],
+    "horizontalPageOverflow": false,
+    "checks": ["node hangzhou/scripts/validate-map.mjs", "npm run check", "npm run build", "git diff --check"],
+    "artifacts": ["output/playwright/hangzhou-label-verified-metrics.json", "output/playwright/hangzhou-label-review-1.png through hangzhou-label-review-9.png", "output/playwright/hangzhou-readability-core-desktop.png", "output/playwright/hangzhou-readability-core-mobile.png"],
+    "limits": "390px browser viewport verifies responsive layout, not physical-device gesture behavior. Ink-box checks do not prohibit intentional track intersections or prove every glyph is readable at every zoom."
+  }
+}

@@ -18,7 +18,7 @@ const geographicBounds: [[number, number], [number, number]] = [
   [Math.min(...registered.map(point => point.lon)) - .09, Math.min(...registered.map(point => point.lat)) - .07],
   [Math.max(...registered.map(point => point.lon)) + .09, Math.max(...registered.map(point => point.lat)) + .07],
 ];
-const operator = { id: 'nanning', name: '南宁轨道交通', company: '南宁轨道交通集团有限责任公司', url: 'https://www.nngdjt.com/' };
+const operator = { id: 'nanning', name: '南宁轨道交通', company: '南宁轨道交通集团有限责任公司', logo: '/operators/nanning-metro.png', url: 'https://www.nngdjt.com/' };
 
 export const nanningDataset: MetroCityDataset = {
   city: { id: 'nanning', name: '南宁', assetBase: '/nanning', center: [108.32, 22.82], geographicBounds },

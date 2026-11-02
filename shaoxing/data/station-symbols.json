@@ -1,0 +1,619 @@
+{
+  "姑娘桥": {
+    "parts": [
+      {
+        "x": 170,
+        "y": 60,
+        "width": 13.42,
+        "height": 11.63,
+        "angle": 26.57,
+        "transfer": true,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "衙前": {
+    "parts": [
+      {
+        "x": 330.95,
+        "y": 135.9,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "杨汛桥": {
+    "parts": [
+      {
+        "x": 361.56,
+        "y": 260.5,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "前梅": {
+    "parts": [
+      {
+        "x": 521.6,
+        "y": 391.4,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "钱清": {
+    "parts": [
+      {
+        "x": 621.5,
+        "y": 403.71,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "西沙路": {
+    "parts": [
+      {
+        "x": 704.86,
+        "y": 434.5,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "临杭大道": {
+    "parts": [
+      {
+        "x": 785.0,
+        "y": 479.17,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "鉴水路": {
+    "parts": [
+      {
+        "x": 871.59,
+        "y": 553.12,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "越州大道": {
+    "parts": [
+      {
+        "x": 999.5,
+        "y": 621.5,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "中国轻纺城": {
+    "parts": [
+      {
+        "x": 1052.16,
+        "y": 657.84,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "明珠广场": {
+    "parts": [
+      {
+        "x": 1088.11,
+        "y": 675.72,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "瓜渚湖": {
+    "parts": [
+      {
+        "x": 1161.89,
+        "y": 708.28,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "镜水路": {
+    "parts": [
+      {
+        "x": 1230.94,
+        "y": 746.22,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "黄酒小镇": {
+    "parts": [
+      {
+        "x": 1333,
+        "y": 817,
+        "width": 16.44,
+        "height": 11.34,
+        "angle": -9.46,
+        "transfer": true,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "张墅": {
+    "parts": [
+      {
+        "x": 1412,
+        "y": 848,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ],
+        "planned": true
+      }
+    ]
+  },
+  "奥体中心": {
+    "parts": [
+      {
+        "x": 1499.0,
+        "y": 823.79,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "梅山广场": {
+    "parts": [
+      {
+        "x": 1539,
+        "y": 864,
+        "width": 13.0,
+        "height": 11.0,
+        "angle": 0.0,
+        "transfer": true,
+        "lines": [
+          "1",
+          "2"
+        ]
+      }
+    ]
+  },
+  "凤林": {
+    "parts": [
+      {
+        "x": 1563.5,
+        "y": 945.5,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "大滩": {
+    "parts": [
+      {
+        "x": 1569.12,
+        "y": 1031.41,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "火车站": {
+    "parts": [
+      {
+        "x": 1563.16,
+        "y": 1098.84,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "城市广场": {
+    "parts": [
+      {
+        "x": 1561.76,
+        "y": 1157.76,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "鲁迅故里": {
+    "parts": [
+      {
+        "x": 1557.76,
+        "y": 1233.76,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "城南大道": {
+    "parts": [
+      {
+        "x": 1557.11,
+        "y": 1333.72,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "凤凰山": {
+    "parts": [
+      {
+        "x": 1542.12,
+        "y": 1419.41,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "劳家葑": {
+    "parts": [
+      {
+        "x": 1537.5,
+        "y": 1487.5,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "南池": {
+    "parts": [
+      {
+        "x": 1532.0,
+        "y": 1567.79,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "栖湖": {
+    "parts": [
+      {
+        "x": 1529.62,
+        "y": 1633.75,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "芳泉": {
+    "parts": [
+      {
+        "x": 1502.0,
+        "y": 1703.5,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "绍兴一中": {
+    "parts": [
+      {
+        "x": 1322.5,
+        "y": 755.8,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "湖西": {
+    "parts": [
+      {
+        "x": 1323.0,
+        "y": 683.5,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "大庆寺": {
+    "parts": [
+      {
+        "x": 1323.5,
+        "y": 619.5,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "绍兴北站": {
+    "parts": [
+      {
+        "x": 1322.63,
+        "y": 553.47,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "会展中心": {
+    "parts": [
+      {
+        "x": 1209.88,
+        "y": 539.59,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "人民医院总院": {
+    "parts": [
+      {
+        "x": 1438.62,
+        "y": 900.76,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "后墅路": {
+    "parts": [
+      {
+        "x": 1608.62,
+        "y": 864.24,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "袍谷": {
+    "parts": [
+      {
+        "x": 1673.0,
+        "y": 865.0,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "袍中路": {
+    "parts": [
+      {
+        "x": 1734.0,
+        "y": 864.0,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "洋泾湖": {
+    "parts": [
+      {
+        "x": 1818.62,
+        "y": 865.24,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "恂南": {
+    "parts": [
+      {
+        "x": 1878.62,
+        "y": 869.76,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "豆姜": {
+    "parts": [
+      {
+        "x": 1940.0,
+        "y": 881.0,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "檀渎": {
+    "parts": [
+      {
+        "x": 2019.0,
+        "y": 905.14,
+        "width": 10,
+        "height": 10,
+        "angle": 0,
+        "transfer": false,
+        "lines": [
+          "2"
+        ]
+      }
+    ]
+  }
+}

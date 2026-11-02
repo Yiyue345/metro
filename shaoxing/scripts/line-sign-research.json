@@ -1,0 +1,52 @@
+{
+  "city": "shaoxing",
+  "auditedAt": "2026-11-02",
+  "scope": "All existing line badge IDs: 1 and 2. No line-color dataset changes.",
+  "method": "Visually inspected the operator-published network map from its official homepage, including both route endpoint signs and legend. Recreated the outlined square line markers with natural numeral proportions.",
+  "sources": [
+    {
+      "url": "https://www.sxsmtr.com/#/home",
+      "kind": "Official Shaoxing Metro network map",
+      "imagePath": "gdjt/resources/image/2026/07/22/829735638822981.jpg",
+      "evidence": "output/playwright/shaoxing-official-line-map-preview.png"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/绍兴轨道交通",
+      "kind": "Wikipedia system overview and line identification"
+    }
+  ],
+  "lines": [
+    {
+      "id": "1",
+      "source": "https://www.sxsmtr.com/#/home",
+      "foreground": "#bd0044",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Official map uses a white square with a thin line-color outline and a single numeral.",
+        "Removed the generic filled bilingual plaque, 号线 and Line caption."
+      ]
+    },
+    {
+      "id": "2",
+      "source": "https://www.sxsmtr.com/#/home",
+      "foreground": "#293d86",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Official map uses a white square with a thin line-color outline and a single numeral.",
+        "Removed the generic filled bilingual plaque, 号线 and Line caption."
+      ]
+    }
+  ],
+  "limitations": [
+    "The operator map is raster. Border geometry is recreated as SVG; existing project line colors are retained for continuity."
+  ],
+  "validation": {
+    "lineCount": 2,
+    "coverage": "Every ID in data/line-colors.json has a source and generated asset.",
+    "visualSheet": "output/playwright/hangzhou-shaoxing-line-signs-after.png",
+    "offlineGeneration": true,
+    "noGlyphStretching": true
+  }
+}

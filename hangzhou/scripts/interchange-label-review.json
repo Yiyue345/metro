@@ -1,0 +1,73 @@
+{
+  "coordinateSpace": "杭州原图裁切内像素；crop=[120,400,6030,3600]；原图坐标为 x+120,y+400",
+  "sourceEdition": "2026.05",
+  "labels": {
+    "火车东站": {
+      "x": 3033,
+      "y": 1453,
+      "anchor": "middle",
+      "fontSize": 14,
+      "englishLineLength": 18
+    },
+    "双桥": {
+      "x": 3530.05,
+      "y": 2231.9,
+      "anchor": "middle",
+      "fontSize": 14
+    },
+    "姑娘桥": {
+      "x": 3650,
+      "y": 2254,
+      "anchor": "middle",
+      "fontSize": 14,
+      "englishLineLength": 24
+    }
+  },
+  "fullSourceLabelPixels": {
+    "火车东站": [3153, 1853],
+    "双桥": [3650.05, 2631.9],
+    "姑娘桥": [3770, 2654]
+  },
+  "displayRules": {
+    "火车东站": {
+      "name": "火车东站",
+      "englishName": "East Railway Station",
+      "lines": ["1", "4", "6", "19"],
+      "suppressSeparateLabel": "火车东站(东广场)",
+      "keepSymbolCenters": [[3000, 1495], [3010.5, 1474.5]],
+      "reason": "单一中英文标签放在两个站符的右上方；英文按 East Railway / Station 分两行，贴近东广场站符并避开另一站符。原图上方的枸桔弄、明石路和下方的彭埠均保留可读间距。两个铁路badge仍由原有规则排在中文右侧。"
+    },
+    "火车南站": {
+      "keepExistingLabel": { "x": 3466.88, "y": 2276.41, "anchor": "middle", "fontSize": 14 },
+      "moveNeighborInstead": "双桥",
+      "reason": "南站标签本身已贴近本站；将双桥移到其站符正上方即可腾出铁路badge位置，不需要把南站标签横向推远。"
+    },
+    "姑娘桥": {
+      "sharedSourceStationCenter": [3770, 2630],
+      "hangzhouStationCenter": [3650, 2230],
+      "shaoxingStationCenter": [170, 60],
+      "shaoxingEquivalentLabel": { "x": 170, "y": 84, "anchor": "middle", "fontSize": 14, "englishLineLength": 24 },
+      "reason": "共站只绘制一个站名组，中文正下方居中、英文紧随；两城等价像素位置完全对应，由共享渲染选择主城标签并抑制邻城重复标签。"
+    }
+  },
+  "overlapFindings": [
+    {
+      "owner": "火车南站",
+      "blockingLabel": "双桥",
+      "currentBadgeRectangles": [[3499.88, 2259.41, 3515.88, 2275.41], [3519.88, 2259.41, 3535.88, 2275.41]],
+      "currentBlockingChineseNominalBounds": [3516.05, 2258.9, 3544.05, 2272.9],
+      "finding": "第二个铁路badge与双桥中文大面积重叠；第一个badge右边缘贴着中文左侧描边。双桥移到上方后，两badge与其中文、英文均分处轨道上下，互不遮挡。"
+    },
+    {
+      "owner": "火车东站",
+      "proposedBadgeRectangles": [[3066, 1436, 3082, 1452], [3086, 1436, 3102, 1452]],
+      "finding": "两个badge位于两站符右上方，没有覆盖站符；第一个badge可适度覆盖4号线色带，图标和站名仍可读，遵循文字贴近站点优先的要求。"
+    }
+  ],
+  "validation": {
+    "method": "对照用户2026.05纯色底原图，并使用现有route-polylines、站符位置、中文14px、英文8px、badge16px在Pillow局部渲染后目视检查。",
+    "previewFiles": ["output/playwright/interchange-label-east-proposal.png", "output/playwright/interchange-label-south-proposal.png"],
+    "scope": "仅提出标签坐标；未修改data、共享组件、visited或站点整合逻辑。原图有意允许的轻微线条覆盖不作为避让目标。",
+    "remaining": "root合并逻辑站点与共站图形后，仍需浏览器核对真实字体、图标和通道连接。"
+  }
+}

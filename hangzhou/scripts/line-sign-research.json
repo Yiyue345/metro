@@ -1,0 +1,190 @@
+{
+  "city": "hangzhou",
+  "auditedAt": "2026-11-02",
+  "scope": "Line badges only; no operator logos, stations, routes or line-color datasets changed.",
+  "method": "Visually inspected every numbered line icon in Wikimedia Commons category Hangzhou Metro icons. Recreated geometry locally as SVG. Numerals are stored as local outline paths from natural Arial (single digit) and Arial Narrow (two digits), with no nonuniform scaling, so font fallback cannot cause overlap. Chinese/English captions use natural text. These are layout recreations, not original operator artwork.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Hangzhou_Metro_icons",
+      "kind": "Wikimedia Commons icon contact sheet",
+      "evidence": "output/playwright/hz-line-signs-source.png"
+    },
+    {
+      "url": "https://www.sxsmtr.com/#/home",
+      "kind": "Official Shaoxing Metro network map, published 2026-07-22, includes Hangzhou and Hanghai",
+      "imagePath": "gdjt/resources/image/2026/07/22/829735638822981.jpg",
+      "evidence": "output/playwright/hanghai-official-map-sign.png"
+    }
+  ],
+  "limitations": [
+    "Original Wikimedia SVG downloads were rate-limited. Source shapes and lettering hierarchy were checked from rendered icon previews; local type may differ slightly from outlined originals.",
+    "The Hanghai plaque uses the official network map English wording rather than the former invented Hanghai Intercity caption."
+  ],
+  "lines": [
+    {
+      "id": "1",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_1_icon.svg",
+      "background": "#df4661",
+      "foreground": "#ffffff",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2:1 horizontal badge with the source square plate.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement."
+      ]
+    },
+    {
+      "id": "2",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_2_icon.svg",
+      "background": "#ec6e00",
+      "foreground": "#ffffff",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2:1 horizontal badge with the source square plate.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement."
+      ]
+    },
+    {
+      "id": "3",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_3_icon.svg",
+      "background": "#ffcd00",
+      "foreground": "#000000",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2:1 horizontal badge with the source square plate.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement.",
+        "Source SVG uses black lettering on yellow."
+      ]
+    },
+    {
+      "id": "4",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_4_icon.svg",
+      "background": "#3ea83a",
+      "foreground": "#ffffff",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2:1 horizontal badge with the source square plate.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement."
+      ]
+    },
+    {
+      "id": "5",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_5_icon.png",
+      "background": "#00aec7",
+      "foreground": "#ffffff",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2:1 horizontal badge with the source square plate.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement.",
+        "Used the cyan PNG reference, consistent with the current official map; the older SVG in the same Commons category has a different blue."
+      ]
+    },
+    {
+      "id": "6",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_6_icon.svg",
+      "background": "#0072ce",
+      "foreground": "#ffffff",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2:1 horizontal badge with the source square plate.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement."
+      ]
+    },
+    {
+      "id": "7",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_7_icon.svg",
+      "background": "#87189d",
+      "foreground": "#ffffff",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2:1 horizontal badge with the source square plate.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement."
+      ]
+    },
+    {
+      "id": "8",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_8_icon.svg",
+      "background": "#ac145a",
+      "foreground": "#ffffff",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2:1 horizontal badge with the source square plate.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement."
+      ]
+    },
+    {
+      "id": "9",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_9_icon.svg",
+      "background": "#be4d00",
+      "foreground": "#ffffff",
+      "aspectRatio": "1:1",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2:1 horizontal badge with the source square plate.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement."
+      ]
+    },
+    {
+      "id": "10",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_10_icon.svg",
+      "background": "#daaa00",
+      "foreground": "#ffffff",
+      "aspectRatio": "90:69",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2.45:1 badge with 90:69 plate; two-digit numeral retains natural width.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement."
+      ]
+    },
+    {
+      "id": "16",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_16_icon.svg",
+      "background": "#ffb25b",
+      "foreground": "#ffffff",
+      "aspectRatio": "90:69",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2.45:1 badge with 90:69 plate; two-digit numeral retains natural width.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement."
+      ]
+    },
+    {
+      "id": "19",
+      "source": "https://commons.wikimedia.org/wiki/File:HZM_Line_19_icon.svg",
+      "background": "#05c3dd",
+      "foreground": "#ffffff",
+      "aspectRatio": "90:69",
+      "status": "corrected",
+      "findings": [
+        "Replaced generic 2.45:1 badge with 90:69 plate; two-digit numeral retains natural width.",
+        "Matched source-preview plate color and numeral / 号线 / Line placement."
+      ]
+    },
+    {
+      "id": "hh",
+      "source": "https://www.sxsmtr.com/#/home",
+      "background": "#0099ca",
+      "foreground": "#ffffff",
+      "aspectRatio": "1.64:1",
+      "status": "corrected",
+      "findings": [
+        "Blue rounded plaque with three lines: 杭海城际 / Hangzhou-Haining / Intercity Rail.",
+        "English caption and plate proportion corrected from official network-map close-up."
+      ]
+    }
+  ],
+  "validation": {
+    "lineCount": 13,
+    "coverage": "Every ID in data/line-colors.json has a source and generated asset.",
+    "visualSheet": "output/playwright/hangzhou-shaoxing-line-signs-after.png",
+    "offlineGeneration": true,
+    "noGlyphStretching": true
+  }
+}

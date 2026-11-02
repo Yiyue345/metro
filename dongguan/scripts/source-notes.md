@@ -30,3 +30,11 @@ node dongguan/scripts/validate-map.mjs
 道路、水域与绿地底图来自 VersaTiles 的 OSM 矢量瓦片，数据缓存位于 `scripts/vector-basemap-source/`。在 `shenzhen/` 下使用 `node scripts/build-vector-basemap.mjs --city=dongguan --download` 首次获取缺少的缓存，使用 `--refresh` 显式更新快照；不带下载参数可从缓存重建。随后运行 `node scripts/validate-vector-basemap.mjs --city=dongguan` 和 `node scripts/build-vector-basemap.mjs --city=dongguan --check` 校验。
 
 原始地图仅用于提取和复核，成品线路、圆点、标签都是独立 SVG 数据。线路徽章按参考图样式重建，不声明为运营公司官方资产。参考图本身的署名、授权和使用限制保留在用户提供的源文件中。参考 JPG 和复核截图由仓库 `.gitignore` 排除；页面运行使用提取后的 SVG/JSON，不依赖参考图片。
+
+## 线路标识复核（2026-11-02）
+
+1 / 2 号线逐项对照[中铁六院参建设计单位发布的线网图页面](https://www.crlgc.com/NewWeb/NewsView.aspx?id=15&nid=38374)，并视觉复核东莞广播电视台发布、带“东莞发布”署名的[运营线网图](https://ugcuploadzdg.sun0769.com/1/2025/1130/1764488902594736.png)。徽章保留“大数字、右上号线、右下 Line n”的横向结构，改为粗体路径、小圆角与接近原图的 2.2:1 比例；1 号线由青蓝改为深蓝，2 号线红色同步按原图复核。徽章配色独立于既有参考示意图线路色，不修改路线数据。Commons 的 R1 / R2 PNG 已下载查看，属于旧版规划占位图，不采用（R2 仍为紫色且文字为“东莞R2线”）。逐线记录及参考图哈希见 `line-sign-research.json`；字形以 Arial / Microsoft YaHei 粗体路径重建，未声称与官方原稿字体完全一致，生成过程不依赖本机字体。
+
+## 站点详情的运营方图标
+
+`shenzhen/public/operators/dongguan-metro.png` 取自东莞轨道交通官方 App 的商店图标，只保留绿色图形，移除应用图标白色底板，不包含中英文名称。来源为 [官方 App 商店页](https://apps.apple.com/cn/app/id6753886295) 使用的 [1024px 原图](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/fa/bb/d4fabb8e-bcb2-e563-adc4-26f16c6d812f/Placeholder.mill/1024x1024bb.png)，2026-10-18 下载。原图 SHA-256：`d2b7e0aec6610812149a645b165a4b53b846326c6f4dc391d786ee981d5090bb`；原始裁剪范围 `[25, 295, 1005, 723]`（右、下端不包含），去除白底并紧裁后等比缩为 512 × 219 透明 PNG。保留官方图形和渐变，不重绘标志。

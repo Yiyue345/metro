@@ -24,6 +24,9 @@ shenzhen/public/maps/*-reference.jpg
 nanning/public/maps/*-reference*.jpg
 dongguan/public/maps/*-reference*.jpg
 kunming/public/maps/*-reference*.jpg
+hangzhou/public/maps/*-reference*.jpg
+shaoxing/public/maps/*-reference*.jpg
+chengdu/public/maps/*-reference*.jpg
 **/scripts/review/
 **/scripts/ocr-tiles/
 **/scripts/ocr-clean-tiles/
@@ -38,5 +41,15 @@ kunming/public/maps/*-reference*.jpg
 .playwright-mcp/
 .playwright-cli/
 output/playwright/
+output/line-signs/
+output/line-sign-references/
+output/chengdu-line1-source.svg
 qa-*.jpg
 reference-*.jpg
+
+# Markdown allowlist (README only at root; filename/extension case-insensitive)
+*.[mM][dD]
+!/[rR][eE][aA][dD][mM][eE].[mM][dD]
+![aA][gG][eE][nN][tT][sS].[mM][dD]
+![aA][bB][oO][uU][tT].[mM][dD]
+!**/docs/**/*.[mM][dD]

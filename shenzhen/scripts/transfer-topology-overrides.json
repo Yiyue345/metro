@@ -1,0 +1,324 @@
+{
+  "上屋": {
+    "parts": [
+      {
+        "x": 1685.2,
+        "y": 1767.5,
+        "width": 10.2,
+        "height": 10.2,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "6"
+        ]
+      },
+      {
+        "x": 1692.0,
+        "y": 1765.5,
+        "width": 10.0,
+        "height": 10.0,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "13"
+        ]
+      }
+    ],
+    "joined": true,
+    "gradient": {
+      "x1": 1684.11,
+      "y1": 1767.88,
+      "x2": 1693.36,
+      "y2": 1765.27,
+      "lines": [
+        "6",
+        "13"
+      ]
+    }
+  },
+  "凤凰城": {
+    "parts": [
+      {
+        "x": 1637.4,
+        "y": 1225.7,
+        "width": 10.1,
+        "height": 10.1,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "6"
+        ]
+      },
+      {
+        "x": 1644.6,
+        "y": 1225.7,
+        "width": 10.1,
+        "height": 10.1,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "13"
+        ]
+      }
+    ],
+    "joined": true,
+    "gradient": {
+      "x1": 1636.58,
+      "y1": 1225.58,
+      "x2": 1646.09,
+      "y2": 1225.62,
+      "lines": [
+        "6",
+        "13"
+      ]
+    }
+  },
+  "公明广场": {
+    "parts": [
+      {
+        "x": 1293.5,
+        "y": 952.4,
+        "width": 10.4,
+        "height": 10.4,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "6"
+        ]
+      },
+      {
+        "x": 1296.6,
+        "y": 953.4,
+        "width": 10.6,
+        "height": 10.6,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "13"
+        ]
+      }
+    ],
+    "joined": true,
+    "gradient": {
+      "x1": 1292.03,
+      "y1": 951.96,
+      "x2": 1298.92,
+      "y2": 954.07,
+      "lines": [
+        "6",
+        "13"
+      ]
+    }
+  },
+  "机场东": {
+    "parts": [
+      {
+        "x": 693.5,
+        "y": 2154.5,
+        "width": 9.1,
+        "height": 9.1,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "12"
+        ]
+      },
+      {
+        "x": 700.5,
+        "y": 2151.4,
+        "width": 9.0,
+        "height": 9.0,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "1"
+        ]
+      }
+    ],
+    "joined": true,
+    "gradient": {
+      "x1": 693.72,
+      "y1": 2155.94,
+      "x2": 700.69,
+      "y2": 2149.68,
+      "lines": [
+        "12",
+        "1"
+      ]
+    }
+  },
+  "布吉": {
+    "parts": [
+      {
+        "x": 3240.9,
+        "y": 2558.0,
+        "width": 9.7,
+        "height": 9.7,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "5"
+        ]
+      },
+      {
+        "x": 3243.8,
+        "y": 2565.2,
+        "width": 10.1,
+        "height": 10.1,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "3"
+        ]
+      },
+      {
+        "x": 3246.6,
+        "y": 2572.1,
+        "width": 10.0,
+        "height": 10.0,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "14"
+        ]
+      }
+    ],
+    "joined": true,
+    "gradient": {
+      "x1": 3238.38,
+      "y1": 2560.03,
+      "x2": 3249.51,
+      "y2": 2570.84,
+      "lines": [
+        "5",
+        "3",
+        "14"
+      ]
+    }
+  },
+  "双龙": {
+    "parts": [
+      {
+        "x": 4572.0,
+        "y": 1391.2,
+        "width": 9.9,
+        "height": 9.9,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "16"
+        ]
+      },
+      {
+        "x": 4575.3,
+        "y": 1398.2,
+        "width": 9.9,
+        "height": 9.9,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "3"
+        ]
+      }
+    ],
+    "joined": true,
+    "gradient": {
+      "x1": 4571.72,
+      "y1": 1390.76,
+      "x2": 4576.09,
+      "y2": 1399.26,
+      "lines": [
+        "16",
+        "3"
+      ]
+    }
+  },
+  "深圳北": {
+    "parts": [
+      {
+        "x": 2466.28,
+        "y": 2487.02,
+        "width": 13.63,
+        "height": 9.7,
+        "angle": -36.72,
+        "transfer": true,
+        "lines": [
+          "4",
+          "6"
+        ]
+      },
+      {
+        "x": 2472.75,
+        "y": 2481.2,
+        "width": 9.8,
+        "height": 9.8,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "5"
+        ]
+      }
+    ],
+    "joined": true,
+    "gradient": {
+      "x1": 2464.12,
+      "y1": 2488.59,
+      "x2": 2473.52,
+      "y2": 2480.49,
+      "lines": [
+        "6",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "大运": {
+    "parts": [
+      {
+        "x": 4137.0,
+        "y": 1790.4,
+        "width": 11.1,
+        "height": 11.1,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "16"
+        ]
+      },
+      {
+        "x": 4144.1,
+        "y": 1791.2,
+        "width": 10.2,
+        "height": 10.2,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "14"
+        ]
+      },
+      {
+        "x": 4151.8,
+        "y": 1792.3,
+        "width": 10.2,
+        "height": 10.2,
+        "angle": 0,
+        "transfer": true,
+        "lines": [
+          "3"
+        ]
+      }
+    ],
+    "joined": true,
+    "gradient": {
+      "x1": 4137.0,
+      "y1": 1790.3,
+      "x2": 4152.5,
+      "y2": 1792.58,
+      "lines": [
+        "16",
+        "14",
+        "3"
+      ]
+    }
+  }
+}

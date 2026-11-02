@@ -1,0 +1,38 @@
+{
+  "operators": [
+    {
+      "id": "chengdu-metro",
+      "name": "成都地铁",
+      "company": "成都地铁运营有限公司",
+      "url": "https://www.chengdurail.com/",
+      "logo": "/operators/chengdu-metro.png"
+    },
+    {
+      "id": "chengdu-chengzi",
+      "name": "成都地铁（资阳线）",
+      "company": "成都成资轨道交通有限公司（成都地铁运营有限公司代管）",
+      "url": "https://www.chengdurail.com/",
+      "logo": "/operators/chengdu-metro.png"
+    }
+  ],
+  "lines": {
+    "1": ["chengdu-metro"],
+    "2": ["chengdu-metro"],
+    "3": ["chengdu-metro"],
+    "4": ["chengdu-metro"],
+    "5": ["chengdu-metro"],
+    "6": ["chengdu-metro"],
+    "7": ["chengdu-metro"],
+    "8": ["chengdu-metro"],
+    "9": ["chengdu-metro"],
+    "10": ["chengdu-metro"],
+    "13": ["chengdu-metro"],
+    "17": ["chengdu-metro"],
+    "18": ["chengdu-metro"],
+    "19": ["chengdu-metro"],
+    "27": ["chengdu-metro"],
+    "30": ["chengdu-metro"],
+    "s3": ["chengdu-chengzi"],
+    "r2": ["chengdu-metro"]
+  }
+}

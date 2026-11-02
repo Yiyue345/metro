@@ -1,0 +1,18 @@
+{
+  "city": "dongguan",
+  "auditedAt": "2026-11-02",
+  "scope": "Operating-line badges only; route colors and source-map station data are unchanged.",
+  "references": [
+    { "publisher": "中铁第六勘察设计院集团有限公司（参建设计单位）", "page": "https://www.crlgc.com/NewWeb/NewsView.aspx?id=15&nid=38374", "image": "https://www.crlgc.com/attached/image/20251204/20251204145053_7430.jpg", "inspection": "Primary page read; identifies the illustrated map as the Dongguan urban rail network. Direct image endpoint timed out." },
+    { "publisher": "东莞广播电视台，图中署名东莞发布", "page": "https://webzdg.sun0769.com/web/news/content/691963?share=1", "image": "https://ugcuploadzdg.sun0769.com/1/2025/1130/1764488902594736.png", "sha256": "46e4c2f4eba700eff8ccb0db54d25b1830b499b0398cc1d54b08a4a63b5fcbfd", "inspection": "Downloaded and visually inspected both endpoint and legend badges; enlarged legend crop confirms bilingual rectangle and bold lettering. Article URL now redirects to an error page; published image remains accessible." }
+  ],
+  "rejectedReferences": [
+    { "url": "https://commons.wikimedia.org/wiki/File:Dongguan_Metro_Line_R1_icon.png", "reason": "Downloaded and inspected: obsolete pre-opening R1 placeholder with full Dongguan R1 Line wording, unlike current operating signs." },
+    { "url": "https://commons.wikimedia.org/wiki/File:Dongguan_Metro_Line_R2_icon.png", "reason": "Downloaded and inspected: obsolete purple R2 placeholder; current operating line 2 badge is red and labeled 2号线 / Line 2." }
+  ],
+  "lettering": "Reconstructed bold sans-serif numeral/English outlines from Arial Bold and Chinese outlines from Microsoft YaHei Bold. No claim of exact operator font identity. Outlined to avoid platform font substitution.",
+  "lines": [
+    { "id": "1", "asset": "public/lines/1.svg", "result": "corrected", "before": "Cyan #398db8, light generic type, strongly rounded 2:1 rectangle", "after": "Deep blue #2e3192, bold 1 / 号线 / Line 1, subtly rounded 2.2:1 rectangle", "background": "#2e3192", "foreground": "#ffffff", "aspectRatio": 2.2, "source": "https://ugcuploadzdg.sun0769.com/1/2025/1130/1764488902594736.png" },
+    { "id": "2", "asset": "public/lines/2.svg", "result": "corrected", "before": "Red #e60012, light generic type, strongly rounded 2:1 rectangle", "after": "Red #ed1c24, bold 2 / 号线 / Line 2, subtly rounded 2.2:1 rectangle", "background": "#ed1c24", "foreground": "#ffffff", "aspectRatio": 2.2, "source": "https://ugcuploadzdg.sun0769.com/1/2025/1130/1764488902594736.png" }
+  ]
+}

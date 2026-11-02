@@ -1,0 +1,542 @@
+{
+  "method": "One north-up Mercator scale and translation fitted to all 41 government-source WGS84 station coordinates. No Shenzhen-derived fixed offset or icon-spacing adjustment.",
+  "rootCause": "The former registration inferred Hong Kong station positions from Shenzhen display anchors and a fabricated southward gap, introducing systematic scale and position errors.",
+  "rmsGovernmentDeviationMeters": 68.9,
+  "maximumGovernmentDeviationMeters": 181.1,
+  "stations": [
+    {
+      "id": "ADM",
+      "name": "金鐘",
+      "reference": {
+        "lat": 22.27942108,
+        "lon": 114.16434751
+      },
+      "displayed": {
+        "lon": 114.16571483284943,
+        "lat": 22.278869908036413
+      },
+      "errorMeters": 153.6
+    },
+    {
+      "id": "EXC",
+      "name": "會展",
+      "reference": {
+        "lat": 22.28165212,
+        "lon": 114.17531211
+      },
+      "displayed": {
+        "lon": 114.17518158412932,
+        "lat": 22.281685611480814
+      },
+      "errorMeters": 14
+    },
+    {
+      "id": "HUH",
+      "name": "紅磡",
+      "reference": {
+        "lat": 22.3029914,
+        "lon": 114.1821829
+      },
+      "displayed": {
+        "lon": 114.18211259845923,
+        "lat": 22.303010116531283
+      },
+      "errorMeters": 7.5
+    },
+    {
+      "id": "MKK",
+      "name": "旺角東",
+      "reference": {
+        "lat": 22.32201891,
+        "lon": 114.17259395
+      },
+      "displayed": {
+        "lon": 114.17258949746932,
+        "lat": 22.321568649837356
+      },
+      "errorMeters": 50.1
+    },
+    {
+      "id": "KOT",
+      "name": "九龍塘",
+      "reference": {
+        "lat": 22.3371181,
+        "lon": 114.17577745
+      },
+      "displayed": {
+        "lon": 114.1760268297793,
+        "lat": 22.337101704546587
+      },
+      "errorMeters": 25.7
+    },
+    {
+      "id": "TAW",
+      "name": "大圍",
+      "reference": {
+        "lat": 22.37276169,
+        "lon": 114.17869008
+      },
+      "displayed": {
+        "lon": 114.17912606382926,
+        "lat": 22.37285242803267
+      },
+      "errorMeters": 46
+    },
+    {
+      "id": "SHT",
+      "name": "沙田",
+      "reference": {
+        "lat": 22.38212605,
+        "lon": 114.18691484
+      },
+      "displayed": {
+        "lon": 114.18774756945919,
+        "lat": 22.382648400310433
+      },
+      "errorMeters": 103.6
+    },
+    {
+      "id": "FOT",
+      "name": "火炭",
+      "reference": {
+        "lat": 22.39582421,
+        "lon": 114.19850137
+      },
+      "displayed": {
+        "lon": 114.19817226580906,
+        "lat": 22.395413392945688
+      },
+      "errorMeters": 56.9
+    },
+    {
+      "id": "UNI",
+      "name": "大學",
+      "reference": {
+        "lat": 22.41365748,
+        "lon": 114.21004259
+      },
+      "displayed": {
+        "lon": 114.21000570490895,
+        "lat": 22.413594971056682
+      },
+      "errorMeters": 7.9
+    },
+    {
+      "id": "TAP",
+      "name": "大埔墟",
+      "reference": {
+        "lat": 22.44458111,
+        "lon": 114.17039472
+      },
+      "displayed": {
+        "lon": 114.17027915935938,
+        "lat": 22.444326324400542
+      },
+      "errorMeters": 30.8
+    },
+    {
+      "id": "TWO",
+      "name": "太和",
+      "reference": {
+        "lat": 22.45107337,
+        "lon": 114.1611845
+      },
+      "displayed": {
+        "lon": 114.16081240807945,
+        "lat": 22.450732173009612
+      },
+      "errorMeters": 53.9
+    },
+    {
+      "id": "FAN",
+      "name": "粉嶺",
+      "reference": {
+        "lat": 22.49210386,
+        "lon": 114.13867307
+      },
+      "displayed": {
+        "lon": 114.13883602117966,
+        "lat": 22.491868371444237
+      },
+      "errorMeters": 31.1
+    },
+    {
+      "id": "SHS",
+      "name": "上水",
+      "reference": {
+        "lat": 22.50161887,
+        "lon": 114.12753291
+      },
+      "displayed": {
+        "lon": 114.12790417743979,
+        "lat": 22.501187406854786
+      },
+      "errorMeters": 61.4
+    },
+    {
+      "id": "LOW",
+      "name": "羅湖",
+      "reference": {
+        "lat": 22.5276394,
+        "lon": 114.11323461
+      },
+      "displayed": {
+        "lon": 114.11291515457992,
+        "lat": 22.52846410184919
+      },
+      "errorMeters": 97.5
+    },
+    {
+      "id": "LMC",
+      "name": "落馬洲",
+      "reference": {
+        "lat": 22.51446539,
+        "lon": 114.06569273
+      },
+      "displayed": {
+        "lon": 114.06558139818043,
+        "lat": 22.513837383180242
+      },
+      "errorMeters": 70.8
+    },
+    {
+      "id": "RAC",
+      "name": "馬場",
+      "reference": {
+        "lat": 22.40019434,
+        "lon": 114.20277514
+      },
+      "displayed": {
+        "lon": 114.20268024260903,
+        "lat": 22.4002064753334
+      },
+      "errorMeters": 9.9
+    },
+    {
+      "id": "TUM",
+      "name": "屯門",
+      "reference": {
+        "lat": 22.39511045,
+        "lon": 113.97319167
+      },
+      "displayed": {
+        "lon": 113.97249167726136,
+        "lat": 22.39457979653221
+      },
+      "errorMeters": 93.2
+    },
+    {
+      "id": "SIH",
+      "name": "兆康",
+      "reference": {
+        "lat": 22.41152577,
+        "lon": 113.97880089
+      },
+      "displayed": {
+        "lon": 113.97852109623129,
+        "lat": 22.41156333683293
+      },
+      "errorMeters": 29.1
+    },
+    {
+      "id": "TIS",
+      "name": "天水圍",
+      "reference": {
+        "lat": 22.44788466,
+        "lon": 114.00447422
+      },
+      "displayed": {
+        "lon": 114.00511815935106,
+        "lat": 22.448180285038454
+      },
+      "errorMeters": 74
+    },
+    {
+      "id": "LOP",
+      "name": "朗屏",
+      "reference": {
+        "lat": 22.44762575,
+        "lon": 114.02544888
+      },
+      "displayed": {
+        "lon": 114.02450245959085,
+        "lat": 22.44739908545507
+      },
+      "errorMeters": 100.6
+    },
+    {
+      "id": "YUL",
+      "name": "元朗",
+      "reference": {
+        "lat": 22.4460723,
+        "lon": 114.0351653
+      },
+      "displayed": {
+        "lon": 114.03442000855075,
+        "lat": 22.44578459237161
+      },
+      "errorMeters": 83.1
+    },
+    {
+      "id": "KSR",
+      "name": "錦上路",
+      "reference": {
+        "lat": 22.4351315,
+        "lon": 114.06318182
+      },
+      "displayed": {
+        "lon": 114.06344010920046,
+        "lat": 22.434430529641308
+      },
+      "errorMeters": 82.4
+    },
+    {
+      "id": "TWW",
+      "name": "荃灣西",
+      "reference": {
+        "lat": 22.36838602,
+        "lon": 114.10965648
+      },
+      "displayed": {
+        "lon": 114.10975957081999,
+        "lat": 22.369048486997837
+      },
+      "errorMeters": 74.5
+    },
+    {
+      "id": "MEF",
+      "name": "美孚",
+      "reference": {
+        "lat": 22.33793484,
+        "lon": 114.13638542
+      },
+      "displayed": {
+        "lon": 114.1365820327797,
+        "lat": 22.339551390820198
+      },
+      "errorMeters": 181.1
+    },
+    {
+      "id": "NAC",
+      "name": "南昌",
+      "reference": {
+        "lat": 22.32688478,
+        "lon": 114.15350114
+      },
+      "displayed": {
+        "lon": 114.15388139374954,
+        "lat": 22.326937652925714
+      },
+      "errorMeters": 39.6
+    },
+    {
+      "id": "AUS",
+      "name": "柯士甸",
+      "reference": {
+        "lat": 22.30491467,
+        "lon": 114.16631535
+      },
+      "displayed": {
+        "lon": 114.16650372878941,
+        "lat": 22.305095468000133
+      },
+      "errorMeters": 28
+    },
+    {
+      "id": "ETS",
+      "name": "尖東",
+      "reference": {
+        "lat": 22.29530642,
+        "lon": 114.17465207
+      },
+      "displayed": {
+        "lon": 114.1750125349993,
+        "lat": 22.295450456486712
+      },
+      "errorMeters": 40.4
+    },
+    {
+      "id": "HOM",
+      "name": "何文田",
+      "reference": {
+        "lat": 22.30938506,
+        "lon": 114.18259077
+      },
+      "displayed": {
+        "lon": 114.18245069671926,
+        "lat": 22.309578868221422
+      },
+      "errorMeters": 26
+    },
+    {
+      "id": "TKW",
+      "name": "土瓜灣",
+      "reference": {
+        "lat": 22.31790969,
+        "lon": 114.18761875
+      },
+      "displayed": {
+        "lon": 114.1874094711992,
+        "lat": 22.3172420213201
+      },
+      "errorMeters": 77.4
+    },
+    {
+      "id": "SUW",
+      "name": "宋皇臺",
+      "reference": {
+        "lat": 22.32562159,
+        "lon": 114.19060892
+      },
+      "displayed": {
+        "lon": 114.19050870524916,
+        "lat": 22.32579089291787
+      },
+      "errorMeters": 21.5
+    },
+    {
+      "id": "KAT",
+      "name": "啟德",
+      "reference": {
+        "lat": 22.33041585,
+        "lon": 114.19934545
+      },
+      "displayed": {
+        "lon": 114.19975005768906,
+        "lat": 22.33121185718341
+      },
+      "errorMeters": 97.9
+    },
+    {
+      "id": "DIH",
+      "name": "鑽石山",
+      "reference": {
+        "lat": 22.34003308,
+        "lon": 114.20164764
+      },
+      "displayed": {
+        "lon": 114.20042625420908,
+        "lat": 22.340281076284498
+      },
+      "errorMeters": 128.8
+    },
+    {
+      "id": "HIK",
+      "name": "顯徑",
+      "reference": {
+        "lat": 22.36372202,
+        "lon": 114.17073826
+      },
+      "displayed": {
+        "lon": 114.17123710442937,
+        "lat": 22.363576882701064
+      },
+      "errorMeters": 53.8
+    },
+    {
+      "id": "CKT",
+      "name": "車公廟",
+      "reference": {
+        "lat": 22.37476623,
+        "lon": 114.18588507
+      },
+      "displayed": {
+        "lon": 114.1863951764192,
+        "lat": 22.374519876264117
+      },
+      "errorMeters": 59.2
+    },
+    {
+      "id": "STW",
+      "name": "沙田圍",
+      "reference": {
+        "lat": 22.37691475,
+        "lon": 114.19480866
+      },
+      "displayed": {
+        "lon": 114.19484763291912,
+        "lat": 22.376708371752816
+      },
+      "errorMeters": 23.3
+    },
+    {
+      "id": "CIO",
+      "name": "第一城",
+      "reference": {
+        "lat": 22.38296399,
+        "lon": 114.20362645
+      },
+      "displayed": {
+        "lon": 114.20341278883903,
+        "lat": 22.382804713427078
+      },
+      "errorMeters": 28.2
+    },
+    {
+      "id": "SHM",
+      "name": "石門",
+      "reference": {
+        "lat": 22.3878757,
+        "lon": 114.20852159
+      },
+      "displayed": {
+        "lon": 114.20842791302897,
+        "lat": 22.387910845327113
+      },
+      "errorMeters": 10.4
+    },
+    {
+      "id": "TSH",
+      "name": "大水坑",
+      "reference": {
+        "lat": 22.40819097,
+        "lon": 114.22259906
+      },
+      "displayed": {
+        "lon": 114.22268438965884,
+        "lat": 22.40864606650291
+      },
+      "errorMeters": 51.4
+    },
+    {
+      "id": "HEO",
+      "name": "恆安",
+      "reference": {
+        "lat": 22.41786166,
+        "lon": 114.22587544
+      },
+      "displayed": {
+        "lon": 114.22572727399881,
+        "lat": 22.417970697697594
+      },
+      "errorMeters": 19.5
+    },
+    {
+      "id": "MOS",
+      "name": "馬鞍山",
+      "reference": {
+        "lat": 22.4249125,
+        "lon": 114.23197786
+      },
+      "displayed": {
+        "lon": 114.23164399354876,
+        "lat": 22.42495073815637
+      },
+      "errorMeters": 34.6
+    },
+    {
+      "id": "WKS",
+      "name": "烏溪沙",
+      "reference": {
+        "lat": 22.42915233,
+        "lon": 114.24384953
+      },
+      "displayed": {
+        "lon": 114.2434774326486,
+        "lat": 22.429169846185292
+      },
+      "errorMeters": 38.3
+    }
+  ],
+  "note": "Residual differences come from preserving the supplied reference geometry under a single uniform transform; the border connectors follow station positions."
+}

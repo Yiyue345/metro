@@ -1,0 +1,640 @@
+{
+  "ADM": {
+    "parts": [
+      {
+        "x": 2548.5,
+        "y": 2590,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "EXC": {
+    "parts": [
+      {
+        "x": 2632.5,
+        "y": 2563,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "HUH": {
+    "parts": [
+      {
+        "x": 2690,
+        "y": 2358.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": true
+      },
+      {
+        "x": 2698,
+        "y": 2358.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": true
+      }
+    ],
+    "joined": true,
+    "gradient": {
+      "x1": 2684.5,
+      "y1": 2358.5,
+      "x2": 2703.5,
+      "y2": 2358.5,
+      "lines": [
+        "EAL",
+        "TML"
+      ]
+    }
+  },
+  "MKK": {
+    "parts": [
+      {
+        "x": 2609.5,
+        "y": 2180.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "KOT": {
+    "parts": [
+      {
+        "x": 2640,
+        "y": 2031.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "TAW": {
+    "parts": [
+      {
+        "x": 2667.5,
+        "y": 1688.5,
+        "width": 17,
+        "height": 11,
+        "angle": 54,
+        "lines": [
+          "EAL",
+          "TML"
+        ],
+        "transfer": true
+      }
+    ]
+  },
+  "SHT": {
+    "parts": [
+      {
+        "x": 2744,
+        "y": 1594.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "FOT": {
+    "parts": [
+      {
+        "x": 2836.5,
+        "y": 1472,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "UNI": {
+    "parts": [
+      {
+        "x": 2941.5,
+        "y": 1297.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "TAP": {
+    "parts": [
+      {
+        "x": 2589,
+        "y": 1002.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "TWO": {
+    "parts": [
+      {
+        "x": 2505,
+        "y": 941,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "FAN": {
+    "parts": [
+      {
+        "x": 2310,
+        "y": 546,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "SHS": {
+    "parts": [
+      {
+        "x": 2213,
+        "y": 456.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "LOW": {
+    "parts": [
+      {
+        "x": 2080,
+        "y": 194.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "LMC": {
+    "parts": [
+      {
+        "x": 1660,
+        "y": 335,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "RAC": {
+    "parts": [
+      {
+        "x": 2876.5,
+        "y": 1426,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "EAL"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "TUM": {
+    "parts": [
+      {
+        "x": 834,
+        "y": 1480,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "SIH": {
+    "parts": [
+      {
+        "x": 887.5,
+        "y": 1317,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "TIS": {
+    "parts": [
+      {
+        "x": 1123.5,
+        "y": 965.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "LOP": {
+    "parts": [
+      {
+        "x": 1295.5,
+        "y": 973,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "YUL": {
+    "parts": [
+      {
+        "x": 1383.5,
+        "y": 988.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "KSR": {
+    "parts": [
+      {
+        "x": 1641,
+        "y": 1097.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "TWW": {
+    "parts": [
+      {
+        "x": 2052,
+        "y": 1725,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "MEF": {
+    "parts": [
+      {
+        "x": 2290,
+        "y": 2008,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "NAC": {
+    "parts": [
+      {
+        "x": 2443.5,
+        "y": 2129,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "AUS": {
+    "parts": [
+      {
+        "x": 2555.5,
+        "y": 2338.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "ETS": {
+    "parts": [
+      {
+        "x": 2631,
+        "y": 2431,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "HOM": {
+    "parts": [
+      {
+        "x": 2697,
+        "y": 2295.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "TKW": {
+    "parts": [
+      {
+        "x": 2741,
+        "y": 2222,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "SUW": {
+    "parts": [
+      {
+        "x": 2768.5,
+        "y": 2140,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "KAT": {
+    "parts": [
+      {
+        "x": 2850.5,
+        "y": 2088,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "DIH": {
+    "parts": [
+      {
+        "x": 2856.5,
+        "y": 2001,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "HIK": {
+    "parts": [
+      {
+        "x": 2597.5,
+        "y": 1777.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "CKT": {
+    "parts": [
+      {
+        "x": 2732,
+        "y": 1672.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "STW": {
+    "parts": [
+      {
+        "x": 2807,
+        "y": 1651.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "CIO": {
+    "parts": [
+      {
+        "x": 2883,
+        "y": 1593,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "SHM": {
+    "parts": [
+      {
+        "x": 2927.5,
+        "y": 1544,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "TSH": {
+    "parts": [
+      {
+        "x": 3054,
+        "y": 1345,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "HEO": {
+    "parts": [
+      {
+        "x": 3081,
+        "y": 1255.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "MOS": {
+    "parts": [
+      {
+        "x": 3133.5,
+        "y": 1188.5,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  },
+  "WKS": {
+    "parts": [
+      {
+        "x": 3238.5,
+        "y": 1148,
+        "width": 11,
+        "height": 11,
+        "angle": 0,
+        "lines": [
+          "TML"
+        ],
+        "transfer": false
+      }
+    ]
+  }
+}

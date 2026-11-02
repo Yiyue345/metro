@@ -1,0 +1,31 @@
+{
+  "edition": "2026.05",
+  "reference": "User-supplied Hangzhou metropolitan railway map, operating edition, May 2026",
+  "referenceDirectory": "E:/BaiduNetdiskDownload/06.杭州地铁3.0 公开免费版（更新至2026.05）/",
+  "sourceDimensions": [6300, 4500],
+  "crop": [3600, 2570, 5740, 4380],
+  "outputDimensions": [2140, 1810],
+  "geometry": "Reviewed station-symbol pixels and A* tracing of original line-color bands; never projected from geographic coordinates",
+  "coordinateSource": "https://map.amap.com/service/subway?srhdata=3306_drw_shaoxing.json",
+  "coordinateCRS": { "source": "GCJ-02", "output": "WGS84", "method": "iterative inverse with forward round-trip verification" },
+  "rosterDecisions": [
+    "Line 1 includes the 27-stop operating main line and 6-stop Huangjiu Town to Exhibition and Convention Center branch as two paths under id 1.",
+    "Zhangshu is gray on the supplied reference and is deferred, excluded from the 40 operating-station total.",
+    "People's Hospital General Hospital is named 人民医院总院 on the reference; 镜湖医院 is retained as an alias.",
+    "Huxi is named 湖西 on the reference; 越秀 is retained as an alias.",
+    "English names follow the supplied reference rather than transliteration generated from geographic data."
+  ],
+  "reproduce": "See ../README.md; recognize-reference.py -> build-map-data.py -> build-station-coordinates.py -> extract-route-paths.py -> generate-line-badges.mjs -> render-review.py -> validate-map.mjs",
+  "validation": {
+    "operatingStations": 40,
+    "deferredStations": 1,
+    "sourceBackedCoordinates": 41,
+    "lineIds": ["1", "2"],
+    "continuousPaths": 3,
+    "tracedOperatingSegments": 39,
+    "maxCurveCorridorDeviationPixels": 2.06,
+    "suspiciousSegments": 0,
+    "rasterReviewTextOverlaps": 0,
+    "browserReview": "To be checked in the integrated page. Independent geometry/label raster has been visually reviewed."
+  }
+}

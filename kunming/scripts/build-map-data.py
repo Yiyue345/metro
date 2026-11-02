@@ -89,6 +89,7 @@ for s in draft:
     part.update(x=round(center[0],2),y=round(center[1],2),width=round(w,2),height=round(h,2),angle=round(angle,2))
     s['x'],s['y']=part['x'],part['y']
 symbols['环城南路']['parts'][0].update(width=10,height=14,angle=0,transfer=False)
+symbols.update(json.loads((SCRIPTS/'transfer-topology-overrides.json').read_text(encoding='utf-8')))
 labels={s['id']:{'x':round(s['labelBox'][0],2),'y':round(s['labelBox'][1]+13,2),'anchor':'start','fontSize':14} for s in draft}
 english={}
 for line in source['l']:

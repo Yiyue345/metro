@@ -1,0 +1,425 @@
+{
+  "referenceMonth": "2026-11",
+  "researchedOn": "2026-11-02",
+  "scope": "成都地铁1—10、13、17—19、27、30号线及S3资阳线；蓉2运营商和接驳底层资料保留，按用户要求暂不在本版显示。只记录实际可接驳的铁路客运站与航站楼。",
+  "editionUpdate": "增补S3资阳线运营单位、资阳北站铁路换乘，以及2026年10月30日启用的成都龙泉驿站接驳；龙泉驿火车站与龙泉驿火车站南均显示红色国铁徽标。",
+  "operatorDecision": {
+    "id": "chengdu-metro",
+    "company": "成都地铁运营有限公司",
+    "lines": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "13",
+      "17",
+      "18",
+      "19",
+      "27",
+      "30",
+      "r2"
+    ],
+    "sources": [
+      "operator-2025-report",
+      "operator-2023-recruitment",
+      "operator-2025-preparation"
+    ],
+    "note": "蓉2由同一运营公司管理，虽然本版隐藏，仍保留r2映射。13、30号线根据运营公司新线筹备范围和后续开通记录纳入。S3单独记录成资公司运营主体及运营公司代管关系，不把建设PPP公司或制造商列为运营商。"
+  },
+  "s3OperatorDecision": {
+    "id": "chengdu-chengzi",
+    "company": "成都成资轨道交通有限公司",
+    "managedBy": "成都地铁运营有限公司",
+    "lines": [
+      "s3"
+    ],
+    "sources": [
+      "operator-2025-annual",
+      "operator-2025-financial",
+      "s3-operations-interview",
+      "s3-official-brand"
+    ],
+    "note": "发行人2025年度报告明确成资公司由运营公司代管，2025年度财务报告将其业务性质列为城市轨道交通运营；资阳线运营中心和车辆技术管理人员的现场采访交叉核对实际运营责任。成都中铁建成资轨道交通发展有限公司属于建设项目主体，不作为本表运营商。复用成都地铁统一品牌蓝色纯图标，不另造公司专属标志。"
+  },
+  "operatorLogo": {
+    "path": "shenzhen/public/operators/chengdu-metro.png",
+    "dimensions": [
+      512,
+      136
+    ],
+    "format": "transparent RGBA PNG",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Chengdu_Rail_Transit_icon.svg",
+    "descriptionPage": "https://commons.wikimedia.org/wiki/File:Chengdu_Rail_Transit_icon.svg",
+    "officialComparisonAssets": [
+      "https://www.chengdurail.com/images/logo.png",
+      "https://www.chengdurail.com/favicon.ico",
+      "https://imgcdn.scol.com.cn/media/2024/07/03/114527326299.jpg"
+    ],
+    "attribution": "标志作者成都轨道交通有限公司；Commons 矢量整理 ASDFGH，2012-09-15，标示 PD-textlogo / trademark。",
+    "processing": "现有纯图形 SVG 使用 sharp 等比例栅格化；无文字、无背景、未做生成式重绘。官网当前页头图为白色图形加文字，favicon为低分辨率图文组合，均不直接作为本项目图标。2026-11-02已目视核对成都地铁官方供稿中的资阳线幸福大道站B口照片，闸门使用相同蓝色品牌图形，S3复用此资产。"
+  },
+  "railwayModes": {
+    "rail": [
+      "成灌铁路",
+      "成蒲铁路",
+      "遂成铁路",
+      "成昆铁路",
+      "成花铁路"
+    ],
+    "highSpeedRail": [
+      "西成客运专线",
+      "成贵客运专线",
+      "成渝高速铁路",
+      "成宜高速铁路"
+    ],
+    "note": "按站场接入线路分类，动车车次字母及宣传中的高铁称谓不改变线路制式；成灌、成蒲为200km/h国铁市域铁路，不使用高铁徽标。成宜高速铁路亦称成自宜高铁。成贵客运专线成都东至乐山段亦称成绵乐城际铁路成都至乐山段。"
+  },
+  "stationEvidence": {
+    "成都东客站": {
+      "sources": [
+        "ndrc-hubs",
+        "tianfu-opening"
+      ],
+      "note": "地铁成都东客站对应国铁成都东站；既有遂成铁路与西成、成贵、成渝客运专线，2023年新增成宜高铁，分别给国铁和高铁徽标。"
+    },
+    "火车南站": {
+      "sources": [
+        "chengkun-ndrc",
+        "airport-rail"
+      ],
+      "note": "成都南站接成昆铁路及成贵客运专线，同时给国铁和高铁徽标。新成昆铁路设计160km/h，仍归国铁。"
+    },
+    "成都西站": {
+      "sources": [
+        "chengpu-ndrc",
+        "west-interchange"
+      ],
+      "note": "成蒲铁路起点，经既有铁路环线亦可发普速列车；地铁通过地下通道接国铁站。只给国铁徽标。"
+    },
+    "犀浦": {
+      "sources": [
+        "xipu-ndrc",
+        "xipu-restored"
+      ],
+      "note": "接成灌铁路。2024年10月恢复同台换乘，使用direct，不沿用2024年9月通道关闭报道。"
+    },
+    "郫县西站": {
+      "sources": [
+        "tram-station-locations",
+        "chengguan-service"
+      ],
+      "note": "蓉2车站与成灌铁路郫县西站相邻，独立出站后步行接驳；不将普通地铁/有轨电车换乘写入外部交通表。"
+    },
+    "新津站": {
+      "sources": [
+        "xinjin-tod",
+        "xinjin-amap",
+        "airport-rail"
+      ],
+      "note": "地图站点ID为新津站。地铁10号线新津站与国铁新津站之间出站步行；铁路是成贵客运专线。"
+    },
+    "双流机场1航站楼": {
+      "sources": [
+        "airport-metro"
+      ],
+      "note": "T1到达层04号出口外、停车场内接10号线，使用walk航空接驳。"
+    },
+    "双流机场2航站楼": {
+      "sources": [
+        "airport-metro",
+        "airport-rail"
+      ],
+      "note": "T2负二层通道连10号线及国铁双流机场站；高铁和航空分别记录，目的地不带解释性文字。"
+    },
+    "双流机场2航站楼东": {
+      "sources": [
+        "airport-metro",
+        "airport-rail"
+      ],
+      "note": "19、30号线乘车点位于T2负二层L3通道；同通道接铁路双流机场站。与10号线的地铁出闸换乘单独由地铁站间几何和备注表达。"
+    },
+    "天府机场1号2号航站楼": {
+      "sources": [
+        "tianfu-rail-official",
+        "tianfu-opening",
+        "tianfu-air-rail"
+      ],
+      "note": "GTC综合交通中心接成都天府国际机场和成宜高铁天府机场站；天府机场北不直接对应航站楼，不额外给航空徽标。"
+    },
+    "资阳北站": {
+      "sources": [
+        "ziyang-north-rail",
+        "ziyang-north-transfer"
+      ],
+      "note": "S3资阳北站与国铁资阳北站地下停车场相连，按通道接驳direct记录；国铁站接入成渝高速铁路，仅给高铁徽标，目的地写资阳北站。"
+    },
+    "龙泉驿火车站": {
+      "sources": [
+        "longquanyi-opening",
+        "longquanyi-transfer",
+        "longquanyi-railway"
+      ],
+      "note": "成都龙泉驿站于2026年10月30日启用、31日起接发首批旅客；龙泉驿火车站出站按指引步行接驳，南站约800米。普速系统经成花铁路接入，仅使用红色国铁徽标。"
+    },
+    "龙泉驿火车站南": {
+      "sources": [
+        "longquanyi-opening",
+        "longquanyi-transfer",
+        "longquanyi-railway"
+      ],
+      "note": "成都龙泉驿站于2026年10月30日启用、31日起接发首批旅客；龙泉驿火车站南出站按指引步行接驳，南站约800米。普速系统经成花铁路接入，仅使用红色国铁徽标。"
+    }
+  },
+  "excludedOrDeferred": [
+    {
+      "station": "火车北站",
+      "destination": "成都站",
+      "sources": [
+        "chengdu-station-rebuild"
+      ],
+      "reason": "2026年7月铁路官方仍报道扩能改造施工，不能把改造中的国铁站当作现役客运换乘。"
+    },
+    {
+      "station": "双流西",
+      "destination": "双流西站",
+      "sources": [
+        "shuangliuxi-freight",
+        "airport-rail"
+      ],
+      "reason": "2023年8月国铁站已向高铁快运专用站转型。机场官网仍保留历史停靠站列表且提示以铁路公告为准；未查得截至参考月恢复客运的可靠依据，因此不显示旅客换乘徽标。"
+    },
+    {
+      "station": "天府站",
+      "sources": [
+        "tianfu-construction"
+      ],
+      "reason": "已开通的是地铁换乘站；铁路天府站仍处建设，不将站名相同视为铁路客运已经可换乘。"
+    },
+    {
+      "station": "福田",
+      "reason": "S3与18、19号线为轨道内部换乘，不是独立铁路客运站，不在transport-transfers.json增加国铁或高铁徽标。"
+    },
+    {
+      "station": "望丛祠、红高路等",
+      "reason": "周边虽有国铁站，未找到足以确认正式接驳关系的官方资料，不按相似站名或任意半径推测铁路换乘。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "operator-2025-annual",
+      "title": "成都轨道交通集团有限公司公司债券2025年度报告",
+      "publisher": "成都轨道交通集团／巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273070.PDF",
+      "supports": "地铁运营板块明确成都地铁运营有限公司和成都成资轨道交通有限公司共同负责运营业务，成资公司由运营公司代管。"
+    },
+    {
+      "id": "operator-2025-financial",
+      "title": "成都轨道交通集团有限公司2025年度财务报告",
+      "publisher": "成都轨道交通集团／巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273072.PDF",
+      "supports": "企业集团构成表列成都成资轨道交通有限公司业务性质为城市轨道交通运营，区别于建设管理单位。"
+    },
+    {
+      "id": "s3-operations-interview",
+      "title": "轨道交通资阳线来了！④｜满载黑科技，聪明的车站长啥样？",
+      "publisher": "四川日报川观新闻现场采访",
+      "url": "https://sichuan.scol.com.cn/xwtg/202409/82618269.html",
+      "supports": "现场采访成都成资轨道交通有限公司运营中心主任及车辆技术管理人员，核对资阳线实际运营职责。"
+    },
+    {
+      "id": "s3-official-brand",
+      "title": "全线车站移交！轨道交通资阳线，开通倒计时！",
+      "publisher": "成都地铁官方供稿／四川在线",
+      "url": "https://sichuan.scol.com.cn/xwtg/202407/82559638.html",
+      "supports": "幸福大道站B口官方照片上的入口闸门使用成都地铁蓝色品牌图形，S3复用统一纯图标资产。"
+    },
+    {
+      "id": "ziyang-north-rail",
+      "title": "成都至重庆高铁开通运营",
+      "publisher": "国家铁路局",
+      "url": "https://www.nra.gov.cn/ztzl/hy/gsgt/zgtl/gtxx/201602/t20160216_146062.shtml",
+      "supports": "成渝高铁沿线包含资阳北站，按接入高速铁路分类。"
+    },
+    {
+      "id": "ziyang-north-transfer",
+      "title": "C视频｜四川首条跨市域轨道交通线今天开到资阳了",
+      "publisher": "四川日报四川在线现场报道",
+      "url": "https://sichuan.scol.com.cn/spsc/202409/82619062.html",
+      "supports": "记者现场确认轨道交通资阳北站与国铁资阳北站地下停车场相连，出站后可换乘动车、高铁。"
+    },
+    {
+      "id": "operator-2025-report",
+      "title": "成都轨道交通集团有限公司公司债券中期报告（2025年）",
+      "publisher": "成都轨道交通集团／上海证券交易所",
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-08-28/138542_20250828_N4SN.pdf",
+      "supports": "第8页：运营业务由成都地铁运营有限公司及其代管的成资公司负责，覆盖既有地铁及蓉2。"
+    },
+    {
+      "id": "operator-2023-recruitment",
+      "title": "成都地铁运营有限公司2023届高校培训生校园招聘公告",
+      "publisher": "成都轨道集团",
+      "url": "https://www.chengdurail.com/info/1611/43992.htm",
+      "supports": "运营公司职责、地铁与有轨电车运营范围、新线筹备范围。官网当前正文抓取受限，2025年发行人报告为主要证据。"
+    },
+    {
+      "id": "operator-2025-preparation",
+      "title": "成都轨道交通集团有限公司2025年公司债券募集说明书",
+      "publisher": "成都轨道交通集团／上海证券交易所",
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-08-13/243445_20250813_CBMH.pdf",
+      "supports": "运营板块2025年推进10号线三期、13号线、17号线二期、30号线筹备。"
+    },
+    {
+      "id": "ndrc-hubs",
+      "title": "成渝地区双城经济圈多层次轨道交通重点客运枢纽衔接表",
+      "publisher": "国家发展改革委",
+      "url": "https://www.ndrc.gov.cn/xwdt/tzgg/202112/P020211222663486790841.pdf",
+      "supports": "成都东站既有接入铁路；建设状态需与2023年后开通资料合看。"
+    },
+    {
+      "id": "chengkun-ndrc",
+      "title": "新成昆铁路12月26日全线贯通运营",
+      "publisher": "国家发展改革委",
+      "url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/202302/t20230228_1350104_ext.html",
+      "supports": "新成昆铁路起自成都南站，国铁I级双线电气化，设计160km/h。"
+    },
+    {
+      "id": "chengpu-ndrc",
+      "title": "成蒲铁路正线铺轨完成",
+      "publisher": "国家发展改革委",
+      "url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/201807/t20180727_1147878_ext.html",
+      "supports": "成都西站为成蒲铁路起点，速度目标200km/h。"
+    },
+    {
+      "id": "west-interchange",
+      "title": "成都市郊铁路公交化：发车间隔15分钟，启用大载客量动车",
+      "publisher": "成都发布",
+      "url": "https://www.thepaper.cn/newsDetail_forward_2077897",
+      "supports": "成都西站地铁和铁路地下通道转换。"
+    },
+    {
+      "id": "xipu-ndrc",
+      "title": "成灌（彭）铁路公交化运营创新突破",
+      "publisher": "国家发展改革委",
+      "url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/201708/t20170821_1147698.html",
+      "supports": "犀浦地铁2号线与成灌铁路同台换乘、安检互信。"
+    },
+    {
+      "id": "xipu-restored",
+      "title": "成都犀浦站地铁动车无缝换乘通道恢复试运营，乘客2分钟完成换乘",
+      "publisher": "四川在线记者现场采访（新浪转载）",
+      "url": "https://finance.sina.com.cn/jjxw/2024-10-18/doc-incsywqr5177143.shtml",
+      "supports": "2024年10月17日起恢复试运营，站方确认、乘客现场体验。"
+    },
+    {
+      "id": "tram-station-locations",
+      "title": "郫县到成都西站 有轨电车蓉2号线47个车站点位出炉",
+      "publisher": "川观新闻",
+      "url": "https://cbgc.scol.com.cn/place/32878",
+      "supports": "蓉2端点、车站命名与点位。"
+    },
+    {
+      "id": "chengguan-service",
+      "title": "成都市政协委员舒泽亮：聚焦成都向西 如何塑强和优化交通骨架",
+      "publisher": "九三学社四川省委员会",
+      "url": "https://93sc.gov.cn/ztview/14700.html",
+      "supports": "调研记录成灌铁路犀浦、郫县西等运营站点与犀浦东等未启用站点。"
+    },
+    {
+      "id": "xinjin-tod",
+      "title": "抢抓轨道交通新机遇 成都新津区拥抱TOD+5G公园城市社区",
+      "publisher": "中国网现场报道",
+      "url": "https://photo.china.com.cn/2020-12/09/content_76995122.htm",
+      "supports": "新津站TOD复合地铁10号线与成绵乐铁路。"
+    },
+    {
+      "id": "xinjin-amap",
+      "title": "新津站位置",
+      "publisher": "高德地图",
+      "url": "https://ditu.amap.com/place/B0FFFH18VQ",
+      "supports": "新津地铁站A口步行约400米至国铁新津站。"
+    },
+    {
+      "id": "airport-rail",
+      "title": "城际高铁",
+      "publisher": "成都双流国际机场",
+      "url": "https://www.cdairport.com/traffic3.aspx?t=35",
+      "supports": "双流机场铁路乘车点位于T2负二层L3通道，接成贵高铁；历史站点串不作为即时停靠清单。"
+    },
+    {
+      "id": "airport-metro",
+      "title": "地铁",
+      "publisher": "成都双流国际机场",
+      "url": "https://www.cdairport.com/traffic3.aspx?t=36",
+      "supports": "10、19、30号线与T1/T2的出入口位置。"
+    },
+    {
+      "id": "tianfu-rail-official",
+      "title": "成自宜高铁天府机场站最新进展",
+      "publisher": "西南铁路／成都发布",
+      "url": "https://m.thepaper.cn/baijiahao_19161887",
+      "supports": "天府机场站为成自宜高铁车站，机场空铁一体化、设计350km/h。"
+    },
+    {
+      "id": "tianfu-opening",
+      "title": "成自宜高铁今日正式开通",
+      "publisher": "成都日报",
+      "url": "https://www.cdrb.com.cn/epaper/cdrbpc/202312/26/a5151de7-3946-4b98-8a3d-03e21719e0ea.pdf",
+      "supports": "2023年12月26日开通，成都东至天府机场等车站。"
+    },
+    {
+      "id": "tianfu-air-rail",
+      "title": "成都日报2023年12月27日版面：成自宜高铁空铁衔接报道",
+      "publisher": "成都日报",
+      "url": "https://www.cdrb.com.cn/epaper/cdrbpc/202312/27/d1c986a8-3e04-4c8f-890f-c1b529a01b41.pdf",
+      "supports": "天府机场GTC内高铁、地铁18/19号线和航空衔接。"
+    },
+    {
+      "id": "chengdu-station-rebuild",
+      "title": "圆满完成！成都站开始装修了！",
+      "publisher": "中国铁路成都局集团有限公司官方账号西南铁路",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33583560",
+      "supports": "2026年7月14日成都站改扩建刚完成主体结构、转入装修，尚非可用客运换乘。"
+    },
+    {
+      "id": "shuangliuxi-freight",
+      "title": "双流西站高铁快运交出春节运输亮眼成绩单",
+      "publisher": "四川经济日报现场采访",
+      "url": "https://www.scjjrb.cn/2026/02/14/99457343.html",
+      "supports": "站方介绍2023年8月完成高铁快运专业化转型，客运场站改为货运枢纽。"
+    },
+    {
+      "id": "tianfu-construction",
+      "title": "强县活区，部门何为？他们这样说",
+      "publisher": "成都交通运输局／成都日报",
+      "url": "https://mobile.chengdu.cn/show/id/6a5a4fad2e768511f6b03958",
+      "supports": "2026年7月成都交通运输局仍推进天府站、龙泉驿站等铁路客站建设。"
+    },
+    {
+      "id": "longquanyi-opening",
+      "title": "新建成都龙泉驿站正式启用，多项措施保障市民交通出行",
+      "publisher": "成都交通运输官方政务号",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34372750",
+      "supports": "铁路站2026年10月30日投用，地铁2号线新站同步开通，10月31日首班车到达。"
+    },
+    {
+      "id": "longquanyi-transfer",
+      "title": "火车站+1！成都龙泉驿火车站启用",
+      "publisher": "四川在线记者现场报道",
+      "url": "https://sichuan.scol.com.cn/ggxw/202610/83349091.html",
+      "supports": "普速旅客列车业务；地铁2号线接驳，30号线龙泉驿火车站南出站步行约800米，部分配套通道仍在建设，不预设直连通道。"
+    },
+    {
+      "id": "longquanyi-railway",
+      "title": "成都龙泉驿站",
+      "publisher": "维基百科车站资料，辅以官方开通公告核对普速业务",
+      "url": "https://zh.wikipedia.org/wiki/成都龙泉驿站",
+      "supports": "接入成花铁路；不因属于成渝中线配套工程而使用高铁徽标。"
+    }
+  ]
+}

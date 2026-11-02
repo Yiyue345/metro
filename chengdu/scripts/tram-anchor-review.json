@@ -1,0 +1,847 @@
+{
+  "成都西站": {
+    "anchor": [
+      1355.5,
+      1097
+    ],
+    "labelBox": [
+      1296,
+      1072,
+      1349.75,
+      1085.5
+    ],
+    "reason": "source review: separate metro symbol and 8px tram ring manually checked at 12x; keep the metro symbol as primary anchor. Connection endpoints reproduce the two source centers; the connection is an interactive interchange overlay, not a claim of paid-area transfer.",
+    "tramSymbolCenters": [
+      [
+        1373,
+        1087.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ],
+    "metroSymbolCenter": [
+      1355.5,
+      1097
+    ],
+    "metroSymbolSize": [
+      16,
+      13
+    ],
+    "metroLines": [
+      "4",
+      "9"
+    ],
+    "connections": [
+      {
+        "x1": 1355.5,
+        "y1": 1097,
+        "x2": 1373,
+        "y2": 1087.5,
+        "kind": "out-of-station"
+      }
+    ]
+  },
+  "联工": {
+    "anchor": [
+      1371.5,
+      1024.5
+    ],
+    "labelBox": [
+      1373.75,
+      1014,
+      1390,
+      1022.25
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1371.5,
+        1024.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "土龙路": {
+    "anchor": [
+      1315,
+      889
+    ],
+    "labelBox": [
+      1317.75,
+      877.25,
+      1338.75,
+      885.25
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1315,
+        889
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "新业路": {
+    "anchor": [
+      1241,
+      815.5
+    ],
+    "labelBox": [
+      1245.5,
+      804.5,
+      1267,
+      814.5
+    ],
+    "reason": "source review: two distinct 8px black tram rings on the main and branch routes checked at 12x. Primary anchor is the main-route ring; retain both rings as one named station.",
+    "tramSymbolCenters": [
+      [
+        1241,
+        815.5
+      ],
+      [
+        1242.5,
+        806.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8,
+      8
+    ],
+    "connections": [
+      {
+        "x1": 1241,
+        "y1": 815.5,
+        "x2": 1242.5,
+        "y2": 806.5,
+        "kind": "out-of-station"
+      }
+    ]
+  },
+  "锦城学院": {
+    "anchor": [
+      1205,
+      778.5
+    ],
+    "labelBox": [
+      1209,
+      768.5,
+      1240,
+      777.5
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1205,
+        778.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "电子科大": {
+    "anchor": [
+      1074,
+      690
+    ],
+    "labelBox": [
+      1076.5,
+      673.5,
+      1105.25,
+      682.5
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1074,
+        690
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "合信路": {
+    "anchor": [
+      1032.5,
+      633.5
+    ],
+    "labelBox": [
+      1034.25,
+      633.5,
+      1055.75,
+      642.75
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1032.5,
+        633.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "合作路": {
+    "anchor": [
+      1052.5,
+      605
+    ],
+    "labelBox": [
+      1057,
+      602.5,
+      1078.5,
+      611.5
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1052.5,
+        605
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "天欣路": {
+    "anchor": [
+      1028.5,
+      583.5
+    ],
+    "labelBox": [
+      1031.5,
+      572,
+      1053.25,
+      580.75
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1028.5,
+        583.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "安埠": {
+    "anchor": [
+      992,
+      535.5
+    ],
+    "labelBox": [
+      995.5,
+      528,
+      1010.75,
+      537.5
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        992,
+        535.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "天映路": {
+    "anchor": [
+      925,
+      578
+    ],
+    "labelBox": [
+      903.5,
+      577,
+      925.25,
+      586.75
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        925,
+        578
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "天源路": {
+    "anchor": [
+      882.5,
+      527.5
+    ],
+    "labelBox": [
+      886,
+      518.25,
+      907.5,
+      527
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        882.5,
+        527.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "德富大道": {
+    "anchor": [
+      669.5,
+      461.5
+    ],
+    "labelBox": [
+      670.75,
+      448,
+      699,
+      456.5
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        669.5,
+        461.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "红旗大道": {
+    "anchor": [
+      638,
+      469.5
+    ],
+    "labelBox": [
+      607.5,
+      469.25,
+      638,
+      478
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        638,
+        469.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "红展东路": {
+    "anchor": [
+      615.5,
+      445.5
+    ],
+    "labelBox": [
+      585.5,
+      441.5,
+      612.5,
+      450
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        615.5,
+        445.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "大禹东路": {
+    "anchor": [
+      653.5,
+      403.5
+    ],
+    "labelBox": [
+      657.5,
+      402.25,
+      685,
+      410
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        653.5,
+        403.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "花石": {
+    "anchor": [
+      682,
+      365
+    ],
+    "labelBox": [
+      685.5,
+      362,
+      701.25,
+      370.5
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        682,
+        365
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "晨光": {
+    "anchor": [
+      722.5,
+      306.5
+    ],
+    "labelBox": [
+      726,
+      306.5,
+      740,
+      316
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        722.5,
+        306.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "何公路": {
+    "anchor": [
+      768.5,
+      270.5
+    ],
+    "labelBox": [
+      772,
+      270.75,
+      792.25,
+      279.75
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        768.5,
+        270.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "望丛祠": {
+    "anchor": [
+      768.5,
+      237.2
+    ],
+    "labelBox": [
+      773.75,
+      220,
+      811.75,
+      235
+    ],
+    "reason": "source review: separate metro symbol and 8px tram ring manually checked at 12x; keep the metro symbol as primary anchor. Connection endpoints reproduce the two source centers; the connection is an interactive interchange overlay, not a claim of paid-area transfer.",
+    "tramSymbolCenters": [
+      [
+        766,
+        244.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ],
+    "metroSymbolCenter": [
+      768.5,
+      237.2
+    ],
+    "metroSymbolSize": [
+      10,
+      10
+    ],
+    "metroLines": [
+      "6"
+    ],
+    "connections": [
+      {
+        "x1": 768.5,
+        "y1": 237.2,
+        "x2": 766,
+        "y2": 244.5,
+        "kind": "out-of-station"
+      }
+    ]
+  },
+  "梨园路": {
+    "anchor": [
+      783,
+      183.5
+    ],
+    "labelBox": [
+      787,
+      180.5,
+      807.5,
+      189
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        783,
+        183.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "郫县西站": {
+    "anchor": [
+      786.5,
+      131.5
+    ],
+    "labelBox": [
+      790.5,
+      128.25,
+      819,
+      136
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        786.5,
+        131.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "百叶路": {
+    "anchor": [
+      1279.5,
+      759.5
+    ],
+    "labelBox": [
+      1283,
+      758.5,
+      1305,
+      767.5
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1279.5,
+        759.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "晨风": {
+    "anchor": [
+      1331.5,
+      706.5
+    ],
+    "labelBox": [
+      1314,
+      695.5,
+      1329.75,
+      705.25
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1331.5,
+        706.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "天河路": {
+    "anchor": [
+      1359.4,
+      667.6
+    ],
+    "labelBox": [
+      1364.5,
+      665.5,
+      1402.75,
+      679.5
+    ],
+    "reason": "source review: separate metro symbol and 8px tram ring manually checked at 12x; keep the metro symbol as primary anchor. Connection endpoints reproduce the two source centers; the connection is an interactive interchange overlay, not a claim of paid-area transfer.",
+    "tramSymbolCenters": [
+      [
+        1354,
+        664.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ],
+    "metroSymbolCenter": [
+      1359.4,
+      667.6
+    ],
+    "metroSymbolSize": [
+      10,
+      10
+    ],
+    "metroLines": [
+      "2"
+    ],
+    "connections": [
+      {
+        "x1": 1359.4,
+        "y1": 667.6,
+        "x2": 1354,
+        "y2": 664.5,
+        "kind": "out-of-station"
+      }
+    ]
+  },
+  "龙吟": {
+    "anchor": [
+      1414.5,
+      604.5
+    ],
+    "labelBox": [
+      1397.5,
+      595,
+      1411,
+      604
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1414.5,
+        604.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "交大犀浦校区": {
+    "anchor": [
+      1392,
+      556
+    ],
+    "labelBox": [
+      1395.25,
+      546.25,
+      1436,
+      553.25
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1392,
+        556
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "犀方路": {
+    "anchor": [
+      1362.5,
+      520.5
+    ],
+    "labelBox": [
+      1365.5,
+      509.5,
+      1388.25,
+      519.75
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1362.5,
+        520.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "国宁": {
+    "anchor": [
+      1313.5,
+      525
+    ],
+    "labelBox": [
+      1315.5,
+      527.25,
+      1330.75,
+      536.75
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1313.5,
+        525
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "大田": {
+    "anchor": [
+      1290.5,
+      464.5
+    ],
+    "labelBox": [
+      1294,
+      460.75,
+      1309.25,
+      470
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1290.5,
+        464.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "西华大学": {
+    "anchor": [
+      1285,
+      415
+    ],
+    "labelBox": [
+      1289,
+      410.75,
+      1317.5,
+      420.25
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1285,
+        415
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "双林村": {
+    "anchor": [
+      1291.5,
+      383
+    ],
+    "labelBox": [
+      1295,
+      380.5,
+      1315.5,
+      389
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1291.5,
+        383
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "金土": {
+    "anchor": [
+      1249,
+      368.5
+    ],
+    "labelBox": [
+      1232,
+      364.25,
+      1246,
+      373.5
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1249,
+        368.5
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "技师学院": {
+    "anchor": [
+      1265,
+      322
+    ],
+    "labelBox": [
+      1269,
+      319.5,
+      1297,
+      328.5
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1265,
+        322
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  },
+  "仁和": {
+    "anchor": [
+      1241,
+      295
+    ],
+    "labelBox": [
+      1223,
+      291.5,
+      1237,
+      300
+    ],
+    "reason": "source review: native reference ring and Chinese label manually checked at 4x; center refined from the small black-ring white hole; no geographic inference.",
+    "tramSymbolCenters": [
+      [
+        1241,
+        295
+      ]
+    ],
+    "tramSymbolDiameters": [
+      8
+    ]
+  }
+}

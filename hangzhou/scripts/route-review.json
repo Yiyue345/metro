@@ -1,0 +1,5 @@
+{
+  "reviewedSegments": [],
+  "notes": "Final source-color sampling retains the pale pixels of bilinear-sampled narrow track bands; all 350 ordered segments pass the suspicious-segment checks. Station centers were reviewed against the supplied image.",
+  "method": "Review source-image station centers and dense curve overlays; retain bilinear-sampled pale track pixels, then rerun all station-coverage and corridor checks without bypass."
+}

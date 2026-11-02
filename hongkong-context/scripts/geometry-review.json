@@ -1,0 +1,40 @@
+{
+  "coordinateSpace": "4375 x 3125 supplied 2026.08 operating reference pixels",
+  "stations": {
+    "LOW": [2080, 194.5], "LMC": [1660, 335], "SHS": [2213, 456.5],
+    "FAN": [2310, 546], "TWO": [2505, 941], "TAP": [2589, 1002.5],
+    "UNI": [2941.5, 1297.5], "RAC": [2876.5, 1426], "FOT": [2836.5, 1472],
+    "SHT": [2744, 1594.5], "TAW": [2667.5, 1688.5], "KOT": [2640, 2031.5],
+    "MKK": [2609.5, 2180.5], "HUH": [2694, 2358.5], "EXC": [2632.5, 2563],
+    "ADM": [2548.5, 2590],
+    "TUM": [834, 1480], "SIH": [887.5, 1317], "TIS": [1123.5, 965.5],
+    "LOP": [1295.5, 973], "YUL": [1383.5, 988.5], "KSR": [1641, 1097.5],
+    "TWW": [2052, 1725], "MEF": [2290, 2008], "NAC": [2443.5, 2129],
+    "AUS": [2555.5, 2338.5], "ETS": [2631, 2431], "HOM": [2697, 2295.5],
+    "TKW": [2741, 2222], "SUW": [2768.5, 2140], "KAT": [2850.5, 2088],
+    "DIH": [2856.5, 2001], "HIK": [2597.5, 1777.5], "CKT": [2732, 1672.5],
+    "STW": [2807, 1651.5], "CIO": [2883, 1593], "SHM": [2927.5, 1544],
+    "TSH": [3054, 1345], "HEO": [3081, 1255.5], "MOS": [3133.5, 1188.5],
+    "WKS": [3238.5, 1148]
+  },
+  "labels": {
+    "LOW": {"dx": 12, "dy": 0}, "LMC": {"dx": 0, "dy": 26, "anchor": "middle"},
+    "TAP": {"dx": 0, "dy": 26, "anchor": "middle"},
+    "FOT": {"dx": -13, "dy": -4, "anchor": "end"},
+    "TAW": {"dx": -15, "dy": -11, "anchor": "end"},
+    "LOP": {"dx": 0, "dy": -16, "anchor": "middle"},
+    "YUL": {"dx": 0, "dy": -16, "anchor": "middle"},
+    "MKK": {"dx": 12, "dy": 0}, "HUH": {"dx": -15, "dy": -3, "anchor": "end"},
+    "ADM": {"dx": 0, "dy": 28, "anchor": "middle"},
+    "EXC": {"dx": 0, "dy": 27, "anchor": "middle"},
+    "ETS": {"dx": 0, "dy": 27, "anchor": "middle"},
+    "AUS": {"dx": 12, "dy": -3}, "NAC": {"dx": -15, "dy": -10, "anchor": "end"},
+    "CKT": {"dx": 0, "dy": 28, "anchor": "middle"},
+    "TUM": {"dx": 0, "dy": 28, "anchor": "middle"},
+    "DIH": {"dx": 13, "dy": -15}
+  },
+  "sharedSymbols": {
+    "TAW": {"width": 17, "height": 11, "angle": 54},
+    "HUH": {"joined": true, "parts": [{"dx": -4, "dy": 0, "line": "EAL"}, {"dx": 4, "dy": 0, "line": "TML"}]}
+  }
+}

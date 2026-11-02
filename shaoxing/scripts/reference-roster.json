@@ -1,0 +1,813 @@
+{
+  "reference": "User supplied Hangzhou metropolitan railway operating map, May 2026",
+  "crop": [
+    3600,
+    2570,
+    5740,
+    4380
+  ],
+  "linePaths": {
+    "1": [
+      [
+        "姑娘桥",
+        "衙前",
+        "杨汛桥",
+        "前梅",
+        "钱清",
+        "西沙路",
+        "临杭大道",
+        "鉴水路",
+        "越州大道",
+        "中国轻纺城",
+        "明珠广场",
+        "瓜渚湖",
+        "镜水路",
+        "黄酒小镇",
+        "奥体中心",
+        "梅山广场",
+        "凤林",
+        "大滩",
+        "火车站",
+        "城市广场",
+        "鲁迅故里",
+        "城南大道",
+        "凤凰山",
+        "劳家葑",
+        "南池",
+        "栖湖",
+        "芳泉"
+      ],
+      [
+        "黄酒小镇",
+        "绍兴一中",
+        "湖西",
+        "大庆寺",
+        "绍兴北站",
+        "会展中心"
+      ]
+    ],
+    "2": [
+      [
+        "人民医院总院",
+        "梅山广场",
+        "后墅路",
+        "袍谷",
+        "袍中路",
+        "洋泾湖",
+        "恂南",
+        "豆姜",
+        "檀渎"
+      ]
+    ]
+  },
+  "stations": [
+    {
+      "id": "姑娘桥",
+      "name": "姑娘桥",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 170,
+      "y": 60,
+      "englishName": "Guniangqiao",
+      "label": {
+        "x": 170,
+        "y": 84,
+        "anchor": "middle",
+        "fontSize": 14,
+        "englishLineLength": 24
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "衙前",
+      "name": "衙前",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 330.95,
+      "y": 135.9,
+      "englishName": "Yaqian",
+      "label": {
+        "x": 341.95,
+        "y": 138.9,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "杨汛桥",
+      "name": "杨汛桥",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 361.56,
+      "y": 260.5,
+      "englishName": "Yangxunqiao",
+      "label": {
+        "x": 372.56,
+        "y": 263.5,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "前梅",
+      "name": "前梅",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 521.6,
+      "y": 391.4,
+      "englishName": "Qianmei",
+      "label": {
+        "x": 509.33,
+        "y": 410,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "钱清",
+      "name": "钱清",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 621.5,
+      "y": 403.71,
+      "englishName": "Qianqing",
+      "label": {
+        "x": 607.67,
+        "y": 420.33,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "西沙路",
+      "name": "西沙路",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 704.86,
+      "y": 434.5,
+      "englishName": "Xisha Road",
+      "label": {
+        "x": 669,
+        "y": 451.33,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "临杭大道",
+      "name": "临杭大道",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 785,
+      "y": 479.17,
+      "englishName": "Linhang Avenue",
+      "label": {
+        "x": 790,
+        "y": 470,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "鉴水路",
+      "name": "鉴水路",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 871.59,
+      "y": 553.12,
+      "englishName": "Jianshui Road",
+      "label": {
+        "x": 876.67,
+        "y": 544.33,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "越州大道",
+      "name": "越州大道",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 999.5,
+      "y": 621.5,
+      "englishName": "Yuezhou Avenue",
+      "label": {
+        "x": 1007,
+        "y": 603,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "中国轻纺城",
+      "name": "中国轻纺城",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1052.16,
+      "y": 657.84,
+      "englishName": "China Textile City",
+      "label": {
+        "x": 1048,
+        "y": 640,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "明珠广场",
+      "name": "明珠广场",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1088.11,
+      "y": 675.72,
+      "englishName": "Mingzhu Square",
+      "label": {
+        "x": 1095,
+        "y": 667,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "瓜渚湖",
+      "name": "瓜渚湖",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1161.89,
+      "y": 708.28,
+      "englishName": "Guazhuhu",
+      "label": {
+        "x": 1165.33,
+        "y": 700.33,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "镜水路",
+      "name": "镜水路",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1230.94,
+      "y": 746.22,
+      "englishName": "Jingshui Road",
+      "label": {
+        "x": 1234.33,
+        "y": 735,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "黄酒小镇",
+      "name": "黄酒小镇",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1333,
+      "y": 817,
+      "englishName": "Huangjiu Town",
+      "label": {
+        "x": 1346,
+        "y": 816,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "张墅",
+      "name": "张墅",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1412,
+      "y": 848,
+      "status": "planned",
+      "englishName": "Zhangshu",
+      "label": {
+        "x": 1412,
+        "y": 872,
+        "anchor": "middle",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "奥体中心",
+      "name": "奥体中心",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1499,
+      "y": 823.79,
+      "englishName": "Olympic Sports Center",
+      "label": {
+        "x": 1510,
+        "y": 807,
+        "anchor": "end",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "梅山广场",
+      "name": "梅山广场",
+      "lines": [
+        "1",
+        "2"
+      ],
+      "aliases": [],
+      "x": 1539,
+      "y": 864,
+      "englishName": "Meishan Square",
+      "label": {
+        "x": 1533,
+        "y": 847,
+        "anchor": "end",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "凤林",
+      "name": "凤林",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1563.5,
+      "y": 945.5,
+      "englishName": "Fenglin",
+      "label": {
+        "x": 1574.5,
+        "y": 948.5,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "大滩",
+      "name": "大滩",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1569.12,
+      "y": 1031.41,
+      "englishName": "Datan",
+      "label": {
+        "x": 1580.12,
+        "y": 1034.41,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "火车站",
+      "name": "火车站",
+      "lines": [
+        "1"
+      ],
+      "aliases": [
+        "绍兴站"
+      ],
+      "x": 1563.16,
+      "y": 1098.84,
+      "englishName": "Railway Station",
+      "label": {
+        "x": 1574.16,
+        "y": 1101.84,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "城市广场",
+      "name": "城市广场",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1561.76,
+      "y": 1157.76,
+      "englishName": "City Square",
+      "label": {
+        "x": 1572.76,
+        "y": 1160.76,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "鲁迅故里",
+      "name": "鲁迅故里",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1557.76,
+      "y": 1233.76,
+      "englishName": "Lu Xun Native Place",
+      "label": {
+        "x": 1568.76,
+        "y": 1236.76,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "城南大道",
+      "name": "城南大道",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1557.11,
+      "y": 1333.72,
+      "englishName": "Chengnan Avenue",
+      "label": {
+        "x": 1568.11,
+        "y": 1336.72,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "凤凰山",
+      "name": "凤凰山",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1542.12,
+      "y": 1419.41,
+      "englishName": "Fenghuangshan",
+      "label": {
+        "x": 1553.12,
+        "y": 1422.41,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "劳家葑",
+      "name": "劳家葑",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1537.5,
+      "y": 1487.5,
+      "englishName": "Laojiafeng",
+      "label": {
+        "x": 1548.5,
+        "y": 1490.5,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "南池",
+      "name": "南池",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1532,
+      "y": 1567.79,
+      "englishName": "Nanchi",
+      "label": {
+        "x": 1543,
+        "y": 1570.79,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "栖湖",
+      "name": "栖湖",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1529.62,
+      "y": 1633.75,
+      "englishName": "Qihu",
+      "label": {
+        "x": 1540.62,
+        "y": 1636.75,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "芳泉",
+      "name": "芳泉",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1502,
+      "y": 1703.5,
+      "englishName": "Fangquan",
+      "label": {
+        "x": 1502,
+        "y": 1726,
+        "anchor": "middle",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "绍兴一中",
+      "name": "绍兴一中",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1322.5,
+      "y": 755.8,
+      "englishName": "Shaoxing No.1 High School",
+      "label": {
+        "x": 1333.5,
+        "y": 758.8,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "湖西",
+      "name": "湖西",
+      "lines": [
+        "1"
+      ],
+      "aliases": [
+        "越秀"
+      ],
+      "x": 1323,
+      "y": 683.5,
+      "englishName": "Huxi",
+      "label": {
+        "x": 1334,
+        "y": 686.5,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "大庆寺",
+      "name": "大庆寺",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1323.5,
+      "y": 619.5,
+      "englishName": "Daqingsi",
+      "label": {
+        "x": 1334.5,
+        "y": 622.5,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "绍兴北站",
+      "name": "绍兴北站",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1322.63,
+      "y": 553.47,
+      "englishName": "Shaoxing North Railway Station",
+      "label": {
+        "x": 1335,
+        "y": 541,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "会展中心",
+      "name": "会展中心",
+      "lines": [
+        "1"
+      ],
+      "aliases": [],
+      "x": 1209.88,
+      "y": 539.59,
+      "englishName": "Exhibition and Convention Center",
+      "label": {
+        "x": 1205,
+        "y": 558,
+        "anchor": "middle",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "人民医院总院",
+      "name": "人民医院总院",
+      "lines": [
+        "2"
+      ],
+      "aliases": [
+        "镜湖医院"
+      ],
+      "x": 1438.62,
+      "y": 900.76,
+      "englishName": "People's Hospital General Hospital",
+      "label": {
+        "x": 1439,
+        "y": 921,
+        "anchor": "middle",
+        "fontSize": 14,
+        "englishLineLength": 21
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "后墅路",
+      "name": "后墅路",
+      "lines": [
+        "2"
+      ],
+      "aliases": [],
+      "x": 1608.62,
+      "y": 864.24,
+      "englishName": "Houshu Road",
+      "label": {
+        "x": 1588.33,
+        "y": 882,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "袍谷",
+      "name": "袍谷",
+      "lines": [
+        "2"
+      ],
+      "aliases": [],
+      "x": 1673,
+      "y": 865,
+      "englishName": "Paogu",
+      "label": {
+        "x": 1659.33,
+        "y": 881.33,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "袍中路",
+      "name": "袍中路",
+      "lines": [
+        "2"
+      ],
+      "aliases": [],
+      "x": 1734,
+      "y": 864,
+      "englishName": "Paozhong Road",
+      "label": {
+        "x": 1714.67,
+        "y": 881.67,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "洋泾湖",
+      "name": "洋泾湖",
+      "lines": [
+        "2"
+      ],
+      "aliases": [],
+      "x": 1818.62,
+      "y": 865.24,
+      "englishName": "Yangjinghu",
+      "label": {
+        "x": 1798.67,
+        "y": 881.67,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "恂南",
+      "name": "恂南",
+      "lines": [
+        "2"
+      ],
+      "aliases": [],
+      "x": 1878.62,
+      "y": 869.76,
+      "englishName": "Xunnan",
+      "label": {
+        "x": 1864,
+        "y": 885,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "豆姜",
+      "name": "豆姜",
+      "lines": [
+        "2"
+      ],
+      "aliases": [],
+      "x": 1940,
+      "y": 881,
+      "englishName": "Doujiang",
+      "label": {
+        "x": 1926.67,
+        "y": 897.67,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    },
+    {
+      "id": "檀渎",
+      "name": "檀渎",
+      "lines": [
+        "2"
+      ],
+      "aliases": [],
+      "x": 2019,
+      "y": 905.14,
+      "englishName": "Tandu",
+      "label": {
+        "x": 2006.67,
+        "y": 921.33,
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "anchorReview": "source-image station symbol center"
+    }
+  ]
+}

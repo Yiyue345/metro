@@ -1,8 +1,9 @@
 ---
-interface Props { currentCity?: string }
-const { currentCity = 'shenzhen' } = Astro.props;
-const cities = [{ id: 'shenzhen', name: '深圳', href: '/' }, { id: 'nanning', name: '南宁', href: '/nanning/' }, { id: 'dongguan', name: '东莞', href: '/dongguan/' }, { id: 'kunming', name: '昆明', href: '/kunming/' }]
+interface Props { currentCity?: string | null; currentPage?: 'map' | 'about' }
+const { currentCity = 'shenzhen', currentPage = 'map' } = Astro.props;
+const cities = [{ id: 'shenzhen', name: '深圳', initial: 'S', href: '/' }, { id: 'nanning', name: '南宁', initial: 'N', href: '/nanning/' }, { id: 'dongguan', name: '东莞', initial: 'D', href: '/dongguan/' }, { id: 'kunming', name: '昆明', initial: 'K', href: '/kunming/' }, { id: 'hangzhou', name: '杭州', initial: 'H', href: '/hangzhou/' }, { id: 'shaoxing', name: '绍兴', initial: 'S', href: '/shaoxing/' }, { id: 'chengdu', name: '成都', initial: 'C', href: '/chengdu/' }]
   .sort((a, b) => a.name.localeCompare(b.name, 'zh-Hans-CN-u-co-pinyin'));
+const groups = [...new Set(cities.map(city => city.initial))].map(initial => ({ initial, cities: cities.filter(city => city.initial === initial) }));
 ---
 <button id="city-menu-toggle" class="city-menu-toggle" type="button" aria-label="打开城市列表" aria-haspopup="dialog" aria-controls="city-menu" aria-expanded="false" title="切换城市">
   <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 25V7h18v18M7 16h18"/><circle cx="7" cy="7" r="3"/><circle cx="25" cy="25" r="3"/><circle cx="7" cy="16" r="3"/></svg>
@@ -13,8 +14,16 @@ const cities = [{ id: 'shenzhen', name: '深圳', href: '/' }, { id: 'nanning', 
     <button id="city-menu-close" class="icon-button" type="button" aria-label="关闭城市列表" autofocus><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
   </div>
   <nav aria-label="城市列表">
-    {cities.map(city => <a class="city-choice" href={city.href} aria-current={currentCity === city.id ? 'page' : undefined}><span>{city.name}</span>{currentCity === city.id && <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>}</a>)}
+    {groups.map(group => <section class="city-group" aria-labelledby={`city-group-${group.initial}`}>
+      <h3 id={`city-group-${group.initial}`}>{group.initial}</h3>
+      <div class="city-group-items">{group.cities.map(city => <a class="city-choice" href={city.href} aria-current={currentCity === city.id ? 'page' : undefined}><span>{city.name}</span>{currentCity === city.id && <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>}</a>)}</div>
+    </section>)}
   </nav>
+  <footer class="city-menu-footer">
+    <a class="site-page-choice" href="/about/" aria-current={currentPage === 'about' ? 'page' : undefined}>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 10v7m0-11v1"/></svg><span>关于</span>
+    </a>
+  </footer>
 </dialog>
 <script>
   const toggle = document.querySelector<HTMLButtonElement>('#city-menu-toggle')!;

@@ -12,8 +12,12 @@
 
 从项目根目录执行 `node kunming/scripts/validate-map.mjs` 验证名册、分支顺序、坐标来源、完整覆盖、SVG 几何及线路资源。
 
+六条线路徽标分别按 Wikimedia KRT 线标核对，来源见 `scripts/line-sign-research.json`。3号线保留粉底黑字，其余按各自原图保留色彩、字形和比例。`scripts/line-sign-sources/` 缓存原始 SVG 轮廓或标准330像素 PNG 预览；徽标生成器离线校验 SHA256，徽标来源色不覆盖地图线路色数据。
+
 页面入口为 `/kunming/`，城市列表按拼音排列。与其他城市一样，仅提供在线地图；参考 JPG 仅用于本地识别和审核，不作为网站底图发布。昆明没有邻城预览。
 
 昆明火车站、昆明南火车站、机场中心分别显示国铁、高铁、航空标志。接驳配置与来源见共享的 [交通标志说明](../shenzhen/TRANSPORT_TRANSFERS.md)。运营企业按[昆明市司法局公布的行政执法主体](https://m.kunming.cn/news/c/2025-02-07/13913808.shtml)区分：1、2、3、5、6 号线为昆明地铁运营有限公司，4 号线为云南京建轨道交通投资建设有限公司；4 号线企业链接指向其母公司官网。
 
 图片处理脚本复用本机 `shenzhen/.ocr-deps` 的 Pillow、OpenCV 和 RapidOCR，需要与这些本地依赖兼容的 Python 3.12。依次执行 `recognize-reference.py`、`build-map-data.py`、`build-station-coordinates.py`、`extract-route-paths.py`，最后执行 `node kunming/scripts/generate-line-badges.mjs`。普通重建保留已调整的站名坐标；只有显式传入 `build-map-data.py --refresh-labels` 才会用 OCR 坐标重置标签，随后需要重新核对中英文与交通标志的避让。
+
+斗南按原图“天地换乘站”图例和本站双瓣外圈，还原为两个相叠圆，整站使用连续红橙渐变；逻辑站ID、线路路径和站点锚点不变。复核参数由 `scripts/transfer-topology-overrides.json` 保存，生成脚本会应用该值，避免再次合并成单胶囊。环城南路白圈、东部汽车站长胶囊等按各自原图保持。

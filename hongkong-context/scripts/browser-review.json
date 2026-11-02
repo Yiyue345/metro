@@ -1,0 +1,29 @@
+{
+  "scope": "Shenzhen context overlay only, supplied 2026.08 HK operating reference",
+  "browser": "Microsoft Edge",
+  "desktopViewport": [1440, 950],
+  "mobileViewport": [390, 844],
+  "contextStationCount": 41,
+  "contextLines": ["EAL", "TML"],
+  "contextPathCount": 4,
+  "crossingCount": 2,
+  "crossings": ["Shenzhen Luohu — Hong Kong Lo Wu", "Futian Checkpoint — Lok Ma Chau"],
+  "hongkongCityLink": false,
+  "hongkongNavigationHref": null,
+  "mainPayloadStationCountIncludingPlanned": 352,
+  "mainOperatingStationCount": 351,
+  "mainBounds": [[113.7, 22.4], [114.47, 22.86]],
+  "contextInterStationTextInkOverlaps": 0,
+  "mobileHorizontalOverflow": false,
+  "fullContextVisualReview": ["output/playwright/hk-label-review-1.png", "output/playwright/hk-label-review-2.png"],
+  "crossingVisualReview": ["output/playwright/hk-position-LOW.png", "output/playwright/hk-position-LMC.png"],
+  "geographicCorrectionReview": "geographic-browser-review.json",
+  "navigation": [
+    {"city": "dongguan", "sameCanvas": true, "hkOverlays": 0, "canvasCount": 1},
+    {"city": "hangzhou", "sameCanvas": true, "hkOverlays": 0, "canvasCount": 1},
+    {"city": "shenzhen", "sameCanvas": true, "hkOverlays": 1, "canvasCount": 1}
+  ],
+  "navigationPageErrors": [],
+  "checks": ["Astro check: 51 files, zero errors/warnings/hints", "Astro build: six city pages", "hongkong-context/scripts/validate-map.mjs", "shenzhen/scripts/validate-city-navigation.mjs", "shenzhen/scripts/validate-transfer-topology.mjs", "git diff --check"],
+  "limits": "Browser mobile viewport checks layout, not physical-device gestures. Hong Kong geometry is fully retained, while the camera stays within the existing Shenzhen extent."
+}

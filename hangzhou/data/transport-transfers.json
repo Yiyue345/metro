@@ -1,0 +1,29 @@
+{
+  "城站": [
+    { "mode": "rail", "destination": "杭州站", "access": "direct", "railways": ["沪昆铁路", "宣杭铁路"] }
+  ],
+  "火车东站": [
+    { "mode": "rail", "destination": "杭州东站", "access": "direct", "railways": ["沪昆铁路", "宣杭铁路"] },
+    { "mode": "highSpeedRail", "destination": "杭州东站", "access": "direct", "railways": ["沪昆高速铁路", "宁杭高速铁路", "杭甬高速铁路", "杭昌高速铁路"] }
+  ],
+  "火车东站(东广场)": [
+    { "mode": "rail", "destination": "杭州东站", "access": "direct", "railways": ["沪昆铁路", "宣杭铁路"] },
+    { "mode": "highSpeedRail", "destination": "杭州东站", "access": "direct", "railways": ["沪昆高速铁路", "宁杭高速铁路", "杭甬高速铁路", "杭昌高速铁路"] }
+  ],
+  "火车南站": [
+    { "mode": "rail", "destination": "杭州南站", "access": "direct", "railways": ["沪昆铁路", "萧甬铁路"] },
+    { "mode": "highSpeedRail", "destination": "杭州南站", "access": "direct", "railways": ["沪昆高速铁路", "杭甬高速铁路", "杭昌高速铁路"] }
+  ],
+  "火车西站": [
+    { "mode": "highSpeedRail", "destination": "杭州西站", "access": "direct", "railways": ["合杭高速铁路", "杭昌高速铁路"] }
+  ],
+  "临平南高铁站": [
+    { "mode": "highSpeedRail", "destination": "临平南站", "access": "direct", "railways": ["沪昆高速铁路"] }
+  ],
+  "海宁高铁西站": [
+    { "mode": "highSpeedRail", "destination": "海宁西站", "access": "direct", "railways": ["沪昆高速铁路"] }
+  ],
+  "萧山国际机场": [
+    { "mode": "airport", "destination": "杭州萧山国际机场", "access": "direct" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Geographic correction of all 41 East Rail/Tuen Ma context stations",
+  "rootCause": "Former registration derived HK controls from Shenzhen display station positions with a fixed southward offset, instead of fitting Hong Kong's own coordinates.",
+  "registration": "All 41 government-source WGS84 station locations; single north-up scale and translation, unchanged internal route/station/label geometry",
+  "before": {"rmsErrorMeters": 787.7, "maximumErrorMeters": 1283.2},
+  "after": {"rmsErrorMeters": 68.9, "maximumErrorMeters": 181.1, "LoWuErrorMeters": 97.5, "LokMaChauErrorMeters": 70.8},
+  "fullStationDeviations": "registration-review.json",
+  "browser": "Microsoft Edge",
+  "groundChecks": {"stationCount": 41, "loadedBasemaps": 41, "zoom": 14, "LoWuWaterAtStation": false, "LokMaChauWaterAtStation": false},
+  "visualChecks": ["LOW", "LMC", "MEF", "ADM", "DIH", "TUM", "WKS", "UNI", "TAP", "ETS", "AUS"],
+  "waterOverlapReview": {
+    "station": "TUM",
+    "basemapLayer": "water-area-river",
+    "action": "Reviewed the station/river relationship against the MTR area protection plan and elevated station layout. Retained source geometry; no automatic snapping away from the river.",
+    "sources": ["https://www.mtr.com.hk/archive/corporate/en/operations/WRL_RPAP/WRL/WRAP101.pdf", "https://www.mtr.com.hk/archive/ch/services/layouts/tum.pdf"],
+    "localReview": ["output/playwright/pdfs/tuen-mun-official.png", "output/playwright/pdfs/tuen-mun-layout.png"]
+  },
+  "artifacts": "output/playwright/hk-position-{stationCode}.png",
+  "qaOnlyCameraOverride": "Only the isolated Edge QA instance temporarily removed maxBounds to inspect the context outside Shenzhen, then restored the original bounds. Product bounds are unchanged.",
+  "checks": ["node hongkong-context/scripts/validate-map.mjs", "npm run build", "git diff --check"],
+  "limits": "Uniformly fitting the supplied reference is not per-platform surveying. Residual station-reference differences remain, maximum approximately 181m."
+}

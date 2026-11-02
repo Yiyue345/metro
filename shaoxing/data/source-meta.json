@@ -1,0 +1,22 @@
+{
+  "edition": "2026.05",
+  "sourceDimensions": [
+    6300,
+    4500
+  ],
+  "crop": [
+    3600,
+    2570,
+    5740,
+    4380
+  ],
+  "width": 2140,
+  "height": 1810,
+  "reference": "01.公开版-杭州地铁线路3.0-a运营版（至2026年05月）.jpg",
+  "geometryReference": "01.公开版-杭州地铁线路3.0-a运营版（至2026年05月）纯色底.jpg",
+  "sourceSHA256": {
+    "reference": "7bb52d418b1b2665fa25334c2c42d9b28b28f94be02df9eccd04c241dfe6e58f",
+    "geometry": "5ccc1f11b2e4233cfa8ee3d3503e62fdd3c0c581c3ad06696839dc6b7f8f9b11"
+  },
+  "coordinateSpace": "cropped operating-reference pixels"
+}

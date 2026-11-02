@@ -1,0 +1,674 @@
+{
+  "source": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+  "snapshot": "government-location-search-source.json",
+  "snapshotSHA256": "d63b9378d7ed9e7abcd4c12aed37d04c87e84535eeb2263f6cf4aa2960065c61",
+  "conversion": "pyproj/PROJ EPSG:2326 to EPSG:4326, always_xy=True",
+  "officialConversionCrosscheck": {
+    "id": "LOW",
+    "source": "https://www.geodetic.gov.hk/transform/v2/?inSys=hkgrid&outSys=wgsgeog&e=829721&n=843105",
+    "result": {
+      "wgsLat": 22.527639397,
+      "wgsLong": 114.113234615
+    },
+    "maximumErrorDegrees": 1e-06
+  },
+  "stations": [
+    {
+      "id": "ADM",
+      "name": "金鐘",
+      "sourceName": "港鐵金鐘站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 834977.0,
+        "y": 815617.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Admiralty%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.27942108,
+        "lon": 114.16434751
+      }
+    },
+    {
+      "id": "EXC",
+      "name": "會展",
+      "sourceName": "港鐵會展站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 836107.0,
+        "y": 815864.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.28165212,
+        "lon": 114.17531211
+      }
+    },
+    {
+      "id": "HUH",
+      "name": "紅磡",
+      "sourceName": "港鐵紅磡站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 836815.0,
+        "y": 818227.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.3029914,
+        "lon": 114.1821829
+      }
+    },
+    {
+      "id": "MKK",
+      "name": "旺角東",
+      "sourceName": "港鐵旺角東站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 835827.0,
+        "y": 820334.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Mong%20Kok%20East%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.32201891,
+        "lon": 114.17259395
+      }
+    },
+    {
+      "id": "KOT",
+      "name": "九龍塘",
+      "sourceName": "港鐵九龍塘站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 836155.0,
+        "y": 822006.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Kowloon%20Tong%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.3371181,
+        "lon": 114.17577745
+      }
+    },
+    {
+      "id": "TAW",
+      "name": "大圍",
+      "sourceName": "港鐵大圍站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 836455.0,
+        "y": 825953.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Tai%20Wai%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.37276169,
+        "lon": 114.17869008
+      }
+    },
+    {
+      "id": "SHT",
+      "name": "沙田",
+      "sourceName": "港鐵沙田站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 837302.0,
+        "y": 826990.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Sha%20Tin%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.38212605,
+        "lon": 114.18691484
+      }
+    },
+    {
+      "id": "FOT",
+      "name": "火炭",
+      "sourceName": "港鐵火炭站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 838495.0,
+        "y": 828507.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.39582421,
+        "lon": 114.19850137
+      }
+    },
+    {
+      "id": "UNI",
+      "name": "大學",
+      "sourceName": "港鐵大學站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 839683.0,
+        "y": 830482.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.41365748,
+        "lon": 114.21004259
+      }
+    },
+    {
+      "id": "TAP",
+      "name": "大埔墟",
+      "sourceName": "港鐵大埔墟站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 835601.0,
+        "y": 833906.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.44458111,
+        "lon": 114.17039472
+      }
+    },
+    {
+      "id": "TWO",
+      "name": "太和",
+      "sourceName": "港鐵太和站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 834653.0,
+        "y": 834625.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Tai%20Wo%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.45107337,
+        "lon": 114.1611845
+      }
+    },
+    {
+      "id": "FAN",
+      "name": "粉嶺",
+      "sourceName": "港鐵粉嶺站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 832337.0,
+        "y": 839169.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.49210386,
+        "lon": 114.13867307
+      }
+    },
+    {
+      "id": "SHS",
+      "name": "上水",
+      "sourceName": "港鐵上水站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 831191.0,
+        "y": 840223.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.50161887,
+        "lon": 114.12753291
+      }
+    },
+    {
+      "id": "LOW",
+      "name": "羅湖",
+      "sourceName": "港鐵羅湖站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 829721.0,
+        "y": 843105.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.5276394,
+        "lon": 114.11323461
+      }
+    },
+    {
+      "id": "LMC",
+      "name": "落馬洲",
+      "sourceName": "港鐵落馬洲站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 824829.0,
+        "y": 841649.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Lok%20Ma%20Chau%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.51446539,
+        "lon": 114.06569273
+      }
+    },
+    {
+      "id": "RAC",
+      "name": "馬場",
+      "sourceName": "港鐵馬場站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 838935.0,
+        "y": 828991.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.40019434,
+        "lon": 114.20277514
+      }
+    },
+    {
+      "id": "TUM",
+      "name": "屯門",
+      "sourceName": "港鐵屯門站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 815294.0,
+        "y": 828442.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.39511045,
+        "lon": 113.97319167
+      }
+    },
+    {
+      "id": "SIH",
+      "name": "兆康",
+      "sourceName": "港鐵兆康站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 815874.0,
+        "y": 830259.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.41152577,
+        "lon": 113.97880089
+      }
+    },
+    {
+      "id": "TIS",
+      "name": "天水圍",
+      "sourceName": "港鐵天水圍站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 818522.0,
+        "y": 834282.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Tin%20Shui%20Wai%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.44788466,
+        "lon": 114.00447422
+      }
+    },
+    {
+      "id": "LOP",
+      "name": "朗屏",
+      "sourceName": "港鐵朗屏站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 820681.0,
+        "y": 834251.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.44762575,
+        "lon": 114.02544888
+      }
+    },
+    {
+      "id": "YUL",
+      "name": "元朗",
+      "sourceName": "港鐵元朗站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 821681.0,
+        "y": 834078.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.4460723,
+        "lon": 114.0351653
+      }
+    },
+    {
+      "id": "KSR",
+      "name": "錦上路",
+      "sourceName": "港鐵錦上路站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 824564.0,
+        "y": 832864.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.4351315,
+        "lon": 114.06318182
+      }
+    },
+    {
+      "id": "TWW",
+      "name": "荃灣西",
+      "sourceName": "港鐵荃灣西站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 829345.0,
+        "y": 825470.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.36838602,
+        "lon": 114.10965648
+      }
+    },
+    {
+      "id": "MEF",
+      "name": "美孚",
+      "sourceName": "港鐵美孚站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 832097.0,
+        "y": 822097.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Mei%20Foo%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.33793484,
+        "lon": 114.13638542
+      }
+    },
+    {
+      "id": "NAC",
+      "name": "南昌",
+      "sourceName": "港鐵南昌站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 833860.0,
+        "y": 820873.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.32688478,
+        "lon": 114.15350114
+      }
+    },
+    {
+      "id": "AUS",
+      "name": "柯士甸",
+      "sourceName": "港鐵柯士甸站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 835180.0,
+        "y": 818440.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.30491467,
+        "lon": 114.16631535
+      }
+    },
+    {
+      "id": "ETS",
+      "name": "尖東",
+      "sourceName": "港鐵尖東站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 836039.0,
+        "y": 817376.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20East%20Tsim%20Sha%20Tsui%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.29530642,
+        "lon": 114.17465207
+      }
+    },
+    {
+      "id": "HOM",
+      "name": "何文田",
+      "sourceName": "港鐵何文田站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 836857.0,
+        "y": 818935.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Ho%20Man%20Tin%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.30938506,
+        "lon": 114.18259077
+      }
+    },
+    {
+      "id": "TKW",
+      "name": "土瓜灣",
+      "sourceName": "港鐵土瓜灣站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 837375.0,
+        "y": 819879.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.31790969,
+        "lon": 114.18761875
+      }
+    },
+    {
+      "id": "SUW",
+      "name": "宋皇臺",
+      "sourceName": "港鐵宋皇臺站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 837683.0,
+        "y": 820733.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Sung%20Wong%20Toi%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.32562159,
+        "lon": 114.19060892
+      }
+    },
+    {
+      "id": "KAT",
+      "name": "啟德",
+      "sourceName": "港鐵啟德站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 838583.0,
+        "y": 821264.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.33041585,
+        "lon": 114.19934545
+      }
+    },
+    {
+      "id": "DIH",
+      "name": "鑽石山",
+      "sourceName": "港鐵鑽石山站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 838820.0,
+        "y": 822329.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Diamond%20Hill%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.34003308,
+        "lon": 114.20164764
+      }
+    },
+    {
+      "id": "HIK",
+      "name": "顯徑",
+      "sourceName": "港鐵顯徑站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 835636.0,
+        "y": 824952.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.36372202,
+        "lon": 114.17073826
+      }
+    },
+    {
+      "id": "CKT",
+      "name": "車公廟",
+      "sourceName": "港鐵車公廟站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 837196.0,
+        "y": 826175.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Che%20Kung%20Temple%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.37476623,
+        "lon": 114.18588507
+      }
+    },
+    {
+      "id": "STW",
+      "name": "沙田圍",
+      "sourceName": "港鐵沙田圍站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 838115.0,
+        "y": 826413.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.37691475,
+        "lon": 114.19480866
+      }
+    },
+    {
+      "id": "CIO",
+      "name": "第一城",
+      "sourceName": "港鐵第一城站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 839023.0,
+        "y": 827083.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.38296399,
+        "lon": 114.20362645
+      }
+    },
+    {
+      "id": "SHM",
+      "name": "石門",
+      "sourceName": "港鐵石門站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 839527.0,
+        "y": 827627.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.3878757,
+        "lon": 114.20852159
+      }
+    },
+    {
+      "id": "TSH",
+      "name": "大水坑",
+      "sourceName": "港鐵大水坑站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 840976.0,
+        "y": 829877.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Tai%20Shui%20Hang%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.40819097,
+        "lon": 114.22259906
+      }
+    },
+    {
+      "id": "HEO",
+      "name": "恆安",
+      "sourceName": "港鐵恆安站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 841313.0,
+        "y": 830948.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.41786166,
+        "lon": 114.22587544
+      }
+    },
+    {
+      "id": "MOS",
+      "name": "馬鞍山",
+      "sourceName": "港鐵馬鞍山站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 841941.0,
+        "y": 831729.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Ma%20On%20Shan%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.4249125,
+        "lon": 114.23197786
+      }
+    },
+    {
+      "id": "WKS",
+      "name": "烏溪沙",
+      "sourceName": "港鐵烏溪沙站",
+      "sourceCRS": "EPSG:2326 (Hong Kong 1980 Grid System)",
+      "sourceLocation": {
+        "x": 843163.0,
+        "y": 832199.0
+      },
+      "sourceURL": "https://www.map.gov.hk/gs/api/v1.0.0/locationSearch?q=MTR%20Wu%20Kai%20Sha%20Station",
+      "outputCRS": "EPSG:4326 (WGS84)",
+      "coordinate": {
+        "lat": 22.42915233,
+        "lon": 114.24384953
+      }
+    }
+  ],
+  "missing": []
+}

@@ -14,14 +14,17 @@ import { lineNames } from './line-names';
 export interface Coordinate { lat: number; lon: number }
 export interface StationSymbolGeometry {
   parts: { x: number; y: number; width: number; height: number; angle: number; lines: string[]; transfer: boolean; planned?: boolean }[];
+  joined?: boolean;
+  gradient?: { x1: number; y1: number; x2: number; y2: number; lines: string[] };
   connections?: { x1: number; y1: number; x2: number; y2: number; points?: string; kind: string }[];
 }
-export interface StationLabel { x: number; y: number; anchor: 'start' | 'middle' | 'end'; fontSize: number; englishLineLength?: number }
+export interface StationLabel { x: number; y: number; anchor: 'start' | 'middle' | 'end'; fontSize: number; englishLineLength?: number; badgeOffsetX?: number; badgeOffsetY?: number }
 export interface MetroStation {
   id: string; name: string; x: number; y: number; lines: string[]; aliases?: string[];
-  status?: 'planned'; englishName?: string; label?: StationLabel; symbol?: StationSymbolGeometry;
+  status?: 'planned' | 'suspended'; englishName?: string; label?: StationLabel; symbol?: StationSymbolGeometry;
 }
-export interface MetroOperator { id: string; name: string; company: string; url: string; logo?: string }
+export interface MetroOperator { id: string; name: string; company: string; url: string; logo: string }
+export interface ExternalMetroLine { id: string; name: string; color: string; badge: string }
 export interface TransportTransfer {
   mode: 'rail' | 'highSpeedRail' | 'airport' | 'ferry' | 'gdIntercity';
   destination: string; access: 'direct' | 'walk' | 'shuttle';
@@ -33,12 +36,15 @@ export interface MetroCityDataset {
   stations: MetroStation[]; plannedStations: MetroStation[];
   lines: { id: string; name: string; color: string }[];
   symbols: Record<string, StationSymbolGeometry>;
-  routes: { id: string; color: string; width: number; paths: string[] }[];
+  routes: { id: string; color: string; width: number; paths: string[]; inactivePaths?: string[]; branchPaths?: string[]; terminalMarkers?: {x: number; y: number; radius: number}[] }[];
   labels: Record<string, StationLabel>; englishNames: Record<string, string>;
   visitedStations: string[]; coordinates: Record<string, Coordinate>; stationNotes: Record<string, string>;
   basemap: { base: string; tileset: string; theme: string; attribution: string; maxZoom: number };
   operatorsByStation: Record<string, MetroOperator[]>; lineNames: Record<string, string>;
   transportTransfers?: Record<string, TransportTransfer[]>;
+  throughServices?: string[][];
+  diagramRegistration?: { origin: Coordinate; east: Coordinate };
+  externalLinesByStation?: Record<string, ExternalMetroLine[]>;
 }
 
 export const shenzhenDataset: MetroCityDataset = {
@@ -48,5 +54,6 @@ export const shenzhenDataset: MetroCityDataset = {
   labels: labels as Record<string, StationLabel>, englishNames,
   visitedStations, coordinates, stationNotes, basemap, lineNames,
   transportTransfers: transportTransfers as Record<string, TransportTransfer[]>,
+  throughServices: [['2', '8']],
   operatorsByStation: Object.fromEntries([...stations, ...plannedStations].map(station => [station.id, stationOperators(station)])),
 };

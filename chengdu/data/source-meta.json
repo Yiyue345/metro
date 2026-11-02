@@ -1,0 +1,25 @@
+{
+  "edition": "2026.11",
+  "sourceDimensions": [
+    6300,
+    4500
+  ],
+  "crop": [
+    1250,
+    400,
+    6050,
+    4430
+  ],
+  "width": 5660,
+  "height": 5130,
+  "reference": "01.公开版-成都地铁线路3.0-a运营版（至2026年11月）.jpg",
+  "geometryReference": "01.公开版-成都地铁线路3.0-a运营版（至2026年11月）纯色底.jpg",
+  "sourceSHA256": {
+    "reference": "5ca86a6591c07e2a9b62ac32ac983011ec0ee9703fa3bb5cd6bd4e1fd2f1ecc6",
+    "geometry": "cb6bb6575bb293398cf3aaf8e05551da11353e3e7d0fcfee0cbb0106b766784a"
+  },
+  "coordinateSpace": "cropped operating-reference pixels",
+  "cropWidth": 4800,
+  "cropHeight": 4030,
+  "extendedGeometry": "S3 reference inset scaled uniformly and translated into the main source space; see scripts/s3-geometry-review.json."
+}

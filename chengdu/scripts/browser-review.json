@@ -1,0 +1,161 @@
+{
+  "checkedOn": "2026-11-02",
+  "referenceEdition": "2026.11",
+  "longquanyiRailTransferReview": {
+    "checkedOn": "2026-11-02",
+    "stations": ["龙泉驿火车站", "龙泉驿火车站南"],
+    "mode": "rail",
+    "destination": "成都龙泉驿站",
+    "access": "walk",
+    "cardText": "可换乘：成都龙泉驿站",
+    "bothCardsVerified": true,
+    "bothBadgesVerified": true,
+    "fullMapSymbolIntersections": 0,
+    "fullMapTextBadgeIntersections": 0,
+    "screenshot": "output/playwright/longquanyi-transfers.png"
+  },
+  "url": "http://127.0.0.1:52173/chengdu/",
+  "environment": "Local production preview in Microsoft Edge; desktop 1500x1000/1440x950 and responsive viewport 390x844. No deployment or physical-phone verification.",
+  "dataset": {
+    "retainedLines": 18,
+    "retainedOperatingStations": 396,
+    "retainedPlannedStations": 1,
+    "coordinateCount": 397,
+    "hiddenLineIds": [
+      "r2"
+    ],
+    "visibleLines": 17,
+    "visibleOperatingStations": 364,
+    "visiblePlannedStations": 1,
+    "retainedPhysicalPaths": 20,
+    "retainedStationOccurrences": 512,
+    "retainedStationIntervals": 492
+  },
+  "geometry": {
+    "mainCrop": [
+      1250,
+      400,
+      6050,
+      4430
+    ],
+    "mainRasterSize": [
+      4800,
+      4030
+    ],
+    "canvasSize": [
+      5660,
+      5130
+    ],
+    "tianfuCenter": [
+      2406.2,
+      3116.6
+    ],
+    "tianfuLine19Tail": true,
+    "s3InsetScale": 1.66801292844,
+    "s3MaxPhysicalStationCurveDistance": 2.359,
+    "reviewedLabels": 365,
+    "newLabelOffsets": 358
+  },
+  "labelBoundaries": {
+    "method": "Measure final SVG Chinese/English tspan boxes and transport-badge rectangles against every rendered rotated station capsule; also compare text/badge boxes between stations. Audit runs after reload using persisted labels, without temporary label transforms.",
+    "stations": 365,
+    "physicalSymbols": 369,
+    "stationSymbolIntersections": 0,
+    "textBadgeIntersections": 0,
+    "symbolDepthThresholdPixels": 0.2,
+    "textBoxAreaThresholdPixels": 1
+  },
+  "functional": {
+    "englishSearch": "Tianfu Square -> 天府广场",
+    "railDestination": "成都东客站 -> 可换乘：成都东站",
+    "operator": "Loaded pure-symbol images without operator text, including S3.",
+    "line2Filter": {
+      "includedStations": 33,
+      "includesNewLongquanyiRailwayStation": true
+    },
+    "restoredEasternLine2Stations": true,
+    "s3Filter": {
+      "includedStations": 7,
+      "emphasizedRoutes": [
+        "s3"
+      ]
+    },
+    "s3Destination": "资阳北站 -> 可换乘：资阳北站",
+    "plannedStation": "芦葭 -> 未开通",
+    "hiddenTram": {
+      "routeAbsent": true,
+      "lineChoiceAbsent": true,
+      "exclusiveStationSearchAbsent": true
+    },
+    "sharedStation": "成都西站: two line badges (4/9), one metro capsule; tram circle removed from visible map.",
+    "cityNavigation": {
+      "cities": [
+        "shenzhen",
+        "dongguan",
+        "hangzhou",
+        "shaoxing",
+        "kunming",
+        "nanning",
+        "chengdu"
+      ],
+      "sameMapCanvas": true,
+      "historyBackForward": true
+    },
+    "aboutPageRoundTrip": true,
+    "cityInitialGroups": [
+      "C",
+      "D",
+      "H",
+      "K",
+      "N",
+      "S"
+    ],
+    "loadedLineBadges": 17,
+    "responsiveHorizontalOverflow": false,
+    "responsiveStationCardWithinViewport": true,
+    "syntheticTwoTouchMovePrevented": true,
+    "applicationPageErrors": []
+  },
+  "artifacts": {
+    "desktopRegions": [
+      "center",
+      "south",
+      "east",
+      "west",
+      "north",
+      "shuangliu",
+      "tianfu",
+      "airport",
+      "s3",
+      "s3-end",
+      "airport-labels",
+      "s3-labels"
+    ],
+    "desktopPattern": "output/playwright/chengdu-nov-{region}.png",
+    "responsive": [
+      "output/playwright/chengdu-mobile-menu.png",
+      "output/playwright/chengdu-mobile-card.png",
+      "output/playwright/chengdu-mobile-lines.png"
+    ],
+    "scripts": [
+      "output/playwright/chengdu-nov-audit.js",
+      "output/playwright/chengdu-nov-functional-review.js",
+      "output/playwright/chengdu-nov-capture.js",
+      "output/playwright/chengdu-nov-final-review.js"
+    ]
+  },
+  "build": {
+    "staticPages": 8,
+    "visibleChengduLineAssets": 17,
+    "retainedChengduLineAssets": 18,
+    "referenceRasterDeployed": false,
+    "astroCheck": {
+      "files": 54,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "dataValidatorChecks": 28,
+    "sharedTransportTransferValidation": true
+  }
+}

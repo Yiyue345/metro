@@ -88,6 +88,8 @@ for line in roster['lines']:
 write(DATA/'line-colors.json',colors)
 if missing:sys.exit(1)
 symbols={s['id']:{'parts':[{**s['symbol'],'lines':s['lines']}]} for s in draft}
+# The reference has a short horizontal capsule, not a near-circle.
+symbols['总部基地']['parts'][0].update(width=13.95,height=11.95,angle=0)
 labels={s['id']:{'x':round(s['labelBox'][0],2),'y':round(s['labelBox'][1]+13,2),'anchor':'start','fontSize':14} for s in draft}
 for s in draft:
     l,t,r,b=s['labelBox'];x,y=s['x'],s['y'];label=labels[s['id']]

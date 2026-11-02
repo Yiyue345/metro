@@ -1,0 +1,240 @@
+{
+  "checkedOn": "2026-11-02",
+  "finalRefinement": {
+    "allLinesButtonRemoved": true,
+    "clickSelectedLineClearsFilter": true,
+    "hangzhouTwoDigitSingleCell": true,
+    "noExtraTileBorderOrBackground": true,
+    "underlineUsesArtworkColor": true,
+    "underlineMatchesRenderedImageWidth": true,
+    "underlineCases": 14,
+    "maximumUnderlineWidthErrorPx": 0.00005,
+    "nanningLine4Numeral": "#231815",
+    "nanningLine4Underline": "#ced81c",
+    "nanningLine4ResetVerified": true
+  },
+  "environment": "Local Microsoft Edge production preview; viewport widths, not physical phones",
+  "sourceBadgesAudited": 46,
+  "minimumLineButtonSize": 44,
+  "preserveIntrinsicProportions": true,
+  "results": [
+    {
+      "city": "chengdu",
+      "lines": 17,
+      "sizes": [
+        {
+          "width": 320,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 414,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        }
+      ]
+    },
+    {
+      "city": "dongguan",
+      "lines": 2,
+      "sizes": [
+        {
+          "width": 320,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 414,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        }
+      ]
+    },
+    {
+      "city": "hangzhou",
+      "lines": 13,
+      "sizes": [
+        {
+          "width": 320,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 414,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        }
+      ]
+    },
+    {
+      "city": "kunming",
+      "lines": 6,
+      "sizes": [
+        {
+          "width": 320,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 414,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        }
+      ]
+    },
+    {
+      "city": "nanning",
+      "lines": 5,
+      "sizes": [
+        {
+          "width": 320,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 414,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        }
+      ]
+    },
+    {
+      "city": "shaoxing",
+      "lines": 2,
+      "sizes": [
+        {
+          "width": 320,
+          "overflow": false,
+          "columns": "96px 96px"
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "columns": "96px 96px"
+        },
+        {
+          "width": 414,
+          "overflow": false,
+          "columns": "96px 96px"
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "columns": "116px 116px"
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "columns": "116px 116px"
+        }
+      ]
+    },
+    {
+      "city": "shenzhen",
+      "lines": 17,
+      "sizes": [
+        {
+          "width": 320,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 414,
+          "overflow": false,
+          "columns": "46px 46px 46px 46px"
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "columns": "55px 55px 55px 55px"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

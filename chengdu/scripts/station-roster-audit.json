@@ -1,0 +1,7515 @@
+{
+  "edition": "2026.11",
+  "reference": "01.公开版-成都地铁线路3.0-a运营版（至2026年11月）纯色底.jpg",
+  "referenceSHA256": "cb6bb6575bb293398cf3aaf8e05551da11353e3e7d0fcfee0cbb0106b766784a",
+  "stationCount": 397,
+  "operatingStationCount": 396,
+  "visibleOperatingStationCount": 364,
+  "plannedStationCount": 1,
+  "hiddenLineIds": [
+    "r2"
+  ],
+  "retainedHiddenStationCount": 32,
+  "exactOCRCount": 364,
+  "nonExactOCRCount": 33,
+  "sourceOCRSHA256": "442102d9d16b7afc79bda1489ff71838885ec36a7ec56a2d3155d565ff380eb0",
+  "sourceOCRScope": "2026.11 changed eastern-line-2 tiles plus reviewed unchanged existing tiles; S3 uses full-source visual and geometry review",
+  "excludedCurrentAMapSourceIds": [],
+  "stations": [
+    {
+      "id": "五根松",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "五根松",
+      "ocrBox": [
+        1947.0,
+        2352.0,
+        1988.0,
+        2365.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "广都",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "广都",
+      "ocrBox": [
+        1941.0,
+        2296.5,
+        1971.0,
+        2312.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "四河",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "四河",
+      "ocrBox": [
+        1888.5,
+        2240.0,
+        1926.0,
+        2256.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "华府大道",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "华府大道",
+      "ocrBox": [
+        1861.5,
+        2177.5,
+        1914.0,
+        2192.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "天府五街",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "天府五街",
+      "ocrBox": [
+        1859.0,
+        2099.5,
+        1915.0,
+        2114.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "天府三街",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "天府三街",
+      "ocrBox": [
+        1857.0,
+        2034.0,
+        1919.0,
+        2049.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "世纪城",
+      "status": "operating",
+      "lines": [
+        "1",
+        "18"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "18"
+      ],
+      "ocrExactMatch": "世纪城",
+      "ocrBox": [
+        1907.5,
+        1979.5,
+        1966.5,
+        1995.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "锦城广场",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "锦城广场",
+      "ocrBox": [
+        1839.5,
+        1880.5,
+        1905.5,
+        1897.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "孵化园",
+      "status": "operating",
+      "lines": [
+        "1",
+        "9",
+        "18"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "9",
+        "18"
+      ],
+      "ocrExactMatch": "孵化园",
+      "ocrBox": [
+        1840.5,
+        1846.0,
+        1883.5,
+        1864.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金融城",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "金融城",
+      "ocrBox": [
+        1841.0,
+        1786.5,
+        1883.0,
+        1802.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "高新",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "高新",
+      "ocrBox": [
+        1851.5,
+        1704.0,
+        1890.0,
+        1721.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "火车南站",
+      "status": "operating",
+      "lines": [
+        "1",
+        "7",
+        "18"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "7",
+        "18"
+      ],
+      "ocrExactMatch": "火车南站",
+      "ocrBox": [
+        1911.5,
+        1610.0,
+        1967.0,
+        1625.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "桐梓林",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "桐梓林",
+      "ocrBox": [
+        1906.0,
+        1559.0,
+        1948.0,
+        1574.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "倪家桥",
+      "status": "operating",
+      "lines": [
+        "1",
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "8"
+      ],
+      "ocrExactMatch": "倪家桥",
+      "ocrBox": [
+        1904.0,
+        1505.0,
+        1948.0,
+        1522.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "省体育馆",
+      "status": "operating",
+      "lines": [
+        "1",
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "3"
+      ],
+      "ocrExactMatch": "省体育馆",
+      "ocrBox": [
+        1841.5,
+        1446.0,
+        1897.0,
+        1461.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "华西坝",
+      "status": "operating",
+      "lines": [
+        "1",
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "13"
+      ],
+      "ocrExactMatch": "华西坝",
+      "ocrBox": [
+        1900.5,
+        1377.5,
+        1944.5,
+        1394.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "锦江宾馆",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "锦江宾馆",
+      "ocrBox": [
+        1898.5,
+        1325.5,
+        1951.0,
+        1340.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "天府广场",
+      "status": "operating",
+      "lines": [
+        "1",
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "2"
+      ],
+      "ocrExactMatch": "天府广场",
+      "ocrBox": [
+        1903.0,
+        1251.5,
+        1960.0,
+        1270.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "骡马市",
+      "status": "operating",
+      "lines": [
+        "1",
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "4"
+      ],
+      "ocrExactMatch": "骡马市",
+      "ocrBox": [
+        1894.0,
+        1213.5,
+        1940.5,
+        1233.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "文殊院",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "文殊院",
+      "ocrBox": [
+        1902.0,
+        1169.0,
+        1952.0,
+        1184.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "人民北路",
+      "status": "operating",
+      "lines": [
+        "1",
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "6"
+      ],
+      "ocrExactMatch": "人民北路",
+      "ocrBox": [
+        1944.5,
+        1055.0,
+        1999.0,
+        1070.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "火车北站",
+      "status": "operating",
+      "lines": [
+        "1",
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "7"
+      ],
+      "ocrExactMatch": "火车北站",
+      "ocrBox": [
+        1942.5,
+        1017.0,
+        1999.5,
+        1033.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "升仙湖",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "升仙湖",
+      "ocrBox": [
+        1957.5,
+        945.0,
+        1998.0,
+        961.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "韦家碾",
+      "status": "operating",
+      "lines": [
+        "1",
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "27"
+      ],
+      "ocrExactMatch": "韦家碾",
+      "ocrBox": [
+        2011.0,
+        852.0,
+        2069.5,
+        869.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "科学城",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "科学城",
+      "ocrBox": [
+        1937.0,
+        3107.5,
+        1979.5,
+        3123.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "兴隆湖",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "兴隆湖",
+      "ocrBox": [
+        1953.0,
+        3013.5,
+        2002.0,
+        3029.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "广州路",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "广州路",
+      "ocrBox": [
+        1966.5,
+        2921.5,
+        2006.0,
+        2937.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "西博城",
+      "status": "operating",
+      "lines": [
+        "1",
+        "6",
+        "18"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "6",
+        "18"
+      ],
+      "ocrExactMatch": "西博城",
+      "ocrBox": [
+        1964.5,
+        2885.0,
+        2009.0,
+        2902.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "天府公园",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "天府公园",
+      "ocrBox": [
+        1969.0,
+        2807.0,
+        2021.0,
+        2822.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "武汉路",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "武汉路",
+      "ocrBox": [
+        1942.0,
+        2751.0,
+        1985.0,
+        2766.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "麓湖",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "麓湖",
+      "ocrBox": [
+        1942.5,
+        2672.5,
+        1971.5,
+        2687.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "红石公园",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "红石公园",
+      "ocrBox": [
+        1933.0,
+        2604.0,
+        1994.5,
+        2620.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "广福",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "广福",
+      "ocrBox": [
+        1886.0,
+        2505.5,
+        1924.5,
+        2521.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "海昌路",
+      "status": "operating",
+      "lines": [
+        "1",
+        "18"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1",
+        "18"
+      ],
+      "ocrExactMatch": "海昌路",
+      "ocrBox": [
+        1919.0,
+        2406.5,
+        1977.0,
+        2421.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "华阳",
+      "status": "operating",
+      "lines": [
+        "1"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "1"
+      ],
+      "ocrExactMatch": "华阳",
+      "ocrBox": [
+        1888.5,
+        2331.0,
+        1918.0,
+        2347.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "犀浦",
+      "status": "operating",
+      "lines": [
+        "2",
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2",
+        "6"
+      ],
+      "ocrExactMatch": "犀浦",
+      "ocrBox": [
+        1287.5,
+        566.5,
+        1319.0,
+        582.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "天河路",
+      "status": "operating",
+      "lines": [
+        "2",
+        "r2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "full reference visual review and carried-forward geometry overrides"
+    },
+    {
+      "id": "百草路",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "百草路",
+      "ocrBox": [
+        1381.0,
+        737.5,
+        1421.5,
+        753.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金周路",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "金周路",
+      "ocrBox": [
+        1460.0,
+        838.5,
+        1500.5,
+        854.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金科北路",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "金科北路",
+      "ocrBox": [
+        1544.5,
+        817.5,
+        1596.5,
+        833.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "迎宾大道",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "迎宾大道",
+      "ocrBox": [
+        1584.5,
+        879.5,
+        1637.5,
+        894.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "茶店子客运站",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "茶店子客运站",
+      "ocrBox": [
+        1506.0,
+        924.5,
+        1581.0,
+        941.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "羊犀立交",
+      "status": "operating",
+      "lines": [
+        "2",
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2",
+        "27"
+      ],
+      "ocrExactMatch": "羊犀立交",
+      "ocrBox": [
+        1579.0,
+        1005.0,
+        1636.5,
+        1024.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "一品天下",
+      "status": "operating",
+      "lines": [
+        "2",
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2",
+        "7"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "full reference visual review and carried-forward geometry overrides"
+    },
+    {
+      "id": "蜀汉路东",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "蜀汉路东",
+      "ocrBox": [
+        1680.0,
+        1081.0,
+        1733.5,
+        1096.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "白果林",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "白果林",
+      "ocrBox": [
+        1696.0,
+        1152.5,
+        1743.5,
+        1167.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "中医大·省医院",
+      "status": "operating",
+      "lines": [
+        "2",
+        "4",
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2",
+        "4",
+        "5"
+      ],
+      "ocrExactMatch": "中医大·省医院",
+      "ocrBox": [
+        1749.0,
+        1170.0,
+        1835.5,
+        1185.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "通惠门",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "通惠门",
+      "ocrBox": [
+        1744.0,
+        1227.5,
+        1790.5,
+        1246.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "人民公园",
+      "status": "operating",
+      "lines": [
+        "2",
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2",
+        "17"
+      ],
+      "ocrExactMatch": "人民公园",
+      "ocrBox": [
+        1774.5,
+        1258.5,
+        1828.0,
+        1274.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "春熙路",
+      "status": "operating",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2",
+        "3"
+      ],
+      "ocrExactMatch": "春熙路",
+      "ocrBox": [
+        1979.0,
+        1286.0,
+        2027.0,
+        1305.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "东门大桥",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "东门大桥",
+      "ocrBox": [
+        2018.5,
+        1318.5,
+        2069.5,
+        1334.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "牛王庙",
+      "status": "operating",
+      "lines": [
+        "2",
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2",
+        "6"
+      ],
+      "ocrExactMatch": "牛王庙",
+      "ocrBox": [
+        2065.5,
+        1344.0,
+        2111.0,
+        1362.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "牛市口",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "牛市口",
+      "ocrBox": [
+        2150.0,
+        1395.5,
+        2190.5,
+        1411.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "东大路",
+      "status": "operating",
+      "lines": [
+        "2",
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2",
+        "8"
+      ],
+      "ocrExactMatch": "东大路",
+      "ocrBox": [
+        2176.5,
+        1427.5,
+        2223.5,
+        1447.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "塔子山公园",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "塔子山公园",
+      "ocrBox": [
+        2202.5,
+        1474.5,
+        2267.0,
+        1489.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "成都东客站",
+      "status": "operating",
+      "lines": [
+        "2",
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2",
+        "7"
+      ],
+      "ocrExactMatch": "成都东客站",
+      "ocrBox": [
+        2345.0,
+        1450.0,
+        2414.0,
+        1465.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "成渝立交",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "成渝立交",
+      "ocrBox": [
+        2385.5,
+        1482.0,
+        2437.5,
+        1497.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "惠王陵",
+      "status": "operating",
+      "lines": [
+        "2",
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2",
+        "30"
+      ],
+      "ocrExactMatch": "惠王陵",
+      "ocrBox": [
+        2414.0,
+        1554.0,
+        2456.5,
+        1569.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "洪河",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "洪河",
+      "ocrBox": [
+        2447.0,
+        1618.5,
+        2476.5,
+        1635.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "成都行政学院",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "成都行政学院",
+      "ocrBox": [
+        2526.5,
+        1672.0,
+        2602.0,
+        1687.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙泉驿火车站",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "龙泉驿火车站",
+      "ocrBox": [
+        2677.5,
+        1685.5,
+        2755.0,
+        1700.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "大面铺",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "大面铺",
+      "ocrBox": [
+        2710.5,
+        1710.0,
+        2749.5,
+        1723.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "连山坡",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "连山坡",
+      "ocrBox": [
+        2777.0,
+        1737.5,
+        2817.5,
+        1753.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "界牌",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "界牌",
+      "ocrBox": [
+        2848.5,
+        1767.0,
+        2879.0,
+        1787.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "书房",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "书房",
+      "ocrBox": [
+        2950.5,
+        1820.0,
+        2981.0,
+        1838.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙平路",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "龙平路",
+      "ocrBox": [
+        3052.0,
+        1843.0,
+        3092.5,
+        1859.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙泉驿",
+      "status": "operating",
+      "lines": [
+        "2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "2"
+      ],
+      "ocrExactMatch": "龙泉驿",
+      "ocrBox": [
+        3104.5,
+        1939.0,
+        3149.5,
+        1956.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "福田",
+      "status": "operating",
+      "lines": [
+        "18",
+        "19",
+        "s3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "18",
+        "19",
+        "s3"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "2026.11 full-source main/inset visual review and s3-geometry-review.json"
+    },
+    {
+      "id": "资阳临空",
+      "status": "operating",
+      "lines": [
+        "s3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "s3"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "2026.11 full-source main/inset visual review and s3-geometry-review.json"
+    },
+    {
+      "id": "幸福大道",
+      "status": "operating",
+      "lines": [
+        "s3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "s3"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "2026.11 full-source main/inset visual review and s3-geometry-review.json"
+    },
+    {
+      "id": "苌弘广场",
+      "status": "operating",
+      "lines": [
+        "s3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "s3"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "2026.11 full-source main/inset visual review and s3-geometry-review.json"
+    },
+    {
+      "id": "宝台",
+      "status": "operating",
+      "lines": [
+        "s3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "s3"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "2026.11 full-source main/inset visual review and s3-geometry-review.json"
+    },
+    {
+      "id": "资阳北站",
+      "status": "operating",
+      "lines": [
+        "s3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "s3"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "2026.11 full-source main/inset visual review and s3-geometry-review.json"
+    },
+    {
+      "id": "成都医学院",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "成都医学院",
+      "ocrBox": [
+        2667.5,
+        164.0,
+        2736.0,
+        183.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "石油大学",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "石油大学",
+      "ocrBox": [
+        2609.0,
+        134.0,
+        2661.0,
+        150.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "钟楼",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "钟楼",
+      "ocrBox": [
+        2529.5,
+        149.0,
+        2559.0,
+        165.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "马超西路",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "马超西路",
+      "ocrBox": [
+        2481.0,
+        193.0,
+        2543.0,
+        209.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "团结新区",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "团结新区",
+      "ocrBox": [
+        2450.0,
+        260.5,
+        2504.0,
+        275.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "锦水河",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "锦水河",
+      "ocrBox": [
+        2421.0,
+        306.0,
+        2461.5,
+        321.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "三河场",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "三河场",
+      "ocrBox": [
+        2331.5,
+        389.5,
+        2377.5,
+        414.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金华寺东路",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "金华寺东路",
+      "ocrBox": [
+        2242.0,
+        488.5,
+        2321.5,
+        507.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "植物园",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "植物园",
+      "ocrBox": [
+        2219.0,
+        538.0,
+        2273.0,
+        554.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "军区总医院",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "C军区总医院",
+      "ocrBox": [
+        2177.0,
+        670.0,
+        2252.5,
+        685.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "熊猫大道",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "熊猫大道",
+      "ocrBox": [
+        2141.0,
+        799.0,
+        2203.5,
+        815.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "动物园",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "动物园",
+      "ocrBox": [
+        2114.5,
+        883.0,
+        2163.0,
+        898.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "昭觉寺南路",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "full reference visual review and carried-forward geometry overrides"
+    },
+    {
+      "id": "驷马桥",
+      "status": "operating",
+      "lines": [
+        "3",
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "7"
+      ],
+      "ocrExactMatch": "驷马桥",
+      "ocrBox": [
+        2063.0,
+        1017.0,
+        2107.0,
+        1032.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "李家沱",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "李家沱",
+      "ocrBox": [
+        2062.5,
+        1048.5,
+        2113.0,
+        1065.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "前锋路",
+      "status": "operating",
+      "lines": [
+        "3",
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "6"
+      ],
+      "ocrExactMatch": "前锋路",
+      "ocrBox": [
+        2056.5,
+        1118.5,
+        2099.5,
+        1134.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "红星桥",
+      "status": "operating",
+      "lines": [
+        "3",
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "17"
+      ],
+      "ocrExactMatch": "红星桥",
+      "ocrBox": [
+        1996.5,
+        1159.0,
+        2061.0,
+        1188.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "市二医院",
+      "status": "operating",
+      "lines": [
+        "3",
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "4"
+      ],
+      "ocrExactMatch": "市二医院",
+      "ocrBox": [
+        2010.5,
+        1232.5,
+        2066.0,
+        1248.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "新南门",
+      "status": "operating",
+      "lines": [
+        "3",
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "13"
+      ],
+      "ocrExactMatch": "新南门",
+      "ocrBox": [
+        1955.5,
+        1344.0,
+        2001.0,
+        1363.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "磨子桥",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "磨子桥",
+      "ocrBox": [
+        1912.0,
+        1406.0,
+        1961.0,
+        1421.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "衣冠庙",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "衣冠庙",
+      "ocrBox": [
+        1813.5,
+        1412.5,
+        1854.0,
+        1428.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "高升桥",
+      "status": "operating",
+      "lines": [
+        "3",
+        "5",
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "5",
+        "10"
+      ],
+      "ocrExactMatch": "高升桥",
+      "ocrBox": [
+        1762.5,
+        1380.0,
+        1806.0,
+        1397.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "红牌楼",
+      "status": "operating",
+      "lines": [
+        "3",
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "10"
+      ],
+      "ocrExactMatch": "红牌楼",
+      "ocrBox": [
+        1682.5,
+        1438.5,
+        1727.0,
+        1455.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "太平园",
+      "status": "operating",
+      "lines": [
+        "3",
+        "7",
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "7",
+        "10"
+      ],
+      "ocrExactMatch": "太平园",
+      "ocrBox": [
+        1618.5,
+        1488.5,
+        1684.0,
+        1512.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "川藏立交",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "川藏立交",
+      "ocrBox": [
+        1542.5,
+        1492.5,
+        1596.0,
+        1509.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "武侯立交",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "武侯立交",
+      "ocrBox": [
+        1460.5,
+        1491.0,
+        1514.0,
+        1509.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "武青南路",
+      "status": "operating",
+      "lines": [
+        "3",
+        "9"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "9"
+      ],
+      "ocrExactMatch": "武青南路",
+      "ocrBox": [
+        1416.0,
+        1515.5,
+        1474.0,
+        1534.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "双凤桥",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "双凤桥",
+      "ocrBox": [
+        1322.5,
+        1564.5,
+        1363.5,
+        1580.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙桥路",
+      "status": "operating",
+      "lines": [
+        "3",
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "19"
+      ],
+      "ocrExactMatch": "龙桥路",
+      "ocrBox": [
+        1164.5,
+        1622.0,
+        1229.0,
+        1648.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "航都大街",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "航都大街",
+      "ocrBox": [
+        1126.5,
+        1721.0,
+        1180.0,
+        1738.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "迎春桥",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "迎春桥",
+      "ocrBox": [
+        1111.0,
+        1811.5,
+        1151.5,
+        1825.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "东升",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "东升",
+      "ocrBox": [
+        1044.0,
+        1866.0,
+        1085.0,
+        1885.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "双流广场",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "双流广场",
+      "ocrBox": [
+        1020.0,
+        1907.5,
+        1083.5,
+        1924.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "三里坝",
+      "status": "operating",
+      "lines": [
+        "3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3"
+      ],
+      "ocrExactMatch": "三里坝",
+      "ocrBox": [
+        986.0,
+        1985.5,
+        1034.0,
+        2001.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "双流西站",
+      "status": "operating",
+      "lines": [
+        "3",
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "3",
+        "10"
+      ],
+      "ocrExactMatch": "双流西站",
+      "ocrBox": [
+        999.0,
+        2075.5,
+        1056.0,
+        2092.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "西河",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "西河",
+      "ocrBox": [
+        2804.0,
+        1354.0,
+        2833.5,
+        1371.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "明蜀王陵",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "明蜀王陵",
+      "ocrBox": [
+        2649.0,
+        1348.0,
+        2702.0,
+        1363.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "成都大学",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "成都大学",
+      "ocrBox": [
+        2561.0,
+        1354.0,
+        2614.0,
+        1369.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "十陵",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "十陵",
+      "ocrBox": [
+        2519.0,
+        1358.5,
+        2548.0,
+        1376.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "来龙",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "来龙",
+      "ocrBox": [
+        2468.5,
+        1350.5,
+        2497.5,
+        1369.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "槐树店",
+      "status": "operating",
+      "lines": [
+        "4",
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4",
+        "7"
+      ],
+      "ocrExactMatch": "槐树店",
+      "ocrBox": [
+        2339.5,
+        1338.0,
+        2382.5,
+        1355.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "万年场",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "万年场",
+      "ocrBox": [
+        2197.0,
+        1377.5,
+        2237.0,
+        1391.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "双桥路",
+      "status": "operating",
+      "lines": [
+        "4",
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4",
+        "8"
+      ],
+      "ocrExactMatch": "双桥路",
+      "ocrBox": [
+        2191.0,
+        1333.0,
+        2233.5,
+        1348.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "玉双路",
+      "status": "operating",
+      "lines": [
+        "4",
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4",
+        "6"
+      ],
+      "ocrExactMatch": "玉双路",
+      "ocrBox": [
+        2096.0,
+        1287.5,
+        2141.5,
+        1305.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "太升南路",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "太升南路",
+      "ocrBox": [
+        1954.5,
+        1201.5,
+        2006.0,
+        1217.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "宽窄巷子",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "宽窄巷子",
+      "ocrBox": [
+        1801.5,
+        1222.5,
+        1855.0,
+        1239.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "草堂北路",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "草堂北路",
+      "ocrBox": [
+        1643.0,
+        1170.5,
+        1695.0,
+        1186.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "西南财大",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "西南财大",
+      "ocrBox": [
+        1586.5,
+        1191.0,
+        1637.5,
+        1204.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "文化宫",
+      "status": "operating",
+      "lines": [
+        "4",
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4",
+        "7"
+      ],
+      "ocrExactMatch": "文化宫",
+      "ocrBox": [
+        1509.5,
+        1174.0,
+        1553.0,
+        1193.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "清江西路",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "清江西路",
+      "ocrBox": [
+        1496.0,
+        1123.5,
+        1547.5,
+        1138.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "成都西站",
+      "status": "operating",
+      "lines": [
+        "4",
+        "9",
+        "r2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4",
+        "9"
+      ],
+      "ocrExactMatch": "成都西站",
+      "ocrBox": [
+        1296.0,
+        1071.0,
+        1351.0,
+        1086.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "中坝",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "中坝",
+      "ocrBox": [
+        1281.5,
+        1162.0,
+        1318.0,
+        1177.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "蔡桥",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "蔡桥",
+      "ocrBox": [
+        1158.0,
+        1195.5,
+        1189.0,
+        1216.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "非遗博览园",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "非遗博览园",
+      "ocrBox": [
+        979.5,
+        1164.5,
+        1041.0,
+        1179.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "马厂坝",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "马厂坝",
+      "ocrBox": [
+        989.5,
+        1115.5,
+        1030.5,
+        1131.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "凤凰大街",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "凤凰大街",
+      "ocrBox": [
+        815.5,
+        1142.5,
+        867.5,
+        1158.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "涌泉",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "涌泉",
+      "ocrBox": [
+        727.5,
+        1133.0,
+        758.5,
+        1151.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "光华公园",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "光华公园",
+      "ocrBox": [
+        674.0,
+        1070.0,
+        727.0,
+        1085.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "南熏大道",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "南熏大道",
+      "ocrBox": [
+        619.5,
+        1034.5,
+        672.5,
+        1051.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "凤溪河",
+      "status": "operating",
+      "lines": [
+        "4",
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4",
+        "19"
+      ],
+      "ocrExactMatch": "凤溪河",
+      "ocrBox": [
+        558.5,
+        1063.5,
+        619.0,
+        1085.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "杨柳河",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "杨柳河",
+      "ocrBox": [
+        491.0,
+        1114.0,
+        534.0,
+        1135.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "万盛",
+      "status": "operating",
+      "lines": [
+        "4"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "4"
+      ],
+      "ocrExactMatch": "万盛",
+      "ocrBox": [
+        402.5,
+        1155.0,
+        432.5,
+        1172.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "华桂路",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "华桂路",
+      "ocrBox": [
+        2044.0,
+        100.5,
+        2084.5,
+        117.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "柏水场",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "柏水场",
+      "ocrBox": [
+        2056.5,
+        180.5,
+        2110.0,
+        196.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "廖家湾",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "O廖家湾",
+      "ocrBox": [
+        2039.0,
+        225.5,
+        2092.0,
+        242.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "北部商贸城",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "北部商贸城",
+      "ocrBox": [
+        2028.0,
+        347.5,
+        2104.5,
+        362.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "幸福桥",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "幸福桥",
+      "ocrBox": [
+        2022.5,
+        445.5,
+        2075.5,
+        460.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "九道堰",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "九道堰",
+      "ocrBox": [
+        1976.5,
+        494.0,
+        2017.0,
+        508.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "杜家碾",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "杜家碾",
+      "ocrBox": [
+        1928.5,
+        493.0,
+        1969.0,
+        507.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "大丰",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "大丰",
+      "ocrBox": [
+        1891.0,
+        491.5,
+        1919.0,
+        506.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "石犀公园",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "石犀公园",
+      "ocrBox": [
+        1854.5,
+        561.5,
+        1915.5,
+        576.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "皇花园",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "皇花园",
+      "ocrBox": [
+        1861.5,
+        613.0,
+        1901.5,
+        627.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "陆家桥",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "陆家桥",
+      "ocrBox": [
+        1859.0,
+        683.0,
+        1899.0,
+        697.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "泉水路",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "泉水路",
+      "ocrBox": [
+        1851.0,
+        765.0,
+        1894.5,
+        782.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "洞子口",
+      "status": "operating",
+      "lines": [
+        "5",
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "27"
+      ],
+      "ocrExactMatch": "洞子口",
+      "ocrBox": [
+        1854.5,
+        803.5,
+        1898.0,
+        820.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "福宁路",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "福宁路",
+      "ocrBox": [
+        1861.0,
+        871.0,
+        1904.0,
+        888.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "五块石",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "五块石",
+      "ocrBox": [
+        1892.5,
+        916.5,
+        1933.0,
+        934.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "赛云台",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "赛云台",
+      "ocrBox": [
+        1893.0,
+        966.0,
+        1944.0,
+        987.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "北站西二路",
+      "status": "operating",
+      "lines": [
+        "5",
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "7"
+      ],
+      "ocrExactMatch": "北站西二路",
+      "ocrBox": [
+        1830.0,
+        992.0,
+        1896.0,
+        1007.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "西北桥",
+      "status": "operating",
+      "lines": [
+        "5",
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "6"
+      ],
+      "ocrExactMatch": "西北桥",
+      "ocrBox": [
+        1830.5,
+        1093.5,
+        1874.5,
+        1110.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "花牌坊",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "花牌坊",
+      "ocrBox": [
+        1779.5,
+        1096.5,
+        1821.5,
+        1114.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "抚琴",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "抚琴",
+      "ocrBox": [
+        1742.0,
+        1135.5,
+        1782.5,
+        1154.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "青羊宫",
+      "status": "operating",
+      "lines": [
+        "5",
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "13"
+      ],
+      "ocrExactMatch": "青羊宫",
+      "ocrBox": [
+        1691.5,
+        1253.5,
+        1754.0,
+        1273.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "省骨科医院",
+      "status": "operating",
+      "lines": [
+        "5",
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "17"
+      ],
+      "ocrExactMatch": "省骨科医院",
+      "ocrBox": [
+        1673.5,
+        1282.5,
+        1741.5,
+        1297.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "科园",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "科园",
+      "ocrBox": [
+        1694.5,
+        1464.0,
+        1723.5,
+        1480.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "九兴大道",
+      "status": "operating",
+      "lines": [
+        "5",
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "8"
+      ],
+      "ocrExactMatch": "九兴大道",
+      "ocrBox": [
+        1733.0,
+        1503.0,
+        1789.0,
+        1519.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "神仙树",
+      "status": "operating",
+      "lines": [
+        "5",
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "7"
+      ],
+      "ocrExactMatch": "神仙树",
+      "ocrBox": [
+        1800.0,
+        1583.5,
+        1839.0,
+        1599.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "石羊立交",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "石羊立交",
+      "ocrBox": [
+        1748.5,
+        1695.0,
+        1810.0,
+        1710.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "市一医院",
+      "status": "operating",
+      "lines": [
+        "5",
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "30"
+      ],
+      "ocrExactMatch": "市一医院",
+      "ocrBox": [
+        1744.5,
+        1759.0,
+        1799.5,
+        1774.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "交子大道",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "交子大道",
+      "ocrBox": [
+        1743.5,
+        1789.0,
+        1799.0,
+        1807.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "锦城大道",
+      "status": "operating",
+      "lines": [
+        "5",
+        "9"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "9"
+      ],
+      "ocrExactMatch": "锦城大道",
+      "ocrBox": [
+        1742.0,
+        1846.5,
+        1798.5,
+        1864.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "锦城湖",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "锦城湖",
+      "ocrBox": [
+        1782.0,
+        1911.0,
+        1823.0,
+        1926.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "大源",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "大源",
+      "ocrBox": [
+        1774.5,
+        2011.5,
+        1812.5,
+        2027.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "民乐",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "民乐",
+      "ocrBox": [
+        1774.5,
+        2076.5,
+        1811.5,
+        2093.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "骑龙",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "骑龙",
+      "ocrBox": [
+        1760.0,
+        2187.5,
+        1798.0,
+        2203.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "警官学院",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "警官学院",
+      "ocrBox": [
+        1736.5,
+        2266.0,
+        1799.5,
+        2281.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "二江寺",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "二江寺",
+      "ocrBox": [
+        1709.5,
+        2356.0,
+        1759.5,
+        2371.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "南湖立交",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "南湖立交",
+      "ocrBox": [
+        1695.5,
+        2433.5,
+        1757.5,
+        2448.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "怡心湖",
+      "status": "operating",
+      "lines": [
+        "5",
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "19"
+      ],
+      "ocrExactMatch": "怡心湖",
+      "ocrBox": [
+        1668.0,
+        2547.0,
+        1711.0,
+        2562.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙马路",
+      "status": "operating",
+      "lines": [
+        "5"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5"
+      ],
+      "ocrExactMatch": "龙马路",
+      "ocrBox": [
+        1614.5,
+        2649.5,
+        1664.0,
+        2664.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "回龙",
+      "status": "operating",
+      "lines": [
+        "5",
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "5",
+        "6"
+      ],
+      "ocrExactMatch": "回龙",
+      "ocrBox": [
+        1564.5,
+        2752.5,
+        1598.5,
+        2772.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "望丛祠",
+      "status": "operating",
+      "lines": [
+        "6",
+        "r2"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "望丛祠",
+      "ocrBox": [
+        773.0,
+        219.5,
+        813.5,
+        235.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "和平街",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "和平街",
+      "ocrBox": [
+        831.0,
+        268.0,
+        871.5,
+        284.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "郫筒",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "郫筒",
+      "ocrBox": [
+        874.0,
+        296.0,
+        901.5,
+        312.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "蜀新大道",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "蜀新大道",
+      "ocrBox": [
+        928.5,
+        331.0,
+        980.5,
+        346.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "檬梓",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "檬梓",
+      "ocrBox": [
+        990.5,
+        372.5,
+        1019.0,
+        389.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "尚锦路",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "尚锦路",
+      "ocrBox": [
+        1046.0,
+        424.0,
+        1085.0,
+        440.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "红高路",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "红高路",
+      "ocrBox": [
+        1128.0,
+        480.5,
+        1168.5,
+        496.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "天宇路",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "天宇路",
+      "ocrBox": [
+        1188.0,
+        610.0,
+        1229.0,
+        625.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "兴业北街",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "兴业北街",
+      "ocrBox": [
+        1345.0,
+        571.5,
+        1399.5,
+        589.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "梓潼宫",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "梓潼宫",
+      "ocrBox": [
+        1466.0,
+        634.0,
+        1507.0,
+        650.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "侯家桥",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "侯家桥",
+      "ocrBox": [
+        1538.0,
+        712.5,
+        1578.5,
+        728.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "兴盛",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "兴盛",
+      "ocrBox": [
+        1631.5,
+        747.5,
+        1661.0,
+        766.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "青杠",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "青杠",
+      "ocrBox": [
+        1659.5,
+        787.0,
+        1688.5,
+        803.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "西华大道",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "西华大道",
+      "ocrBox": [
+        1693.5,
+        831.0,
+        1746.0,
+        847.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金府",
+      "status": "operating",
+      "lines": [
+        "6",
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6",
+        "27"
+      ],
+      "ocrExactMatch": "金府",
+      "ocrBox": [
+        1710.5,
+        887.5,
+        1757.5,
+        907.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "星河",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "星河",
+      "ocrBox": [
+        1767.0,
+        946.5,
+        1796.5,
+        962.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "西南交大",
+      "status": "operating",
+      "lines": [
+        "6",
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6",
+        "7"
+      ],
+      "ocrExactMatch": "西南交大",
+      "ocrBox": [
+        1744.5,
+        1024.5,
+        1800.5,
+        1040.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "沙湾",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "沙湾",
+      "ocrBox": [
+        1802.0,
+        1047.5,
+        1840.5,
+        1063.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "梁家巷",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "梁家巷",
+      "ocrBox": [
+        2001.0,
+        1083.0,
+        2042.0,
+        1100.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "建设北路",
+      "status": "operating",
+      "lines": [
+        "6",
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6",
+        "17"
+      ],
+      "ocrExactMatch": "建设北路",
+      "ocrBox": [
+        2095.0,
+        1175.0,
+        2154.5,
+        1192.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "新鸿路",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "新鸿路",
+      "ocrBox": [
+        2106.5,
+        1234.0,
+        2157.0,
+        1249.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "顺江路",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "C顺江路",
+      "ocrBox": [
+        2050.0,
+        1424.0,
+        2103.5,
+        1440.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "三官堂",
+      "status": "operating",
+      "lines": [
+        "6",
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6",
+        "13"
+      ],
+      "ocrExactMatch": "三官堂",
+      "ocrBox": [
+        2078.5,
+        1454.0,
+        2123.0,
+        1471.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "东光",
+      "status": "operating",
+      "lines": [
+        "6",
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6",
+        "8"
+      ],
+      "ocrExactMatch": "东光",
+      "ocrBox": [
+        2093.5,
+        1541.0,
+        2125.5,
+        1560.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "琉璃场",
+      "status": "operating",
+      "lines": [
+        "6",
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6",
+        "7"
+      ],
+      "ocrExactMatch": "琉璃场",
+      "ocrBox": [
+        2092.5,
+        1628.0,
+        2139.0,
+        1645.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "琉三路",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "琉三路",
+      "ocrBox": [
+        2084.0,
+        1664.5,
+        2133.0,
+        1679.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金石路",
+      "status": "operating",
+      "lines": [
+        "6",
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6",
+        "30"
+      ],
+      "ocrExactMatch": "金石路",
+      "ocrBox": [
+        2034.0,
+        1745.5,
+        2079.0,
+        1763.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金融城东",
+      "status": "operating",
+      "lines": [
+        "6",
+        "9"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6",
+        "9"
+      ],
+      "ocrExactMatch": "金融城东",
+      "ocrBox": [
+        1996.0,
+        1810.0,
+        2069.5,
+        1827.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "中和",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "中和",
+      "ocrBox": [
+        2084.0,
+        1950.0,
+        2109.5,
+        1961.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "张家寺",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "张家寺",
+      "ocrBox": [
+        2085.0,
+        2013.0,
+        2135.0,
+        2030.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "陆肖",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "陆肖",
+      "ocrBox": [
+        2092.5,
+        2096.5,
+        2122.0,
+        2113.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "观东",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "观东",
+      "ocrBox": [
+        2058.5,
+        2147.5,
+        2090.5,
+        2164.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "新通大道",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "新通大道",
+      "ocrBox": [
+        2086.0,
+        2208.0,
+        2147.0,
+        2223.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "新川路",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "新川路",
+      "ocrBox": [
+        2108.5,
+        2241.0,
+        2148.5,
+        2256.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙灯山",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "·龙灯山",
+      "ocrBox": [
+        2102.0,
+        2297.5,
+        2151.5,
+        2313.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "蒲草塘",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "蒲草塘",
+      "ocrBox": [
+        2086.0,
+        2347.0,
+        2135.5,
+        2362.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "万安",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "万安",
+      "ocrBox": [
+        2090.5,
+        2396.0,
+        2129.0,
+        2412.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "麓山大道",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "麓山大道",
+      "ocrBox": [
+        2114.0,
+        2473.0,
+        2175.5,
+        2486.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "沈阳路",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "沈阳路",
+      "ocrBox": [
+        2103.0,
+        2582.5,
+        2155.0,
+        2599.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "青岛路",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "青岛路",
+      "ocrBox": [
+        2106.0,
+        2642.0,
+        2155.5,
+        2657.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "昌公堰",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "昌公堰",
+      "ocrBox": [
+        2069.5,
+        2721.5,
+        2109.5,
+        2738.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "杭州路",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "杭州路",
+      "ocrBox": [
+        2031.0,
+        2775.0,
+        2081.0,
+        2790.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "天府商务区",
+      "status": "operating",
+      "lines": [
+        "6",
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6",
+        "19"
+      ],
+      "ocrExactMatch": "天府商务区",
+      "ocrBox": [
+        2025.5,
+        2828.0,
+        2094.5,
+        2843.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "秦皇寺",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "秦皇寺",
+      "ocrBox": [
+        1851.0,
+        2889.5,
+        1891.5,
+        2905.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "松林",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "松林",
+      "ocrBox": [
+        1765.5,
+        2879.0,
+        1795.0,
+        2895.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "芦角",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "芦角",
+      "ocrBox": [
+        1731.0,
+        2816.5,
+        1760.5,
+        2835.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "钓鱼嘴",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "钓鱼嘴",
+      "ocrBox": [
+        1698.5,
+        2783.0,
+        1739.5,
+        2799.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "兰家沟",
+      "status": "operating",
+      "lines": [
+        "6"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "6"
+      ],
+      "ocrExactMatch": "兰家沟",
+      "ocrBox": [
+        1457.0,
+        2727.5,
+        1498.0,
+        2745.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "九里堤",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "九里堤",
+      "ocrBox": [
+        1823.5,
+        1023.0,
+        1862.5,
+        1039.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "花照壁",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "full reference visual review and carried-forward geometry overrides"
+    },
+    {
+      "id": "茶店子",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "茶店子",
+      "ocrBox": [
+        1644.5,
+        983.5,
+        1685.0,
+        999.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金沙博物馆",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "金沙博物馆",
+      "ocrBox": [
+        1580.0,
+        1127.0,
+        1648.5,
+        1145.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "东坡路",
+      "status": "operating",
+      "lines": [
+        "7",
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7",
+        "13"
+      ],
+      "ocrExactMatch": "东坡路",
+      "ocrBox": [
+        1502.5,
+        1256.0,
+        1546.0,
+        1273.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙爪堰",
+      "status": "operating",
+      "lines": [
+        "7",
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7",
+        "17"
+      ],
+      "ocrExactMatch": "龙爪堰",
+      "ocrBox": [
+        1555.0,
+        1285.5,
+        1598.0,
+        1302.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "武侯大道",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "武侯大道",
+      "ocrBox": [
+        1582.5,
+        1403.0,
+        1634.5,
+        1418.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "高朋大道",
+      "status": "operating",
+      "lines": [
+        "7",
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7",
+        "8"
+      ],
+      "ocrExactMatch": "高朋大道O",
+      "ocrBox": [
+        1642.0,
+        1551.0,
+        1715.0,
+        1575.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "三瓦窑",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "三瓦窑",
+      "ocrBox": [
+        1945.0,
+        1648.5,
+        1986.0,
+        1665.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "四川师大",
+      "status": "operating",
+      "lines": [
+        "7",
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7",
+        "13"
+      ],
+      "ocrExactMatch": "四川师大",
+      "ocrBox": [
+        2164.0,
+        1600.5,
+        2253.5,
+        1621.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "狮子山",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "狮子山",
+      "ocrBox": [
+        2249.0,
+        1557.0,
+        2290.0,
+        1572.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "大观",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "大观",
+      "ocrBox": [
+        2294.0,
+        1525.0,
+        2323.5,
+        1542.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "迎晖路",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "迎晖路",
+      "ocrBox": [
+        2338.5,
+        1403.5,
+        2379.0,
+        1417.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "双店路",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "双店路",
+      "ocrBox": [
+        2324.5,
+        1262.5,
+        2365.5,
+        1278.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "崔家店",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "崔家店",
+      "ocrBox": [
+        2320.0,
+        1219.5,
+        2358.5,
+        1233.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "理工大学",
+      "status": "operating",
+      "lines": [
+        "7",
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7",
+        "8"
+      ],
+      "ocrExactMatch": "理工大学",
+      "ocrBox": [
+        2311.0,
+        1164.0,
+        2383.0,
+        1182.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "二仙桥",
+      "status": "operating",
+      "lines": [
+        "7",
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7",
+        "17"
+      ],
+      "ocrExactMatch": "二仙桥",
+      "ocrBox": [
+        2263.0,
+        1102.0,
+        2307.5,
+        1120.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "八里庄",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "八里庄",
+      "ocrBox": [
+        2210.5,
+        1050.0,
+        2253.5,
+        1069.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "府青路",
+      "status": "operating",
+      "lines": [
+        "7"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "7"
+      ],
+      "ocrExactMatch": "府青路",
+      "ocrBox": [
+        2146.5,
+        1000.0,
+        2187.5,
+        1017.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "桂龙路",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "桂龙路",
+      "ocrBox": [
+        2609.0,
+        869.5,
+        2650.0,
+        885.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "桂林",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "桂林",
+      "ocrBox": [
+        2557.5,
+        869.0,
+        2586.5,
+        885.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "同乐",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "同乐",
+      "ocrBox": [
+        2526.0,
+        889.0,
+        2555.0,
+        905.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙潭寺",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "龙潭寺",
+      "ocrBox": [
+        2481.0,
+        963.0,
+        2532.0,
+        978.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙潭立交",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "龙潭立交",
+      "ocrBox": [
+        2441.0,
+        1014.0,
+        2502.5,
+        1029.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "圣灯公园",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "圣灯公园",
+      "ocrBox": [
+        2409.0,
+        1067.5,
+        2461.5,
+        1082.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "十里店",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "十里店",
+      "ocrBox": [
+        2357.5,
+        1114.0,
+        2409.5,
+        1135.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "东郊记忆",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "东郊记忆",
+      "ocrBox": [
+        2219.0,
+        1179.5,
+        2271.5,
+        1194.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "杉板桥",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "杉板桥",
+      "ocrBox": [
+        2213.5,
+        1233.5,
+        2256.5,
+        1250.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "万年路",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "万年路",
+      "ocrBox": [
+        2183.0,
+        1289.0,
+        2232.0,
+        1304.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "净居寺",
+      "status": "operating",
+      "lines": [
+        "8",
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8",
+        "13"
+      ],
+      "ocrExactMatch": "净居寺",
+      "ocrBox": [
+        2133.0,
+        1501.0,
+        2178.5,
+        1518.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "东湖公园",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "东湖公园",
+      "ocrBox": [
+        2001.5,
+        1543.5,
+        2052.5,
+        1558.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "川大望江校区",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "川大望江校区",
+      "ocrBox": [
+        1921.5,
+        1468.0,
+        1997.0,
+        1481.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "芳草街",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "芳草街",
+      "ocrBox": [
+        1800.0,
+        1498.0,
+        1836.0,
+        1514.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "永丰",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "永丰",
+      "ocrBox": [
+        1767.0,
+        1451.0,
+        1796.0,
+        1467.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "殷家林",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "殷家林",
+      "ocrBox": [
+        1708.0,
+        1622.0,
+        1750.0,
+        1637.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "庆安",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "庆安",
+      "ocrBox": [
+        1700.0,
+        1677.0,
+        1736.5,
+        1692.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "石羊",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "石羊",
+      "ocrBox": [
+        1657.5,
+        1751.0,
+        1686.5,
+        1767.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "三元",
+      "status": "operating",
+      "lines": [
+        "8",
+        "9"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8",
+        "9"
+      ],
+      "ocrExactMatch": "三元",
+      "ocrBox": [
+        1620.5,
+        1788.5,
+        1654.5,
+        1809.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "顺风",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "顺风",
+      "ocrBox": [
+        1555.0,
+        1835.5,
+        1584.0,
+        1851.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "珠江路",
+      "status": "operating",
+      "lines": [
+        "8",
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8",
+        "30"
+      ],
+      "ocrExactMatch": "珠江路",
+      "ocrBox": [
+        1501.0,
+        1884.5,
+        1545.0,
+        1901.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "川大江安校区",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "川大江安校区",
+      "ocrBox": [
+        1541.5,
+        1989.5,
+        1616.5,
+        2002.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "文星",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "文星",
+      "ocrBox": [
+        1433.5,
+        2023.0,
+        1460.5,
+        2037.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "莲花",
+      "status": "operating",
+      "lines": [
+        "8"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8"
+      ],
+      "ocrExactMatch": "莲花",
+      "ocrBox": [
+        1372.5,
+        2043.0,
+        1410.5,
+        2058.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙港",
+      "status": "operating",
+      "lines": [
+        "8",
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "8",
+        "19"
+      ],
+      "ocrExactMatch": "龙港",
+      "ocrBox": [
+        1323.5,
+        2125.5,
+        1355.0,
+        2146.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "黄田坝",
+      "status": "operating",
+      "lines": [
+        "9"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "9"
+      ],
+      "ocrExactMatch": "黄田坝",
+      "ocrBox": [
+        1290.5,
+        993.5,
+        1333.0,
+        1009.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "培风",
+      "status": "operating",
+      "lines": [
+        "9",
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "9",
+        "13"
+      ],
+      "ocrExactMatch": "培风",
+      "ocrBox": [
+        1368.0,
+        1252.0,
+        1398.5,
+        1268.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "机投桥",
+      "status": "operating",
+      "lines": [
+        "9",
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "9",
+        "17"
+      ],
+      "ocrExactMatch": "机投桥",
+      "ocrBox": [
+        1376.5,
+        1367.0,
+        1420.5,
+        1382.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "簇桥",
+      "status": "operating",
+      "lines": [
+        "9"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "9"
+      ],
+      "ocrExactMatch": "簇桥",
+      "ocrBox": [
+        1448.5,
+        1611.0,
+        1477.5,
+        1627.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "华兴",
+      "status": "operating",
+      "lines": [
+        "9",
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "9",
+        "10"
+      ],
+      "ocrExactMatch": "华兴",
+      "ocrBox": [
+        1509.5,
+        1688.0,
+        1541.0,
+        1707.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "太平寺",
+      "status": "operating",
+      "lines": [
+        "9"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "9"
+      ],
+      "ocrExactMatch": "太平寺",
+      "ocrBox": [
+        1567.0,
+        1724.0,
+        1618.5,
+        1740.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "心岛",
+      "status": "operating",
+      "lines": [
+        "9"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "9"
+      ],
+      "ocrExactMatch": "心岛",
+      "ocrBox": [
+        1926.5,
+        1844.5,
+        1955.0,
+        1860.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "武侯祠",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "武侯祠",
+      "ocrBox": [
+        1800.0,
+        1355.0,
+        1850.5,
+        1370.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "簇锦",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "簇锦",
+      "ocrBox": [
+        1553.5,
+        1593.5,
+        1581.5,
+        1610.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金花",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "金花",
+      "ocrBox": [
+        1322.0,
+        1733.0,
+        1352.0,
+        1751.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "双流机场1航站楼",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "双流机场1航站楼",
+      "ocrBox": [
+        1160.0,
+        1813.0,
+        1255.5,
+        1829.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "双流机场2航站楼",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "双流机场2航站楼",
+      "ocrBox": [
+        1139.5,
+        1864.5,
+        1237.0,
+        1879.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "应天寺",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "应天寺",
+      "ocrBox": [
+        935.0,
+        2119.0,
+        973.5,
+        2135.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "黄水",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "黄水",
+      "ocrBox": [
+        844.5,
+        2223.0,
+        887.5,
+        2240.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "花源",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "花源",
+      "ocrBox": [
+        782.5,
+        2459.5,
+        825.0,
+        2477.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "新津站",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "新津站",
+      "ocrBox": [
+        736.0,
+        2613.5,
+        791.5,
+        2637.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "花桥",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "花桥",
+      "ocrBox": [
+        642.0,
+        2762.5,
+        684.0,
+        2782.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "五津",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "五津",
+      "ocrBox": [
+        387.5,
+        2890.5,
+        417.0,
+        2907.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "儒林路",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "儒林路",
+      "ocrBox": [
+        327.5,
+        2940.5,
+        367.0,
+        2956.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "刘家碾",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "刘家碾",
+      "ocrBox": [
+        237.5,
+        2952.0,
+        278.5,
+        2968.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "新平",
+      "status": "operating",
+      "lines": [
+        "10"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "10"
+      ],
+      "ocrExactMatch": "新平",
+      "ocrBox": [
+        197.5,
+        2992.5,
+        226.0,
+        3009.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "瓦窑滩",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "瓦窑滩",
+      "ocrBox": [
+        1169.0,
+        1250.5,
+        1210.0,
+        1266.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "万家湾",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "万家湾",
+      "ocrBox": [
+        1283.0,
+        1220.0,
+        1323.5,
+        1236.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "万寿桥",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "万寿桥",
+      "ocrBox": [
+        1438.0,
+        1256.0,
+        1479.0,
+        1271.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "光华村",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "光华村",
+      "ocrBox": [
+        1610.0,
+        1247.0,
+        1650.5,
+        1263.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "杜甫草堂",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "杜甫草堂",
+      "ocrBox": [
+        1648.5,
+        1215.5,
+        1700.5,
+        1230.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "小南街",
+      "status": "operating",
+      "lines": [
+        "13",
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13",
+        "17"
+      ],
+      "ocrExactMatch": "小南街",
+      "ocrBox": [
+        1817.0,
+        1289.0,
+        1860.5,
+        1306.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "文翁石室",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "文翁石室",
+      "ocrBox": [
+        1786.5,
+        1327.5,
+        1841.0,
+        1342.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "九眼桥",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "九眼桥",
+      "ocrBox": [
+        1987.0,
+        1403.5,
+        2029.5,
+        1421.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "娇子立交",
+      "status": "operating",
+      "lines": [
+        "13",
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13",
+        "30"
+      ],
+      "ocrExactMatch": "娇子立交",
+      "ocrBox": [
+        2252.5,
+        1661.0,
+        2331.5,
+        1688.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "幸福梅林",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "幸福梅林",
+      "ocrBox": [
+        2341.5,
+        1709.5,
+        2395.0,
+        1724.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "三圣花乡",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "三圣花乡",
+      "ocrBox": [
+        2414.5,
+        1761.0,
+        2466.0,
+        1776.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙华寺",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "龙华寺",
+      "ocrBox": [
+        2581.5,
+        1853.5,
+        2621.5,
+        1870.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙安",
+      "status": "operating",
+      "lines": [
+        "13"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "13"
+      ],
+      "ocrExactMatch": "龙安",
+      "ocrBox": [
+        2660.0,
+        1899.5,
+        2690.5,
+        1915.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "九江北",
+      "status": "operating",
+      "lines": [
+        "17",
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17",
+        "19"
+      ],
+      "ocrExactMatch": "九江北",
+      "ocrBox": [
+        1010.5,
+        1438.0,
+        1053.5,
+        1453.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "白佛桥",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "白佛桥",
+      "ocrBox": [
+        1268.5,
+        1394.0,
+        1309.0,
+        1412.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "阳公桥",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "阳公桥",
+      "ocrBox": [
+        1475.0,
+        1336.5,
+        1515.5,
+        1352.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "清水河大桥",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "清水河大桥",
+      "ocrBox": [
+        1593.0,
+        1319.0,
+        1655.5,
+        1335.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "浣花里",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "浣花里",
+      "ocrBox": [
+        1669.5,
+        1325.0,
+        1710.0,
+        1341.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "西大街",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "西大街",
+      "ocrBox": [
+        1812.0,
+        1138.0,
+        1852.5,
+        1153.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "城隍庙",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "城隍庙",
+      "ocrBox": [
+        1940.5,
+        1129.0,
+        1980.5,
+        1144.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "踏水桥",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "踏水桥",
+      "ocrBox": [
+        2151.0,
+        1156.5,
+        2193.5,
+        1173.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "机车厂",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "机车厂",
+      "ocrBox": [
+        2307.0,
+        1059.0,
+        2347.0,
+        1074.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "人民塘",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "人民塘",
+      "ocrBox": [
+        2358.0,
+        1042.5,
+        2398.0,
+        1058.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "航天路",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "航天路",
+      "ocrBox": [
+        2472.5,
+        1063.0,
+        2514.5,
+        1080.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "威灵",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "威灵",
+      "ocrBox": [
+        2560.5,
+        1060.0,
+        2589.0,
+        1076.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "高洪",
+      "status": "operating",
+      "lines": [
+        "17"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "17"
+      ],
+      "ocrExactMatch": "高洪",
+      "ocrBox": [
+        2654.0,
+        1054.0,
+        2684.5,
+        1072.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "锦城广场东",
+      "status": "operating",
+      "lines": [
+        "18"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "18"
+      ],
+      "ocrExactMatch": "锦城广场东",
+      "ocrBox": [
+        1911.0,
+        1886.5,
+        1984.0,
+        1900.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "兴隆",
+      "status": "operating",
+      "lines": [
+        "18"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "18"
+      ],
+      "ocrExactMatch": "兴隆",
+      "ocrBox": [
+        2093.5,
+        2990.0,
+        2122.5,
+        3006.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "天府站",
+      "status": "operating",
+      "lines": [
+        "18",
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "18",
+        "19"
+      ],
+      "ocrExactMatch": "天府站",
+      "ocrBox": [
+        2383.5,
+        3124.5,
+        2427.0,
+        3142.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "三岔",
+      "status": "operating",
+      "lines": [
+        "18",
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "18",
+        "19"
+      ],
+      "ocrExactMatch": "三岔",
+      "ocrBox": [
+        3407.5,
+        3655.0,
+        3436.5,
+        3671.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "天府机场1号2号航站楼",
+      "status": "operating",
+      "lines": [
+        "18",
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "18",
+        "19"
+      ],
+      "ocrExactMatch": "天府机场1号2号航站楼",
+      "ocrBox": [
+        4158.5,
+        3657.0,
+        4293.0,
+        3673.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "天府机场北",
+      "status": "operating",
+      "lines": [
+        "18",
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "18",
+        "19"
+      ],
+      "ocrExactMatch": "天府机场北",
+      "ocrBox": [
+        4226.0,
+        3503.0,
+        4292.0,
+        3516.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "蓝家店",
+      "status": "operating",
+      "lines": [
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19"
+      ],
+      "ocrExactMatch": "蓝家店",
+      "ocrBox": [
+        2160.5,
+        2917.0,
+        2201.0,
+        2932.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "红莲",
+      "status": "operating",
+      "lines": [
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19"
+      ],
+      "ocrExactMatch": "红莲",
+      "ocrBox": [
+        1856.5,
+        2832.0,
+        1885.5,
+        2846.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "正兴湾",
+      "status": "operating",
+      "lines": [
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19"
+      ],
+      "ocrExactMatch": "正兴湾",
+      "ocrBox": [
+        1750.5,
+        2678.5,
+        1793.0,
+        2698.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "牧华路",
+      "status": "operating",
+      "lines": [
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19"
+      ],
+      "ocrExactMatch": "牧华路",
+      "ocrBox": [
+        1570.5,
+        2456.0,
+        1613.0,
+        2473.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "温家山",
+      "status": "operating",
+      "lines": [
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19"
+      ],
+      "ocrExactMatch": "温家山",
+      "ocrBox": [
+        1561.0,
+        2383.5,
+        1602.0,
+        2397.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "双流机场2航站楼东",
+      "status": "operating",
+      "lines": [
+        "19",
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19",
+        "30"
+      ],
+      "ocrExactMatch": "双流机场2航站楼东",
+      "ocrBox": [
+        1245.5,
+        1883.5,
+        1372.0,
+        1897.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "明光",
+      "status": "operating",
+      "lines": [
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19"
+      ],
+      "ocrExactMatch": "明光",
+      "ocrBox": [
+        717.0,
+        1251.0,
+        745.5,
+        1267.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "温泉大道",
+      "status": "operating",
+      "lines": [
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19"
+      ],
+      "ocrExactMatch": "温泉大道",
+      "ocrBox": [
+        642.5,
+        1159.0,
+        695.5,
+        1174.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "市五医院",
+      "status": "operating",
+      "lines": [
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19"
+      ],
+      "ocrExactMatch": "市五医院",
+      "ocrBox": [
+        483.0,
+        972.5,
+        536.0,
+        988.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "黄石",
+      "status": "operating",
+      "lines": [
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19"
+      ],
+      "ocrExactMatch": "黄石",
+      "ocrBox": [
+        393.0,
+        810.5,
+        422.5,
+        827.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金星",
+      "status": "operating",
+      "lines": [
+        "19"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "19"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "full reference visual review and carried-forward geometry overrides"
+    },
+    {
+      "id": "蜀鑫路",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "蜀鑫路",
+      "ocrBox": [
+        1417.5,
+        1050.5,
+        1458.0,
+        1066.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金沙滨河公园",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "金沙滨河公园",
+      "ocrBox": [
+        1472.5,
+        1085.0,
+        1545.5,
+        1100.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "黄忠",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "黄忠",
+      "ocrBox": [
+        1552.5,
+        1059.5,
+        1582.0,
+        1076.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金牛公园",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "金牛公园",
+      "ocrBox": [
+        1635.5,
+        954.0,
+        1687.5,
+        969.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "花照壁北",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "花照壁北",
+      "ocrBox": [
+        1680.0,
+        924.5,
+        1734.5,
+        943.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "新桥",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "新桥",
+      "ocrBox": [
+        1765.5,
+        863.5,
+        1795.5,
+        880.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "沙河源",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "沙河源",
+      "ocrBox": [
+        1800.0,
+        827.0,
+        1837.0,
+        844.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "王贾桥",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "王贾桥",
+      "ocrBox": [
+        1912.5,
+        840.0,
+        1953.0,
+        855.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "双水碾",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "双水碾",
+      "ocrBox": [
+        1955.0,
+        868.0,
+        1997.0,
+        885.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "赖家店",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "赖家店",
+      "ocrBox": [
+        2034.0,
+        745.5,
+        2075.0,
+        761.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "鲤鱼湾",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "鲤鱼湾",
+      "ocrBox": [
+        2090.0,
+        613.5,
+        2139.5,
+        629.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "范家巷",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "范家巷",
+      "ocrBox": [
+        2119.0,
+        557.5,
+        2159.5,
+        573.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "三圣寺",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "三圣寺",
+      "ocrBox": [
+        2112.5,
+        489.0,
+        2156.5,
+        506.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "石门坎",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "○石门坎",
+      "ocrBox": [
+        2103.5,
+        449.0,
+        2157.0,
+        466.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "旃檀寺",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "full reference visual review and carried-forward geometry overrides"
+    },
+    {
+      "id": "兴城大道",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "兴城大道",
+      "ocrBox": [
+        2165.5,
+        215.5,
+        2219.0,
+        231.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "慈义",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "慈义",
+      "ocrBox": [
+        2191.5,
+        168.0,
+        2218.0,
+        182.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "石佛",
+      "status": "operating",
+      "lines": [
+        "27"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "27"
+      ],
+      "ocrExactMatch": "石佛",
+      "ocrBox": [
+        2127.5,
+        107.5,
+        2159.5,
+        127.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "寺圣",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "寺圣",
+      "ocrBox": [
+        1302.0,
+        1956.0,
+        1329.5,
+        1972.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "星月",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "星月",
+      "ocrBox": [
+        1357.5,
+        1950.0,
+        1383.5,
+        1961.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "光明",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "光明",
+      "ocrBox": [
+        1409.5,
+        1950.0,
+        1437.0,
+        1960.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "谢家渡",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "谢家渡",
+      "ocrBox": [
+        1482.0,
+        1927.5,
+        1521.5,
+        1943.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "大同",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "大同",
+      "ocrBox": [
+        1597.0,
+        1853.5,
+        1638.0,
+        1875.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "石羊东",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "石羊东",
+      "ocrBox": [
+        1699.0,
+        1785.5,
+        1740.0,
+        1801.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "新园大道",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "新园大道",
+      "ocrBox": [
+        1714.5,
+        1730.0,
+        1765.0,
+        1745.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "益州大道",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "益州大道",
+      "ocrBox": [
+        1828.0,
+        1755.5,
+        1881.0,
+        1772.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "金融城北",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "金融城北",
+      "ocrBox": [
+        1911.5,
+        1720.0,
+        1964.0,
+        1735.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "府城桥",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "府城桥",
+      "ocrBox": [
+        1936.5,
+        1756.5,
+        1976.0,
+        1770.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "棬子树",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "full reference visual review and carried-forward geometry overrides"
+    },
+    {
+      "id": "锦逸",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "锦逸",
+      "ocrBox": [
+        2168.5,
+        1707.5,
+        2197.0,
+        1724.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "海桐街",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "海桐街",
+      "ocrBox": [
+        2324.5,
+        1630.0,
+        2366.0,
+        1645.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "航天立交",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "航天立交",
+      "ocrBox": [
+        2352.0,
+        1589.0,
+        2405.0,
+        1604.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "玉石",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "玉石",
+      "ocrBox": [
+        2488.5,
+        1588.0,
+        2517.0,
+        1606.0
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "龙泉驿火车站南",
+      "status": "operating",
+      "lines": [
+        "30"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "30"
+      ],
+      "ocrExactMatch": "龙泉驿火车站南",
+      "ocrBox": [
+        2608.5,
+        1735.5,
+        2695.5,
+        1748.5
+      ],
+      "reviewEvidence": "exact normalized Chinese OCR label; November changed-tile refresh plus reviewed unchanged tiles"
+    },
+    {
+      "id": "联工",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "联工",
+      "ocrBox": [
+        1372.0,
+        1013.5,
+        1390.5,
+        1023.5
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "土龙路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "土龙路",
+      "ocrBox": [
+        1316.0,
+        876.5,
+        1340.0,
+        888.0
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "新业路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "新业路",
+      "ocrBox": [
+        1245.5,
+        804.5,
+        1267.0,
+        814.5
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "锦城学院",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "电子科大",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "电子科大",
+      "ocrBox": [
+        1075.0,
+        671.5,
+        1107.5,
+        684.5
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "合信路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "合信路",
+      "ocrBox": [
+        1034.5,
+        634.0,
+        1056.0,
+        644.0
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "合作路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "天欣路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "天欣路",
+      "ocrBox": [
+        1029.5,
+        571.0,
+        1054.0,
+        582.5
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "安埠",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "天映路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "天源路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "德富大道",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "红旗大道",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "红旗大道",
+      "ocrBox": [
+        607.0,
+        469.5,
+        637.5,
+        479.0
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "红展东路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "大禹东路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "花石",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "花石",
+      "ocrBox": [
+        679.5,
+        362.0,
+        701.5,
+        372.5
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "晨光",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "何公路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "何公路",
+      "ocrBox": [
+        770.0,
+        270.5,
+        794.0,
+        280.5
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "梨园路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "郫县西站",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "百叶路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "百叶路",
+      "ocrBox": [
+        1274.5,
+        754.0,
+        1307.0,
+        770.0
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "晨风",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "龙吟",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "交大犀浦校区",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "犀方路",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "国宁",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "国宁",
+      "ocrBox": [
+        1314.0,
+        527.5,
+        1331.0,
+        537.5
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "大田",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "大田",
+      "ocrBox": [
+        1285.5,
+        458.5,
+        1310.5,
+        472.5
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "西华大学",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "双林村",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "金土",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": "金土",
+      "ocrBox": [
+        1232.0,
+        364.0,
+        1253.5,
+        374.5
+      ],
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "技师学院",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "仁和",
+      "status": "operating",
+      "lines": [
+        "r2"
+      ],
+      "hidden": true,
+      "displayedLines": [],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "retained 2026.08 r2-research.json; hidden in 2026.11"
+    },
+    {
+      "id": "芦葭",
+      "status": "planned",
+      "lines": [
+        "s3"
+      ],
+      "hidden": false,
+      "displayedLines": [
+        "s3"
+      ],
+      "ocrExactMatch": null,
+      "ocrBox": null,
+      "reviewEvidence": "2026.11 full-source main/inset visual review and s3-geometry-review.json"
+    }
+  ]
+}

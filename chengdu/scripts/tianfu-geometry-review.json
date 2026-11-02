@@ -1,0 +1,101 @@
+{
+  "referenceMonth": "2026-11",
+  "reviewedOn": "2026-11-02",
+  "source": {
+    "file": "01.公开版-成都地铁线路3.0-a运营版（至2026年11月）纯色底.jpg",
+    "dimensions": [6300, 4500],
+    "mainCrop": [1250, 400, 6050, 4430],
+    "coordinateConvention": "Original coordinates refer to the 6300x4500 source. Cropped coordinates subtract [1250,400]; no geographic coordinate inference.",
+    "reviewCrop": [3630, 3490, 3795, 3650],
+    "method": "PIL source crops inspected at 5x and 7x; neutral-dark OpenCV contour measurements on native pixels for the interchange capsule; local line-color connected components for the terminal marker. JPEG threshold sensitivity is recorded instead of treating inner holes as outer symbols."
+  },
+  "tianfuStation": {
+    "id": "天府站",
+    "sourceLabel": "天府站 / Tianfu Station / （仅换乘）",
+    "interpretation": "The black capsule is the operating 18/19 metro interchange. It is not a future national-rail icon, not a second station and not a railway-transfer badge.",
+    "centerOriginal": [3656.2, 3516.6],
+    "centerCropped": [2406.2, 3116.6],
+    "outerSize": [16.1, 11.628],
+    "angleDegrees": 116.565,
+    "lines": ["18", "19"],
+    "transfer": true,
+    "outerMeasurement": {
+      "neutralDarkThreshold": "max(R,G,B)<170 and max-min<60",
+      "outerContourArea": 145,
+      "outerAxisAlignedBoundsOriginal": [3650, 3509, 3664, 3525],
+      "boundsConvention": "[left,top,rightExclusive,bottomExclusive]",
+      "minAreaRect": { "centerOriginal": [3656.2, 3516.6], "width": 16.1, "height": 11.628, "opencvAngle": -63.435 },
+      "threshold120And145": { "centerOriginal": [3656, 3516.5], "axisAlignedSize": [13, 16], "area": 140 },
+      "threshold190": { "centerOriginal": [3655.7, 3516.4], "area": 146.5 },
+      "uncertainty": "Center stable within about 0.5 source pixel across thresholds. Outer dimensions vary with antialiasing and JPEG ringing."
+    },
+    "oldOverrideComparison": {
+      "file": "airport-symbol-review.json",
+      "oldCenterCropped": [2407, 3126],
+      "oldMinusReviewed": [0.8, 9.4],
+      "rootCause": "The old Y is about 9.4 source pixels too far down. A route forced through it leaves the actual parallel tracks and can be attracted to the lower turnout or depot branch."
+    }
+  },
+  "line19TerminalTail": {
+    "shouldDraw": true,
+    "kind": "source schematic line-end tail and line-number marker",
+    "createPassengerStation": false,
+    "addStationToRoster": false,
+    "includeInPassengerStationSequence": false,
+    "terminalMarker": {
+      "centerOriginal": [3724.875, 3619.5],
+      "centerCropped": [2474.875, 3219.5],
+      "recommendedOuterDiameter": 11,
+      "appearance": "Light-purple 19-line core with neutral-gray outer rim; adjacent 19 / 4A / 62.7 badge. No independent station name is printed beside this circle.",
+      "colorCoreMeasurement": {
+        "targetRGB": [153, 165, 218],
+        "distanceThreshold": 40,
+        "centerOriginal": [3724.875, 3619.5],
+        "boundsOriginal": [3722, 3617, 3729, 3623],
+        "areaPixels": 32
+      },
+      "grayRimMeasurement": {
+        "threshold": "neutral max<190; nearby line-color core excluded",
+        "centerOriginal": [3725, 3619.5],
+        "boundsOriginal": [3721, 3615, 3730, 3625],
+        "area": 58
+      }
+    },
+    "visibleTailCenterlineOriginal": [[3705,3545],[3712.5,3550],[3717.5,3555],[3721,3560],[3724.5,3565],[3727.5,3570],[3729.5,3575],[3731,3580],[3732,3585],[3732,3590],[3732,3595],[3731,3600],[3730,3605],[3728.5,3610],[3727,3614],[3724.875,3619.5]],
+    "visibleTailCenterlineCropped": [[2455,3145],[2462.5,3150],[2467.5,3155],[2471,3160],[2474.5,3165],[2477.5,3170],[2479.5,3175],[2481,3180],[2482,3185],[2482,3190],[2482,3195],[2481,3200],[2480,3205],[2478.5,3210],[2477,3214],[2474.875,3219.5]],
+    "visibleStrokeWidth": "About 7-10 source pixels on the purple arc, varying with its diagonal section; use the ordinary 19 line width for a normalized single-stroke rendition.",
+    "attachment": {
+      "stationCenterOriginal": [3656.2, 3516.6],
+      "stationCenterCropped": [2406.2, 3116.6],
+      "occludedOrBlendedRegionOriginal": [3663, 3519, 3708, 3548],
+      "note": "The outgoing purple tail emerges below the common diagonal bundle and is partly covered/blended by the dark-teal 18 stroke. The first reliable pure-purple center samples start at [3705,3545]. A connection from the station to this tail is a source-layout interpolation through that occlusion, not a newly measured extra station. Do not reroute the airport through-service along this downward arc."
+    },
+    "whyMarkerAndStationAreSeparate": "The source legend names the 19 main route as 金星—天府站—合江, with 合江 gray. The lower circle has only a 19 badge and no independent passenger-station name. It therefore represents the source's line-end/turnback-direction graphic beyond the shared interchange, not a second 天府站. Its visual separation is source layout, not a geographic station separation inferred from coordinates. Official information confirms that 19 joins 18 at Tianfu and continues to the airport; it does not make 合江 an open passenger station.",
+    "interpretationLimit": "The source alone does not establish whether the lower circle denotes the engineering end, a turnback limit or a schematic terminus offset. Keep its visible geometry, but do not assign a new station identity or claim an exact engineering boundary."
+  },
+  "airportCommonSection": {
+    "shouldPreserve": true,
+    "stationSequence": ["天府站", "三岔", "福田", "天府机场1号2号航站楼", "天府机场北"],
+    "sourceAppearance": "A light-purple 19 band stays on the upper/northeastern side of the dark-teal 18 band and continues diagonally southeast beyond the Tianfu capsule. Gold/light inner decorations belong to the reference's track style and are not extra route branches.",
+    "drawingRecommendation": "Keep both existing parallel 18 and 19 through-service bands on the source main bundle, anchored at the corrected Tianfu capsule. Add the downward purple tail as another non-roster path for 19. Do not replace the airport common section with the tail or connect it to a depot."
+  },
+  "line18DepotBranch": {
+    "passengerRoute": false,
+    "appearance": "Thin dark-teal line leaves the main bundle farther southeast than the purple tail and continues to a stylized depot fan below the crop.",
+    "differenceFromLine19Tail": "The depot lead is much thinner and dark teal; the 19 terminal tail is broad light purple and ends at the 19 badge circle. Color and endpoint are distinct in the native image.",
+    "drawingRecommendation": "Exclude this depot lead from station-to-station passenger tracing. If depot artwork is retained at all, keep it as noninteractive background geometry."
+  },
+  "officialCrossCheck": [
+    {
+      "url": "https://sichuan.scol.com.cn/ggxw/202311/82417745.html",
+      "publisher": "成都地铁官方供稿／四川在线，2023-11-27",
+      "supports": "19二期经天府站接入18号线并共线运营至天府机场北，合江为预留站；不支持把图面末端圆点当作已开放的合江客运站。"
+    },
+    {
+      "url": "https://www.cdrb.com.cn/epaper/cdrbpc/202311/29/25cd3488-b1b4-4533-9e5f-084f8bc8d44d.pdf",
+      "publisher": "成都日报，2023-11-29",
+      "supports": "运营方说明天府站仅能站内换乘18、19号线，出入口暂未开启；与原图（仅换乘）标注一致。"
+    }
+  ],
+  "scope": "Independent source review only. No existing data, roster, route, symbol override or extraction script was changed."
+}

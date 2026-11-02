@@ -1,0 +1,9 @@
+{
+  "高升桥": {
+    "parts": [
+      {"x":1755,"y":1380.5,"width":11,"height":11,"angle":0,"lines":["10"],"transfer":true},
+      {"x":1755,"y":1402,"width":16,"height":11,"angle":-25,"lines":["3","5"],"transfer":true}
+    ],
+    "connections":[{"x1":1755,"y1":1385,"x2":1755,"y2":1397,"kind":"passage"}]
+  }
+}

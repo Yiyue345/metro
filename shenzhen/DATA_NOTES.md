@@ -77,7 +77,7 @@ Windows OCR 命令需对生成的各裁片运行；输出按 `<裁片文件名>.
 
 `public/lines/*.svg` 由 `scripts/generate-line-badges.mjs` 按用户提供的双语线路牌样式重绘，颜色沿用线路数据；这是界面重绘资产，并非下载的官方原文件。选择面板与站点卡片共用这些 SVG。
 
-运营商图标直接取自官网公开资源：深圳地铁 `https://www.szmc.net/szmc_m/home/a/C1585280003525S.png`；港铁（深圳）`https://www.mtrsz.com.cn/frontend/default/img/logo.png`。保留品牌原貌和文字，只在界面缩放显示；标志权利归对应公司，不表示本项目获得官方背书。
+运营商图标取自官网公开资源：深圳地铁 `https://www.szmc.net/szmc_m/home/a/C1585280003525S.png`；港铁（深圳）`https://www.mtrsz.com.cn/frontend/default/img/logo.png`。2026-10-18 从已有原图裁取纯图形，去掉中英文名称，保留原始颜色与透明背景，只在界面等比缩放显示；公司全名保留在悬停提示与无障碍名称中。深圳地铁原图 901 × 230，SHA-256 为 `e0183be4f74aa2d63b34c2089c722d19849833842955c9682ed4a26b9c17c6a2`，裁剪范围 `[0, 0, 210, 230]`；港铁原图 438 × 81，SHA-256 为 `b09d723479235cdb18709e38c8997994128282b7b2afd8a7f7422b5aa0a9f7b1`，裁剪范围 `[0, 0, 96, 81]`（右、下端不包含）。标志权利归对应公司，不表示本项目获得官方背书。
 
 线路对应关系见 `src/data/operators.ts`。深铁运营的管辖线路依据[深铁运营官网简介](https://www.szmc.net/szmc_m/jituangaikuang/jituanjianjie/zhuyaofenzigongsijianjie/szdtyyjtyxgs/)，4号线与13号线依据[港铁4号线介绍](https://www.mtrsz.com.cn/frontend/default/src/channel/line_introduce_4Line.html)及[13号线介绍](https://www.mtrsz.com.cn/frontend/default/src/channel/line_introduce_13Line.html)。13号线北延段按官网说明列港铁项目公司和深铁联合运营。卡片按乘客可识别的运营品牌去重，鼠标悬停图标可看公司说明；未开通站不显示正在运营的公司标志。
 
@@ -96,3 +96,11 @@ python scripts/extract-station-english.py
 脚本只从经检查的字典生成正式数据；重新提取 OCR 不会自动替换人工校正结果。双语文字在现有中文标签下方以英文副行显示，长英文按单词折行；布局需使用浏览器测得的完整双语文字框检查碰撞，不能只依据字符数量估算。
 
 红山站原始提取胶囊仅为 14.1 × 8.7，视觉小于邻近换乘站；现等比放大至 19.0 × 11.7，保持中心和角度不变。提取脚本同步保留该尺寸修正。线路文字名为传统/常用名称，不替代当前数字编号。
+
+## 换乘站比例复核（2026-10-20）
+
+对照原图逐项检查深圳66站的68个换乘站符号，保留正常采样差异。世界之窗恢复斜向短胶囊、华强南恢复横向短胶囊；上屋保留双圆结构，仅按原图修正两个圆的直径。根因分别为近圆判断抹平长短轴、双圆覆盖值偏大；`scripts/extract-station-symbols.py` 已同步具体站点覆盖参数，不调整其他站点的统一阈值和外扩规则。
+
+继续按原图复核组合结构，机场东、双龙、上屋、凤凰城、公明广场使用双圆，布吉、大运使用三圆；深圳北使用4/6号线地上斜胶囊加5号线地下圆点。源图圆心、长短轴、角度及连续渐变向量维护于 `scripts/transfer-topology-overrides.json`，生成脚本最后应用该复核值，逻辑站点不拆分。
+
+`StationSymbolGeometry.joined` 表示重叠圆点或胶囊的并集，`parts[].lines` 保留各站位的线路归属，`gradient` 以原图坐标指定整站渐变方向和色序。共用渲染器保留圆弧凹腰与胶囊直边，白边与填色沿并集边界向内绘制，避免分别缩小每个圆后产生中间断缝。组合符号的黑边占原图坐标1px、白边0.8px，减少小圆内芯被粗边挤压的视觉差异。搜索、到访统计和详情仍按逻辑站ID处理。运行 `node scripts/validate-transfer-topology.mjs` 校验深圳、杭州和昆明的组合数据、连续边界及重建覆盖值。

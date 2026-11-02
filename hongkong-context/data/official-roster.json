@@ -1,0 +1,509 @@
+{
+  "edition": "2026.08",
+  "scope": "Shenzhen view context only; East Rail Line and Tuen Ma Line; no Hong Kong selector entry.",
+  "sources": {
+    "roster": "https://opendata.mtr.com.hk/data/mtr_lines_and_stations.csv",
+    "systemMap": "https://www.mtr.com.hk/en/customer/services/system_map.html"
+  },
+  "sourceCSVSnapshot": "mtr-lines-and-stations-source.csv",
+  "sourceCSVSnapshotSHA256": "e0e781152e2e6c5f6d7763262acbae76577b71ca4c66b4b7b72a97252175e0c3",
+  "uniqueStationCount": 41,
+  "lineStationMembershipCount": 43,
+  "lines": [
+    {
+      "id": "EAL",
+      "name": "東鐵綫",
+      "englishName": "East Rail Line",
+      "stations": [
+        "ADM",
+        "EXC",
+        "HUH",
+        "MKK",
+        "KOT",
+        "TAW",
+        "SHT",
+        "FOT",
+        "UNI",
+        "TAP",
+        "TWO",
+        "FAN",
+        "SHS",
+        "LOW",
+        "LMC",
+        "RAC"
+      ],
+      "paths": [
+        [
+          "ADM",
+          "EXC",
+          "HUH",
+          "MKK",
+          "KOT",
+          "TAW",
+          "SHT",
+          "FOT",
+          "UNI",
+          "TAP",
+          "TWO",
+          "FAN",
+          "SHS",
+          "LOW"
+        ],
+        [
+          "SHS",
+          "LMC"
+        ],
+        [
+          "SHT",
+          "RAC",
+          "UNI"
+        ]
+      ]
+    },
+    {
+      "id": "TML",
+      "name": "屯馬綫",
+      "englishName": "Tuen Ma Line",
+      "stations": [
+        "TUM",
+        "SIH",
+        "TIS",
+        "LOP",
+        "YUL",
+        "KSR",
+        "TWW",
+        "MEF",
+        "NAC",
+        "AUS",
+        "ETS",
+        "HUH",
+        "HOM",
+        "TKW",
+        "SUW",
+        "KAT",
+        "DIH",
+        "HIK",
+        "TAW",
+        "CKT",
+        "STW",
+        "CIO",
+        "SHM",
+        "TSH",
+        "HEO",
+        "MOS",
+        "WKS"
+      ],
+      "paths": [
+        [
+          "TUM",
+          "SIH",
+          "TIS",
+          "LOP",
+          "YUL",
+          "KSR",
+          "TWW",
+          "MEF",
+          "NAC",
+          "AUS",
+          "ETS",
+          "HUH",
+          "HOM",
+          "TKW",
+          "SUW",
+          "KAT",
+          "DIH",
+          "HIK",
+          "TAW",
+          "CKT",
+          "STW",
+          "CIO",
+          "SHM",
+          "TSH",
+          "HEO",
+          "MOS",
+          "WKS"
+        ]
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "ADM",
+      "name": "金鐘",
+      "englishName": "Admiralty",
+      "mtrStationId": "2",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "EXC",
+      "name": "會展",
+      "englishName": "Exhibition Centre",
+      "mtrStationId": "94",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "HUH",
+      "name": "紅磡",
+      "englishName": "Hung Hom",
+      "mtrStationId": "64",
+      "lines": [
+        "EAL",
+        "TML"
+      ]
+    },
+    {
+      "id": "MKK",
+      "name": "旺角東",
+      "englishName": "Mong Kok East",
+      "mtrStationId": "65",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "KOT",
+      "name": "九龍塘",
+      "englishName": "Kowloon Tong",
+      "mtrStationId": "8",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "TAW",
+      "name": "大圍",
+      "englishName": "Tai Wai",
+      "mtrStationId": "67",
+      "lines": [
+        "EAL",
+        "TML"
+      ]
+    },
+    {
+      "id": "SHT",
+      "name": "沙田",
+      "englishName": "Sha Tin",
+      "mtrStationId": "68",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "FOT",
+      "name": "火炭",
+      "englishName": "Fo Tan",
+      "mtrStationId": "69",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "UNI",
+      "name": "大學",
+      "englishName": "University",
+      "mtrStationId": "71",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "TAP",
+      "name": "大埔墟",
+      "englishName": "Tai Po Market",
+      "mtrStationId": "72",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "TWO",
+      "name": "太和",
+      "englishName": "Tai Wo",
+      "mtrStationId": "73",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "FAN",
+      "name": "粉嶺",
+      "englishName": "Fanling",
+      "mtrStationId": "74",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "SHS",
+      "name": "上水",
+      "englishName": "Sheung Shui",
+      "mtrStationId": "75",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "LOW",
+      "name": "羅湖",
+      "englishName": "Lo Wu",
+      "mtrStationId": "76",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "LMC",
+      "name": "落馬洲",
+      "englishName": "Lok Ma Chau",
+      "mtrStationId": "78",
+      "lines": [
+        "EAL"
+      ]
+    },
+    {
+      "id": "RAC",
+      "name": "馬場",
+      "englishName": "Racecourse",
+      "lines": [
+        "EAL"
+      ],
+      "serviceNote": "Racecourse branch; trains operate on race days and specified event days, not the regular Fo Tan service.",
+      "nameSource": "https://www.mtr.com.hk/en/customer/services/system_map.html",
+      "stationCodeSource": "https://www.mtr.com.hk/archive/ch/services/maps/rac.pdf"
+    },
+    {
+      "id": "TUM",
+      "name": "屯門",
+      "englishName": "Tuen Mun",
+      "mtrStationId": "120",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "SIH",
+      "name": "兆康",
+      "englishName": "Siu Hong",
+      "mtrStationId": "119",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "TIS",
+      "name": "天水圍",
+      "englishName": "Tin Shui Wai",
+      "mtrStationId": "118",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "LOP",
+      "name": "朗屏",
+      "englishName": "Long Ping",
+      "mtrStationId": "117",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "YUL",
+      "name": "元朗",
+      "englishName": "Yuen Long",
+      "mtrStationId": "116",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "KSR",
+      "name": "錦上路",
+      "englishName": "Kam Sheung Road",
+      "mtrStationId": "115",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "TWW",
+      "name": "荃灣西",
+      "englishName": "Tsuen Wan West",
+      "mtrStationId": "114",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "MEF",
+      "name": "美孚",
+      "englishName": "Mei Foo",
+      "mtrStationId": "20",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "NAC",
+      "name": "南昌",
+      "englishName": "Nam Cheong",
+      "mtrStationId": "53",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "AUS",
+      "name": "柯士甸",
+      "englishName": "Austin",
+      "mtrStationId": "111",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "ETS",
+      "name": "尖東",
+      "englishName": "East Tsim Sha Tsui",
+      "mtrStationId": "80",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "HOM",
+      "name": "何文田",
+      "englishName": "Ho Man Tin",
+      "mtrStationId": "84",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "TKW",
+      "name": "土瓜灣",
+      "englishName": "To Kwa Wan",
+      "mtrStationId": "93",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "SUW",
+      "name": "宋皇臺",
+      "englishName": "Sung Wong Toi",
+      "mtrStationId": "92",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "KAT",
+      "name": "啟德",
+      "englishName": "Kai Tak",
+      "mtrStationId": "91",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "DIH",
+      "name": "鑽石山",
+      "englishName": "Diamond Hill",
+      "mtrStationId": "11",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "HIK",
+      "name": "顯徑",
+      "englishName": "Hin Keng",
+      "mtrStationId": "90",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "CKT",
+      "name": "車公廟",
+      "englishName": "Che Kung Temple",
+      "mtrStationId": "96",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "STW",
+      "name": "沙田圍",
+      "englishName": "Sha Tin Wai",
+      "mtrStationId": "97",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "CIO",
+      "name": "第一城",
+      "englishName": "City One",
+      "mtrStationId": "98",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "SHM",
+      "name": "石門",
+      "englishName": "Shek Mun",
+      "mtrStationId": "99",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "TSH",
+      "name": "大水坑",
+      "englishName": "Tai Shui Hang",
+      "mtrStationId": "100",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "HEO",
+      "name": "恆安",
+      "englishName": "Heng On",
+      "mtrStationId": "101",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "MOS",
+      "name": "馬鞍山",
+      "englishName": "Ma On Shan",
+      "mtrStationId": "102",
+      "lines": [
+        "TML"
+      ]
+    },
+    {
+      "id": "WKS",
+      "name": "烏溪沙",
+      "englishName": "Wu Kai Sha",
+      "mtrStationId": "103",
+      "lines": [
+        "TML"
+      ]
+    }
+  ],
+  "notes": [
+    "EAL physical paths encode the Sheung Shui–Lok Ma Chau fork and Sha Tin–Racecourse–University parallel branch; the regular route goes through Fo Tan.",
+    "HUH and TAW are one station each with two line memberships. Lo Wu in Hong Kong remains code LOW; do not merge it with Shenzhen Luohu.",
+    "Hong Kong traditional Chinese names and MTR official English are preserved. No planned Kwu Tung, Hung Shui Kiu or Tuen Mun South extension stations are included."
+  ]
+}

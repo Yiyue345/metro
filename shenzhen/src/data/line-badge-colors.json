@@ -1,0 +1,268 @@
+{
+  "shenzhen": {
+    "1": {
+      "color": "#2daf59",
+      "sha256": "3aa9f5938784a993bfb373450d1ee2daaab506035377ee303f605193ab6e52a2"
+    },
+    "2": {
+      "color": "#bc5f33",
+      "sha256": "c437c198c87219dd124218d0dc8ca1098261299b6cc08b35b09df92f463b6079"
+    },
+    "3": {
+      "color": "#0da8e0",
+      "sha256": "9be9946bb3cd75aaa588271cea208c3d43297cfad95d9b5800696ddba32d64f9"
+    },
+    "4": {
+      "color": "#d43b2d",
+      "sha256": "b5c800999d6cd58e123b30f1f01f98ba080c08884d67ac2a0e431dacbc8c12e8"
+    },
+    "5": {
+      "color": "#a05eb5",
+      "sha256": "57268c67ec49abc08d9ba9d08e376a8092ce40597efe83b29982109f5dbf605f"
+    },
+    "6": {
+      "color": "#2cb9b3",
+      "sha256": "02987146d8a61fb4baa2df848e4478f79d5abc3b54709c4e63f4b565e94fcc2a"
+    },
+    "7": {
+      "color": "#29499c",
+      "sha256": "95de92d07160dab4393670e69abaa18092b6b2e3521d67457d696d7aee3d7251"
+    },
+    "8": {
+      "color": "#bc5f33",
+      "sha256": "57b67e4986e310f28cd3aa7467e42f7d6462bebfb62fb4af9f655abde71c91c4"
+    },
+    "9": {
+      "color": "#8b7275",
+      "sha256": "c25e299a95608a2856eaa93950e2214bb9382853706d4269e140078307bdc8a7"
+    },
+    "10": {
+      "color": "#eb7993",
+      "sha256": "3700c8c5eb8b7cfc3f856e99bde20d6090378b93653c24108f207f28b8fe422f"
+    },
+    "11": {
+      "color": "#712c49",
+      "sha256": "70addf833f27fad2d0b2d6e57a26ba47e82bacb9a2dd3cdf6b9d650a5a8e7442"
+    },
+    "12": {
+      "color": "#a893b0",
+      "sha256": "d6abc176dbd05da94c32f8a34839c83795053fb23c0b624657dbccb7a629c34b"
+    },
+    "13": {
+      "color": "#d48a27",
+      "sha256": "d7548c25e69949fa454b5fe15b4a2056b0397dfe66b7c2c889054468ead44481"
+    },
+    "14": {
+      "color": "#e6bd66",
+      "sha256": "8cc231eae10b433dffcf23e0fae69e0f660b5635740ba4f02f33ead75cc36237"
+    },
+    "16": {
+      "color": "#493d93",
+      "sha256": "27b799d4c3e65b910a493ea99a198e7f83f1388dd769cc26e7cf11f766a52219"
+    },
+    "20": {
+      "color": "#9acfca",
+      "sha256": "b769d0aba09de44911164d29170596860ccbb3d9f16953ebf1da364a4d9efa83"
+    },
+    "6b": {
+      "color": "#1e8d86",
+      "sha256": "279fccdd6a2420df2e6770f8d4678ab755d5c8afa8bb7722ddce6dd4854a44fd"
+    }
+  },
+  "chengdu": {
+    "1": {
+      "color": "#0f0f96",
+      "sha256": "9439c1dec1f8e5b0fa13949faba4b142eb829d3e094a91459550ef757ed21c4f"
+    },
+    "2": {
+      "color": "#fe633d",
+      "sha256": "4bf2a182fee9408c7dee98edceb54251ae870b59158bc61b2694735d63a8533f"
+    },
+    "3": {
+      "color": "#d60f6b",
+      "sha256": "7e79fb9a4ada4a5ad594f6f24eb75a48cc56b516ae8317a4fb2e921f3878d196"
+    },
+    "4": {
+      "color": "#1cad64",
+      "sha256": "7a29141e41111dd9fed4401f8ceb384baac92946156b9bf5714183ee65181d53"
+    },
+    "5": {
+      "color": "#a03f92",
+      "sha256": "7155dbc485f3514fc04abfe5a68c3ae35104946ae75217a9a57ccf10ec06ebe8"
+    },
+    "6": {
+      "color": "#be7331",
+      "sha256": "881e628ffee3293d784a601579178d20440581fee96a530d987f24de3c8709b7"
+    },
+    "7": {
+      "color": "#65d0de",
+      "sha256": "6ab8e589abbbb3076c15b4474f46ef73949a5a6a377689e03369058274a5b859"
+    },
+    "8": {
+      "color": "#a6c215",
+      "sha256": "4c6d4224f7dd55a79b887daff0e08659c0eea04838ca461da324761f46d1386c"
+    },
+    "9": {
+      "color": "#f1ad17",
+      "sha256": "71e9007fac13595ad922e983bade2fb4b6bed4ad9fa043263f546914f2e38768"
+    },
+    "10": {
+      "color": "#0054bb",
+      "sha256": "e760e6622a164e288d633babbd6936d08c5a9142853362b7237c7f0acc77e575"
+    },
+    "13": {
+      "color": "#b2a225",
+      "sha256": "35439c21d9014350b0c094a85f48b61e82748c81e7a936e2d566c68229751a02"
+    },
+    "17": {
+      "color": "#87e0aa",
+      "sha256": "553c565d6f81f375daabca33150eb421ecfde65ec793e29c5f53cbc59b5fd77d"
+    },
+    "18": {
+      "color": "#1a686e",
+      "sha256": "e7d831e4f59d7a603961ceca62547bdc989f018c2dceac7c30f5c4f940e89117"
+    },
+    "19": {
+      "color": "#94a2dc",
+      "sha256": "5040dc0680e3744b5189755f7379c668c3bd3ddba36144172897b1aeb6b4adaa"
+    },
+    "27": {
+      "color": "#00a4e0",
+      "sha256": "1d7fb55365aa9c006f8e65d0c1e0af321daaf9e74ea44c452861ff81419b007f"
+    },
+    "30": {
+      "color": "#e3718f",
+      "sha256": "ece79133766c1f9a94e8f4f965eed168ae86fc1920da9d09b214cde7b225f1a4"
+    },
+    "s3": {
+      "color": "#858686",
+      "sha256": "b9e26d73eaa0fa736be8014094e10de488db557ee92213407900bc1189b99aba"
+    },
+    "r2": {
+      "color": "#7ebb28",
+      "sha256": "4e795676406c23607dc21806a28dba8d68b4e121b53b8eec9db00e82c7d52e3d"
+    }
+  },
+  "dongguan": {
+    "1": {
+      "color": "#2e3192",
+      "sha256": "120eb76c107030e7e95b5df5182ec50f3eb63342f416a78a248a7d822a422bab"
+    },
+    "2": {
+      "color": "#ed1c24",
+      "sha256": "4e98745aadc13776413d7ff4cefe30fe0ac6f8927a4d5604a36085c7952e71bc"
+    }
+  },
+  "hangzhou": {
+    "1": {
+      "color": "#df4661",
+      "sha256": "4260b4e92b71d5af2eb4c4f9e92cefb531efba2eca8e2b60d737cc071da902a2"
+    },
+    "2": {
+      "color": "#ec6e00",
+      "sha256": "abc04c97bdefd39a5e8326273ecdf34bed3d513753cd1d06fa935f960ed6bef8"
+    },
+    "3": {
+      "color": "#ffcd00",
+      "sha256": "84dc478d5af88b536a50cdc9b1e002050bd8bc54c3ca0e8c01ddfa1198bba834"
+    },
+    "4": {
+      "color": "#3ea83a",
+      "sha256": "dfe4cb5f4428014f9b803f065300fed987ac5044ee248f39c11626b6179bd60a"
+    },
+    "5": {
+      "color": "#00aec7",
+      "sha256": "d583e8af9b68b54a932306d051861db955c515a1830df07f0855e25b453f868d"
+    },
+    "6": {
+      "color": "#0072ce",
+      "sha256": "f48a3e03c7bc6ea6a8c39507fb0f8c9689a0769354f1d6d5ca670647a8ea9652"
+    },
+    "7": {
+      "color": "#87189d",
+      "sha256": "22090b3dae7819760b2ccf080a82a4cf175aded98337f46454610feff0626348"
+    },
+    "8": {
+      "color": "#ac145a",
+      "sha256": "9d7bd6ab8da9f1f7495b99e1559046372c587bd75fb21b51eb220974f15ff48c"
+    },
+    "9": {
+      "color": "#be4d00",
+      "sha256": "d6dfc9969c780c7038f1b6a19c708830775608f792bcda6663ce06032334865d"
+    },
+    "10": {
+      "color": "#daaa00",
+      "sha256": "8326ab5acb8b856a21f9e1e6851e2d3b9b58094b1a9b193c9f2ad29282d14b2f"
+    },
+    "16": {
+      "color": "#ffb25b",
+      "sha256": "292688d71662bb2de12edf37a6527f4ded4f273f6880509534361ec61618c7eb"
+    },
+    "19": {
+      "color": "#05c3dd",
+      "sha256": "f6ea2170a84cd608e92efe9a912d03378fbd3a97deb853848c3fc1f97c692445"
+    },
+    "hh": {
+      "color": "#0099ca",
+      "sha256": "81a68a3649244d70940a8b13a977e429e767265408f8a08ac92f37ad4f7813c5"
+    }
+  },
+  "kunming": {
+    "1": {
+      "color": "#bf3334",
+      "sha256": "0af8d73a1f465e7b521b85046610bdc303aaeeb38fde90baa93504a18f06e04c"
+    },
+    "2": {
+      "color": "#235a99",
+      "sha256": "782e486eb59dd73a268eca85d24572bec23210229efc39434866f7973c5f31b2"
+    },
+    "3": {
+      "color": "#fe4998",
+      "sha256": "f8197e7a8b5bfe3f163c590aec70697f65c6fba52cb85984f321b49133429f92"
+    },
+    "4": {
+      "color": "#dc8800",
+      "sha256": "3ae78ef94f2851495dd55e1a1d21d29194a55c2c75e8b257a2293120ca080026"
+    },
+    "5": {
+      "color": "#2aa844",
+      "sha256": "366116c95a297e5d6b7e2aff2e8b8c921e13d94337f72179ef87006c5fe99f07"
+    },
+    "6": {
+      "color": "#0290a4",
+      "sha256": "08ba779a7a7783a8b32aeea1a98e308a2b5c9b034e0974ff303b08c6c3efd790"
+    }
+  },
+  "nanning": {
+    "1": {
+      "color": "#50bf5c",
+      "sha256": "a5b8a227995ac5ef7762570e59a6734567e8ebb2dead06cc65ed8c756b2e5da6"
+    },
+    "2": {
+      "color": "#e83922",
+      "sha256": "53ee7332eff9274f7fac071c996b3ba18a6d7f2d9d8fd6618f7e4ba4817f510d"
+    },
+    "3": {
+      "color": "#a719a6",
+      "sha256": "62e6c8a9a6fb6aa5fc46bc60690535081bace480cba25d9f9d07d975188a3073"
+    },
+    "4": {
+      "color": "#ced81c",
+      "sha256": "41b731bdc8531573d36f555a43e05d6d6f58c6d348628e73cfcd4440caf7703a"
+    },
+    "5": {
+      "color": "#3558a3",
+      "sha256": "9ba465f6e0791f5d7e26c8749ed6372f5574511610374207a7f6307c2adb3080"
+    }
+  },
+  "shaoxing": {
+    "1": {
+      "color": "#bd0044",
+      "sha256": "b601575a096bc1ed845a4cd11ada5b8ba19942b9dc6a006b8b79940bbef7ac18"
+    },
+    "2": {
+      "color": "#293d86",
+      "sha256": "6c3913b2db3c3d6e4b48dce3583d49a1d77b429c2751166439fecbe53d6d7811"
+    }
+  }
+}

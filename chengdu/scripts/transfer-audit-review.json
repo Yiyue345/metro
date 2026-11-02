@@ -1,0 +1,40 @@
+{
+  "四川师大": {
+    "anchor": {
+      "x": 2189.74,
+      "y": 1610.6
+    },
+    "symbol": {
+      "parts": [
+        {
+          "x": 2189.74,
+          "y": 1610.6,
+          "width": 14.3,
+          "height": 11.33,
+          "angle": -21.8,
+          "transfer": true,
+          "lines": ["7", "13"]
+        }
+      ]
+    },
+    "sourceReview": {
+      "reference": "public/maps/chengdu-reference-pure.jpg",
+      "coordinateSpace": "4800x4030 cropped source pixels",
+      "method": "visual source review plus outer black-ring contour; cv2.minAreaRect at maxRGB<180 and channelSpread<40",
+      "outerContourArea": 122.5,
+      "sourceContourThreshold": 180,
+      "previousAnchor": { "x": 2204.5, "y": 1610.5 },
+      "previousSymbol": { "width": 11, "height": 11, "angle": -90 },
+      "anchorDisplacement": 14.76,
+      "independentThresholdConfirmation": {
+        "threshold": 160,
+        "x": 2189.66,
+        "y": 1610.64,
+        "width": 14.11,
+        "height": 11.33,
+        "angle": -21.8
+      }
+    },
+    "reason": "原anchor位于站名中川字的闭合笔画，误识为11x11小圆；实际换乘黑环在其左侧约15px，连接7号线青色与13号线黄色轨道。保留现有label位置，只纠正站点anchor与symbol。"
+  }
+}

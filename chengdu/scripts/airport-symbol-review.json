@@ -1,0 +1,7 @@
+{
+  "天府站": {"anchor":[2406.2,3116.6],"reason":"2026.11 neutral-dark contour measurement; see tianfu-geometry-review.json.","parts":[{"x":2406.2,"y":3116.6,"width":16.1,"height":11.628,"angle":116.565,"lines":["18","19"],"transfer":true}]},
+  "三岔": {"anchor":[3399.8,3664.4],"reason":"Source has adjacent white rings for the shared 18/19 platforms.","parts":[{"x":3396.81,"y":3665.16,"width":11,"height":11,"angle":0,"lines":["18"],"transfer":false},{"x":3402.77,"y":3663.69,"width":11,"height":11,"angle":0,"lines":["19"],"transfer":false}]},
+  "福田": {"anchor":[3814.7,3894.1],"reason":"Source shared 18/19/S3 capsule; final topology comes from s3-geometry-review.json.","parts":[{"x":3814.7,"y":3894.1,"width":22.8,"height":12.1,"angle":116.6,"lines":["18","19","s3"],"transfer":true}]},
+  "天府机场1号2号航站楼": {"anchor":[4156.2,3662.9],"reason":"Adjacent source white rings are kept instead of a horizontal interchange capsule.","parts":[{"x":4158.87,"y":3663.83,"width":11,"height":11,"angle":0,"lines":["18"],"transfer":false},{"x":4153.53,"y":3662,"width":11,"height":11,"angle":0,"lines":["19"],"transfer":false}]},
+  "天府机场北": {"anchor":[4220.4,3507.7],"reason":"Adjacent source white terminal rings are kept for the shared operating tracks.","parts":[{"x":4223.1,"y":3508.52,"width":11,"height":11,"angle":0,"lines":["18"],"transfer":false},{"x":4217.63,"y":3506.84,"width":11,"height":11,"angle":0,"lines":["19"],"transfer":false}]}
+}

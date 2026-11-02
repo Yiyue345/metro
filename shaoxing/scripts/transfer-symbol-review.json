@@ -1,0 +1,46 @@
+{
+  "source": "shaoxing/public/maps/shaoxing-reference-pure.jpg",
+  "sourceSHA256": "039299af9a21c74a07e96a348e0abfbda4d81cb6d729c524e3017fb8e5aed232",
+  "transferCount": 3,
+  "measurements": [
+    {
+      "station": "姑娘桥",
+      "part": 0,
+      "measured": {
+        "width": 13.42,
+        "height": 11.63,
+        "angle": 26.57
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 125.0
+    },
+    {
+      "station": "黄酒小镇",
+      "part": 0,
+      "measured": {
+        "width": 16.44,
+        "height": 11.34,
+        "angle": -9.46
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 1.397,
+      "contourArea": 143.5
+    },
+    {
+      "station": "梅山广场",
+      "part": 0,
+      "measured": {
+        "width": 13.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 140,
+      "centerDistance": 2.121,
+      "contourArea": 116.0
+    }
+  ]
+}

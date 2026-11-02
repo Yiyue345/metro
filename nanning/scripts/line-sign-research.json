@@ -1,0 +1,27 @@
+{
+  "city": "nanning",
+  "auditedAt": "2026-11-02",
+  "scope": "Operating-line badges only; route colors and source-map station data are unchanged.",
+  "reference": {
+    "publisher": "用户提供的南宁轨道交通导向标识参考图（2026-11-02 明确指定）",
+    "image": "codex-clipboard-fd1ba16c-c1c7-4d65-9f95-8c03c2ea52dd.png",
+    "inspected": "Visually inspected the user-selected bottom line sign: a green vertical tile with white 1, black 号线 to its right, and black Line 1 below. The separate NNRT/operator logo above is excluded.",
+    "variant": "wayfinding bilingual line sign; transparent background outside the numeral tile",
+    "extension": "Line 1 is directly evidenced by the user's image. Lines 2–5 apply the same user-requested template with their audited official network-map colors; individual wayfinding photographs for these four lines are not claimed.",
+    "lettering": "Regular sans-serif numeral/English outlines reconstructed from Arial and Chinese outlines from Microsoft YaHei; no claim of exact proprietary font identity. Outlined to avoid platform font substitution."
+  },
+  "secondaryReference": {
+    "publisher": "南宁轨道交通投资集团有限公司",
+    "page": "https://www.nngdjt.com/traffic/subway/",
+    "image": "https://www.nngdjt.com/resources/image/2026/09/01/844215796805701.png",
+    "sha256": "85da3ad59a15d80722cdc1ee9476dd1f3f42e3d215c5a39b2704ac0f1334d2d7",
+    "inspected": "Downloaded and visually inspected all five official network-map markers; used for line identity and lines 2–5 colors only. Circular map-marker geometry is superseded by the user's explicit wayfinding variant."
+  },
+  "lines": [
+    { "id": "1", "asset": "public/lines/1.svg", "result": "corrected", "before": "Generic colored bilingual rectangle", "after": "User-selected green vertical tile, white 1, black 号线 / Line 1 on transparent background", "background": "#50bf5c", "foreground": "#ffffff", "textColor": "#000000", "aspectRatio": 2.05, "source": "user-provided:codex-clipboard-fd1ba16c-c1c7-4d65-9f95-8c03c2ea52dd.png" },
+    { "id": "2", "asset": "public/lines/2.svg", "result": "corrected", "before": "Generic colored bilingual rectangle", "after": "Red vertical tile, white 2, black 号线 / Line 2 on transparent background; template extension", "background": "#e83922", "foreground": "#ffffff", "textColor": "#000000", "aspectRatio": 2.05, "source": "https://www.nngdjt.com/resources/image/2026/09/01/844215796805701.png" },
+    { "id": "3", "asset": "public/lines/3.svg", "result": "corrected", "before": "Generic colored bilingual rectangle", "after": "Magenta-purple vertical tile, white 3, black 号线 / Line 3 on transparent background; template extension", "background": "#a719a6", "foreground": "#ffffff", "textColor": "#000000", "aspectRatio": 2.05, "source": "https://www.nngdjt.com/resources/image/2026/09/01/844215796805701.png" },
+    { "id": "4", "asset": "public/lines/4.svg", "result": "corrected", "before": "Generic colored bilingual rectangle", "after": "Yellow-green vertical tile, dark 4 as confirmed by the user, black 号线 / Line 4 on transparent background", "background": "#ced81c", "foreground": "#231815", "textColor": "#000000", "aspectRatio": 2.05, "source": "https://www.nngdjt.com/resources/image/2026/09/01/844215796805701.png" },
+    { "id": "5", "asset": "public/lines/5.svg", "result": "corrected", "before": "Generic colored bilingual rectangle", "after": "Blue vertical tile, white 5, black 号线 / Line 5 on transparent background; template extension", "background": "#3558a3", "foreground": "#ffffff", "textColor": "#000000", "aspectRatio": 2.05, "source": "https://www.nngdjt.com/resources/image/2026/09/01/844215796805701.png" }
+  ]
+}

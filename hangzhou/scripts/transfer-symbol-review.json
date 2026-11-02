@@ -1,0 +1,591 @@
+{
+  "source": "hangzhou/public/maps/hangzhou-reference-pure.jpg",
+  "sourceSHA256": "f6b53516e41eccab98717009e5551a8217e52ad1e21b371827c98f1a22199161",
+  "transferCount": 46,
+  "measurements": [
+    {
+      "station": "滨康路",
+      "part": 0,
+      "measured": {
+        "width": 13.33,
+        "height": 10.82,
+        "angle": 56.28
+      },
+      "method": "reviewed-source-ring",
+      "reason": "180阈值时黑圈与邻近文字连通；140阈值独立外圈的椭圆长轴为13.33、短轴10.82、方向56.28度，复核原图后保留该倾斜方向，避免近圆形像素的最小矩形错误转成竖直。"
+    },
+    {
+      "station": "江陵路",
+      "part": 0,
+      "measured": {
+        "width": 13.04,
+        "height": 10.82,
+        "angle": -33.69
+      },
+      "method": "reviewed-source-ring",
+      "reason": "180阈值外圈受水印像素影响，140阈值近圆形矩形失去倾斜方向；以100阈值独立黑色外圈最小矩形复核尺寸与方向。"
+    },
+    {
+      "station": "近江",
+      "part": 0,
+      "measured": {
+        "width": 14.14,
+        "height": 11.31,
+        "angle": 45.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 127.0
+    },
+    {
+      "station": "城站",
+      "part": 0,
+      "measured": {
+        "width": 13.91,
+        "height": 11.38,
+        "angle": 18.43
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.224,
+      "contourArea": 121.0
+    },
+    {
+      "station": "凤起路",
+      "part": 0,
+      "measured": {
+        "width": 12.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 118.0
+    },
+    {
+      "station": "武林广场",
+      "part": 0,
+      "measured": {
+        "width": 16.1,
+        "height": 11.18,
+        "angle": 26.57
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.224,
+      "contourArea": 141.0
+    },
+    {
+      "station": "西湖文化广场",
+      "part": 0,
+      "measured": {
+        "width": 15.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 1.0,
+      "contourArea": 134.5
+    },
+    {
+      "station": "打铁关",
+      "part": 0,
+      "measured": {
+        "width": 13.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 122.0
+    },
+    {
+      "station": "火车东站",
+      "part": 0,
+      "measured": {
+        "width": 16.35,
+        "height": 11.55,
+        "angle": 59.04
+      },
+      "method": "reviewed-source-ring",
+      "reason": "原图黑色外圈与虚拟换乘通道相连；按独立站圈复核，内部闭合轮廓12.35×7.55向外各扩2px，保留原站位与长轴角度。"
+    },
+    {
+      "station": "彭埠",
+      "part": 0,
+      "measured": {
+        "width": 15.0,
+        "height": 12.0,
+        "angle": -90.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 147.0
+    },
+    {
+      "station": "客运中心",
+      "part": 0,
+      "measured": {
+        "width": 16.0,
+        "height": 10.0,
+        "angle": -90.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.5,
+      "contourArea": 141.0
+    },
+    {
+      "station": "文海南路",
+      "part": 0,
+      "measured": {
+        "width": 16.0,
+        "height": 11.0,
+        "angle": -90.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.5,
+      "contourArea": 148.0
+    },
+    {
+      "station": "萧山国际机场",
+      "part": 0,
+      "measured": {
+        "width": 23.26,
+        "height": 11.18,
+        "angle": 63.43
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.316,
+      "contourArea": 217.0
+    },
+    {
+      "station": "人民广场",
+      "part": 0,
+      "measured": {
+        "width": 14.0,
+        "height": 10.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 116.0
+    },
+    {
+      "station": "建设三路",
+      "part": 0,
+      "measured": {
+        "width": 13.65,
+        "height": 10.36,
+        "angle": 9.46
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 115.0
+    },
+    {
+      "station": "钱江世纪城",
+      "part": 0,
+      "measured": {
+        "width": 13.59,
+        "height": 10.82,
+        "angle": 33.69
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.139,
+      "contourArea": 123.0
+    },
+    {
+      "station": "钱江路",
+      "part": 0,
+      "measured": {
+        "width": 15.56,
+        "height": 11.31,
+        "angle": -45.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.1,
+      "contourArea": 144.0
+    },
+    {
+      "station": "建国北路",
+      "part": 0,
+      "measured": {
+        "width": 13.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.5,
+      "contourArea": 120.0
+    },
+    {
+      "station": "武林门",
+      "part": 0,
+      "measured": {
+        "width": 13.42,
+        "height": 10.73,
+        "angle": -26.57
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 114.5
+    },
+    {
+      "station": "沈塘桥",
+      "part": 0,
+      "measured": {
+        "width": 13.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.5,
+      "contourArea": 118.5
+    },
+    {
+      "station": "学院路",
+      "part": 0,
+      "measured": {
+        "width": 14.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 123.0
+    },
+    {
+      "station": "三坝",
+      "part": 0,
+      "measured": {
+        "width": 13.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 1.118,
+      "contourArea": 115.0
+    },
+    {
+      "station": "金家渡",
+      "part": 0,
+      "measured": {
+        "width": 14.31,
+        "height": 10.73,
+        "angle": -26.57
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.224,
+      "contourArea": 120.0
+    },
+    {
+      "station": "火车西站",
+      "part": 0,
+      "measured": {
+        "width": 16.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 139.0
+    },
+    {
+      "station": "绿汀路",
+      "part": 0,
+      "measured": {
+        "width": 23.34,
+        "height": 11.38,
+        "angle": -85.24
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.459,
+      "contourArea": 213.5
+    },
+    {
+      "station": "黄龙体育中心",
+      "part": 0,
+      "measured": {
+        "width": 13.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.707,
+      "contourArea": 115.0
+    },
+    {
+      "station": "善贤",
+      "part": 0,
+      "measured": {
+        "width": 13.86,
+        "height": 10.73,
+        "angle": 26.57
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 115.5
+    },
+    {
+      "station": "新天地街",
+      "part": 0,
+      "measured": {
+        "width": 16.55,
+        "height": 11.18,
+        "angle": 63.43
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.212,
+      "contourArea": 145.0
+    },
+    {
+      "station": "中医药大学",
+      "part": 0,
+      "measured": {
+        "width": 15.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.5,
+      "contourArea": 139.0
+    },
+    {
+      "station": "南星桥",
+      "part": 0,
+      "measured": {
+        "width": 13.44,
+        "height": 11.31,
+        "angle": -45.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.354,
+      "contourArea": 123.5
+    },
+    {
+      "station": "市民中心",
+      "part": 0,
+      "measured": {
+        "width": 14.14,
+        "height": 11.31,
+        "angle": -45.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 128.0
+    },
+    {
+      "station": "杭行路",
+      "part": 0,
+      "measured": {
+        "width": 14.0,
+        "height": 10.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 121.0
+    },
+    {
+      "station": "创景路",
+      "part": 0,
+      "measured": {
+        "width": 12.73,
+        "height": 11.31,
+        "angle": 45.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 115.0
+    },
+    {
+      "station": "和睦",
+      "part": 0,
+      "measured": {
+        "width": 13.59,
+        "height": 11.09,
+        "angle": 33.69
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.139,
+      "contourArea": 119.5
+    },
+    {
+      "station": "江城路",
+      "part": 0,
+      "measured": {
+        "width": 13.0,
+        "height": 12.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 124.0
+    },
+    {
+      "station": "长河",
+      "part": 0,
+      "measured": {
+        "width": 13.42,
+        "height": 11.18,
+        "angle": -26.57
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 121.0
+    },
+    {
+      "station": "火车东站(东广场)",
+      "part": 0,
+      "measured": {
+        "width": 16.07,
+        "height": 11.6,
+        "angle": -26.57
+      },
+      "method": "reviewed-source-ring",
+      "reason": "原图黑色外圈与同一虚拟换乘通道相连；按独立站圈复核，内部闭合轮廓12.07×7.60向外各扩2px，不把连接通道计入站圈长度。"
+    },
+    {
+      "station": "三堡",
+      "part": 0,
+      "measured": {
+        "width": 13.44,
+        "height": 10.61,
+        "angle": -45.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.001,
+      "contourArea": 119.0
+    },
+    {
+      "station": "奥体中心",
+      "part": 0,
+      "measured": {
+        "width": 14.14,
+        "height": 11.31,
+        "angle": 45.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.001,
+      "contourArea": 125.0
+    },
+    {
+      "station": "青六中路",
+      "part": 0,
+      "measured": {
+        "width": 13.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.5,
+      "contourArea": 123.5
+    },
+    {
+      "station": "永盛路",
+      "part": 0,
+      "measured": {
+        "width": 16.0,
+        "height": 11.0,
+        "angle": -90.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.5,
+      "contourArea": 145.0
+    },
+    {
+      "station": "观音塘",
+      "part": 0,
+      "measured": {
+        "width": 16.0,
+        "height": 12.0,
+        "angle": -90.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.158,
+      "contourArea": 148.5
+    },
+    {
+      "station": "临平南高铁站",
+      "part": 0,
+      "measured": {
+        "width": 14.0,
+        "height": 11.0,
+        "angle": -90.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.5,
+      "contourArea": 120.0
+    },
+    {
+      "station": "御道",
+      "part": 0,
+      "measured": {
+        "width": 9.4,
+        "height": 9.4,
+        "angle": 0
+      },
+      "method": "reviewed-circle-union"
+    },
+    {
+      "station": "御道",
+      "part": 1,
+      "measured": {
+        "width": 9.4,
+        "height": 9.4,
+        "angle": 0
+      },
+      "method": "reviewed-circle-union"
+    },
+    {
+      "station": "文三路",
+      "part": 0,
+      "measured": {
+        "width": 12.0,
+        "height": 11.0,
+        "angle": 0.0
+      },
+      "method": "outer-ring-contour",
+      "threshold": 180,
+      "centerDistance": 0.0,
+      "contourArea": 119.0
+    }
+  ]
+}

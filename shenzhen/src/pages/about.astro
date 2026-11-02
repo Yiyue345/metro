@@ -1,0 +1,26 @@
+---
+import CityMenu from '../components/CityMenu.astro';
+import { Content } from '../content/about.md';
+import '../styles/tokens.css';
+import '../styles/global.css';
+---
+<!doctype html>
+<html lang="zh-CN" class="content-document">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="关于地铁足迹。" />
+    <title>关于 / 地铁足迹</title>
+  </head>
+  <body class="content-page">
+    <header class="masthead">
+      <div class="brand">
+        <CityMenu currentCity={null} currentPage="about" />
+        <span class="brand-city">关于</span><span class="brand-slash">/</span><span class="brand-title">地铁足迹</span>
+      </div>
+      <a class="page-map-link" href="/">返回地图</a>
+    </header>
+    <main><article class="about-content"><Content /></article></main>
+  </body>
+</html>

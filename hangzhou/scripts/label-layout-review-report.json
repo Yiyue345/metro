@@ -1,0 +1,1366 @@
+{
+  "stationCount": 271,
+  "inputLabelsSHA256": "11e20435d22aa97abd02b363e93386162daf4d86131d783f59163af6e86721f4",
+  "before": {
+    "labelOverlapPairs": [],
+    "obstacleRectangleOverlaps": [
+      {
+        "id": "湘湖",
+        "nodeRectanglePixels": 48,
+        "railRectanglePixels": 3
+      },
+      {
+        "id": "滨康路",
+        "nodeRectanglePixels": 72,
+        "railRectanglePixels": 59
+      },
+      {
+        "id": "西兴",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 62
+      },
+      {
+        "id": "滨和路",
+        "nodeRectanglePixels": 173,
+        "railRectanglePixels": 190
+      },
+      {
+        "id": "江陵路",
+        "nodeRectanglePixels": 31,
+        "railRectanglePixels": 51
+      },
+      {
+        "id": "近江",
+        "nodeRectanglePixels": 12,
+        "railRectanglePixels": 120
+      },
+      {
+        "id": "婺江路",
+        "nodeRectanglePixels": 52,
+        "railRectanglePixels": 39
+      },
+      {
+        "id": "城站",
+        "nodeRectanglePixels": 12,
+        "railRectanglePixels": 103
+      },
+      {
+        "id": "定安路",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "龙翔桥",
+        "nodeRectanglePixels": 162,
+        "railRectanglePixels": 194
+      },
+      {
+        "id": "凤起路",
+        "nodeRectanglePixels": 6,
+        "railRectanglePixels": 86
+      },
+      {
+        "id": "武林广场",
+        "nodeRectanglePixels": 50,
+        "railRectanglePixels": 12
+      },
+      {
+        "id": "西湖文化广场",
+        "nodeRectanglePixels": 21,
+        "railRectanglePixels": 291
+      },
+      {
+        "id": "打铁关",
+        "nodeRectanglePixels": 0,
+        "railRectanglePixels": 20
+      },
+      {
+        "id": "闸弄口",
+        "nodeRectanglePixels": 6,
+        "railRectanglePixels": 10
+      },
+      {
+        "id": "火车东站",
+        "nodeRectanglePixels": 159,
+        "railRectanglePixels": 184
+      },
+      {
+        "id": "彭埠",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 16
+      },
+      {
+        "id": "七堡",
+        "nodeRectanglePixels": 39,
+        "railRectanglePixels": 1
+      },
+      {
+        "id": "九和路",
+        "nodeRectanglePixels": 49,
+        "railRectanglePixels": 5
+      },
+      {
+        "id": "九堡",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "客运中心",
+        "nodeRectanglePixels": 31,
+        "railRectanglePixels": 106
+      },
+      {
+        "id": "下沙西",
+        "nodeRectanglePixels": 6,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "金沙湖",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 10
+      },
+      {
+        "id": "高沙路",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 39
+      },
+      {
+        "id": "文泽路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 1
+      },
+      {
+        "id": "文海南路",
+        "nodeRectanglePixels": 31,
+        "railRectanglePixels": 110
+      },
+      {
+        "id": "云水",
+        "nodeRectanglePixels": 181,
+        "railRectanglePixels": 190
+      },
+      {
+        "id": "下沙江滨",
+        "nodeRectanglePixels": 150,
+        "railRectanglePixels": 199
+      },
+      {
+        "id": "杭州大会展中心",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "港城大道",
+        "nodeRectanglePixels": 110,
+        "railRectanglePixels": 212
+      },
+      {
+        "id": "南阳",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "向阳路",
+        "nodeRectanglePixels": 154,
+        "railRectanglePixels": 163
+      },
+      {
+        "id": "萧山国际机场",
+        "nodeRectanglePixels": 0,
+        "railRectanglePixels": 2
+      },
+      {
+        "id": "朝阳",
+        "nodeRectanglePixels": 51,
+        "railRectanglePixels": 6
+      },
+      {
+        "id": "曹家桥",
+        "nodeRectanglePixels": 167,
+        "railRectanglePixels": 189
+      },
+      {
+        "id": "潘水",
+        "nodeRectanglePixels": 72,
+        "railRectanglePixels": 52
+      },
+      {
+        "id": "人民路",
+        "nodeRectanglePixels": 166,
+        "railRectanglePixels": 171
+      },
+      {
+        "id": "杭发厂",
+        "nodeRectanglePixels": 171,
+        "railRectanglePixels": 200
+      },
+      {
+        "id": "人民广场",
+        "nodeRectanglePixels": 57,
+        "railRectanglePixels": 89
+      },
+      {
+        "id": "建设一路",
+        "nodeRectanglePixels": 79,
+        "railRectanglePixels": 53
+      },
+      {
+        "id": "建设三路",
+        "nodeRectanglePixels": 21,
+        "railRectanglePixels": 36
+      },
+      {
+        "id": "振宁路",
+        "nodeRectanglePixels": 190,
+        "railRectanglePixels": 210
+      },
+      {
+        "id": "飞虹路",
+        "nodeRectanglePixels": 25,
+        "railRectanglePixels": 6
+      },
+      {
+        "id": "盈丰路",
+        "nodeRectanglePixels": 51,
+        "railRectanglePixels": 53
+      },
+      {
+        "id": "钱江世纪城",
+        "nodeRectanglePixels": 49,
+        "railRectanglePixels": 174
+      },
+      {
+        "id": "钱江路",
+        "nodeRectanglePixels": 6,
+        "railRectanglePixels": 165
+      },
+      {
+        "id": "庆春广场",
+        "nodeRectanglePixels": 92,
+        "railRectanglePixels": 348
+      },
+      {
+        "id": "庆菱路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "建国北路",
+        "nodeRectanglePixels": 198,
+        "railRectanglePixels": 285
+      },
+      {
+        "id": "中河北路",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 1
+      },
+      {
+        "id": "武林门",
+        "nodeRectanglePixels": 0,
+        "railRectanglePixels": 36
+      },
+      {
+        "id": "沈塘桥",
+        "nodeRectanglePixels": 44,
+        "railRectanglePixels": 231
+      },
+      {
+        "id": "下宁桥",
+        "nodeRectanglePixels": 92,
+        "railRectanglePixels": 175
+      },
+      {
+        "id": "学院路",
+        "nodeRectanglePixels": 41,
+        "railRectanglePixels": 114
+      },
+      {
+        "id": "古翠路",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "丰潭路",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "文新",
+        "nodeRectanglePixels": 159,
+        "railRectanglePixels": 173
+      },
+      {
+        "id": "三坝",
+        "nodeRectanglePixels": 3,
+        "railRectanglePixels": 2
+      },
+      {
+        "id": "虾龙圩",
+        "nodeRectanglePixels": 162,
+        "railRectanglePixels": 206
+      },
+      {
+        "id": "三墩",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 20
+      },
+      {
+        "id": "墩祥街",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 10
+      },
+      {
+        "id": "金家渡",
+        "nodeRectanglePixels": 5,
+        "railRectanglePixels": 49
+      },
+      {
+        "id": "白洋",
+        "nodeRectanglePixels": 34,
+        "railRectanglePixels": 25
+      },
+      {
+        "id": "杜甫村",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "良渚",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "吴山前村",
+        "nodeRectanglePixels": 127,
+        "railRectanglePixels": 50
+      },
+      {
+        "id": "火车西站",
+        "nodeRectanglePixels": 30,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "龙舟北路",
+        "nodeRectanglePixels": 39,
+        "railRectanglePixels": 39
+      },
+      {
+        "id": "文一西路",
+        "nodeRectanglePixels": 116,
+        "railRectanglePixels": 150
+      },
+      {
+        "id": "绿汀路",
+        "nodeRectanglePixels": 7,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "全丰",
+        "nodeRectanglePixels": 154,
+        "railRectanglePixels": 203
+      },
+      {
+        "id": "高教路",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 43
+      },
+      {
+        "id": "联胜路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 19
+      },
+      {
+        "id": "洪园",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 138
+      },
+      {
+        "id": "西溪湿地南",
+        "nodeRectanglePixels": 15,
+        "railRectanglePixels": 3
+      },
+      {
+        "id": "花坞",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 25
+      },
+      {
+        "id": "东岳",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 6
+      },
+      {
+        "id": "古墩路",
+        "nodeRectanglePixels": 37,
+        "railRectanglePixels": 1
+      },
+      {
+        "id": "古荡新村",
+        "nodeRectanglePixels": 73,
+        "railRectanglePixels": 57
+      },
+      {
+        "id": "古荡",
+        "nodeRectanglePixels": 46,
+        "railRectanglePixels": 44
+      },
+      {
+        "id": "黄龙体育中心",
+        "nodeRectanglePixels": 0,
+        "railRectanglePixels": 177
+      },
+      {
+        "id": "黄龙洞",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "潮王路",
+        "nodeRectanglePixels": 86,
+        "railRectanglePixels": 136
+      },
+      {
+        "id": "香积寺",
+        "nodeRectanglePixels": 52,
+        "railRectanglePixels": 67
+      },
+      {
+        "id": "大关",
+        "nodeRectanglePixels": 82,
+        "railRectanglePixels": 56
+      },
+      {
+        "id": "善贤",
+        "nodeRectanglePixels": 0,
+        "railRectanglePixels": 15
+      },
+      {
+        "id": "新天地街",
+        "nodeRectanglePixels": 0,
+        "railRectanglePixels": 10
+      },
+      {
+        "id": "汽轮广场",
+        "nodeRectanglePixels": 132,
+        "railRectanglePixels": 191
+      },
+      {
+        "id": "华丰路",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 16
+      },
+      {
+        "id": "同协路",
+        "nodeRectanglePixels": 178,
+        "railRectanglePixels": 191
+      },
+      {
+        "id": "桃花湖公园",
+        "nodeRectanglePixels": 14,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "丁桥",
+        "nodeRectanglePixels": 36,
+        "railRectanglePixels": 1
+      },
+      {
+        "id": "华鹤街",
+        "nodeRectanglePixels": 200,
+        "railRectanglePixels": 169
+      },
+      {
+        "id": "黄鹤山",
+        "nodeRectanglePixels": 44,
+        "railRectanglePixels": 19
+      },
+      {
+        "id": "星桥",
+        "nodeRectanglePixels": 75,
+        "railRectanglePixels": 1
+      },
+      {
+        "id": "留下",
+        "nodeRectanglePixels": 171,
+        "railRectanglePixels": 178
+      },
+      {
+        "id": "屏峰",
+        "nodeRectanglePixels": 31,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "小和山",
+        "nodeRectanglePixels": 64,
+        "railRectanglePixels": 31
+      },
+      {
+        "id": "石马",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "浦沿",
+        "nodeRectanglePixels": 144,
+        "railRectanglePixels": 39
+      },
+      {
+        "id": "杨家墩",
+        "nodeRectanglePixels": 212,
+        "railRectanglePixels": 227
+      },
+      {
+        "id": "中医药大学",
+        "nodeRectanglePixels": 314,
+        "railRectanglePixels": 583
+      },
+      {
+        "id": "联庄",
+        "nodeRectanglePixels": 73,
+        "railRectanglePixels": 74
+      },
+      {
+        "id": "水澄桥",
+        "nodeRectanglePixels": 46,
+        "railRectanglePixels": 12
+      },
+      {
+        "id": "复兴路",
+        "nodeRectanglePixels": 32,
+        "railRectanglePixels": 4
+      },
+      {
+        "id": "南星桥",
+        "nodeRectanglePixels": 224,
+        "railRectanglePixels": 385
+      },
+      {
+        "id": "甬江路",
+        "nodeRectanglePixels": 25,
+        "railRectanglePixels": 3
+      },
+      {
+        "id": "城星路",
+        "nodeRectanglePixels": 60,
+        "railRectanglePixels": 40
+      },
+      {
+        "id": "市民中心",
+        "nodeRectanglePixels": 31,
+        "railRectanglePixels": 67
+      },
+      {
+        "id": "江锦路",
+        "nodeRectanglePixels": 43,
+        "railRectanglePixels": 3
+      },
+      {
+        "id": "景芳",
+        "nodeRectanglePixels": 51,
+        "railRectanglePixels": 26
+      },
+      {
+        "id": "新塘",
+        "nodeRectanglePixels": 52,
+        "railRectanglePixels": 17
+      },
+      {
+        "id": "新风",
+        "nodeRectanglePixels": 91,
+        "railRectanglePixels": 80
+      },
+      {
+        "id": "明石路",
+        "nodeRectanglePixels": 60,
+        "railRectanglePixels": 49
+      },
+      {
+        "id": "黎明",
+        "nodeRectanglePixels": 150,
+        "railRectanglePixels": 182
+      },
+      {
+        "id": "笕桥老街",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 246
+      },
+      {
+        "id": "华中南路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "皋亭坝",
+        "nodeRectanglePixels": 200,
+        "railRectanglePixels": 214
+      },
+      {
+        "id": "桃源街",
+        "nodeRectanglePixels": 150,
+        "railRectanglePixels": 171
+      },
+      {
+        "id": "吴家角港",
+        "nodeRectanglePixels": 143,
+        "railRectanglePixels": 201
+      },
+      {
+        "id": "独城生态公园",
+        "nodeRectanglePixels": 92,
+        "railRectanglePixels": 179
+      },
+      {
+        "id": "平安桥",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "储运路",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "杭行路",
+        "nodeRectanglePixels": 26,
+        "railRectanglePixels": 148
+      },
+      {
+        "id": "好运街",
+        "nodeRectanglePixels": 150,
+        "railRectanglePixels": 147
+      },
+      {
+        "id": "池华街",
+        "nodeRectanglePixels": 29,
+        "railRectanglePixels": 6
+      },
+      {
+        "id": "南湖东",
+        "nodeRectanglePixels": 73,
+        "railRectanglePixels": 10
+      },
+      {
+        "id": "金星",
+        "nodeRectanglePixels": 47,
+        "railRectanglePixels": 1
+      },
+      {
+        "id": "葛巷",
+        "nodeRectanglePixels": 159,
+        "railRectanglePixels": 198
+      },
+      {
+        "id": "创景路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 101
+      },
+      {
+        "id": "良睦路",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 35
+      },
+      {
+        "id": "杭师大仓前",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 54
+      },
+      {
+        "id": "永福",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 19
+      },
+      {
+        "id": "五常",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 6
+      },
+      {
+        "id": "蒋村",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 9
+      },
+      {
+        "id": "浙大紫金港",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "萍水街",
+        "nodeRectanglePixels": 19,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "和睦",
+        "nodeRectanglePixels": 154,
+        "railRectanglePixels": 365
+      },
+      {
+        "id": "大运河",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 33
+      },
+      {
+        "id": "拱宸桥东",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 38
+      },
+      {
+        "id": "西文街",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 109
+      },
+      {
+        "id": "东新园",
+        "nodeRectanglePixels": 150,
+        "railRectanglePixels": 205
+      },
+      {
+        "id": "杭氧",
+        "nodeRectanglePixels": 212,
+        "railRectanglePixels": 203
+      },
+      {
+        "id": "宝善桥",
+        "nodeRectanglePixels": 167,
+        "railRectanglePixels": 198
+      },
+      {
+        "id": "万安桥",
+        "nodeRectanglePixels": 33,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "江城路",
+        "nodeRectanglePixels": 15,
+        "railRectanglePixels": 20
+      },
+      {
+        "id": "候潮门",
+        "nodeRectanglePixels": 175,
+        "railRectanglePixels": 200
+      },
+      {
+        "id": "长河",
+        "nodeRectanglePixels": 302,
+        "railRectanglePixels": 420
+      },
+      {
+        "id": "聚才路",
+        "nodeRectanglePixels": 21,
+        "railRectanglePixels": 11
+      },
+      {
+        "id": "江晖路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "博奥路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 11
+      },
+      {
+        "id": "金鸡路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 14
+      },
+      {
+        "id": "育才北路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "通惠中路",
+        "nodeRectanglePixels": 92,
+        "railRectanglePixels": 123
+      },
+      {
+        "id": "火车南站",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 7
+      },
+      {
+        "id": "双桥",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 55
+      },
+      {
+        "id": "姑娘桥",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "枸桔弄",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 180
+      },
+      {
+        "id": "火车东站(东广场)",
+        "nodeRectanglePixels": 41,
+        "railRectanglePixels": 230
+      },
+      {
+        "id": "元宝塘",
+        "nodeRectanglePixels": 39,
+        "railRectanglePixels": 31
+      },
+      {
+        "id": "昙花庵路",
+        "nodeRectanglePixels": 99,
+        "railRectanglePixels": 90
+      },
+      {
+        "id": "三堡",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 90
+      },
+      {
+        "id": "亚运村",
+        "nodeRectanglePixels": 68,
+        "railRectanglePixels": 47
+      },
+      {
+        "id": "丰北",
+        "nodeRectanglePixels": 73,
+        "railRectanglePixels": 21
+      },
+      {
+        "id": "博览中心",
+        "nodeRectanglePixels": 60,
+        "railRectanglePixels": 27
+      },
+      {
+        "id": "奥体中心",
+        "nodeRectanglePixels": 26,
+        "railRectanglePixels": 54
+      },
+      {
+        "id": "星民",
+        "nodeRectanglePixels": 25,
+        "railRectanglePixels": 1
+      },
+      {
+        "id": "江汉路",
+        "nodeRectanglePixels": 37,
+        "railRectanglePixels": 8
+      },
+      {
+        "id": "建业路",
+        "nodeRectanglePixels": 25,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "诚业路",
+        "nodeRectanglePixels": 17,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "伟业路",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "西浦路",
+        "nodeRectanglePixels": 17,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "之江文化中心",
+        "nodeRectanglePixels": 43,
+        "railRectanglePixels": 6
+      },
+      {
+        "id": "枫桦西路",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "美院象山",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 27
+      },
+      {
+        "id": "音乐学院",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "中村",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 1
+      },
+      {
+        "id": "野生动物园东",
+        "nodeRectanglePixels": 17,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "银湖",
+        "nodeRectanglePixels": 37,
+        "railRectanglePixels": 6
+      },
+      {
+        "id": "虎啸杏",
+        "nodeRectanglePixels": 55,
+        "railRectanglePixels": 10
+      },
+      {
+        "id": "受降",
+        "nodeRectanglePixels": 44,
+        "railRectanglePixels": 11
+      },
+      {
+        "id": "富阳客运中心",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 2
+      },
+      {
+        "id": "高桥",
+        "nodeRectanglePixels": 182,
+        "railRectanglePixels": 210
+      },
+      {
+        "id": "阳陂湖",
+        "nodeRectanglePixels": 144,
+        "railRectanglePixels": 189
+      },
+      {
+        "id": "公望街",
+        "nodeRectanglePixels": 162,
+        "railRectanglePixels": 216
+      },
+      {
+        "id": "桂花西路",
+        "nodeRectanglePixels": 99,
+        "railRectanglePixels": 25
+      },
+      {
+        "id": "霞鸣街",
+        "nodeRectanglePixels": 162,
+        "railRectanglePixels": 200
+      },
+      {
+        "id": "科海路",
+        "nodeRectanglePixels": 147,
+        "railRectanglePixels": 133
+      },
+      {
+        "id": "双浦",
+        "nodeRectanglePixels": 169,
+        "railRectanglePixels": 50
+      },
+      {
+        "id": "江东二路",
+        "nodeRectanglePixels": 159,
+        "railRectanglePixels": 144
+      },
+      {
+        "id": "启成路",
+        "nodeRectanglePixels": 156,
+        "railRectanglePixels": 167
+      },
+      {
+        "id": "青六中路",
+        "nodeRectanglePixels": 19,
+        "railRectanglePixels": 77
+      },
+      {
+        "id": "塘新线",
+        "nodeRectanglePixels": 171,
+        "railRectanglePixels": 185
+      },
+      {
+        "id": "义蓬",
+        "nodeRectanglePixels": 187,
+        "railRectanglePixels": 203
+      },
+      {
+        "id": "新镇路",
+        "nodeRectanglePixels": 156,
+        "railRectanglePixels": 161
+      },
+      {
+        "id": "新港",
+        "nodeRectanglePixels": 178,
+        "railRectanglePixels": 200
+      },
+      {
+        "id": "坎山",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "盈中",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "合欢路",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "新街",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 7
+      },
+      {
+        "id": "新汉路",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 42
+      },
+      {
+        "id": "新兴路",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 16
+      },
+      {
+        "id": "明星路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "兴议",
+        "nodeRectanglePixels": 187,
+        "railRectanglePixels": 190
+      },
+      {
+        "id": "观音塘",
+        "nodeRectanglePixels": 0,
+        "railRectanglePixels": 32
+      },
+      {
+        "id": "莫邪塘",
+        "nodeRectanglePixels": 48,
+        "railRectanglePixels": 56
+      },
+      {
+        "id": "吴山广场",
+        "nodeRectanglePixels": 73,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "工商大学云滨",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 116
+      },
+      {
+        "id": "桥头堡",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "河庄路",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 13
+      },
+      {
+        "id": "青西三路",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 30
+      },
+      {
+        "id": "仓北村",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "冯娄村",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "新湾路",
+        "nodeRectanglePixels": 28,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "龙安",
+        "nodeRectanglePixels": 53,
+        "railRectanglePixels": 26
+      },
+      {
+        "id": "五洲路",
+        "nodeRectanglePixels": 80,
+        "railRectanglePixels": 69
+      },
+      {
+        "id": "荷禹路",
+        "nodeRectanglePixels": 92,
+        "railRectanglePixels": 72
+      },
+      {
+        "id": "邱山大街",
+        "nodeRectanglePixels": 96,
+        "railRectanglePixels": 77
+      },
+      {
+        "id": "临平",
+        "nodeRectanglePixels": 166,
+        "railRectanglePixels": 187
+      },
+      {
+        "id": "南苑",
+        "nodeRectanglePixels": 177,
+        "railRectanglePixels": 185
+      },
+      {
+        "id": "临平南高铁站",
+        "nodeRectanglePixels": 65,
+        "railRectanglePixels": 28
+      },
+      {
+        "id": "翁梅",
+        "nodeRectanglePixels": 212,
+        "railRectanglePixels": 208
+      },
+      {
+        "id": "乔司",
+        "nodeRectanglePixels": 187,
+        "railRectanglePixels": 220
+      },
+      {
+        "id": "乔司南",
+        "nodeRectanglePixels": 173,
+        "railRectanglePixels": 199
+      },
+      {
+        "id": "九睦路",
+        "nodeRectanglePixels": 159,
+        "railRectanglePixels": 174
+      },
+      {
+        "id": "红普南路",
+        "nodeRectanglePixels": 240,
+        "railRectanglePixels": 247
+      },
+      {
+        "id": "六堡",
+        "nodeRectanglePixels": 31,
+        "railRectanglePixels": 7
+      },
+      {
+        "id": "五堡",
+        "nodeRectanglePixels": 24,
+        "railRectanglePixels": 4
+      },
+      {
+        "id": "御道",
+        "nodeRectanglePixels": 144,
+        "railRectanglePixels": 97
+      },
+      {
+        "id": "江河汇",
+        "nodeRectanglePixels": 14,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "新业路",
+        "nodeRectanglePixels": 69,
+        "railRectanglePixels": 30
+      },
+      {
+        "id": "逸盛路",
+        "nodeRectanglePixels": 169,
+        "railRectanglePixels": 160
+      },
+      {
+        "id": "金德路",
+        "nodeRectanglePixels": 209,
+        "railRectanglePixels": 190
+      },
+      {
+        "id": "祥园路",
+        "nodeRectanglePixels": 147,
+        "railRectanglePixels": 199
+      },
+      {
+        "id": "渡驾桥",
+        "nodeRectanglePixels": 29,
+        "railRectanglePixels": 6
+      },
+      {
+        "id": "花园岗",
+        "nodeRectanglePixels": 46,
+        "railRectanglePixels": 42
+      },
+      {
+        "id": "北大桥",
+        "nodeRectanglePixels": 31,
+        "railRectanglePixels": 13
+      },
+      {
+        "id": "翠柏路",
+        "nodeRectanglePixels": 147,
+        "railRectanglePixels": 166
+      },
+      {
+        "id": "文三路",
+        "nodeRectanglePixels": 17,
+        "railRectanglePixels": 38
+      },
+      {
+        "id": "九州街",
+        "nodeRectanglePixels": 63,
+        "railRectanglePixels": 8
+      },
+      {
+        "id": "临安广场",
+        "nodeRectanglePixels": 144,
+        "railRectanglePixels": 189
+      },
+      {
+        "id": "农林大学",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "青山湖",
+        "nodeRectanglePixels": 39,
+        "railRectanglePixels": 21
+      },
+      {
+        "id": "八百里",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 22
+      },
+      {
+        "id": "青山湖科技城",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "南峰",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 3
+      },
+      {
+        "id": "南湖",
+        "nodeRectanglePixels": 6,
+        "railRectanglePixels": 20
+      },
+      {
+        "id": "中泰",
+        "nodeRectanglePixels": 31,
+        "railRectanglePixels": 4
+      },
+      {
+        "id": "禹航路",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 38
+      },
+      {
+        "id": "凤新路",
+        "nodeRectanglePixels": 72,
+        "railRectanglePixels": 45
+      },
+      {
+        "id": "知行路",
+        "nodeRectanglePixels": 37,
+        "railRectanglePixels": 35
+      },
+      {
+        "id": "耕文路",
+        "nodeRectanglePixels": 39,
+        "railRectanglePixels": 14
+      },
+      {
+        "id": "平澜路",
+        "nodeRectanglePixels": 37,
+        "railRectanglePixels": 23
+      },
+      {
+        "id": "驿城路",
+        "nodeRectanglePixels": 113,
+        "railRectanglePixels": 124
+      },
+      {
+        "id": "五联",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "西溪湿地北",
+        "nodeRectanglePixels": 60,
+        "railRectanglePixels": 47
+      },
+      {
+        "id": "荆长路",
+        "nodeRectanglePixels": 6,
+        "railRectanglePixels": 8
+      },
+      {
+        "id": "海创园",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 13
+      },
+      {
+        "id": "许村",
+        "nodeRectanglePixels": 31,
+        "railRectanglePixels": 8
+      },
+      {
+        "id": "长安(东方学院)",
+        "nodeRectanglePixels": 1,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "长安东",
+        "nodeRectanglePixels": 19,
+        "railRectanglePixels": 17
+      },
+      {
+        "id": "周王庙",
+        "nodeRectanglePixels": 6,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "盐官",
+        "nodeRectanglePixels": 13,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "桐九公路",
+        "nodeRectanglePixels": 16,
+        "railRectanglePixels": 2
+      },
+      {
+        "id": "斜桥",
+        "nodeRectanglePixels": 6,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "皮革城",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 23
+      },
+      {
+        "id": "海昌路",
+        "nodeRectanglePixels": 58,
+        "railRectanglePixels": 49
+      },
+      {
+        "id": "浙大国际校区",
+        "nodeRectanglePixels": 42,
+        "railRectanglePixels": 0
+      },
+      {
+        "id": "汤家村",
+        "nodeRectanglePixels": 78,
+        "railRectanglePixels": 29
+      }
+    ]
+  },
+  "after": {
+    "labelOverlapPairs": [],
+    "obstacleRectangleOverlaps": [
+      {
+        "id": "杭师大仓前",
+        "nodeRectanglePixels": 0,
+        "railRectanglePixels": 1
+      }
+    ]
+  },
+  "suggestedChanges": 269,
+  "limitations": "Conservative font rectangles, not browser glyph outlines; final browser and symbol checks remain necessary."
+}

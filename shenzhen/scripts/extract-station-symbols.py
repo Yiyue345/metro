@@ -68,6 +68,9 @@ for station in stations:
 # These stations explicitly draw separated platforms in the reference map.
 # The four-line Chegongmiao interchange is a rounded square in the reference.
 result['车公庙']['parts'][0]['cornerRadius']=4.5
+# Source review: these short capsules were rounded into circles by the PCA cutoff.
+result['世界之窗']['parts'][0].update(width=14.1,height=11.4,angle=26.6)
+result['华强南']['parts'][0].update(width=13.4,height=10.4,angle=0)
 # Normalize Hongshan's undersized extracted capsule to the nearby interchange height.
 hongshan=result['红山']['parts'][0]
 hongshan['width']=round(hongshan['width'] * 11.7 / hongshan['height'], 1)
@@ -93,11 +96,8 @@ result['光明']={'parts':[{'x':1743.5,'y':1005.5,'width':19,'height':14,'angle'
 result['福田口岸']={'parts':[circular(2799.5,3358.2,['4']),circular(2783.3,3365.5,['10'])],
     'connections':[{'x1':2799.5,'y1':3358.2,'x2':2783.3,'y2':3365.5,'kind':'out-of-station'}]}
 
-# Associate each hole in 上屋's figure-eight ring with its own line.
-result['上屋']={'parts':[
-    {'x':1685.5,'y':1767.5,'width':13,'height':13,'angle':0,'transfer':True,'lines':['6']},
-    {'x':1692.5,'y':1765.5,'width':13,'height':13,'angle':0,'transfer':True,'lines':['13']}
-]}
+# Source-reviewed overlapping circles take precedence over a capsule/PCA fit.
+result.update(json.loads((ROOT/'scripts/transfer-topology-overrides.json').read_text(encoding='utf-8')))
 
 (ROOT/'src/data/station-symbols.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (ROOT/'scripts/station-symbols-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

@@ -1,0 +1,552 @@
+[
+  {
+    "line": "EAL",
+    "path": 0,
+    "stations": [
+      "ADM",
+      "EXC",
+      "HUH",
+      "MKK",
+      "KOT",
+      "TAW",
+      "SHT",
+      "FOT",
+      "UNI",
+      "TAP",
+      "TWO",
+      "FAN",
+      "SHS",
+      "LOW"
+    ],
+    "coverage": [
+      {
+        "id": "ADM",
+        "distance": 0.0
+      },
+      {
+        "id": "EXC",
+        "distance": 0.898
+      },
+      {
+        "id": "HUH",
+        "distance": 0.457
+      },
+      {
+        "id": "MKK",
+        "distance": 0.934
+      },
+      {
+        "id": "KOT",
+        "distance": 1.82
+      },
+      {
+        "id": "TAW",
+        "distance": 1.861
+      },
+      {
+        "id": "SHT",
+        "distance": 0.627
+      },
+      {
+        "id": "FOT",
+        "distance": 1.059
+      },
+      {
+        "id": "UNI",
+        "distance": 1.206
+      },
+      {
+        "id": "TAP",
+        "distance": 0.608
+      },
+      {
+        "id": "TWO",
+        "distance": 0.23
+      },
+      {
+        "id": "FAN",
+        "distance": 0.589
+      },
+      {
+        "id": "SHS",
+        "distance": 0.19
+      },
+      {
+        "id": "LOW",
+        "distance": 0.0
+      }
+    ],
+    "curve": {
+      "kind": "globally tangent-continuous cubic Bezier",
+      "cubicCount": 322,
+      "rawPointCount": 1422,
+      "maxTracedCorridorDeviation": 1.99,
+      "p95TracedCorridorDeviation": 1.34
+    },
+    "segments": [
+      {
+        "from": "ADM",
+        "to": "EXC",
+        "maxColorDistance": 4.39,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "EXC",
+        "to": "HUH",
+        "maxColorDistance": 6.39,
+        "offBandFraction": 0.0153
+      },
+      {
+        "from": "HUH",
+        "to": "MKK",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "MKK",
+        "to": "KOT",
+        "maxColorDistance": 4.39,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "KOT",
+        "to": "TAW",
+        "maxColorDistance": 6.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "TAW",
+        "to": "SHT",
+        "maxColorDistance": 8.39,
+        "offBandFraction": 0.0204
+      },
+      {
+        "from": "SHT",
+        "to": "FOT",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "FOT",
+        "to": "UNI",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "UNI",
+        "to": "TAP",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "TAP",
+        "to": "TWO",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "TWO",
+        "to": "FAN",
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "FAN",
+        "to": "SHS",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "SHS",
+        "to": "LOW",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      }
+    ]
+  },
+  {
+    "line": "EAL",
+    "path": 1,
+    "stations": [
+      "SHS",
+      "LMC"
+    ],
+    "coverage": [
+      {
+        "id": "SHS",
+        "distance": 0.0
+      },
+      {
+        "id": "LMC",
+        "distance": 0.0
+      }
+    ],
+    "curve": {
+      "kind": "globally tangent-continuous cubic Bezier",
+      "cubicCount": 64,
+      "rawPointCount": 293,
+      "maxTracedCorridorDeviation": 2.08,
+      "p95TracedCorridorDeviation": 1.83
+    },
+    "segments": [
+      {
+        "from": "SHS",
+        "to": "LMC",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      }
+    ]
+  },
+  {
+    "line": "EAL",
+    "path": 2,
+    "stations": [
+      "SHT",
+      "RAC",
+      "UNI"
+    ],
+    "coverage": [
+      {
+        "id": "SHT",
+        "distance": 0.0
+      },
+      {
+        "id": "RAC",
+        "distance": 0.277
+      },
+      {
+        "id": "UNI",
+        "distance": 0.0
+      }
+    ],
+    "curve": {
+      "kind": "globally tangent-continuous cubic Bezier",
+      "cubicCount": 38,
+      "rawPointCount": 154,
+      "maxTracedCorridorDeviation": 2.11,
+      "p95TracedCorridorDeviation": 1.62
+    },
+    "segments": [
+      {
+        "from": "SHT",
+        "to": "RAC",
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "RAC",
+        "to": "UNI",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      }
+    ]
+  },
+  {
+    "line": "TML",
+    "path": 0,
+    "stations": [
+      "TUM",
+      "SIH",
+      "TIS",
+      "LOP",
+      "YUL",
+      "KSR",
+      "TWW",
+      "MEF",
+      "NAC",
+      "AUS",
+      "ETS",
+      "HUH",
+      "HOM",
+      "TKW",
+      "SUW",
+      "KAT",
+      "DIH",
+      "HIK",
+      "TAW",
+      "CKT",
+      "STW",
+      "CIO",
+      "SHM",
+      "TSH",
+      "HEO",
+      "MOS",
+      "WKS"
+    ],
+    "coverage": [
+      {
+        "id": "TUM",
+        "distance": 0.0
+      },
+      {
+        "id": "SIH",
+        "distance": 0.193
+      },
+      {
+        "id": "TIS",
+        "distance": 0.46
+      },
+      {
+        "id": "LOP",
+        "distance": 1.2
+      },
+      {
+        "id": "YUL",
+        "distance": 0.859
+      },
+      {
+        "id": "KSR",
+        "distance": 0.596
+      },
+      {
+        "id": "TWW",
+        "distance": 0.832
+      },
+      {
+        "id": "MEF",
+        "distance": 1.573
+      },
+      {
+        "id": "NAC",
+        "distance": 1.211
+      },
+      {
+        "id": "AUS",
+        "distance": 0.386
+      },
+      {
+        "id": "ETS",
+        "distance": 0.685
+      },
+      {
+        "id": "HUH",
+        "distance": 0.681
+      },
+      {
+        "id": "HOM",
+        "distance": 1.375
+      },
+      {
+        "id": "TKW",
+        "distance": 0.722
+      },
+      {
+        "id": "SUW",
+        "distance": 0.209
+      },
+      {
+        "id": "KAT",
+        "distance": 0.424
+      },
+      {
+        "id": "DIH",
+        "distance": 1.831
+      },
+      {
+        "id": "HIK",
+        "distance": 0.9
+      },
+      {
+        "id": "TAW",
+        "distance": 1.473
+      },
+      {
+        "id": "CKT",
+        "distance": 0.491
+      },
+      {
+        "id": "STW",
+        "distance": 0.749
+      },
+      {
+        "id": "CIO",
+        "distance": 0.173
+      },
+      {
+        "id": "SHM",
+        "distance": 0.219
+      },
+      {
+        "id": "TSH",
+        "distance": 0.487
+      },
+      {
+        "id": "HEO",
+        "distance": 0.648
+      },
+      {
+        "id": "MOS",
+        "distance": 0.742
+      },
+      {
+        "id": "WKS",
+        "distance": 0.0
+      }
+    ],
+    "curve": {
+      "kind": "globally tangent-continuous cubic Bezier",
+      "cubicCount": 483,
+      "rawPointCount": 2092,
+      "maxTracedCorridorDeviation": 1.94,
+      "p95TracedCorridorDeviation": 1.13
+    },
+    "segments": [
+      {
+        "from": "TUM",
+        "to": "SIH",
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "SIH",
+        "to": "TIS",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "TIS",
+        "to": "LOP",
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "LOP",
+        "to": "YUL",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "YUL",
+        "to": "KSR",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "KSR",
+        "to": "TWW",
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "TWW",
+        "to": "MEF",
+        "maxColorDistance": 5.6,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "MEF",
+        "to": "NAC",
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "NAC",
+        "to": "AUS",
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "AUS",
+        "to": "ETS",
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "ETS",
+        "to": "HUH",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "HUH",
+        "to": "HOM",
+        "maxColorDistance": 4.39,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "HOM",
+        "to": "TKW",
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "TKW",
+        "to": "SUW",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "SUW",
+        "to": "KAT",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "KAT",
+        "to": "DIH",
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "DIH",
+        "to": "HIK",
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "HIK",
+        "to": "TAW",
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "TAW",
+        "to": "CKT",
+        "maxColorDistance": 4.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "CKT",
+        "to": "STW",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "STW",
+        "to": "CIO",
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "CIO",
+        "to": "SHM",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "SHM",
+        "to": "TSH",
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "TSH",
+        "to": "HEO",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "HEO",
+        "to": "MOS",
+        "maxColorDistance": 2.8,
+        "offBandFraction": 0.0
+      },
+      {
+        "from": "MOS",
+        "to": "WKS",
+        "maxColorDistance": 2.0,
+        "offBandFraction": 0.0
+      }
+    ]
+  }
+]

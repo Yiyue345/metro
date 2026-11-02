@@ -4,10 +4,10 @@ import { networkBounds, neighborEdge } from '../data/neighbor-navigation.mjs';
 import { surroundingTileUrls } from '../data/tile-prefetch.mjs';
 import type { NeighborCity } from '../data/neighbor-cities';
 import type { MetroCityDataset } from '../data/metro-city';
-interface Station { id: string; name: string; englishName: string; aliases?: string[]; status?: 'planned'; x: number; y: number; lines: string[] }
+interface Station { id: string; name: string; englishName: string; aliases?: string[]; status?: 'planned' | 'suspended'; x: number; y: number; lines: string[] }
 interface Line { id: string; name: string; color: string }
 interface Coordinate { lat: number; lon: number }
-declare global { interface Window { __metroData: Pick<MetroCityDataset, 'city' | 'stationNotes' | 'basemap' | 'operatorsByStation' | 'lineNames' | 'transportTransfers'> & { stations: Station[]; lines: Line[]; meta: { width: number; height: number }; visitedStations: string[]; coordinates: Record<string, Coordinate>; neighbors: NeighborCity[] } } }
+declare global { interface Window { __metroData: Pick<MetroCityDataset, 'city' | 'stationNotes' | 'basemap' | 'operatorsByStation' | 'lineNames' | 'transportTransfers' | 'throughServices' | 'diagramRegistration' | 'externalLinesByStation'> & { stations: Station[]; lines: Line[]; lineBadgeSizes: Record<string, { width: number; height: number }>; meta: { width: number; height: number }; visitedStations: string[]; coordinates: Record<string, Coordinate>; neighbors: NeighborCity[] } } }
 
 type MetroPayload = Window['__metroData'];
 
@@ -18,7 +18,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     listener: (event: GlobalEventHandlersEventMap[K]) => void, options: AddEventListenerOptions = {}) {
     target.addEventListener(type, listener as EventListener, { ...options, signal: lifecycle.signal });
   }
-  const { stations, lines, meta, visitedStations, coordinates, city, stationNotes, basemap, operatorsByStation, lineNames, neighbors, transportTransfers = {} } = data;
+  const { stations, lines, meta, visitedStations, coordinates, city, stationNotes, basemap, operatorsByStation, lineNames, neighbors, transportTransfers = {}, throughServices = [] } = data;
   // A same-origin or separately deployed proxy can be selected at build time.
   // The proxy keeps the upstream host out of browser requests while preserving
   // the TileJSON-relative `/tiles/osm/...` paths expected by VersaTiles style.
@@ -53,7 +53,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   const prefetchedTiles = new Set<string>();
   const geographicMarkers = new Map<string, SVGGElement>();
   let geographicOverlay: SVGSVGElement | undefined;
-  const registration = registerDiagram(stations, coordinates, meta.width);
+  const registration = registerDiagram(stations, coordinates, meta.width, data.diagramRegistration);
   const geographicCoordinates: Record<string, Coordinate> = registration.stationCoordinates;
   const homeNetworkBounds = networkBounds(Object.values(geographicCoordinates));
   const neighborOverlays = new Map<string, SVGSVGElement>();
@@ -79,6 +79,14 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   };
   let selected: string | null = null;
   let activeLine: string | null = null;
+  function isThroughService(lineIds: string[]) {
+    return !!activeLine && !lineIds.includes(activeLine)
+      && throughServices.some(group => group.includes(activeLine!) && lineIds.some(id => group.includes(id)));
+  }
+  function updateLineEmphasis(element: SVGGElement, lineIds: string[]) {
+    element.classList.toggle('dimmed', !!activeLine && !lineIds.includes(activeLine));
+    element.classList.toggle('through-service', isThroughService(lineIds));
+  }
   function requestCityPage(href: string, signal?: AbortSignal): Promise<Document> {
     const cached = cityPageCache.get(href);
     if (cached) return cached;
@@ -104,6 +112,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     const station = selected ? stationById.get(selected) : undefined;
     const messages: string[] = [];
     if (station?.status === 'planned') messages.push('未开通');
+    if (station?.status === 'suspended') messages.push('暂停运营');
     if (selected && geographicMode() && !coordinates[selected]) messages.push('暂无已核实的经纬度');
     status.textContent = messages.join(' · ');
     status.hidden = !messages.length;
@@ -119,6 +128,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
       element.classList.toggle('filtered', !!activeLine && included);
       element.style.setProperty('--station-color', activeLine ? lineById.get(activeLine)?.color ?? '#245c43' : '#245c43');
       element.classList.toggle('excluded', !included);
+      element.classList.toggle('through-service', isThroughService(station.lines));
       element.classList.toggle('visited', visited.has(id));
       element.classList.toggle('selected', selected === id);
       element.tabIndex = interactive && included ? 0 : -1;
@@ -127,10 +137,10 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
   }
   function updateGeographicLines() {
     geographicOverlay?.querySelectorAll<SVGGElement>('[data-route]').forEach(route => {
-      route.classList.toggle('dimmed', !!activeLine && route.dataset.route !== activeLine);
+      updateLineEmphasis(route, [route.dataset.route!]);
     });
     geographicOverlay?.querySelectorAll<SVGGElement>('[data-label]').forEach(label => {
-      label.classList.toggle('dimmed', !!activeLine && !stationById.get(label.dataset.label!)?.lines.includes(activeLine));
+      updateLineEmphasis(label, stationById.get(label.dataset.label!)?.lines ?? []);
     });
   }
   function positionGeographicOverlay() {
@@ -159,7 +169,8 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     const southeast = enabled ? geographicMap!.project([geographicBounds[1][0], geographicBounds[0][1]]) : undefined;
     const boundary = northwest && southeast ? { left: northwest.x, top: northwest.y, right: southeast.x, bottom: southeast.y } : undefined;
     for (const neighbor of neighbors) {
-      const link = neighborLinks.get(neighbor.id)!;
+      const link = neighborLinks.get(neighbor.id);
+      if (!link) continue;
       const placement = enabled ? neighborEdge(viewport,
         geographicMap!.project(boundsCenter(neighbor.networkBounds)), home!,
         Object.values(neighbor.registration.stationCoordinates).map(point => geographicMap!.project([point.lon, point.lat])),
@@ -557,7 +568,16 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
       image.src = `${city.assetBase}/lines/${lineId}.svg`;
       image.alt = lineTitle(String(lineId), line?.name);
       image.title = image.alt;
-      image.width = /^\d{2}$/.test(lineId) ? 245 : 200;
+      const badgeSize = data.lineBadgeSizes[lineId];
+      image.width = badgeSize.width;
+      image.height = badgeSize.height;
+      return image;
+    }), ...(data.externalLinesByStation?.[id] ?? []).map(line => {
+      const image = document.createElement('img');
+      image.className = 'line-badge';
+      image.src = line.badge;
+      image.alt = line.name;
+      image.title = line.name;
       image.height = 100;
       return image;
     }));
@@ -575,13 +595,12 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
       link.title = operator.company;
+      link.setAttribute('aria-label', operator.company);
       link.dataset.operator = operator.id;
-      if (operator.logo) {
-        const image = document.createElement('img');
-        image.src = operator.logo;
-        image.alt = operator.name;
-        link.append(image);
-      } else link.textContent = operator.name;
+      const image = document.createElement('img');
+      image.src = operator.logo;
+      image.alt = operator.name;
+      link.append(image);
       return link;
     }));
     card.hidden = false;
@@ -603,6 +622,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
       const included = !id || !!station?.lines.some(value => String(value) === id);
       node.classList.toggle('filtered', !!id && included);
       node.classList.toggle('excluded', !included);
+      node.classList.toggle('through-service', isThroughService(station?.lines ?? []));
       node.style.setProperty('--station-color', line?.color ?? '#245c43');
     });
     document.querySelectorAll<HTMLButtonElement>('.line-choice').forEach(button => {
@@ -611,10 +631,10 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
       button.setAttribute('aria-pressed', String(active));
     });
     document.querySelector('#line-count')!.textContent = line?.name ?? '全部';
-    routeNodes.forEach(route => route.classList.toggle('dimmed', !!id && route.dataset.route !== id));
+    routeNodes.forEach(route => updateLineEmphasis(route, [route.dataset.route!]));
     labelNodes.forEach(label => {
       const station = stationById.get(label.dataset.label!);
-      label.classList.toggle('dimmed', !!id && !station?.lines.some(value => String(value) === id));
+      updateLineEmphasis(label, station?.lines ?? []);
     });
     if (selected && id && !stationById.get(selected)?.lines.some(value => String(value) === id)) closeCard();
     updateGeographicMarkers();
@@ -625,7 +645,7 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     const query = search.value.trim();
     results.replaceChildren();
     if (!query) { results.hidden = true; return; }
-    const matches = stations.filter(s => s.name.includes(query) || s.englishName.toLowerCase().includes(query.toLowerCase()) || s.aliases?.some(alias => alias.includes(query))).sort((a, b) => Number(b.name === query) - Number(a.name === query)).slice(0, 12);
+    const matches = stations.filter(s => s.name.includes(query) || s.englishName.toLowerCase().includes(query.toLowerCase()) || s.aliases?.some(alias => alias.toLowerCase().includes(query.toLowerCase()))).sort((a, b) => Number(b.name === query) - Number(a.name === query)).slice(0, 12);
     matches.forEach(station => {
       const button = document.createElement('button');
       button.type = 'button';
@@ -652,11 +672,10 @@ function mountCity(data: MetroPayload, existingMap?: MapLibreMap, initialCamera?
     if (event.key === 'ArrowUp') { event.preventDefault(); if (index <= 0) search.focus(); else buttons[index - 1]?.focus(); }
   });
   document.querySelectorAll<HTMLButtonElement>('[data-line]').forEach(button => listen(button, 'click', () => filterLine(activeLine === button.dataset.line ? null : button.dataset.line!)));
-  listen(document.querySelector('#all-lines')!, 'click', () => filterLine(null));
-  for (const neighbor of neighbors) listen(neighborLinks.get(neighbor.id)!, 'click', event => {
+  for (const neighbor of neighbors.filter(neighbor => neighbor.href)) listen(neighborLinks.get(neighbor.id)!, 'click', event => {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || !geographicMode() || !geographicMap) return;
     event.preventDefault();
-    void navigateCity(neighbor.href);
+    void navigateCity(neighbor.href!);
   });
   document.querySelectorAll<HTMLAnchorElement>('.city-choice, [data-neighbor-city]').forEach(link => {
     const href = new URL(link.href, location.href).pathname;
@@ -705,7 +724,7 @@ function readCityPayload(page: Document): MetroPayload {
   if (!source) throw new Error('Missing city data');
   const data = JSON.parse(source) as MetroPayload;
   if (!data.city || !Array.isArray(data.stations) || !Array.isArray(data.lines)
-    || !['shenzhen', 'dongguan', 'nanning', 'kunming'].includes(data.city.id)) throw new Error('Invalid city data');
+    || !['shenzhen', 'dongguan', 'nanning', 'kunming', 'hangzhou', 'shaoxing', 'chengdu'].includes(data.city.id)) throw new Error('Invalid city data');
   return data;
 }
 function installCity(page: Document, data: MetroPayload, map: MapLibreMap | undefined, camera: CameraOptions | undefined, href: string, push: boolean) {
@@ -737,5 +756,5 @@ document.addEventListener('click', event => {
   void activeCity.navigate(new URL(link.href).pathname);
 });
 window.addEventListener('popstate', () => {
-  if (['/', '/dongguan/', '/nanning/', '/kunming/'].includes(location.pathname)) void activeCity.navigate(location.pathname, false);
+  if (['/', '/dongguan/', '/nanning/', '/kunming/', '/hangzhou/', '/shaoxing/', '/chengdu/'].includes(location.pathname)) void activeCity.navigate(location.pathname, false);
 });

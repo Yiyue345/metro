@@ -1,31 +1,37 @@
 ---
 import { shenzhenDataset, type MetroCityDataset } from '../data/metro-city';
 import MetroDiagram from './MetroDiagram.astro';
-import { neighboringDatasets, neighborCity } from '../data/neighbor-cities';
+import { neighboringDatasets, contextualDatasets, neighborCity } from '../data/neighbor-cities';
+import { borderCrossings } from '../data/hongkong-context';
 import { validateVisitedStations } from '../data/validate-visited.mjs';
 import { validateStationNotes } from '../data/validate-station-notes.mjs';
+import { lineBadgeSize } from '../data/line-badge-size.mjs';
 import 'maplibre-gl/dist/maplibre-gl.css';
 interface Props { dataset?: MetroCityDataset }
 const { dataset = shenzhenDataset } = Astro.props;
-const { city, mapMeta, stations, plannedStations, lines, englishNames, visitedStations, coordinates, stationNotes, basemap, operatorsByStation, lineNames, transportTransfers = {} } = dataset;
+const { city, mapMeta, stations, plannedStations, lines, englishNames, visitedStations, coordinates, stationNotes, basemap, operatorsByStation, lineNames, transportTransfers = {}, throughServices = [], diagramRegistration, externalLinesByStation = {} } = dataset;
 const stationIds = new Set(stations.map(station => station.id));
 validateVisitedStations(visitedStations, stationIds);
 const allStations = [...stations, ...plannedStations];
 validateStationNotes(stationNotes, new Set(allStations.map(station => station.id)));
 const plannedById = new Map(plannedStations.map(station => [station.id, station]));
-const lineBadgeWidth = (id: string) => /^\d{2}$/.test(id) ? 245 : 200;
+const lineBadgeSizes = Object.fromEntries(lines.map(line => [line.id, lineBadgeSize(city.id, line.id)]));
+const wideBadgeRatio = 1.6;
+const lineColumns = Math.min(4, lines.reduce((count, line) => count + (lineBadgeSizes[line.id].width / lineBadgeSizes[line.id].height > wideBadgeRatio ? 2 : 1), 0));
 const bilingualStations = allStations.map(station => ({ ...station, englishName: plannedById.get(station.id)?.englishName ?? englishNames[station.id] ?? '' }));
 const neighborDatasets = neighboringDatasets(city.id);
-const neighbors = neighborDatasets.map(neighborCity);
+const contextDatasets = contextualDatasets(city.id);
+const overlayDatasets = [...neighborDatasets, ...contextDatasets];
+const neighbors = [...neighborDatasets.map(neighbor => neighborCity(neighbor)), ...contextDatasets.map(context => neighborCity(context, false))];
 // Notes remain plain text even when they contain HTML script-closing sequences.
-const metroPayload = JSON.stringify({ stations: bilingualStations, lines, meta: mapMeta, visitedStations, coordinates, city, stationNotes, basemap, operatorsByStation, lineNames, neighbors, transportTransfers }).replace(/</g, '\\u003c');
+const metroPayload = JSON.stringify({ stations: bilingualStations, lines, lineBadgeSizes, meta: mapMeta, visitedStations, coordinates, city, stationNotes, basemap, operatorsByStation, lineNames, neighbors, transportTransfers, throughServices, diagramRegistration, externalLinesByStation }).replace(/</g, '\\u003c');
 ---
 <section class="map-workspace" data-map-mode="geographic" aria-label={`${city.name}地铁交互地图`}>
   <template id="metro-diagram-source"><MetroDiagram dataset={dataset} /></template>
   <div id="geographic-map" aria-label={`${city.name}地铁真实地图，可拖动和缩放`}></div>
-  {neighborDatasets.map(neighbor => <template data-neighbor-diagram={neighbor.city.id}><MetroDiagram dataset={neighbor} neighbor /></template>)}
+  {overlayDatasets.map(neighbor => <template data-neighbor-diagram={neighbor.city.id}><MetroDiagram dataset={neighbor} neighbor crossings={borderCrossings(dataset, neighbor)} omitStations={new Set(Object.keys(externalLinesByStation))} /></template>)}
   <nav class="neighbor-city-controls" aria-label="附近城市">
-    {neighbors.map(neighbor => <a class="neighbor-city-link" data-neighbor-city={neighbor.id} href={neighbor.href} aria-label={`切换到${neighbor.name}地铁地图`} aria-hidden="true" tabindex="-1">
+    {neighbors.filter(neighbor => neighbor.href).map(neighbor => <a class="neighbor-city-link" data-neighbor-city={neighbor.id} href={neighbor.href} aria-label={`切换到${neighbor.name}地铁地图`} aria-hidden="true" tabindex="-1">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5" /></svg><span>{neighbor.name}</span>
     </a>)}
   </nav>
@@ -39,7 +45,14 @@ const metroPayload = JSON.stringify({ stations: bilingualStations, lines, meta: 
     </div>
     <details class="line-panel">
       <summary><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14M5 12h14M5 19h14"/><circle cx="9" cy="5" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="9" cy="19" r="2"/></svg><span>线路站点</span><span id="line-count">全部</span><svg class="chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m5 6 3 3 3-3"/></svg></summary>
-      <div class="line-options"><button id="all-lines" class="line-choice active" type="button" aria-pressed="true">全部线路</button>{lines.map(line => <button class="line-choice" type="button" data-line={line.id} aria-label={line.name} aria-pressed="false"><img class="line-badge" src={`${city.assetBase}/lines/${line.id}.svg`} alt={line.name} width={lineBadgeWidth(line.id)} height="100" /></button>)}</div>
+      <div class="line-options">
+        <div class="line-grid" style={`--line-columns: ${lineColumns}`}>
+          {lines.map(line => {
+            const size = lineBadgeSizes[line.id], ratio = size.width / size.height;
+            return <button class:list={['line-choice', { 'line-choice-wide': ratio > wideBadgeRatio }]} style={`--badge-ratio: ${ratio}; --line-sign-color: ${size.color}`} type="button" data-line={line.id} aria-label={line.name} aria-pressed="false"><span class="line-sign"><img class="line-badge" src={`${city.assetBase}/lines/${line.id}.svg`} alt={line.name} width={size.width} height={size.height} /></span></button>;
+          })}
+        </div>
+      </div>
     </details>
   </div>
   <aside id="station-card" class="station-card" aria-live="polite" hidden>

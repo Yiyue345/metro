@@ -1,0 +1,844 @@
+{
+  "lineId": "r2",
+  "lineName": "有轨电车蓉2号线",
+  "referenceVersion": "2026.08",
+  "retrievedAt": "2026-10-23",
+  "referenceImage": "E:/BaiduNetdiskDownload/05.成都地铁3.0 公开免费版（更新至2026.08）/01.公开版-成都地铁线路3.0-a运营版（至2026年08月）纯色底.jpg",
+  "paths": [
+    [
+      "成都西站",
+      "联工",
+      "土龙路",
+      "新业路",
+      "锦城学院",
+      "电子科大",
+      "合信路",
+      "合作路",
+      "天欣路",
+      "安埠",
+      "天映路",
+      "天源路",
+      "德富大道",
+      "红旗大道",
+      "红展东路",
+      "大禹东路",
+      "花石",
+      "晨光",
+      "何公路",
+      "望丛祠",
+      "梨园路",
+      "郫县西站"
+    ],
+    [
+      "新业路",
+      "百叶路",
+      "晨风",
+      "天河路",
+      "龙吟",
+      "交大犀浦校区",
+      "犀方路",
+      "国宁",
+      "大田",
+      "西华大学",
+      "双林村",
+      "金土",
+      "技师学院",
+      "仁和"
+    ]
+  ],
+  "pathNames": [
+    "成都西站—郫县西站",
+    "新业路—仁和"
+  ],
+  "stations": [
+    {
+      "id": "成都西站",
+      "name": "成都西站",
+      "englishName": "Chengdu West Railway Station",
+      "sourceName": "成都西站",
+      "sourceId": "osm:node:7090306536",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.6869415,
+        "lon": 103.9759146,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.6869415,
+        "lon": 103.9759146
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090306536",
+      "allPlatformNodeIds": [
+        7090306536,
+        7090306537
+      ]
+    },
+    {
+      "id": "联工",
+      "name": "联工",
+      "englishName": "Liangong",
+      "sourceName": "联工",
+      "sourceId": "osm:node:7090306545",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.6972153,
+        "lon": 103.9748322,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.6972153,
+        "lon": 103.9748322
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090306545",
+      "allPlatformNodeIds": [
+        7090306545,
+        7090306550
+      ]
+    },
+    {
+      "id": "土龙路",
+      "name": "土龙路",
+      "englishName": "Tulong Road",
+      "sourceName": "土龙路",
+      "sourceId": "osm:node:7090306555",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7161131,
+        "lon": 103.9671291,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7161131,
+        "lon": 103.9671291
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090306555",
+      "allPlatformNodeIds": [
+        7090306555,
+        7090306556
+      ]
+    },
+    {
+      "id": "新业路",
+      "name": "新业路",
+      "englishName": "Xinye Road",
+      "sourceName": "新业路",
+      "sourceId": "osm:node:7090306559",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7267653,
+        "lon": 103.9546025,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7267653,
+        "lon": 103.9546025
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090306559",
+      "allPlatformNodeIds": [
+        7090306559,
+        7090306560,
+        7090362261
+      ]
+    },
+    {
+      "id": "锦城学院",
+      "name": "锦城学院",
+      "englishName": "Chengdu Jincheng College",
+      "sourceName": "锦城学院",
+      "sourceId": "osm:node:7090306317",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7318548,
+        "lon": 103.9487595,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7318548,
+        "lon": 103.9487595
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090306317",
+      "allPlatformNodeIds": [
+        7090306317,
+        7294649638
+      ]
+    },
+    {
+      "id": "电子科大",
+      "name": "电子科大",
+      "englishName": "University of Electronic Science and Technology of China",
+      "sourceName": "电子科大",
+      "sourceId": "osm:node:7090254100",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7444222,
+        "lon": 103.9271246,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7444222,
+        "lon": 103.9271246
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090254100",
+      "allPlatformNodeIds": [
+        7090254100,
+        7090254101
+      ]
+    },
+    {
+      "id": "合信路",
+      "name": "合信路",
+      "englishName": "Hexin Road",
+      "sourceName": "合信路",
+      "sourceId": "osm:node:6161012363",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7531956,
+        "lon": 103.9199676,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7531956,
+        "lon": 103.9199676
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6161012363",
+      "allPlatformNodeIds": [
+        6161012363,
+        6942926869
+      ]
+    },
+    {
+      "id": "合作路",
+      "name": "合作路",
+      "englishName": "Hezuo Road",
+      "sourceName": "合作路",
+      "sourceId": "osm:node:6161012364",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.75631,
+        "lon": 103.9227207,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.75631,
+        "lon": 103.9227207
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6161012364",
+      "allPlatformNodeIds": [
+        6161012364,
+        6161012366
+      ]
+    },
+    {
+      "id": "天欣路",
+      "name": "天欣路",
+      "englishName": "Tianxin Road",
+      "sourceName": "天欣路",
+      "sourceId": "osm:node:6161012368",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7597516,
+        "lon": 103.9193914,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7597516,
+        "lon": 103.9193914
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6161012368",
+      "allPlatformNodeIds": [
+        6161012368,
+        6161012370
+      ]
+    },
+    {
+      "id": "安埠",
+      "name": "安埠",
+      "englishName": "Anbu",
+      "sourceName": "安埠",
+      "sourceId": "osm:node:6161012372",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7671832,
+        "lon": 103.9127767,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7671832,
+        "lon": 103.9127767
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6161012372",
+      "allPlatformNodeIds": [
+        6161012372,
+        6162387270
+      ]
+    },
+    {
+      "id": "天映路",
+      "name": "天映路",
+      "englishName": "Tianying Road",
+      "sourceName": "天映路",
+      "sourceId": "osm:node:5292055457",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7608985,
+        "lon": 103.9018314,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7608985,
+        "lon": 103.9018314
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/5292055457",
+      "allPlatformNodeIds": [
+        5292055457,
+        6162388591
+      ]
+    },
+    {
+      "id": "天源路",
+      "name": "天源路",
+      "englishName": "Tianyuan Road",
+      "sourceName": "天源路",
+      "sourceId": "osm:node:6161017952",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7678869,
+        "lon": 103.8949121,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7678869,
+        "lon": 103.8949121
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6161017952",
+      "allPlatformNodeIds": [
+        6161017952,
+        6161017954
+      ]
+    },
+    {
+      "id": "德富大道",
+      "name": "德富大道",
+      "englishName": "Defu Avenue",
+      "sourceName": "德富大道",
+      "sourceId": "osm:node:6161017956",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7781382,
+        "lon": 103.8594221,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7781382,
+        "lon": 103.8594221
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6161017956",
+      "allPlatformNodeIds": [
+        6161017956,
+        6161017958
+      ]
+    },
+    {
+      "id": "红旗大道",
+      "name": "红旗大道",
+      "englishName": "Hongqi Avenue",
+      "sourceName": "红旗大道",
+      "sourceId": "osm:node:6161018194",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7767357,
+        "lon": 103.8538536,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7767357,
+        "lon": 103.8538536
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6161018194",
+      "allPlatformNodeIds": [
+        6161018194,
+        6161018196
+      ]
+    },
+    {
+      "id": "红展东路",
+      "name": "红展东路",
+      "englishName": "Hongzhan East Road",
+      "sourceName": "红展东路",
+      "sourceId": "osm:node:6161018198",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.779829,
+        "lon": 103.8503303,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.779829,
+        "lon": 103.8503303
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6161018198",
+      "allPlatformNodeIds": [
+        6161018198,
+        6161018200
+      ]
+    },
+    {
+      "id": "大禹东路",
+      "name": "大禹东路",
+      "englishName": "Dayu East Road",
+      "sourceName": "大禹东路",
+      "sourceId": "osm:node:6161018202",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7868516,
+        "lon": 103.8564054,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7868516,
+        "lon": 103.8564054
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6161018202",
+      "allPlatformNodeIds": [
+        6161018202,
+        6161018203
+      ]
+    },
+    {
+      "id": "花石",
+      "name": "花石",
+      "englishName": "Huashi",
+      "sourceName": "花石",
+      "sourceId": "osm:node:6161018210",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7917851,
+        "lon": 103.8604565,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7917851,
+        "lon": 103.8604565
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6161018210",
+      "allPlatformNodeIds": [
+        6161018210,
+        6161018211
+      ]
+    },
+    {
+      "id": "晨光",
+      "name": "晨光",
+      "englishName": "Chenguang",
+      "sourceName": "晨光",
+      "sourceId": "osm:node:5292055522",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.800641,
+        "lon": 103.8678215,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.800641,
+        "lon": 103.8678215
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/5292055522",
+      "allPlatformNodeIds": [
+        5292055522,
+        6216221290
+      ]
+    },
+    {
+      "id": "何公路",
+      "name": "何公路",
+      "englishName": "Hegong Road",
+      "sourceName": "何公路",
+      "sourceId": "osm:node:7090080248",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.8054287,
+        "lon": 103.8750085,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.8054287,
+        "lon": 103.8750085
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090080248",
+      "allPlatformNodeIds": [
+        7090080248,
+        7090080261
+      ]
+    },
+    {
+      "id": "望丛祠",
+      "name": "望丛祠",
+      "englishName": "Wangcong Temple",
+      "sourceName": "望丛祠",
+      "sourceId": "osm:node:7090080207",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.8098283,
+        "lon": 103.8759878,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.8098283,
+        "lon": 103.8759878
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090080207",
+      "allPlatformNodeIds": [
+        7090080207,
+        7090080208
+      ]
+    },
+    {
+      "id": "梨园路",
+      "name": "梨园路",
+      "englishName": "Liyuan Road",
+      "sourceName": "梨园路",
+      "sourceId": "osm:node:7090080201",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.8187623,
+        "lon": 103.8775058,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.8187623,
+        "lon": 103.8775058
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090080201",
+      "allPlatformNodeIds": [
+        7090080201,
+        7090080202
+      ]
+    },
+    {
+      "id": "郫县西站",
+      "name": "郫县西站",
+      "englishName": "Pixian West Railway Station",
+      "sourceName": "郫县西站",
+      "sourceId": "osm:node:7090080191",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.8255007,
+        "lon": 103.8783509,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.8255007,
+        "lon": 103.8783509
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090080191",
+      "allPlatformNodeIds": [
+        7090080191,
+        7090080192
+      ]
+    },
+    {
+      "id": "百叶路",
+      "name": "百叶路",
+      "englishName": "Baiye Road",
+      "sourceName": "百叶路",
+      "sourceId": "osm:node:7090362253",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7347777,
+        "lon": 103.9604425,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7347777,
+        "lon": 103.9604425
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090362253",
+      "allPlatformNodeIds": [
+        7090362253,
+        7090362256
+      ]
+    },
+    {
+      "id": "晨风",
+      "name": "晨风",
+      "englishName": "Chenfeng",
+      "sourceName": "晨风",
+      "sourceId": "osm:node:7090374301",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.742376,
+        "lon": 103.9691077,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.742376,
+        "lon": 103.9691077
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090374301",
+      "allPlatformNodeIds": [
+        7090374301,
+        7090374302
+      ]
+    },
+    {
+      "id": "天河路",
+      "name": "天河路",
+      "englishName": "Tianhe Road",
+      "sourceName": "天河路",
+      "sourceId": "osm:node:7090374291",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7482284,
+        "lon": 103.9737462,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7482284,
+        "lon": 103.9737462
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7090374291",
+      "allPlatformNodeIds": [
+        7090374291,
+        7090374303
+      ]
+    },
+    {
+      "id": "龙吟",
+      "name": "龙吟",
+      "englishName": "Longyin",
+      "sourceName": "龙吟",
+      "sourceId": "osm:node:7093213810",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7573163,
+        "lon": 103.9830485,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7573163,
+        "lon": 103.9830485
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7093213810",
+      "allPlatformNodeIds": [
+        7093213810,
+        7093213811
+      ]
+    },
+    {
+      "id": "交大犀浦校区",
+      "name": "交大犀浦校区",
+      "englishName": "Xipu Campus, Southwest Jiaotong University",
+      "sourceName": "交大犀浦校区",
+      "sourceId": "osm:node:7093110874",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7633205,
+        "lon": 103.9794495,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7633205,
+        "lon": 103.9794495
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7093110874",
+      "allPlatformNodeIds": [
+        7093110874,
+        7093213814
+      ]
+    },
+    {
+      "id": "犀方路",
+      "name": "犀方路",
+      "englishName": "Xifang Road",
+      "sourceName": "犀方路",
+      "sourceId": "osm:node:5805662170",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7701366,
+        "lon": 103.9741603,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7701366,
+        "lon": 103.9741603
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/5805662170",
+      "allPlatformNodeIds": [
+        5805662170,
+        7093170783
+      ]
+    },
+    {
+      "id": "国宁",
+      "name": "国宁",
+      "englishName": "Guoning",
+      "sourceName": "国宁",
+      "sourceId": "osm:node:7093177009",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7687497,
+        "lon": 103.966164,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7687497,
+        "lon": 103.966164
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7093177009",
+      "allPlatformNodeIds": [
+        7093177009,
+        7093250504
+      ]
+    },
+    {
+      "id": "大田",
+      "name": "大田",
+      "englishName": "Datian",
+      "sourceName": "大田",
+      "sourceId": "osm:node:7093177077",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7777618,
+        "lon": 103.9624953,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7777618,
+        "lon": 103.9624953
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7093177077",
+      "allPlatformNodeIds": [
+        7093177077,
+        7093250509
+      ]
+    },
+    {
+      "id": "西华大学",
+      "name": "西华大学",
+      "englishName": "Xihua University",
+      "sourceName": "西华大学",
+      "sourceId": "osm:node:7093250507",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7821374,
+        "lon": 103.9616299,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7821374,
+        "lon": 103.9616299
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7093250507",
+      "allPlatformNodeIds": [
+        7093250507,
+        7093250508
+      ]
+    },
+    {
+      "id": "双林村",
+      "name": "双林村",
+      "englishName": "Shuanglin Village",
+      "sourceName": "双林村",
+      "sourceId": "osm:node:7093177105",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7889065,
+        "lon": 103.9628298,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7889065,
+        "lon": 103.9628298
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7093177105",
+      "allPlatformNodeIds": [
+        7093177105,
+        7093250514
+      ]
+    },
+    {
+      "id": "金土",
+      "name": "金土",
+      "englishName": "Jintu",
+      "sourceName": "金土",
+      "sourceId": "osm:node:7093250515",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7912655,
+        "lon": 103.9563703,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7912655,
+        "lon": 103.9563703
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7093250515",
+      "allPlatformNodeIds": [
+        7093250515,
+        7093250516
+      ]
+    },
+    {
+      "id": "技师学院",
+      "name": "技师学院",
+      "englishName": "Chengdu Technician College",
+      "sourceName": "技师学院",
+      "sourceId": "osm:node:7093250531",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.7977332,
+        "lon": 103.9581753,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.7977332,
+        "lon": 103.9581753
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7093250531",
+      "allPlatformNodeIds": [
+        7093250531,
+        7093250532
+      ]
+    },
+    {
+      "id": "仁和",
+      "name": "仁和",
+      "englishName": "Renhe",
+      "sourceName": "仁和",
+      "sourceId": "osm:node:7093213727",
+      "sourceCRS": "WGS84",
+      "sourceLocation": {
+        "lat": 30.8020833,
+        "lon": 103.9544367,
+        "crs": "WGS84"
+      },
+      "coordinate": {
+        "lat": 30.8020833,
+        "lon": 103.9544367
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/7093213727",
+      "allPlatformNodeIds": [
+        7093213727,
+        7093213728
+      ]
+    }
+  ],
+  "sourceUrls": [
+    "https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A15%5D%3Bnode%5Brailway%3Dtram_stop%5D%2830.65%2C103.83%2C30.88%2C104.02%29%3Bout%3B",
+    "https://www.metroman.cn/cities/chengdu/stations",
+    "https://news.chengdu.cn/2025/0915/68c7b952c88e3b6170723cb3.shtml",
+    "https://www.openstreetmap.org/copyright"
+  ],
+  "sourceSnapshot": "r2-osm-mail.json",
+  "notes": [
+    "参考图逐段核查为35个唯一运营站：主线22站、支线14站，共用新业路1站；两条路径以分岔站新业路连接。",
+    "未按47个规划站或42个初期开通站直接生成名册：35站范围以用户提供的2026.08运营版参考图为准。",
+    "不纳入参考图未绘的12站：清淳、两河路、新达路、天润路、蜀新大道、康强四路、安泰二路、安泰五路、望丛中路、和兴街、菠萝滩、犀安路。未绘站的实际历史开通或预留状态不由本名册断言。",
+    "交大犀浦校区采用参考图和OSM名称；地铁通旧名为西南交大犀浦站。该站不与地铁6号线兴业北街合并。",
+    "OSM公开数据直接使用WGS84。无GCJ02转换、无地址地理编码、无示意图反推坐标。",
+    "每站选ID最小的现有railway=tram_stop节点作为站点代表，保留原始WGS84数值。双向站台可能有数十米差异；allPlatformNodeIds保留全部同名站台节点，未取平均、未硬编坐标。",
+    "成都西站、天河路、望丛祠可与同名地铁站在名册层合并，但此文件保留有轨站台原始坐标作为审计证据。",
+    "英文名直接来自OSM name:en；与参考图英文排字可能存在差异。",
+    "OSM数据依ODbL使用，署名OpenStreetMap contributors。"
+  ]
+}

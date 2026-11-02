@@ -1,0 +1,27 @@
+---
+import type { StationSymbolGeometry } from '../data/metro-city';
+import { stationShapeUnionPath } from '../data/circle-union.mjs';
+interface Props { geometry: StationSymbolGeometry; x: number; y: number; colors: Map<string, string>; id: string }
+const { geometry, x, y, colors, id } = Astro.props;
+const parts = geometry.parts.map(part => ({ x: part.x - x, y: part.y - y, width: part.width + 1.6, height: part.height + 1.6, angle: part.angle }));
+const outline = stationShapeUnionPath(parts);
+const gradient = geometry.gradient!;
+const palette = gradient.lines.map(line => colors.get(line) ?? '#67736e');
+---
+<g transform={`translate(${x} ${y})`} data-joined-symbol data-circle-count={parts.filter(part => part.width === part.height).length} data-capsule-count={parts.filter(part => part.width !== part.height).length}>
+  <g class="station-symbol transfer">
+    <defs>
+      <clipPath id={`${id}-clip`}><path d={outline} /></clipPath>
+      <linearGradient id={`${id}-gradient`} gradientUnits="userSpaceOnUse" x1={gradient.x1 - x} y1={gradient.y1 - y} x2={gradient.x2 - x} y2={gradient.y2 - y}>
+        {palette.map((color, i) => <stop offset={`${i / (palette.length - 1) * 100}%`} stop-color={color} />)}
+      </linearGradient>
+    </defs>
+    <path class="station-hit" d={outline} fill="transparent" stroke="transparent" stroke-width="4" />
+    <path class="station-border" d={outline} />
+    <g clip-path={`url(#${id}-clip)`}>
+      <path class="station-fill" d={outline} fill={`url(#${id}-gradient)`} />
+      <path class="station-keyline" d={outline} fill="none" stroke="#fff" stroke-width="3.6" stroke-linejoin="round" />
+      <path class="station-joined-outline" d={outline} fill="none" stroke-width="2" stroke-linejoin="round" />
+    </g>
+  </g>
+</g>

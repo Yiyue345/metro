@@ -1,0 +1,5388 @@
+{
+  "edition": "2026.11",
+  "reference": "01.公开版-成都地铁线路3.0-a运营版（至2026年11月）纯色底.jpg",
+  "uniqueStationCount": 396,
+  "lineStationMembershipCount": 488,
+  "hiddenLineIds": [
+    "r2"
+  ],
+  "visibleLineIds": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "13",
+    "17",
+    "18",
+    "19",
+    "27",
+    "30",
+    "s3"
+  ],
+  "visibleStationCount": 364,
+  "retainedHiddenStationCount": 32,
+  "visibleLineStationMembershipCount": 453,
+  "lineStationCounts": {
+    "1": 35,
+    "2": 33,
+    "3": 37,
+    "4": 30,
+    "5": 41,
+    "6": 56,
+    "7": 31,
+    "8": 32,
+    "9": 13,
+    "10": 19,
+    "13": 21,
+    "17": 21,
+    "18": 12,
+    "19": 22,
+    "27": 22,
+    "30": 22,
+    "s3": 6,
+    "r2": 35
+  },
+  "linePaths": {
+    "1": [
+      [
+        "五根松",
+        "广都",
+        "四河",
+        "华府大道",
+        "天府五街",
+        "天府三街",
+        "世纪城",
+        "锦城广场",
+        "孵化园",
+        "金融城",
+        "高新",
+        "火车南站",
+        "桐梓林",
+        "倪家桥",
+        "省体育馆",
+        "华西坝",
+        "锦江宾馆",
+        "天府广场",
+        "骡马市",
+        "文殊院",
+        "人民北路",
+        "火车北站",
+        "升仙湖",
+        "韦家碾"
+      ],
+      [
+        "科学城",
+        "兴隆湖",
+        "广州路",
+        "西博城",
+        "天府公园",
+        "武汉路",
+        "麓湖",
+        "红石公园",
+        "广福",
+        "海昌路",
+        "华阳",
+        "四河",
+        "华府大道",
+        "天府五街",
+        "天府三街",
+        "世纪城",
+        "锦城广场",
+        "孵化园",
+        "金融城",
+        "高新",
+        "火车南站",
+        "桐梓林",
+        "倪家桥",
+        "省体育馆",
+        "华西坝",
+        "锦江宾馆",
+        "天府广场",
+        "骡马市",
+        "文殊院",
+        "人民北路",
+        "火车北站",
+        "升仙湖",
+        "韦家碾"
+      ]
+    ],
+    "2": [
+      [
+        "犀浦",
+        "天河路",
+        "百草路",
+        "金周路",
+        "金科北路",
+        "迎宾大道",
+        "茶店子客运站",
+        "羊犀立交",
+        "一品天下",
+        "蜀汉路东",
+        "白果林",
+        "中医大·省医院",
+        "通惠门",
+        "人民公园",
+        "天府广场",
+        "春熙路",
+        "东门大桥",
+        "牛王庙",
+        "牛市口",
+        "东大路",
+        "塔子山公园",
+        "成都东客站",
+        "成渝立交",
+        "惠王陵",
+        "洪河",
+        "成都行政学院",
+        "龙泉驿火车站",
+        "大面铺",
+        "连山坡",
+        "界牌",
+        "书房",
+        "龙平路",
+        "龙泉驿"
+      ]
+    ],
+    "3": [
+      [
+        "成都医学院",
+        "石油大学",
+        "钟楼",
+        "马超西路",
+        "团结新区",
+        "锦水河",
+        "三河场",
+        "金华寺东路",
+        "植物园",
+        "军区总医院",
+        "熊猫大道",
+        "动物园",
+        "昭觉寺南路",
+        "驷马桥",
+        "李家沱",
+        "前锋路",
+        "红星桥",
+        "市二医院",
+        "春熙路",
+        "新南门",
+        "磨子桥",
+        "省体育馆",
+        "衣冠庙",
+        "高升桥",
+        "红牌楼",
+        "太平园",
+        "川藏立交",
+        "武侯立交",
+        "武青南路",
+        "双凤桥",
+        "龙桥路",
+        "航都大街",
+        "迎春桥",
+        "东升",
+        "双流广场",
+        "三里坝",
+        "双流西站"
+      ]
+    ],
+    "4": [
+      [
+        "西河",
+        "明蜀王陵",
+        "成都大学",
+        "十陵",
+        "来龙",
+        "槐树店",
+        "万年场",
+        "双桥路",
+        "玉双路",
+        "市二医院",
+        "太升南路",
+        "骡马市",
+        "宽窄巷子",
+        "中医大·省医院",
+        "草堂北路",
+        "西南财大",
+        "文化宫",
+        "清江西路",
+        "成都西站",
+        "中坝",
+        "蔡桥",
+        "非遗博览园",
+        "马厂坝",
+        "凤凰大街",
+        "涌泉",
+        "光华公园",
+        "南熏大道",
+        "凤溪河",
+        "杨柳河",
+        "万盛"
+      ]
+    ],
+    "5": [
+      [
+        "华桂路",
+        "柏水场",
+        "廖家湾",
+        "北部商贸城",
+        "幸福桥",
+        "九道堰",
+        "杜家碾",
+        "大丰",
+        "石犀公园",
+        "皇花园",
+        "陆家桥",
+        "泉水路",
+        "洞子口",
+        "福宁路",
+        "五块石",
+        "赛云台",
+        "北站西二路",
+        "西北桥",
+        "花牌坊",
+        "抚琴",
+        "中医大·省医院",
+        "青羊宫",
+        "省骨科医院",
+        "高升桥",
+        "科园",
+        "九兴大道",
+        "神仙树",
+        "石羊立交",
+        "市一医院",
+        "交子大道",
+        "锦城大道",
+        "锦城湖",
+        "大源",
+        "民乐",
+        "骑龙",
+        "警官学院",
+        "二江寺",
+        "南湖立交",
+        "怡心湖",
+        "龙马路",
+        "回龙"
+      ]
+    ],
+    "6": [
+      [
+        "望丛祠",
+        "和平街",
+        "郫筒",
+        "蜀新大道",
+        "檬梓",
+        "尚锦路",
+        "红高路",
+        "天宇路",
+        "犀浦",
+        "兴业北街",
+        "梓潼宫",
+        "侯家桥",
+        "兴盛",
+        "青杠",
+        "西华大道",
+        "金府",
+        "星河",
+        "西南交大",
+        "沙湾",
+        "西北桥",
+        "人民北路",
+        "梁家巷",
+        "前锋路",
+        "建设北路",
+        "新鸿路",
+        "玉双路",
+        "牛王庙",
+        "顺江路",
+        "三官堂",
+        "东光",
+        "琉璃场",
+        "琉三路",
+        "金石路",
+        "金融城东",
+        "中和",
+        "张家寺",
+        "陆肖",
+        "观东",
+        "新通大道",
+        "新川路",
+        "龙灯山",
+        "蒲草塘",
+        "万安",
+        "麓山大道",
+        "沈阳路",
+        "青岛路",
+        "昌公堰",
+        "杭州路",
+        "天府商务区",
+        "西博城",
+        "秦皇寺",
+        "松林",
+        "芦角",
+        "钓鱼嘴",
+        "回龙",
+        "兰家沟"
+      ]
+    ],
+    "7": [
+      [
+        "火车北站",
+        "北站西二路",
+        "九里堤",
+        "西南交大",
+        "花照壁",
+        "茶店子",
+        "一品天下",
+        "金沙博物馆",
+        "文化宫",
+        "东坡路",
+        "龙爪堰",
+        "武侯大道",
+        "太平园",
+        "高朋大道",
+        "神仙树",
+        "火车南站",
+        "三瓦窑",
+        "琉璃场",
+        "四川师大",
+        "狮子山",
+        "大观",
+        "成都东客站",
+        "迎晖路",
+        "槐树店",
+        "双店路",
+        "崔家店",
+        "理工大学",
+        "二仙桥",
+        "八里庄",
+        "府青路",
+        "驷马桥",
+        "火车北站"
+      ]
+    ],
+    "8": [
+      [
+        "桂龙路",
+        "桂林",
+        "同乐",
+        "龙潭寺",
+        "龙潭立交",
+        "圣灯公园",
+        "十里店",
+        "理工大学",
+        "东郊记忆",
+        "杉板桥",
+        "万年路",
+        "双桥路",
+        "东大路",
+        "净居寺",
+        "东光",
+        "东湖公园",
+        "川大望江校区",
+        "倪家桥",
+        "芳草街",
+        "永丰",
+        "九兴大道",
+        "高朋大道",
+        "殷家林",
+        "庆安",
+        "石羊",
+        "三元",
+        "顺风",
+        "珠江路",
+        "川大江安校区",
+        "文星",
+        "莲花",
+        "龙港"
+      ]
+    ],
+    "9": [
+      [
+        "黄田坝",
+        "成都西站",
+        "培风",
+        "机投桥",
+        "武青南路",
+        "簇桥",
+        "华兴",
+        "太平寺",
+        "三元",
+        "锦城大道",
+        "孵化园",
+        "心岛",
+        "金融城东"
+      ]
+    ],
+    "10": [
+      [
+        "武侯祠",
+        "高升桥",
+        "红牌楼",
+        "太平园",
+        "簇锦",
+        "华兴",
+        "金花",
+        "双流机场1航站楼",
+        "双流机场2航站楼",
+        "双流西站",
+        "应天寺",
+        "黄水",
+        "花源",
+        "新津站",
+        "花桥",
+        "五津",
+        "儒林路",
+        "刘家碾",
+        "新平"
+      ]
+    ],
+    "13": [
+      [
+        "瓦窑滩",
+        "万家湾",
+        "培风",
+        "万寿桥",
+        "东坡路",
+        "光华村",
+        "杜甫草堂",
+        "青羊宫",
+        "小南街",
+        "文翁石室",
+        "华西坝",
+        "新南门",
+        "九眼桥",
+        "三官堂",
+        "净居寺",
+        "四川师大",
+        "娇子立交",
+        "幸福梅林",
+        "三圣花乡",
+        "龙华寺",
+        "龙安"
+      ]
+    ],
+    "17": [
+      [
+        "九江北",
+        "白佛桥",
+        "机投桥",
+        "阳公桥",
+        "龙爪堰",
+        "清水河大桥",
+        "浣花里",
+        "省骨科医院",
+        "小南街",
+        "人民公园",
+        "西大街",
+        "城隍庙",
+        "红星桥",
+        "建设北路",
+        "踏水桥",
+        "二仙桥",
+        "机车厂",
+        "人民塘",
+        "航天路",
+        "威灵",
+        "高洪"
+      ]
+    ],
+    "18": [
+      [
+        "火车南站",
+        "孵化园",
+        "锦城广场东",
+        "世纪城",
+        "海昌路",
+        "西博城",
+        "兴隆",
+        "天府站",
+        "三岔",
+        "福田",
+        "天府机场1号2号航站楼",
+        "天府机场北"
+      ]
+    ],
+    "19": [
+      [
+        "天府机场北",
+        "天府机场1号2号航站楼",
+        "福田",
+        "三岔",
+        "天府站",
+        "蓝家店",
+        "天府商务区",
+        "红莲",
+        "正兴湾",
+        "怡心湖",
+        "牧华路",
+        "温家山",
+        "龙港",
+        "双流机场2航站楼东",
+        "龙桥路",
+        "九江北",
+        "明光",
+        "温泉大道",
+        "凤溪河",
+        "市五医院",
+        "黄石",
+        "金星"
+      ]
+    ],
+    "27": [
+      [
+        "蜀鑫路",
+        "金沙滨河公园",
+        "黄忠",
+        "羊犀立交",
+        "金牛公园",
+        "花照壁北",
+        "金府",
+        "新桥",
+        "沙河源",
+        "洞子口",
+        "王贾桥",
+        "双水碾",
+        "韦家碾",
+        "赖家店",
+        "鲤鱼湾",
+        "范家巷",
+        "三圣寺",
+        "石门坎",
+        "旃檀寺",
+        "兴城大道",
+        "慈义",
+        "石佛"
+      ]
+    ],
+    "30": [
+      [
+        "双流机场2航站楼东",
+        "寺圣",
+        "星月",
+        "光明",
+        "谢家渡",
+        "珠江路",
+        "大同",
+        "石羊东",
+        "新园大道",
+        "市一医院",
+        "益州大道",
+        "金融城北",
+        "府城桥",
+        "金石路",
+        "棬子树",
+        "锦逸",
+        "娇子立交",
+        "海桐街",
+        "航天立交",
+        "惠王陵",
+        "玉石",
+        "龙泉驿火车站南"
+      ]
+    ],
+    "s3": [
+      [
+        "福田",
+        "资阳临空",
+        "幸福大道",
+        "苌弘广场",
+        "宝台",
+        "资阳北站"
+      ]
+    ],
+    "r2": [
+      [
+        "成都西站",
+        "联工",
+        "土龙路",
+        "新业路",
+        "锦城学院",
+        "电子科大",
+        "合信路",
+        "合作路",
+        "天欣路",
+        "安埠",
+        "天映路",
+        "天源路",
+        "德富大道",
+        "红旗大道",
+        "红展东路",
+        "大禹东路",
+        "花石",
+        "晨光",
+        "何公路",
+        "望丛祠",
+        "梨园路",
+        "郫县西站"
+      ],
+      [
+        "新业路",
+        "百叶路",
+        "晨风",
+        "天河路",
+        "龙吟",
+        "交大犀浦校区",
+        "犀方路",
+        "国宁",
+        "大田",
+        "西华大学",
+        "双林村",
+        "金土",
+        "技师学院",
+        "仁和"
+      ]
+    ]
+  },
+  "stations": [
+    {
+      "id": "五根松",
+      "name": "五根松",
+      "englishName": "Wugensong",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "广都",
+      "name": "广都",
+      "englishName": "Guangdu",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "四河",
+      "name": "四河",
+      "englishName": "Sihe",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "华府大道",
+      "name": "华府大道",
+      "englishName": "Huafu Avenue",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "天府五街",
+      "name": "天府五街",
+      "englishName": "5th Tianfu Street",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "天府三街",
+      "name": "天府三街",
+      "englishName": "3nd Tianfu Street",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "世纪城",
+      "name": "世纪城",
+      "englishName": "Century City",
+      "aliases": [],
+      "lines": [
+        "1",
+        "18"
+      ]
+    },
+    {
+      "id": "锦城广场",
+      "name": "锦城广场",
+      "englishName": "Jincheng Plaza",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "孵化园",
+      "name": "孵化园",
+      "englishName": "Incubation Park",
+      "aliases": [],
+      "lines": [
+        "1",
+        "9",
+        "18"
+      ]
+    },
+    {
+      "id": "金融城",
+      "name": "金融城",
+      "englishName": "Financial City",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "高新",
+      "name": "高新",
+      "englishName": "Hi-tech Zone",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "火车南站",
+      "name": "火车南站",
+      "englishName": "South Railway Station",
+      "aliases": [],
+      "lines": [
+        "1",
+        "7",
+        "18"
+      ]
+    },
+    {
+      "id": "桐梓林",
+      "name": "桐梓林",
+      "englishName": "Tongzilin",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "倪家桥",
+      "name": "倪家桥",
+      "englishName": "Nijiaqiao",
+      "aliases": [],
+      "lines": [
+        "1",
+        "8"
+      ]
+    },
+    {
+      "id": "省体育馆",
+      "name": "省体育馆",
+      "englishName": "Sichuan Gymnasium",
+      "aliases": [],
+      "lines": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "华西坝",
+      "name": "华西坝",
+      "englishName": "Huaxiba",
+      "aliases": [],
+      "lines": [
+        "1",
+        "13"
+      ]
+    },
+    {
+      "id": "锦江宾馆",
+      "name": "锦江宾馆",
+      "englishName": "Jinjiang Hotel",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "天府广场",
+      "name": "天府广场",
+      "englishName": "Tianfu Square",
+      "aliases": [],
+      "lines": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "骡马市",
+      "name": "骡马市",
+      "englishName": "Luomashi",
+      "aliases": [],
+      "lines": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "文殊院",
+      "name": "文殊院",
+      "englishName": "Wenshu Monastery",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "人民北路",
+      "name": "人民北路",
+      "englishName": "Renmin North Road",
+      "aliases": [],
+      "lines": [
+        "1",
+        "6"
+      ]
+    },
+    {
+      "id": "火车北站",
+      "name": "火车北站",
+      "englishName": "North Railway Station",
+      "aliases": [],
+      "lines": [
+        "1",
+        "7"
+      ]
+    },
+    {
+      "id": "升仙湖",
+      "name": "升仙湖",
+      "englishName": "Shengxian Lake",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "韦家碾",
+      "name": "韦家碾",
+      "englishName": "Weijianian",
+      "aliases": [],
+      "lines": [
+        "1",
+        "27"
+      ]
+    },
+    {
+      "id": "科学城",
+      "name": "科学城",
+      "englishName": "Science City",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "兴隆湖",
+      "name": "兴隆湖",
+      "englishName": "Xinglong Lake",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "广州路",
+      "name": "广州路",
+      "englishName": "Guangzhou Road",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "西博城",
+      "name": "西博城",
+      "englishName": "Western China Int'l Expo City",
+      "aliases": [],
+      "lines": [
+        "1",
+        "6",
+        "18"
+      ]
+    },
+    {
+      "id": "天府公园",
+      "name": "天府公园",
+      "englishName": "Tianfu Park",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "武汉路",
+      "name": "武汉路",
+      "englishName": "Wuhan Road",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "麓湖",
+      "name": "麓湖",
+      "englishName": "Luhu Lake",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "红石公园",
+      "name": "红石公园",
+      "englishName": "Hongshi Park",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "广福",
+      "name": "广福",
+      "englishName": "Guangfu",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "海昌路",
+      "name": "海昌路",
+      "englishName": "Haichang Road",
+      "aliases": [],
+      "lines": [
+        "1",
+        "18"
+      ]
+    },
+    {
+      "id": "华阳",
+      "name": "华阳",
+      "englishName": "Huayang",
+      "aliases": [],
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "犀浦",
+      "name": "犀浦",
+      "englishName": "Xipu",
+      "aliases": [],
+      "lines": [
+        "2",
+        "6"
+      ]
+    },
+    {
+      "id": "天河路",
+      "name": "天河路",
+      "englishName": "Tianhe Road",
+      "aliases": [],
+      "lines": [
+        "2",
+        "r2"
+      ]
+    },
+    {
+      "id": "百草路",
+      "name": "百草路",
+      "englishName": "Baicao Road",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "金周路",
+      "name": "金周路",
+      "englishName": "Jinzhou Road",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "金科北路",
+      "name": "金科北路",
+      "englishName": "Jinke North Road",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "迎宾大道",
+      "name": "迎宾大道",
+      "englishName": "Yingbin Avenue",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "茶店子客运站",
+      "name": "茶店子客运站",
+      "englishName": "Chadianzi Bus Terminal Station",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "羊犀立交",
+      "name": "羊犀立交",
+      "englishName": "Yangxi Flyover",
+      "aliases": [],
+      "lines": [
+        "2",
+        "27"
+      ]
+    },
+    {
+      "id": "一品天下",
+      "name": "一品天下",
+      "englishName": "Yipintianxia",
+      "aliases": [],
+      "lines": [
+        "2",
+        "7"
+      ]
+    },
+    {
+      "id": "蜀汉路东",
+      "name": "蜀汉路东",
+      "englishName": "Shuhan Road East",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "白果林",
+      "name": "白果林",
+      "englishName": "Baiguolin",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "中医大·省医院",
+      "name": "中医大·省医院",
+      "englishName": "Chengdu University of TCM  Sichuan Provincial People's Hospital",
+      "aliases": [],
+      "lines": [
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "通惠门",
+      "name": "通惠门",
+      "englishName": "Tonghuimen",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "人民公园",
+      "name": "人民公园",
+      "englishName": "People’s Park",
+      "aliases": [],
+      "lines": [
+        "2",
+        "17"
+      ]
+    },
+    {
+      "id": "春熙路",
+      "name": "春熙路",
+      "englishName": "Chunxi Road",
+      "aliases": [],
+      "lines": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "东门大桥",
+      "name": "东门大桥",
+      "englishName": "Dongmen Bridge",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "牛王庙",
+      "name": "牛王庙",
+      "englishName": "Niuwangmiao",
+      "aliases": [],
+      "lines": [
+        "2",
+        "6"
+      ]
+    },
+    {
+      "id": "牛市口",
+      "name": "牛市口",
+      "englishName": "Niushikou",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "东大路",
+      "name": "东大路",
+      "englishName": "Dongdalu Road",
+      "aliases": [],
+      "lines": [
+        "2",
+        "8"
+      ]
+    },
+    {
+      "id": "塔子山公园",
+      "name": "塔子山公园",
+      "englishName": "Tazishan Park",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "成都东客站",
+      "name": "成都东客站",
+      "englishName": "Chengdu East Railway Station",
+      "aliases": [],
+      "lines": [
+        "2",
+        "7"
+      ]
+    },
+    {
+      "id": "成渝立交",
+      "name": "成渝立交",
+      "englishName": "Chengyu Flyover",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "惠王陵",
+      "name": "惠王陵",
+      "englishName": "Huiwangling",
+      "aliases": [],
+      "lines": [
+        "2",
+        "30"
+      ]
+    },
+    {
+      "id": "洪河",
+      "name": "洪河",
+      "englishName": "Honghe",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "成都行政学院",
+      "name": "成都行政学院",
+      "englishName": "Chengdu Institute Of Public Administration",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "龙泉驿火车站",
+      "name": "龙泉驿火车站",
+      "englishName": "Longquanyi Railway Station",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "大面铺",
+      "name": "大面铺",
+      "englishName": "Damianpu",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "连山坡",
+      "name": "连山坡",
+      "englishName": "Lianshanpo",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "界牌",
+      "name": "界牌",
+      "englishName": "Jiepai",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "书房",
+      "name": "书房",
+      "englishName": "Shufang",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "龙平路",
+      "name": "龙平路",
+      "englishName": "Longping Road",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "龙泉驿",
+      "name": "龙泉驿",
+      "englishName": "Longquanyi",
+      "aliases": [],
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "福田",
+      "name": "福田",
+      "englishName": "Futian",
+      "aliases": [],
+      "lines": [
+        "18",
+        "19",
+        "s3"
+      ]
+    },
+    {
+      "id": "资阳临空",
+      "name": "资阳临空",
+      "englishName": "Ziyang Airport Economic Zone",
+      "aliases": [
+        "临空经济区"
+      ],
+      "lines": [
+        "s3"
+      ]
+    },
+    {
+      "id": "幸福大道",
+      "name": "幸福大道",
+      "englishName": "Xingfu Avenue",
+      "aliases": [],
+      "lines": [
+        "s3"
+      ]
+    },
+    {
+      "id": "苌弘广场",
+      "name": "苌弘广场",
+      "englishName": "Changhong Square",
+      "aliases": [],
+      "lines": [
+        "s3"
+      ]
+    },
+    {
+      "id": "宝台",
+      "name": "宝台",
+      "englishName": "Baotai",
+      "aliases": [],
+      "lines": [
+        "s3"
+      ]
+    },
+    {
+      "id": "资阳北站",
+      "name": "资阳北站",
+      "englishName": "Ziyang Bei Station",
+      "aliases": [],
+      "lines": [
+        "s3"
+      ]
+    },
+    {
+      "id": "成都医学院",
+      "name": "成都医学院",
+      "englishName": "Chengdu Medical College",
+      "aliases": [
+        "成都医学院(新都校区)"
+      ],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "石油大学",
+      "name": "石油大学",
+      "englishName": "Southwest Petroleum University",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "钟楼",
+      "name": "钟楼",
+      "englishName": "Clock Tower",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "马超西路",
+      "name": "马超西路",
+      "englishName": "Machao West Road",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "团结新区",
+      "name": "团结新区",
+      "englishName": "Tuanjiexinqu",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "锦水河",
+      "name": "锦水河",
+      "englishName": "Jinshuihe",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "三河场",
+      "name": "三河场",
+      "englishName": "Sanhechang",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "金华寺东路",
+      "name": "金华寺东路",
+      "englishName": "Jinhuasi East Road",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "植物园",
+      "name": "植物园",
+      "englishName": "Botanical Garden",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "军区总医院",
+      "name": "军区总医院",
+      "englishName": "Military Region General Hospital",
+      "aliases": [
+        "军区总医院(熊猫基地西大门)"
+      ],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "熊猫大道",
+      "name": "熊猫大道",
+      "englishName": "Panda Avenue",
+      "aliases": [
+        "熊猫大道(熊猫基地南大门)"
+      ],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "动物园",
+      "name": "动物园",
+      "englishName": "Chengdu Zoo",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "昭觉寺南路",
+      "name": "昭觉寺南路",
+      "englishName": "Zhaojuesi South Road",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "驷马桥",
+      "name": "驷马桥",
+      "englishName": "Sima Bridge",
+      "aliases": [],
+      "lines": [
+        "3",
+        "7"
+      ]
+    },
+    {
+      "id": "李家沱",
+      "name": "李家沱",
+      "englishName": "Lijiatuo",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "前锋路",
+      "name": "前锋路",
+      "englishName": "Qianfeng Road",
+      "aliases": [],
+      "lines": [
+        "3",
+        "6"
+      ]
+    },
+    {
+      "id": "红星桥",
+      "name": "红星桥",
+      "englishName": "Hongxing Bridge",
+      "aliases": [],
+      "lines": [
+        "3",
+        "17"
+      ]
+    },
+    {
+      "id": "市二医院",
+      "name": "市二医院",
+      "englishName": "Chengdu Second People's Hospital",
+      "aliases": [],
+      "lines": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "新南门",
+      "name": "新南门",
+      "englishName": "Xinnanmen",
+      "aliases": [],
+      "lines": [
+        "3",
+        "13"
+      ]
+    },
+    {
+      "id": "磨子桥",
+      "name": "磨子桥",
+      "englishName": "Moziqiao",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "衣冠庙",
+      "name": "衣冠庙",
+      "englishName": "Yiguanmiao",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "高升桥",
+      "name": "高升桥",
+      "englishName": "Gaoshengqiao",
+      "aliases": [],
+      "lines": [
+        "3",
+        "5",
+        "10"
+      ]
+    },
+    {
+      "id": "红牌楼",
+      "name": "红牌楼",
+      "englishName": "Hongpailou",
+      "aliases": [],
+      "lines": [
+        "3",
+        "10"
+      ]
+    },
+    {
+      "id": "太平园",
+      "name": "太平园",
+      "englishName": "Taipingyuan",
+      "aliases": [],
+      "lines": [
+        "3",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "id": "川藏立交",
+      "name": "川藏立交",
+      "englishName": "Chuan-Zang Flyover",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "武侯立交",
+      "name": "武侯立交",
+      "englishName": "Wuhou Flyover",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "武青南路",
+      "name": "武青南路",
+      "englishName": "Wuqing South Road",
+      "aliases": [],
+      "lines": [
+        "3",
+        "9"
+      ]
+    },
+    {
+      "id": "双凤桥",
+      "name": "双凤桥",
+      "englishName": "Shuangfengqiao",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "龙桥路",
+      "name": "龙桥路",
+      "englishName": "Longqiao Road",
+      "aliases": [],
+      "lines": [
+        "3",
+        "19"
+      ]
+    },
+    {
+      "id": "航都大街",
+      "name": "航都大街",
+      "englishName": "Hangdu Street",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "迎春桥",
+      "name": "迎春桥",
+      "englishName": "Yingchunqiao",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "东升",
+      "name": "东升",
+      "englishName": "Dongsheng",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "双流广场",
+      "name": "双流广场",
+      "englishName": "Shuangliu Square",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "三里坝",
+      "name": "三里坝",
+      "englishName": "Sanliba",
+      "aliases": [],
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "双流西站",
+      "name": "双流西站",
+      "englishName": "Shuangliu West Station",
+      "aliases": [],
+      "lines": [
+        "3",
+        "10"
+      ]
+    },
+    {
+      "id": "西河",
+      "name": "西河",
+      "englishName": "Xihe",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "明蜀王陵",
+      "name": "明蜀王陵",
+      "englishName": "Mingshuwangling",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "成都大学",
+      "name": "成都大学",
+      "englishName": "Chengdu University",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "十陵",
+      "name": "十陵",
+      "englishName": "Shiling",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "来龙",
+      "name": "来龙",
+      "englishName": "Lailong",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "槐树店",
+      "name": "槐树店",
+      "englishName": "Huaishudian",
+      "aliases": [],
+      "lines": [
+        "4",
+        "7"
+      ]
+    },
+    {
+      "id": "万年场",
+      "name": "万年场",
+      "englishName": "Wannianchang",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "双桥路",
+      "name": "双桥路",
+      "englishName": "Shuangqiao Road",
+      "aliases": [],
+      "lines": [
+        "4",
+        "8"
+      ]
+    },
+    {
+      "id": "玉双路",
+      "name": "玉双路",
+      "englishName": "Yushuang Road",
+      "aliases": [],
+      "lines": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "id": "太升南路",
+      "name": "太升南路",
+      "englishName": "Taisheng South Road",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "宽窄巷子",
+      "name": "宽窄巷子",
+      "englishName": "Kuanzhaixiangzi Alleys",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "草堂北路",
+      "name": "草堂北路",
+      "englishName": "Caotang North Road",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "西南财大",
+      "name": "西南财大",
+      "englishName": "Southwestern University Of Finance And Economics",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "文化宫",
+      "name": "文化宫",
+      "englishName": "Culture Palace",
+      "aliases": [],
+      "lines": [
+        "4",
+        "7"
+      ]
+    },
+    {
+      "id": "清江西路",
+      "name": "清江西路",
+      "englishName": "Qingjiang West Road",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "成都西站",
+      "name": "成都西站",
+      "englishName": "Chengdu West Railway Station",
+      "aliases": [],
+      "lines": [
+        "4",
+        "9",
+        "r2"
+      ]
+    },
+    {
+      "id": "中坝",
+      "name": "中坝",
+      "englishName": "Zhongba",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "蔡桥",
+      "name": "蔡桥",
+      "englishName": "Caiqiao",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "非遗博览园",
+      "name": "非遗博览园",
+      "englishName": "Intangible Cultural Heritage Park",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "马厂坝",
+      "name": "马厂坝",
+      "englishName": "Machangba",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "凤凰大街",
+      "name": "凤凰大街",
+      "englishName": "Fenghuang Street",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "涌泉",
+      "name": "涌泉",
+      "englishName": "Yongquan",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "光华公园",
+      "name": "光华公园",
+      "englishName": "Guanghua Park",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "南熏大道",
+      "name": "南熏大道",
+      "englishName": "Nanxun Avenue",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "凤溪河",
+      "name": "凤溪河",
+      "englishName": "Fengxihe",
+      "aliases": [],
+      "lines": [
+        "4",
+        "19"
+      ]
+    },
+    {
+      "id": "杨柳河",
+      "name": "杨柳河",
+      "englishName": "Yangliuhe",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "万盛",
+      "name": "万盛",
+      "englishName": "Wansheng",
+      "aliases": [],
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "华桂路",
+      "name": "华桂路",
+      "englishName": "Huagui Road",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "柏水场",
+      "name": "柏水场",
+      "englishName": "Baishuichang",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "廖家湾",
+      "name": "廖家湾",
+      "englishName": "Liaojiawan",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "北部商贸城",
+      "name": "北部商贸城",
+      "englishName": "Beibu Shopping Mall",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "幸福桥",
+      "name": "幸福桥",
+      "englishName": "Xingfuqiao",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "九道堰",
+      "name": "九道堰",
+      "englishName": "Jiudaoyan",
+      "aliases": [
+        "九道堰(凤凰山体育公园东)"
+      ],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "杜家碾",
+      "name": "杜家碾",
+      "englishName": "Dujianian",
+      "aliases": [
+        "杜家碾(凤凰山体育公园西)"
+      ],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "大丰",
+      "name": "大丰",
+      "englishName": "Dafeng",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "石犀公园",
+      "name": "石犀公园",
+      "englishName": "Shixi Park",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "皇花园",
+      "name": "皇花园",
+      "englishName": "Huanghuayuan",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "陆家桥",
+      "name": "陆家桥",
+      "englishName": "Lujiaqiao",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "泉水路",
+      "name": "泉水路",
+      "englishName": "Quanshui Road",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "洞子口",
+      "name": "洞子口",
+      "englishName": "Dongzikou",
+      "aliases": [],
+      "lines": [
+        "5",
+        "27"
+      ]
+    },
+    {
+      "id": "福宁路",
+      "name": "福宁路",
+      "englishName": "Funing Road",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "五块石",
+      "name": "五块石",
+      "englishName": "Wukuaishi",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "赛云台",
+      "name": "赛云台",
+      "englishName": "Saiyuntai",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "北站西二路",
+      "name": "北站西二路",
+      "englishName": "2nd Beizhan West Road",
+      "aliases": [],
+      "lines": [
+        "5",
+        "7"
+      ]
+    },
+    {
+      "id": "西北桥",
+      "name": "西北桥",
+      "englishName": "Xibei Bridge",
+      "aliases": [],
+      "lines": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "id": "花牌坊",
+      "name": "花牌坊",
+      "englishName": "Huapaifang",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "抚琴",
+      "name": "抚琴",
+      "englishName": "Fuqin",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "青羊宫",
+      "name": "青羊宫",
+      "englishName": "Qingyang Taoist Temple",
+      "aliases": [],
+      "lines": [
+        "5",
+        "13"
+      ]
+    },
+    {
+      "id": "省骨科医院",
+      "name": "省骨科医院",
+      "englishName": "Provincial Orthopaedic Hospital",
+      "aliases": [],
+      "lines": [
+        "5",
+        "17"
+      ]
+    },
+    {
+      "id": "科园",
+      "name": "科园",
+      "englishName": "Keyuan",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "九兴大道",
+      "name": "九兴大道",
+      "englishName": "Jiuxing Avenue",
+      "aliases": [],
+      "lines": [
+        "5",
+        "8"
+      ]
+    },
+    {
+      "id": "神仙树",
+      "name": "神仙树",
+      "englishName": "Shenxianshu",
+      "aliases": [],
+      "lines": [
+        "5",
+        "7"
+      ]
+    },
+    {
+      "id": "石羊立交",
+      "name": "石羊立交",
+      "englishName": "Shiyang Flyover",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "市一医院",
+      "name": "市一医院",
+      "englishName": "Chengdu First People’s Hospital",
+      "aliases": [],
+      "lines": [
+        "5",
+        "30"
+      ]
+    },
+    {
+      "id": "交子大道",
+      "name": "交子大道",
+      "englishName": "Jiaozi Avenue",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "锦城大道",
+      "name": "锦城大道",
+      "englishName": "Jincheng Avenue",
+      "aliases": [],
+      "lines": [
+        "5",
+        "9"
+      ]
+    },
+    {
+      "id": "锦城湖",
+      "name": "锦城湖",
+      "englishName": "Jincheng Lake",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "大源",
+      "name": "大源",
+      "englishName": "Dayuan",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "民乐",
+      "name": "民乐",
+      "englishName": "Minle",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "骑龙",
+      "name": "骑龙",
+      "englishName": "Qilong",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "警官学院",
+      "name": "警官学院",
+      "englishName": "The Police College",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "二江寺",
+      "name": "二江寺",
+      "englishName": "Erjiang Temple",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "南湖立交",
+      "name": "南湖立交",
+      "englishName": "Nanhu Flyover",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "怡心湖",
+      "name": "怡心湖",
+      "englishName": "Yixin Lake",
+      "aliases": [],
+      "lines": [
+        "5",
+        "19"
+      ]
+    },
+    {
+      "id": "龙马路",
+      "name": "龙马路",
+      "englishName": "Longma Road",
+      "aliases": [],
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "回龙",
+      "name": "回龙",
+      "englishName": "Huilong",
+      "aliases": [],
+      "lines": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "id": "望丛祠",
+      "name": "望丛祠",
+      "englishName": "Wangcong Temple",
+      "aliases": [],
+      "lines": [
+        "6",
+        "r2"
+      ]
+    },
+    {
+      "id": "和平街",
+      "name": "和平街",
+      "englishName": "Heping Street",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "郫筒",
+      "name": "郫筒",
+      "englishName": "Pitong Street",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "蜀新大道",
+      "name": "蜀新大道",
+      "englishName": "Shuxin Avenue",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "檬梓",
+      "name": "檬梓",
+      "englishName": "Mengzi",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "尚锦路",
+      "name": "尚锦路",
+      "englishName": "Shanjin Road",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "红高路",
+      "name": "红高路",
+      "englishName": "Honggao Road",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "天宇路",
+      "name": "天宇路",
+      "englishName": "Tianyu Road",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "兴业北街",
+      "name": "兴业北街",
+      "englishName": "Xingye North Street",
+      "aliases": [
+        "交大兴业北街"
+      ],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "梓潼宫",
+      "name": "梓潼宫",
+      "englishName": "Zitonggong",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "侯家桥",
+      "name": "侯家桥",
+      "englishName": "Houjiaqiao",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "兴盛",
+      "name": "兴盛",
+      "englishName": "Xingsheng",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "青杠",
+      "name": "青杠",
+      "englishName": "Qinggang",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "西华大道",
+      "name": "西华大道",
+      "englishName": "Xihua Avenue",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "金府",
+      "name": "金府",
+      "englishName": "Jinfu",
+      "aliases": [],
+      "lines": [
+        "6",
+        "27"
+      ]
+    },
+    {
+      "id": "星河",
+      "name": "星河",
+      "englishName": "Xinghe",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "西南交大",
+      "name": "西南交大",
+      "englishName": "Southwest Jiaotong University",
+      "aliases": [],
+      "lines": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "id": "沙湾",
+      "name": "沙湾",
+      "englishName": "Shawan",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "梁家巷",
+      "name": "梁家巷",
+      "englishName": "Liangjia Alley",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "建设北路",
+      "name": "建设北路",
+      "englishName": "Jianshe North Road",
+      "aliases": [
+        "电子科大建设北路"
+      ],
+      "lines": [
+        "6",
+        "17"
+      ]
+    },
+    {
+      "id": "新鸿路",
+      "name": "新鸿路",
+      "englishName": "Xinhong Road",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "顺江路",
+      "name": "顺江路",
+      "englishName": "Shunjiang Road",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "三官堂",
+      "name": "三官堂",
+      "englishName": "Sanguantang",
+      "aliases": [],
+      "lines": [
+        "6",
+        "13"
+      ]
+    },
+    {
+      "id": "东光",
+      "name": "东光",
+      "englishName": "Dongguang",
+      "aliases": [],
+      "lines": [
+        "6",
+        "8"
+      ]
+    },
+    {
+      "id": "琉璃场",
+      "name": "琉璃场",
+      "englishName": "Liulichang",
+      "aliases": [],
+      "lines": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "id": "琉三路",
+      "name": "琉三路",
+      "englishName": "Liusan Road",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "金石路",
+      "name": "金石路",
+      "englishName": "Jinshi Road",
+      "aliases": [],
+      "lines": [
+        "6",
+        "30"
+      ]
+    },
+    {
+      "id": "金融城东",
+      "name": "金融城东",
+      "englishName": "Financial City East",
+      "aliases": [],
+      "lines": [
+        "6",
+        "9"
+      ]
+    },
+    {
+      "id": "中和",
+      "name": "中和",
+      "englishName": "Zhonghe",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "张家寺",
+      "name": "张家寺",
+      "englishName": "Zhangjiasi",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "陆肖",
+      "name": "陆肖",
+      "englishName": "Luxiao",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "观东",
+      "name": "观东",
+      "englishName": "Guandong",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "新通大道",
+      "name": "新通大道",
+      "englishName": "Xintong Avenue",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "新川路",
+      "name": "新川路",
+      "englishName": "Xinchuan Road",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "龙灯山",
+      "name": "龙灯山",
+      "englishName": "Longdengshan",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "蒲草塘",
+      "name": "蒲草塘",
+      "englishName": "Pucaotang",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "万安",
+      "name": "万安",
+      "englishName": "Wan'an",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "麓山大道",
+      "name": "麓山大道",
+      "englishName": "Lushan Avenue",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "沈阳路",
+      "name": "沈阳路",
+      "englishName": "Shenyang Road",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "青岛路",
+      "name": "青岛路",
+      "englishName": "Qingdao Road",
+      "aliases": [
+        "青岛路(法务区)"
+      ],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "昌公堰",
+      "name": "昌公堰",
+      "englishName": "Changgongyan",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "杭州路",
+      "name": "杭州路",
+      "englishName": "Hangzhou Road",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "天府商务区",
+      "name": "天府商务区",
+      "englishName": "Tianfu Commercial District",
+      "aliases": [],
+      "lines": [
+        "6",
+        "19"
+      ]
+    },
+    {
+      "id": "秦皇寺",
+      "name": "秦皇寺",
+      "englishName": "Qinhuangsi",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "松林",
+      "name": "松林",
+      "englishName": "Songlin",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "芦角",
+      "name": "芦角",
+      "englishName": "Lujiao",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "钓鱼嘴",
+      "name": "钓鱼嘴",
+      "englishName": "Diaoyuzui",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "兰家沟",
+      "name": "兰家沟",
+      "englishName": "Lanjiagou",
+      "aliases": [],
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "九里堤",
+      "name": "九里堤",
+      "englishName": "Jiulidi",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "花照壁",
+      "name": "花照壁",
+      "englishName": "Huazhaobi",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "茶店子",
+      "name": "茶店子",
+      "englishName": "Chadianzi",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "金沙博物馆",
+      "name": "金沙博物馆",
+      "englishName": "Jinsha Site Museum",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "东坡路",
+      "name": "东坡路",
+      "englishName": "Dongpo Road",
+      "aliases": [],
+      "lines": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "龙爪堰",
+      "name": "龙爪堰",
+      "englishName": "Longzhuayan",
+      "aliases": [],
+      "lines": [
+        "7",
+        "17"
+      ]
+    },
+    {
+      "id": "武侯大道",
+      "name": "武侯大道",
+      "englishName": "Wuhou Avenue",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "高朋大道",
+      "name": "高朋大道",
+      "englishName": "Gaopeng Avenue",
+      "aliases": [],
+      "lines": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "三瓦窑",
+      "name": "三瓦窑",
+      "englishName": "Sanwayao",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "四川师大",
+      "name": "四川师大",
+      "englishName": "Sichuan Normal University",
+      "aliases": [],
+      "lines": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "狮子山",
+      "name": "狮子山",
+      "englishName": "Shizishan",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "大观",
+      "name": "大观",
+      "englishName": "Daguan",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "迎晖路",
+      "name": "迎晖路",
+      "englishName": "Yinghui Road",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "双店路",
+      "name": "双店路",
+      "englishName": "Shuangdian Road",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "崔家店",
+      "name": "崔家店",
+      "englishName": "Cuijiadian",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "理工大学",
+      "name": "理工大学",
+      "englishName": "Chengdu University of Technology",
+      "aliases": [],
+      "lines": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "二仙桥",
+      "name": "二仙桥",
+      "englishName": "Erxianqiao",
+      "aliases": [],
+      "lines": [
+        "7",
+        "17"
+      ]
+    },
+    {
+      "id": "八里庄",
+      "name": "八里庄",
+      "englishName": "Balizhuang",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "府青路",
+      "name": "府青路",
+      "englishName": "Fuqing Road",
+      "aliases": [],
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "桂龙路",
+      "name": "桂龙路",
+      "englishName": "Guilong Road",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "桂林",
+      "name": "桂林",
+      "englishName": "Guilin",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "同乐",
+      "name": "同乐",
+      "englishName": "Tongle",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "龙潭寺",
+      "name": "龙潭寺",
+      "englishName": "Longtan Temple",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "龙潭立交",
+      "name": "龙潭立交",
+      "englishName": "Longtan Flyover",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "圣灯公园",
+      "name": "圣灯公园",
+      "englishName": "Shengdeng Park",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "十里店",
+      "name": "十里店",
+      "englishName": "Shilidian",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "东郊记忆",
+      "name": "东郊记忆",
+      "englishName": "Dongjiao Memory",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "杉板桥",
+      "name": "杉板桥",
+      "englishName": "Shanbanqiao",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "万年路",
+      "name": "万年路",
+      "englishName": "Wannian Road",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "净居寺",
+      "name": "净居寺",
+      "englishName": "Jingjusi",
+      "aliases": [],
+      "lines": [
+        "8",
+        "13"
+      ]
+    },
+    {
+      "id": "东湖公园",
+      "name": "东湖公园",
+      "englishName": "Donghu Park",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "川大望江校区",
+      "name": "川大望江校区",
+      "englishName": "Sichuan University Wangjiang Campus",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "芳草街",
+      "name": "芳草街",
+      "englishName": "Fangcao Street",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "永丰",
+      "name": "永丰",
+      "englishName": "Yongfeng",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "殷家林",
+      "name": "殷家林",
+      "englishName": "Yinjialin",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "庆安",
+      "name": "庆安",
+      "englishName": "Qing'an",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "石羊",
+      "name": "石羊",
+      "englishName": "Shiyang",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "三元",
+      "name": "三元",
+      "englishName": "Sanyuan",
+      "aliases": [],
+      "lines": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "顺风",
+      "name": "顺风",
+      "englishName": "Shunfeng",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "珠江路",
+      "name": "珠江路",
+      "englishName": "Zhujiang Road",
+      "aliases": [],
+      "lines": [
+        "8",
+        "30"
+      ]
+    },
+    {
+      "id": "川大江安校区",
+      "name": "川大江安校区",
+      "englishName": "Sichuan University Jiang'an Campus",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "文星",
+      "name": "文星",
+      "englishName": "Wenxing",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "莲花",
+      "name": "莲花",
+      "englishName": "Lianhua",
+      "aliases": [],
+      "lines": [
+        "8"
+      ]
+    },
+    {
+      "id": "龙港",
+      "name": "龙港",
+      "englishName": "Longgang",
+      "aliases": [],
+      "lines": [
+        "8",
+        "19"
+      ]
+    },
+    {
+      "id": "黄田坝",
+      "name": "黄田坝",
+      "englishName": "Huangtianba",
+      "aliases": [],
+      "lines": [
+        "9"
+      ]
+    },
+    {
+      "id": "培风",
+      "name": "培风",
+      "englishName": "Peifeng",
+      "aliases": [],
+      "lines": [
+        "9",
+        "13"
+      ]
+    },
+    {
+      "id": "机投桥",
+      "name": "机投桥",
+      "englishName": "Jitouqiao",
+      "aliases": [],
+      "lines": [
+        "9",
+        "17"
+      ]
+    },
+    {
+      "id": "簇桥",
+      "name": "簇桥",
+      "englishName": "Cuqiao",
+      "aliases": [],
+      "lines": [
+        "9"
+      ]
+    },
+    {
+      "id": "华兴",
+      "name": "华兴",
+      "englishName": "Huaxing",
+      "aliases": [],
+      "lines": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": "太平寺",
+      "name": "太平寺",
+      "englishName": "Taiping Temple",
+      "aliases": [],
+      "lines": [
+        "9"
+      ]
+    },
+    {
+      "id": "心岛",
+      "name": "心岛",
+      "englishName": "Xindao",
+      "aliases": [],
+      "lines": [
+        "9"
+      ]
+    },
+    {
+      "id": "武侯祠",
+      "name": "武侯祠",
+      "englishName": "Wuhou Shrine",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "簇锦",
+      "name": "簇锦",
+      "englishName": "Cujin",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "金花",
+      "name": "金花",
+      "englishName": "Jinhua",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "双流机场1航站楼",
+      "name": "双流机场1航站楼",
+      "englishName": "Terminal 1 of Shuangliu International Airport",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "双流机场2航站楼",
+      "name": "双流机场2航站楼",
+      "englishName": "Terminal 2 of Shuangliu International Airport",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "应天寺",
+      "name": "应天寺",
+      "englishName": "Yingtiansi Temple",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "黄水",
+      "name": "黄水",
+      "englishName": "Huangshui",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "花源",
+      "name": "花源",
+      "englishName": "Huayuan",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "新津站",
+      "name": "新津站",
+      "englishName": "Xinjin Station",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "花桥",
+      "name": "花桥",
+      "englishName": "Huaqiao",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "五津",
+      "name": "五津",
+      "englishName": "Wujin",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "儒林路",
+      "name": "儒林路",
+      "englishName": "Rulinlu",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "刘家碾",
+      "name": "刘家碾",
+      "englishName": "Liujianian",
+      "aliases": [],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "新平",
+      "name": "新平",
+      "englishName": "Xinping",
+      "aliases": [
+        "新平(宝墩)"
+      ],
+      "lines": [
+        "10"
+      ]
+    },
+    {
+      "id": "瓦窑滩",
+      "name": "瓦窑滩",
+      "englishName": "Wayaotan",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "万家湾",
+      "name": "万家湾",
+      "englishName": "Wanjiawan",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "万寿桥",
+      "name": "万寿桥",
+      "englishName": "Wanshou Bridge",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "光华村",
+      "name": "光华村",
+      "englishName": "Guanghuacun",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "杜甫草堂",
+      "name": "杜甫草堂",
+      "englishName": "Du Fu Thatched Cottage",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "小南街",
+      "name": "小南街",
+      "englishName": "Xiaonan Street",
+      "aliases": [],
+      "lines": [
+        "13",
+        "17"
+      ]
+    },
+    {
+      "id": "文翁石室",
+      "name": "文翁石室",
+      "englishName": "Wenweng Shishi",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "九眼桥",
+      "name": "九眼桥",
+      "englishName": "Jiuyan Bridge",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "娇子立交",
+      "name": "娇子立交",
+      "englishName": "Jiaozi Flyover",
+      "aliases": [],
+      "lines": [
+        "13",
+        "30"
+      ]
+    },
+    {
+      "id": "幸福梅林",
+      "name": "幸福梅林",
+      "englishName": "Xingfu Meilin",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "三圣花乡",
+      "name": "三圣花乡",
+      "englishName": "Sansheng Flower Town",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "龙华寺",
+      "name": "龙华寺",
+      "englishName": "Longhuasi",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "龙安",
+      "name": "龙安",
+      "englishName": "Long’an",
+      "aliases": [],
+      "lines": [
+        "13"
+      ]
+    },
+    {
+      "id": "九江北",
+      "name": "九江北",
+      "englishName": "Jiujiang North",
+      "aliases": [],
+      "lines": [
+        "17",
+        "19"
+      ]
+    },
+    {
+      "id": "白佛桥",
+      "name": "白佛桥",
+      "englishName": "Baifoqiao",
+      "aliases": [],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "阳公桥",
+      "name": "阳公桥",
+      "englishName": "Yanggongqiao",
+      "aliases": [],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "清水河大桥",
+      "name": "清水河大桥",
+      "englishName": "Qingshuihe Bridge",
+      "aliases": [],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "浣花里",
+      "name": "浣花里",
+      "englishName": "Huanhua Lane",
+      "aliases": [
+        "浣花里(省医院草堂院区)"
+      ],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "西大街",
+      "name": "西大街",
+      "englishName": "Xidajie Street",
+      "aliases": [],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "城隍庙",
+      "name": "城隍庙",
+      "englishName": "Chenghuangmiao",
+      "aliases": [],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "踏水桥",
+      "name": "踏水桥",
+      "englishName": "Tashui Bridge",
+      "aliases": [],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "机车厂",
+      "name": "机车厂",
+      "englishName": "Jichechang",
+      "aliases": [],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "人民塘",
+      "name": "人民塘",
+      "englishName": "Renmintang",
+      "aliases": [],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "航天路",
+      "name": "航天路",
+      "englishName": "Hangtian Road",
+      "aliases": [],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "威灵",
+      "name": "威灵",
+      "englishName": "Weiling",
+      "aliases": [
+        "威灵(西南财大天府学院)"
+      ],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "高洪",
+      "name": "高洪",
+      "englishName": "Gaohong",
+      "aliases": [],
+      "lines": [
+        "17"
+      ]
+    },
+    {
+      "id": "锦城广场东",
+      "name": "锦城广场东",
+      "englishName": "Jincheng Plaza East",
+      "aliases": [],
+      "lines": [
+        "18"
+      ]
+    },
+    {
+      "id": "兴隆",
+      "name": "兴隆",
+      "englishName": "Xinglong",
+      "aliases": [],
+      "lines": [
+        "18"
+      ]
+    },
+    {
+      "id": "天府站",
+      "name": "天府站",
+      "englishName": "Tianfu Station",
+      "aliases": [],
+      "lines": [
+        "18",
+        "19"
+      ]
+    },
+    {
+      "id": "三岔",
+      "name": "三岔",
+      "englishName": "Sancha",
+      "aliases": [],
+      "lines": [
+        "18",
+        "19"
+      ]
+    },
+    {
+      "id": "天府机场1号2号航站楼",
+      "name": "天府机场1号2号航站楼",
+      "englishName": "Terminal 1 & 2 of Tianfu International Airport",
+      "aliases": [],
+      "lines": [
+        "18",
+        "19"
+      ]
+    },
+    {
+      "id": "天府机场北",
+      "name": "天府机场北",
+      "englishName": "Tianfu International Airport North",
+      "aliases": [],
+      "lines": [
+        "18",
+        "19"
+      ]
+    },
+    {
+      "id": "蓝家店",
+      "name": "蓝家店",
+      "englishName": "Lanjiadian",
+      "aliases": [],
+      "lines": [
+        "19"
+      ]
+    },
+    {
+      "id": "红莲",
+      "name": "红莲",
+      "englishName": "Honglian",
+      "aliases": [],
+      "lines": [
+        "19"
+      ]
+    },
+    {
+      "id": "正兴湾",
+      "name": "正兴湾",
+      "englishName": "Zhengxingwan",
+      "aliases": [],
+      "lines": [
+        "19"
+      ]
+    },
+    {
+      "id": "牧华路",
+      "name": "牧华路",
+      "englishName": "Muhua Road",
+      "aliases": [],
+      "lines": [
+        "19"
+      ]
+    },
+    {
+      "id": "温家山",
+      "name": "温家山",
+      "englishName": "Wenjiashan",
+      "aliases": [],
+      "lines": [
+        "19"
+      ]
+    },
+    {
+      "id": "双流机场2航站楼东",
+      "name": "双流机场2航站楼东",
+      "englishName": "East of Terminal 2 of Shuangliu International Airport",
+      "aliases": [],
+      "lines": [
+        "19",
+        "30"
+      ]
+    },
+    {
+      "id": "明光",
+      "name": "明光",
+      "englishName": "Mingguang",
+      "aliases": [],
+      "lines": [
+        "19"
+      ]
+    },
+    {
+      "id": "温泉大道",
+      "name": "温泉大道",
+      "englishName": "Wenquan Avenue",
+      "aliases": [],
+      "lines": [
+        "19"
+      ]
+    },
+    {
+      "id": "市五医院",
+      "name": "市五医院",
+      "englishName": "Chengdu Fifth People’s Hospital",
+      "aliases": [],
+      "lines": [
+        "19"
+      ]
+    },
+    {
+      "id": "黄石",
+      "name": "黄石",
+      "englishName": "Huangshi",
+      "aliases": [],
+      "lines": [
+        "19"
+      ]
+    },
+    {
+      "id": "金星",
+      "name": "金星",
+      "englishName": "Jinxing",
+      "aliases": [],
+      "lines": [
+        "19"
+      ]
+    },
+    {
+      "id": "蜀鑫路",
+      "name": "蜀鑫路",
+      "englishName": "Shuxin Road",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "金沙滨河公园",
+      "name": "金沙滨河公园",
+      "englishName": "Jinsha Binhe Park",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "黄忠",
+      "name": "黄忠",
+      "englishName": "Huangzhong",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "金牛公园",
+      "name": "金牛公园",
+      "englishName": "Jinniu park",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "花照壁北",
+      "name": "花照壁北",
+      "englishName": "Huazhaobi North",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "新桥",
+      "name": "新桥",
+      "englishName": "Xinqiao",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "沙河源",
+      "name": "沙河源",
+      "englishName": "Shaheyuan",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "王贾桥",
+      "name": "王贾桥",
+      "englishName": "Wangjiaqiao",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "双水碾",
+      "name": "双水碾",
+      "englishName": "Shuangshuinian",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "赖家店",
+      "name": "赖家店",
+      "englishName": "Laijiadian",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "鲤鱼湾",
+      "name": "鲤鱼湾",
+      "englishName": "Liyuwan",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "范家巷",
+      "name": "范家巷",
+      "englishName": "Fanjia Alley",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "三圣寺",
+      "name": "三圣寺",
+      "englishName": "Sanshengsi",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "石门坎",
+      "name": "石门坎",
+      "englishName": "Shimenkan",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "旃檀寺",
+      "name": "旃檀寺",
+      "englishName": "Zhantan Temple",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "兴城大道",
+      "name": "兴城大道",
+      "englishName": "Xingcheng Avenue",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "慈义",
+      "name": "慈义",
+      "englishName": "Ciyi",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "石佛",
+      "name": "石佛",
+      "englishName": "Shifo",
+      "aliases": [],
+      "lines": [
+        "27"
+      ]
+    },
+    {
+      "id": "寺圣",
+      "name": "寺圣",
+      "englishName": "Sisheng",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "星月",
+      "name": "星月",
+      "englishName": "Xingyue",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "光明",
+      "name": "光明",
+      "englishName": "Guangming",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "谢家渡",
+      "name": "谢家渡",
+      "englishName": "Xiejiadu",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "大同",
+      "name": "大同",
+      "englishName": "Datong",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "石羊东",
+      "name": "石羊东",
+      "englishName": "Shiyangdong",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "新园大道",
+      "name": "新园大道",
+      "englishName": "Xinyuan Avenue",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "益州大道",
+      "name": "益州大道",
+      "englishName": "Yizhou Avenue",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "金融城北",
+      "name": "金融城北",
+      "englishName": "Financial City North",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "府城桥",
+      "name": "府城桥",
+      "englishName": "Fucheng Bridge",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "棬子树",
+      "name": "棬子树",
+      "englishName": "Juanzishu",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "锦逸",
+      "name": "锦逸",
+      "englishName": "Jinyi",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "海桐街",
+      "name": "海桐街",
+      "englishName": "Haitong Street",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "航天立交",
+      "name": "航天立交",
+      "englishName": "Hangtian Flyover",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "玉石",
+      "name": "玉石",
+      "englishName": "Yushi",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "龙泉驿火车站南",
+      "name": "龙泉驿火车站南",
+      "englishName": "Longquanyi Railway Station South",
+      "aliases": [],
+      "lines": [
+        "30"
+      ]
+    },
+    {
+      "id": "联工",
+      "name": "联工",
+      "englishName": "Liangong",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "土龙路",
+      "name": "土龙路",
+      "englishName": "Tulong Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "新业路",
+      "name": "新业路",
+      "englishName": "Xinye Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "锦城学院",
+      "name": "锦城学院",
+      "englishName": "Chengdu Jincheng College",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "电子科大",
+      "name": "电子科大",
+      "englishName": "University of Electronic Science and Technology of China",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "合信路",
+      "name": "合信路",
+      "englishName": "Hexin Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "合作路",
+      "name": "合作路",
+      "englishName": "Hezuo Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "天欣路",
+      "name": "天欣路",
+      "englishName": "Tianxin Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "安埠",
+      "name": "安埠",
+      "englishName": "Anbu",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "天映路",
+      "name": "天映路",
+      "englishName": "Tianying Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "天源路",
+      "name": "天源路",
+      "englishName": "Tianyuan Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "德富大道",
+      "name": "德富大道",
+      "englishName": "Defu Avenue",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "红旗大道",
+      "name": "红旗大道",
+      "englishName": "Hongqi Avenue",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "红展东路",
+      "name": "红展东路",
+      "englishName": "Hongzhan East Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "大禹东路",
+      "name": "大禹东路",
+      "englishName": "Dayu East Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "花石",
+      "name": "花石",
+      "englishName": "Huashi",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "晨光",
+      "name": "晨光",
+      "englishName": "Chenguang",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "何公路",
+      "name": "何公路",
+      "englishName": "Hegong Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "梨园路",
+      "name": "梨园路",
+      "englishName": "Liyuan Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "郫县西站",
+      "name": "郫县西站",
+      "englishName": "Pixian West Railway Station",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "百叶路",
+      "name": "百叶路",
+      "englishName": "Baiye Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "晨风",
+      "name": "晨风",
+      "englishName": "Chenfeng",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "龙吟",
+      "name": "龙吟",
+      "englishName": "Longyin",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "交大犀浦校区",
+      "name": "交大犀浦校区",
+      "englishName": "Xipu Campus, Southwest Jiaotong University",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "犀方路",
+      "name": "犀方路",
+      "englishName": "Xifang Road",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "国宁",
+      "name": "国宁",
+      "englishName": "Guoning",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "大田",
+      "name": "大田",
+      "englishName": "Datian",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "西华大学",
+      "name": "西华大学",
+      "englishName": "Xihua University",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "双林村",
+      "name": "双林村",
+      "englishName": "Shuanglin Village",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "金土",
+      "name": "金土",
+      "englishName": "Jintu",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "技师学院",
+      "name": "技师学院",
+      "englishName": "Chengdu Technician College",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    },
+    {
+      "id": "仁和",
+      "name": "仁和",
+      "englishName": "Renhe",
+      "aliases": [],
+      "lines": [
+        "r2"
+      ]
+    }
+  ],
+  "referenceLinePaths": {
+    "1": [
+      [
+        "五根松",
+        "广都",
+        "四河",
+        "华府大道",
+        "天府五街",
+        "天府三街",
+        "世纪城",
+        "锦城广场",
+        "孵化园",
+        "金融城",
+        "高新",
+        "火车南站",
+        "桐梓林",
+        "倪家桥",
+        "省体育馆",
+        "华西坝",
+        "锦江宾馆",
+        "天府广场",
+        "骡马市",
+        "文殊院",
+        "人民北路",
+        "火车北站",
+        "升仙湖",
+        "韦家碾"
+      ],
+      [
+        "科学城",
+        "兴隆湖",
+        "广州路",
+        "西博城",
+        "天府公园",
+        "武汉路",
+        "麓湖",
+        "红石公园",
+        "广福",
+        "海昌路",
+        "华阳",
+        "四河",
+        "华府大道",
+        "天府五街",
+        "天府三街",
+        "世纪城",
+        "锦城广场",
+        "孵化园",
+        "金融城",
+        "高新",
+        "火车南站",
+        "桐梓林",
+        "倪家桥",
+        "省体育馆",
+        "华西坝",
+        "锦江宾馆",
+        "天府广场",
+        "骡马市",
+        "文殊院",
+        "人民北路",
+        "火车北站",
+        "升仙湖",
+        "韦家碾"
+      ]
+    ],
+    "2": [
+      [
+        "犀浦",
+        "天河路",
+        "百草路",
+        "金周路",
+        "金科北路",
+        "迎宾大道",
+        "茶店子客运站",
+        "羊犀立交",
+        "一品天下",
+        "蜀汉路东",
+        "白果林",
+        "中医大·省医院",
+        "通惠门",
+        "人民公园",
+        "天府广场",
+        "春熙路",
+        "东门大桥",
+        "牛王庙",
+        "牛市口",
+        "东大路",
+        "塔子山公园",
+        "成都东客站",
+        "成渝立交",
+        "惠王陵",
+        "洪河",
+        "成都行政学院",
+        "龙泉驿火车站",
+        "大面铺",
+        "连山坡",
+        "界牌",
+        "书房",
+        "龙平路",
+        "龙泉驿"
+      ]
+    ],
+    "s3": [
+      [
+        "福田",
+        "芦葭",
+        "资阳临空",
+        "幸福大道",
+        "苌弘广场",
+        "宝台",
+        "资阳北站"
+      ]
+    ],
+    "3": [
+      [
+        "成都医学院",
+        "石油大学",
+        "钟楼",
+        "马超西路",
+        "团结新区",
+        "锦水河",
+        "三河场",
+        "金华寺东路",
+        "植物园",
+        "军区总医院",
+        "熊猫大道",
+        "动物园",
+        "昭觉寺南路",
+        "驷马桥",
+        "李家沱",
+        "前锋路",
+        "红星桥",
+        "市二医院",
+        "春熙路",
+        "新南门",
+        "磨子桥",
+        "省体育馆",
+        "衣冠庙",
+        "高升桥",
+        "红牌楼",
+        "太平园",
+        "川藏立交",
+        "武侯立交",
+        "武青南路",
+        "双凤桥",
+        "龙桥路",
+        "航都大街",
+        "迎春桥",
+        "东升",
+        "双流广场",
+        "三里坝",
+        "双流西站"
+      ]
+    ],
+    "4": [
+      [
+        "西河",
+        "明蜀王陵",
+        "成都大学",
+        "十陵",
+        "来龙",
+        "槐树店",
+        "万年场",
+        "双桥路",
+        "玉双路",
+        "市二医院",
+        "太升南路",
+        "骡马市",
+        "宽窄巷子",
+        "中医大·省医院",
+        "草堂北路",
+        "西南财大",
+        "文化宫",
+        "清江西路",
+        "成都西站",
+        "中坝",
+        "蔡桥",
+        "非遗博览园",
+        "马厂坝",
+        "凤凰大街",
+        "涌泉",
+        "光华公园",
+        "南熏大道",
+        "凤溪河",
+        "杨柳河",
+        "万盛"
+      ]
+    ],
+    "5": [
+      [
+        "华桂路",
+        "柏水场",
+        "廖家湾",
+        "北部商贸城",
+        "幸福桥",
+        "九道堰",
+        "杜家碾",
+        "大丰",
+        "石犀公园",
+        "皇花园",
+        "陆家桥",
+        "泉水路",
+        "洞子口",
+        "福宁路",
+        "五块石",
+        "赛云台",
+        "北站西二路",
+        "西北桥",
+        "花牌坊",
+        "抚琴",
+        "中医大·省医院",
+        "青羊宫",
+        "省骨科医院",
+        "高升桥",
+        "科园",
+        "九兴大道",
+        "神仙树",
+        "石羊立交",
+        "市一医院",
+        "交子大道",
+        "锦城大道",
+        "锦城湖",
+        "大源",
+        "民乐",
+        "骑龙",
+        "警官学院",
+        "二江寺",
+        "南湖立交",
+        "怡心湖",
+        "龙马路",
+        "回龙"
+      ]
+    ],
+    "6": [
+      [
+        "望丛祠",
+        "和平街",
+        "郫筒",
+        "蜀新大道",
+        "檬梓",
+        "尚锦路",
+        "红高路",
+        "天宇路",
+        "犀浦",
+        "兴业北街",
+        "梓潼宫",
+        "侯家桥",
+        "兴盛",
+        "青杠",
+        "西华大道",
+        "金府",
+        "星河",
+        "西南交大",
+        "沙湾",
+        "西北桥",
+        "人民北路",
+        "梁家巷",
+        "前锋路",
+        "建设北路",
+        "新鸿路",
+        "玉双路",
+        "牛王庙",
+        "顺江路",
+        "三官堂",
+        "东光",
+        "琉璃场",
+        "琉三路",
+        "金石路",
+        "金融城东",
+        "中和",
+        "张家寺",
+        "陆肖",
+        "观东",
+        "新通大道",
+        "新川路",
+        "龙灯山",
+        "蒲草塘",
+        "万安",
+        "麓山大道",
+        "沈阳路",
+        "青岛路",
+        "昌公堰",
+        "杭州路",
+        "天府商务区",
+        "西博城",
+        "秦皇寺",
+        "松林",
+        "芦角",
+        "钓鱼嘴",
+        "回龙",
+        "兰家沟"
+      ]
+    ],
+    "7": [
+      [
+        "火车北站",
+        "北站西二路",
+        "九里堤",
+        "西南交大",
+        "花照壁",
+        "茶店子",
+        "一品天下",
+        "金沙博物馆",
+        "文化宫",
+        "东坡路",
+        "龙爪堰",
+        "武侯大道",
+        "太平园",
+        "高朋大道",
+        "神仙树",
+        "火车南站",
+        "三瓦窑",
+        "琉璃场",
+        "四川师大",
+        "狮子山",
+        "大观",
+        "成都东客站",
+        "迎晖路",
+        "槐树店",
+        "双店路",
+        "崔家店",
+        "理工大学",
+        "二仙桥",
+        "八里庄",
+        "府青路",
+        "驷马桥",
+        "火车北站"
+      ]
+    ],
+    "8": [
+      [
+        "桂龙路",
+        "桂林",
+        "同乐",
+        "龙潭寺",
+        "龙潭立交",
+        "圣灯公园",
+        "十里店",
+        "理工大学",
+        "东郊记忆",
+        "杉板桥",
+        "万年路",
+        "双桥路",
+        "东大路",
+        "净居寺",
+        "东光",
+        "东湖公园",
+        "川大望江校区",
+        "倪家桥",
+        "芳草街",
+        "永丰",
+        "九兴大道",
+        "高朋大道",
+        "殷家林",
+        "庆安",
+        "石羊",
+        "三元",
+        "顺风",
+        "珠江路",
+        "川大江安校区",
+        "文星",
+        "莲花",
+        "龙港"
+      ]
+    ],
+    "9": [
+      [
+        "黄田坝",
+        "成都西站",
+        "培风",
+        "机投桥",
+        "武青南路",
+        "簇桥",
+        "华兴",
+        "太平寺",
+        "三元",
+        "锦城大道",
+        "孵化园",
+        "心岛",
+        "金融城东"
+      ]
+    ],
+    "10": [
+      [
+        "武侯祠",
+        "高升桥",
+        "红牌楼",
+        "太平园",
+        "簇锦",
+        "华兴",
+        "金花",
+        "双流机场1航站楼",
+        "双流机场2航站楼",
+        "双流西站",
+        "应天寺",
+        "黄水",
+        "花源",
+        "新津站",
+        "花桥",
+        "五津",
+        "儒林路",
+        "刘家碾",
+        "新平"
+      ]
+    ],
+    "13": [
+      [
+        "瓦窑滩",
+        "万家湾",
+        "培风",
+        "万寿桥",
+        "东坡路",
+        "光华村",
+        "杜甫草堂",
+        "青羊宫",
+        "小南街",
+        "文翁石室",
+        "华西坝",
+        "新南门",
+        "九眼桥",
+        "三官堂",
+        "净居寺",
+        "四川师大",
+        "娇子立交",
+        "幸福梅林",
+        "三圣花乡",
+        "龙华寺",
+        "龙安"
+      ]
+    ],
+    "17": [
+      [
+        "九江北",
+        "白佛桥",
+        "机投桥",
+        "阳公桥",
+        "龙爪堰",
+        "清水河大桥",
+        "浣花里",
+        "省骨科医院",
+        "小南街",
+        "人民公园",
+        "西大街",
+        "城隍庙",
+        "红星桥",
+        "建设北路",
+        "踏水桥",
+        "二仙桥",
+        "机车厂",
+        "人民塘",
+        "航天路",
+        "威灵",
+        "高洪"
+      ]
+    ],
+    "18": [
+      [
+        "火车南站",
+        "孵化园",
+        "锦城广场东",
+        "世纪城",
+        "海昌路",
+        "西博城",
+        "兴隆",
+        "天府站",
+        "三岔",
+        "福田",
+        "天府机场1号2号航站楼",
+        "天府机场北"
+      ]
+    ],
+    "19": [
+      [
+        "天府机场北",
+        "天府机场1号2号航站楼",
+        "福田",
+        "三岔",
+        "天府站",
+        "蓝家店",
+        "天府商务区",
+        "红莲",
+        "正兴湾",
+        "怡心湖",
+        "牧华路",
+        "温家山",
+        "龙港",
+        "双流机场2航站楼东",
+        "龙桥路",
+        "九江北",
+        "明光",
+        "温泉大道",
+        "凤溪河",
+        "市五医院",
+        "黄石",
+        "金星"
+      ]
+    ],
+    "27": [
+      [
+        "蜀鑫路",
+        "金沙滨河公园",
+        "黄忠",
+        "羊犀立交",
+        "金牛公园",
+        "花照壁北",
+        "金府",
+        "新桥",
+        "沙河源",
+        "洞子口",
+        "王贾桥",
+        "双水碾",
+        "韦家碾",
+        "赖家店",
+        "鲤鱼湾",
+        "范家巷",
+        "三圣寺",
+        "石门坎",
+        "旃檀寺",
+        "兴城大道",
+        "慈义",
+        "石佛"
+      ]
+    ],
+    "30": [
+      [
+        "双流机场2航站楼东",
+        "寺圣",
+        "星月",
+        "光明",
+        "谢家渡",
+        "珠江路",
+        "大同",
+        "石羊东",
+        "新园大道",
+        "市一医院",
+        "益州大道",
+        "金融城北",
+        "府城桥",
+        "金石路",
+        "棬子树",
+        "锦逸",
+        "娇子立交",
+        "海桐街",
+        "航天立交",
+        "惠王陵",
+        "玉石",
+        "龙泉驿火车站南"
+      ]
+    ],
+    "r2": [
+      [
+        "成都西站",
+        "联工",
+        "土龙路",
+        "新业路",
+        "锦城学院",
+        "电子科大",
+        "合信路",
+        "合作路",
+        "天欣路",
+        "安埠",
+        "天映路",
+        "天源路",
+        "德富大道",
+        "红旗大道",
+        "红展东路",
+        "大禹东路",
+        "花石",
+        "晨光",
+        "何公路",
+        "望丛祠",
+        "梨园路",
+        "郫县西站"
+      ],
+      [
+        "新业路",
+        "百叶路",
+        "晨风",
+        "天河路",
+        "龙吟",
+        "交大犀浦校区",
+        "犀方路",
+        "国宁",
+        "大田",
+        "西华大学",
+        "双林村",
+        "金土",
+        "技师学院",
+        "仁和"
+      ]
+    ]
+  },
+  "inactivePaths": {},
+  "plannedStations": [
+    {
+      "id": "芦葭",
+      "name": "芦葭",
+      "englishName": "Lujia",
+      "aliases": [],
+      "lines": [
+        "s3"
+      ],
+      "status": "planned"
+    }
+  ],
+  "plannedStationCount": 1,
+  "inactiveStationCounts": {
+    "planned": 1,
+    "suspended": 0
+  },
+  "english": {
+    "五根松": "Wugensong",
+    "广都": "Guangdu",
+    "四河": "Sihe",
+    "华府大道": "Huafu Avenue",
+    "天府五街": "5th Tianfu Street",
+    "天府三街": "3nd Tianfu Street",
+    "世纪城": "Century City",
+    "锦城广场": "Jincheng Plaza",
+    "孵化园": "Incubation Park",
+    "金融城": "Financial City",
+    "高新": "Hi-tech Zone",
+    "火车南站": "South Railway Station",
+    "桐梓林": "Tongzilin",
+    "倪家桥": "Nijiaqiao",
+    "省体育馆": "Sichuan Gymnasium",
+    "华西坝": "Huaxiba",
+    "锦江宾馆": "Jinjiang Hotel",
+    "天府广场": "Tianfu Square",
+    "骡马市": "Luomashi",
+    "文殊院": "Wenshu Monastery",
+    "人民北路": "Renmin North Road",
+    "火车北站": "North Railway Station",
+    "升仙湖": "Shengxian Lake",
+    "韦家碾": "Weijianian",
+    "科学城": "Science City",
+    "兴隆湖": "Xinglong Lake",
+    "广州路": "Guangzhou Road",
+    "西博城": "Western China Int'l Expo City",
+    "天府公园": "Tianfu Park",
+    "武汉路": "Wuhan Road",
+    "麓湖": "Luhu Lake",
+    "红石公园": "Hongshi Park",
+    "广福": "Guangfu",
+    "海昌路": "Haichang Road",
+    "华阳": "Huayang",
+    "犀浦": "Xipu",
+    "天河路": "Tianhe Road",
+    "百草路": "Baicao Road",
+    "金周路": "Jinzhou Road",
+    "金科北路": "Jinke North Road",
+    "迎宾大道": "Yingbin Avenue",
+    "茶店子客运站": "Chadianzi Bus Terminal Station",
+    "羊犀立交": "Yangxi Flyover",
+    "一品天下": "Yipintianxia",
+    "蜀汉路东": "Shuhan Road East",
+    "白果林": "Baiguolin",
+    "中医大·省医院": "Chengdu University of TCM  Sichuan Provincial People's Hospital",
+    "通惠门": "Tonghuimen",
+    "人民公园": "People’s Park",
+    "春熙路": "Chunxi Road",
+    "东门大桥": "Dongmen Bridge",
+    "牛王庙": "Niuwangmiao",
+    "牛市口": "Niushikou",
+    "东大路": "Dongdalu Road",
+    "塔子山公园": "Tazishan Park",
+    "成都东客站": "Chengdu East Railway Station",
+    "成渝立交": "Chengyu Flyover",
+    "惠王陵": "Huiwangling",
+    "洪河": "Honghe",
+    "成都行政学院": "Chengdu Institute Of Public Administration",
+    "龙泉驿火车站": "Longquanyi Railway Station",
+    "大面铺": "Damianpu",
+    "连山坡": "Lianshanpo",
+    "界牌": "Jiepai",
+    "书房": "Shufang",
+    "龙平路": "Longping Road",
+    "龙泉驿": "Longquanyi",
+    "福田": "Futian",
+    "资阳临空": "Ziyang Airport Economic Zone",
+    "幸福大道": "Xingfu Avenue",
+    "苌弘广场": "Changhong Square",
+    "宝台": "Baotai",
+    "资阳北站": "Ziyang Bei Station",
+    "成都医学院": "Chengdu Medical College",
+    "石油大学": "Southwest Petroleum University",
+    "钟楼": "Clock Tower",
+    "马超西路": "Machao West Road",
+    "团结新区": "Tuanjiexinqu",
+    "锦水河": "Jinshuihe",
+    "三河场": "Sanhechang",
+    "金华寺东路": "Jinhuasi East Road",
+    "植物园": "Botanical Garden",
+    "军区总医院": "Military Region General Hospital",
+    "熊猫大道": "Panda Avenue",
+    "动物园": "Chengdu Zoo",
+    "昭觉寺南路": "Zhaojuesi South Road",
+    "驷马桥": "Sima Bridge",
+    "李家沱": "Lijiatuo",
+    "前锋路": "Qianfeng Road",
+    "红星桥": "Hongxing Bridge",
+    "市二医院": "Chengdu Second People's Hospital",
+    "新南门": "Xinnanmen",
+    "磨子桥": "Moziqiao",
+    "衣冠庙": "Yiguanmiao",
+    "高升桥": "Gaoshengqiao",
+    "红牌楼": "Hongpailou",
+    "太平园": "Taipingyuan",
+    "川藏立交": "Chuan-Zang Flyover",
+    "武侯立交": "Wuhou Flyover",
+    "武青南路": "Wuqing South Road",
+    "双凤桥": "Shuangfengqiao",
+    "龙桥路": "Longqiao Road",
+    "航都大街": "Hangdu Street",
+    "迎春桥": "Yingchunqiao",
+    "东升": "Dongsheng",
+    "双流广场": "Shuangliu Square",
+    "三里坝": "Sanliba",
+    "双流西站": "Shuangliu West Station",
+    "西河": "Xihe",
+    "明蜀王陵": "Mingshuwangling",
+    "成都大学": "Chengdu University",
+    "十陵": "Shiling",
+    "来龙": "Lailong",
+    "槐树店": "Huaishudian",
+    "万年场": "Wannianchang",
+    "双桥路": "Shuangqiao Road",
+    "玉双路": "Yushuang Road",
+    "太升南路": "Taisheng South Road",
+    "宽窄巷子": "Kuanzhaixiangzi Alleys",
+    "草堂北路": "Caotang North Road",
+    "西南财大": "Southwestern University Of Finance And Economics",
+    "文化宫": "Culture Palace",
+    "清江西路": "Qingjiang West Road",
+    "成都西站": "Chengdu West Railway Station",
+    "中坝": "Zhongba",
+    "蔡桥": "Caiqiao",
+    "非遗博览园": "Intangible Cultural Heritage Park",
+    "马厂坝": "Machangba",
+    "凤凰大街": "Fenghuang Street",
+    "涌泉": "Yongquan",
+    "光华公园": "Guanghua Park",
+    "南熏大道": "Nanxun Avenue",
+    "凤溪河": "Fengxihe",
+    "杨柳河": "Yangliuhe",
+    "万盛": "Wansheng",
+    "华桂路": "Huagui Road",
+    "柏水场": "Baishuichang",
+    "廖家湾": "Liaojiawan",
+    "北部商贸城": "Beibu Shopping Mall",
+    "幸福桥": "Xingfuqiao",
+    "九道堰": "Jiudaoyan",
+    "杜家碾": "Dujianian",
+    "大丰": "Dafeng",
+    "石犀公园": "Shixi Park",
+    "皇花园": "Huanghuayuan",
+    "陆家桥": "Lujiaqiao",
+    "泉水路": "Quanshui Road",
+    "洞子口": "Dongzikou",
+    "福宁路": "Funing Road",
+    "五块石": "Wukuaishi",
+    "赛云台": "Saiyuntai",
+    "北站西二路": "2nd Beizhan West Road",
+    "西北桥": "Xibei Bridge",
+    "花牌坊": "Huapaifang",
+    "抚琴": "Fuqin",
+    "青羊宫": "Qingyang Taoist Temple",
+    "省骨科医院": "Provincial Orthopaedic Hospital",
+    "科园": "Keyuan",
+    "九兴大道": "Jiuxing Avenue",
+    "神仙树": "Shenxianshu",
+    "石羊立交": "Shiyang Flyover",
+    "市一医院": "Chengdu First People’s Hospital",
+    "交子大道": "Jiaozi Avenue",
+    "锦城大道": "Jincheng Avenue",
+    "锦城湖": "Jincheng Lake",
+    "大源": "Dayuan",
+    "民乐": "Minle",
+    "骑龙": "Qilong",
+    "警官学院": "The Police College",
+    "二江寺": "Erjiang Temple",
+    "南湖立交": "Nanhu Flyover",
+    "怡心湖": "Yixin Lake",
+    "龙马路": "Longma Road",
+    "回龙": "Huilong",
+    "望丛祠": "Wangcong Temple",
+    "和平街": "Heping Street",
+    "郫筒": "Pitong Street",
+    "蜀新大道": "Shuxin Avenue",
+    "檬梓": "Mengzi",
+    "尚锦路": "Shanjin Road",
+    "红高路": "Honggao Road",
+    "天宇路": "Tianyu Road",
+    "兴业北街": "Xingye North Street",
+    "梓潼宫": "Zitonggong",
+    "侯家桥": "Houjiaqiao",
+    "兴盛": "Xingsheng",
+    "青杠": "Qinggang",
+    "西华大道": "Xihua Avenue",
+    "金府": "Jinfu",
+    "星河": "Xinghe",
+    "西南交大": "Southwest Jiaotong University",
+    "沙湾": "Shawan",
+    "梁家巷": "Liangjia Alley",
+    "建设北路": "Jianshe North Road",
+    "新鸿路": "Xinhong Road",
+    "顺江路": "Shunjiang Road",
+    "三官堂": "Sanguantang",
+    "东光": "Dongguang",
+    "琉璃场": "Liulichang",
+    "琉三路": "Liusan Road",
+    "金石路": "Jinshi Road",
+    "金融城东": "Financial City East",
+    "中和": "Zhonghe",
+    "张家寺": "Zhangjiasi",
+    "陆肖": "Luxiao",
+    "观东": "Guandong",
+    "新通大道": "Xintong Avenue",
+    "新川路": "Xinchuan Road",
+    "龙灯山": "Longdengshan",
+    "蒲草塘": "Pucaotang",
+    "万安": "Wan'an",
+    "麓山大道": "Lushan Avenue",
+    "沈阳路": "Shenyang Road",
+    "青岛路": "Qingdao Road",
+    "昌公堰": "Changgongyan",
+    "杭州路": "Hangzhou Road",
+    "天府商务区": "Tianfu Commercial District",
+    "秦皇寺": "Qinhuangsi",
+    "松林": "Songlin",
+    "芦角": "Lujiao",
+    "钓鱼嘴": "Diaoyuzui",
+    "兰家沟": "Lanjiagou",
+    "九里堤": "Jiulidi",
+    "花照壁": "Huazhaobi",
+    "茶店子": "Chadianzi",
+    "金沙博物馆": "Jinsha Site Museum",
+    "东坡路": "Dongpo Road",
+    "龙爪堰": "Longzhuayan",
+    "武侯大道": "Wuhou Avenue",
+    "高朋大道": "Gaopeng Avenue",
+    "三瓦窑": "Sanwayao",
+    "四川师大": "Sichuan Normal University",
+    "狮子山": "Shizishan",
+    "大观": "Daguan",
+    "迎晖路": "Yinghui Road",
+    "双店路": "Shuangdian Road",
+    "崔家店": "Cuijiadian",
+    "理工大学": "Chengdu University of Technology",
+    "二仙桥": "Erxianqiao",
+    "八里庄": "Balizhuang",
+    "府青路": "Fuqing Road",
+    "桂龙路": "Guilong Road",
+    "桂林": "Guilin",
+    "同乐": "Tongle",
+    "龙潭寺": "Longtan Temple",
+    "龙潭立交": "Longtan Flyover",
+    "圣灯公园": "Shengdeng Park",
+    "十里店": "Shilidian",
+    "东郊记忆": "Dongjiao Memory",
+    "杉板桥": "Shanbanqiao",
+    "万年路": "Wannian Road",
+    "净居寺": "Jingjusi",
+    "东湖公园": "Donghu Park",
+    "川大望江校区": "Sichuan University Wangjiang Campus",
+    "芳草街": "Fangcao Street",
+    "永丰": "Yongfeng",
+    "殷家林": "Yinjialin",
+    "庆安": "Qing'an",
+    "石羊": "Shiyang",
+    "三元": "Sanyuan",
+    "顺风": "Shunfeng",
+    "珠江路": "Zhujiang Road",
+    "川大江安校区": "Sichuan University Jiang'an Campus",
+    "文星": "Wenxing",
+    "莲花": "Lianhua",
+    "龙港": "Longgang",
+    "黄田坝": "Huangtianba",
+    "培风": "Peifeng",
+    "机投桥": "Jitouqiao",
+    "簇桥": "Cuqiao",
+    "华兴": "Huaxing",
+    "太平寺": "Taiping Temple",
+    "心岛": "Xindao",
+    "武侯祠": "Wuhou Shrine",
+    "簇锦": "Cujin",
+    "金花": "Jinhua",
+    "双流机场1航站楼": "Terminal 1 of Shuangliu International Airport",
+    "双流机场2航站楼": "Terminal 2 of Shuangliu International Airport",
+    "应天寺": "Yingtiansi Temple",
+    "黄水": "Huangshui",
+    "花源": "Huayuan",
+    "新津站": "Xinjin Station",
+    "花桥": "Huaqiao",
+    "五津": "Wujin",
+    "儒林路": "Rulinlu",
+    "刘家碾": "Liujianian",
+    "新平": "Xinping",
+    "瓦窑滩": "Wayaotan",
+    "万家湾": "Wanjiawan",
+    "万寿桥": "Wanshou Bridge",
+    "光华村": "Guanghuacun",
+    "杜甫草堂": "Du Fu Thatched Cottage",
+    "小南街": "Xiaonan Street",
+    "文翁石室": "Wenweng Shishi",
+    "九眼桥": "Jiuyan Bridge",
+    "娇子立交": "Jiaozi Flyover",
+    "幸福梅林": "Xingfu Meilin",
+    "三圣花乡": "Sansheng Flower Town",
+    "龙华寺": "Longhuasi",
+    "龙安": "Long’an",
+    "九江北": "Jiujiang North",
+    "白佛桥": "Baifoqiao",
+    "阳公桥": "Yanggongqiao",
+    "清水河大桥": "Qingshuihe Bridge",
+    "浣花里": "Huanhua Lane",
+    "西大街": "Xidajie Street",
+    "城隍庙": "Chenghuangmiao",
+    "踏水桥": "Tashui Bridge",
+    "机车厂": "Jichechang",
+    "人民塘": "Renmintang",
+    "航天路": "Hangtian Road",
+    "威灵": "Weiling",
+    "高洪": "Gaohong",
+    "锦城广场东": "Jincheng Plaza East",
+    "兴隆": "Xinglong",
+    "天府站": "Tianfu Station",
+    "三岔": "Sancha",
+    "天府机场1号2号航站楼": "Terminal 1 & 2 of Tianfu International Airport",
+    "天府机场北": "Tianfu International Airport North",
+    "蓝家店": "Lanjiadian",
+    "红莲": "Honglian",
+    "正兴湾": "Zhengxingwan",
+    "牧华路": "Muhua Road",
+    "温家山": "Wenjiashan",
+    "双流机场2航站楼东": "East of Terminal 2 of Shuangliu International Airport",
+    "明光": "Mingguang",
+    "温泉大道": "Wenquan Avenue",
+    "市五医院": "Chengdu Fifth People’s Hospital",
+    "黄石": "Huangshi",
+    "金星": "Jinxing",
+    "蜀鑫路": "Shuxin Road",
+    "金沙滨河公园": "Jinsha Binhe Park",
+    "黄忠": "Huangzhong",
+    "金牛公园": "Jinniu park",
+    "花照壁北": "Huazhaobi North",
+    "新桥": "Xinqiao",
+    "沙河源": "Shaheyuan",
+    "王贾桥": "Wangjiaqiao",
+    "双水碾": "Shuangshuinian",
+    "赖家店": "Laijiadian",
+    "鲤鱼湾": "Liyuwan",
+    "范家巷": "Fanjia Alley",
+    "三圣寺": "Sanshengsi",
+    "石门坎": "Shimenkan",
+    "旃檀寺": "Zhantan Temple",
+    "兴城大道": "Xingcheng Avenue",
+    "慈义": "Ciyi",
+    "石佛": "Shifo",
+    "寺圣": "Sisheng",
+    "星月": "Xingyue",
+    "光明": "Guangming",
+    "谢家渡": "Xiejiadu",
+    "大同": "Datong",
+    "石羊东": "Shiyangdong",
+    "新园大道": "Xinyuan Avenue",
+    "益州大道": "Yizhou Avenue",
+    "金融城北": "Financial City North",
+    "府城桥": "Fucheng Bridge",
+    "棬子树": "Juanzishu",
+    "锦逸": "Jinyi",
+    "海桐街": "Haitong Street",
+    "航天立交": "Hangtian Flyover",
+    "玉石": "Yushi",
+    "龙泉驿火车站南": "Longquanyi Railway Station South",
+    "联工": "Liangong",
+    "土龙路": "Tulong Road",
+    "新业路": "Xinye Road",
+    "锦城学院": "Chengdu Jincheng College",
+    "电子科大": "University of Electronic Science and Technology of China",
+    "合信路": "Hexin Road",
+    "合作路": "Hezuo Road",
+    "天欣路": "Tianxin Road",
+    "安埠": "Anbu",
+    "天映路": "Tianying Road",
+    "天源路": "Tianyuan Road",
+    "德富大道": "Defu Avenue",
+    "红旗大道": "Hongqi Avenue",
+    "红展东路": "Hongzhan East Road",
+    "大禹东路": "Dayu East Road",
+    "花石": "Huashi",
+    "晨光": "Chenguang",
+    "何公路": "Hegong Road",
+    "梨园路": "Liyuan Road",
+    "郫县西站": "Pixian West Railway Station",
+    "百叶路": "Baiye Road",
+    "晨风": "Chenfeng",
+    "龙吟": "Longyin",
+    "交大犀浦校区": "Xipu Campus, Southwest Jiaotong University",
+    "犀方路": "Xifang Road",
+    "国宁": "Guoning",
+    "大田": "Datian",
+    "西华大学": "Xihua University",
+    "双林村": "Shuanglin Village",
+    "金土": "Jintu",
+    "技师学院": "Chengdu Technician College",
+    "仁和": "Renhe",
+    "芦葭": "Lujia"
+  },
+  "aliases": {
+    "资阳临空": [
+      "临空经济区"
+    ],
+    "成都医学院": [
+      "成都医学院(新都校区)"
+    ],
+    "军区总医院": [
+      "军区总医院(熊猫基地西大门)"
+    ],
+    "熊猫大道": [
+      "熊猫大道(熊猫基地南大门)"
+    ],
+    "九道堰": [
+      "九道堰(凤凰山体育公园东)"
+    ],
+    "杜家碾": [
+      "杜家碾(凤凰山体育公园西)"
+    ],
+    "兴业北街": [
+      "交大兴业北街"
+    ],
+    "建设北路": [
+      "电子科大建设北路"
+    ],
+    "青岛路": [
+      "青岛路(法务区)"
+    ],
+    "新平": [
+      "新平(宝墩)"
+    ],
+    "浣花里": [
+      "浣花里(省医院草堂院区)"
+    ],
+    "威灵": [
+      "威灵(西南财大天府学院)"
+    ]
+  },
+  "notes": [
+    "2026.11参考范围包含1—10、13、17、18、19、27、30号线及S3资阳线；S3的灰色为线路本色，不表示全线未运营。",
+    "蓉2号线原始35站及两支路径完整保留，hiddenLineIds明确隐藏r2；其独有站点不计可见站数。",
+    "1号线保留五根松—韦家碾24站、科学城—韦家碾33站两条运营路径，共35个不同站点。",
+    "7号线31站，最后一站显式连接首站形成环线。",
+    "AMap 4号线凤溪河完全重复记录已去重。",
+    "2号线东段六站自2026.09.28恢复运营；2026.11图新增龙泉驿火车站独立橙色站圈，完整收录犀浦—龙泉驿33站。",
+    "S3资阳线7个参考站中6站运营，芦葭为灰字灰圈预留站；资阳临空的旧工程名是临空经济区，不是额外预留站。",
+    "19号线保留AMap通往天府机场北的贯通路径；18/19号线共享天府站至天府机场北站点。",
+    "参考图逐段核查为35个唯一运营站：主线22站、支线14站，共用新业路1站；两条路径以分岔站新业路连接。",
+    "未按47个规划站或42个初期开通站直接生成名册：35站范围以用户提供的2026.08运营版参考图为准。",
+    "不纳入参考图未绘的12站：清淳、两河路、新达路、天润路、蜀新大道、康强四路、安泰二路、安泰五路、望丛中路、和兴街、菠萝滩、犀安路。未绘站的实际历史开通或预留状态不由本名册断言。",
+    "交大犀浦校区采用参考图和OSM名称；地铁通旧名为西南交大犀浦站。该站不与地铁6号线兴业北街合并。",
+    "OSM公开数据直接使用WGS84。无GCJ02转换、无地址地理编码、无示意图反推坐标。",
+    "每站选ID最小的现有railway=tram_stop节点作为站点代表，保留原始WGS84数值。双向站台可能有数十米差异；allPlatformNodeIds保留全部同名站台节点，未取平均、未硬编坐标。",
+    "成都西站、天河路、望丛祠可与同名地铁站在名册层合并，但此文件保留有轨站台原始坐标作为审计证据。",
+    "英文名直接来自OSM name:en；与参考图英文排字可能存在差异。",
+    "OSM数据依ODbL使用，署名OpenStreetMap contributors。"
+  ]
+}

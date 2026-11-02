@@ -7,6 +7,9 @@ const cities = [
   ['东莞', new URL('../../dongguan/data/', import.meta.url)],
   ['南宁', new URL('../../nanning/data/', import.meta.url)],
   ['昆明', new URL('../../kunming/data/', import.meta.url)],
+  ['杭州', new URL('../../hangzhou/data/', import.meta.url)],
+  ['绍兴', new URL('../../shaoxing/data/', import.meta.url)],
+  ['成都', new URL('../../chengdu/data/', import.meta.url)],
 ];
 const modes = new Set();
 let stationCount = 0, badgeCount = 0;
@@ -19,6 +22,9 @@ for (const [city, directory] of cities) {
     assert.deepEqual(transfers[id].map(item => item.mode), ['rail', 'highSpeedRail'], `${id} 对应的铁路站同时接入普速铁路和高速铁路`);
   }
   if (city === '深圳') assert.equal(transfers['罗湖'][0].mode, 'rail', '深圳站的广深铁路不能因开行动车而改标高铁');
+  if (city === '成都') for (const id of ['龙泉驿火车站', '龙泉驿火车站南']) {
+    assert.deepEqual(transfers[id], [{ mode: 'rail', destination: '成都龙泉驿站', access: 'walk', railways: ['成花铁路'] }], `${id} 应接驳已于2026年10月30日启用的成都龙泉驿站`);
+  }
   if (city === '东莞') assert.equal(transfers['东莞火车站'][0].mode, 'rail', '东莞站的广深铁路不能因开行动车而改标高铁');
   for (const items of Object.values(transfers)) for (const transfer of items) modes.add(transfer.mode);
   const count = Object.values(transfers).reduce((sum, items) => sum + items.length, 0);

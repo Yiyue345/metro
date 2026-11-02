@@ -18,7 +18,7 @@ const geographicBounds: [[number, number], [number, number]] = [
   [Math.min(...registered.map(point => point.lon)) - .09, Math.min(...registered.map(point => point.lat)) - .07],
   [Math.max(...registered.map(point => point.lon)) + .09, Math.max(...registered.map(point => point.lat)) + .07],
 ];
-const operator = { id: 'dongguan', name: '东莞轨道交通', company: '东莞轨道交通有限公司', url: 'https://www.dggdjt.com/' };
+const operator = { id: 'dongguan', name: '东莞轨道交通', company: '东莞轨道交通有限公司', logo: '/operators/dongguan-metro.png', url: 'https://www.dggdjt.com/' };
 
 export const dongguanDataset: MetroCityDataset = {
   city: { id: 'dongguan', name: '东莞', assetBase: '/dongguan', center: [113.85, 22.95], geographicBounds },

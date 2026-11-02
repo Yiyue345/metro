@@ -1,9 +1,19 @@
+import assert from 'node:assert/strict';
 import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
-const colors = JSON.parse(readFileSync(new URL('../data/line-colors.json', import.meta.url), 'utf8'));
+import { createHash } from 'node:crypto';
+
+const research = JSON.parse(readFileSync(new URL('./line-sign-research.json', import.meta.url), 'utf8'));
+const ids = Object.keys(JSON.parse(readFileSync(new URL('../data/line-colors.json', import.meta.url), 'utf8')));
+assert.deepEqual(new Set(research.lines.map(line => line.id)), new Set(ids));
 const directory = new URL('../public/lines/', import.meta.url);
 mkdirSync(directory, { recursive: true });
-for (const [id, color] of Object.entries(colors)) {
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100" role="img" aria-label="${id}号线"><rect width="200" height="100" rx="10" fill="${color}"/><g fill="white" font-family="Arial, Microsoft YaHei, sans-serif"><text x="45" y="82" text-anchor="middle" font-size="87" font-weight="500">${id}</text><text x="90" y="56" font-size="38">号线</text><text x="91" y="84" font-size="22">Line ${id}</text></g></svg>\n`;
-  writeFileSync(new URL(`${id}.svg`, directory), svg);
+for (const line of research.lines) {
+  const bytes = readFileSync(new URL(line.sourceFile, import.meta.url));
+  assert.equal(createHash('sha256').update(bytes).digest('hex'), line.sourceSHA256, `${line.id}: source artwork changed`);
+  const attributes = `width="${line.width}" height="${line.height}" role="img" aria-label="${line.label}" preserveAspectRatio="xMidYMid meet"`;
+  const svg = line.sourceFormat === 'svg'
+    ? bytes.toString('utf8').replace(/<svg\b([^>]*)>/, (_, original) => `<svg${original.replace(/\s(?:width|height|role|aria-label|preserveAspectRatio)="[^"]*"/g, '')} ${attributes}>`)
+    : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${line.viewBox}" ${attributes}><image width="${line.width}" height="${line.height}" href="data:image/png;base64,${bytes.toString('base64')}"/></svg>`;
+  writeFileSync(new URL(`${line.id}.svg`, directory), `${svg.trim()}\n`);
 }
-console.log(`Generated ${Object.keys(colors).length} bilingual line signs.`);
+console.log(`Generated ${research.lines.length} source-verified ${research.city} line signs.`);

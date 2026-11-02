@@ -1,0 +1,102 @@
+{
+  "font": "Segoe UI / Microsoft YaHei, Chinese 14px (one long label 13px), English 8px",
+  "method": "Native Edge SVG tspan.getBBox rectangles; local translations penalize other labels, station bounds and a source-scale 11px route raster.",
+  "sourceLabelsSHA256": "d41dec610a51f92938e1ce57ca8a114f82d458f3833e45fec54588079acddcd3",
+  "changes": [
+    {
+      "id": "江陵路",
+      "x": 3029.5,
+      "y": 2031
+    },
+    {
+      "id": "婺江路",
+      "x": 2886.91,
+      "y": 1835.09
+    },
+    {
+      "id": "西湖文化广场",
+      "x": 2818,
+      "y": 1584
+    },
+    {
+      "id": "闸弄口",
+      "x": 2930.11,
+      "y": 1561.24
+    },
+    {
+      "id": "客运中心",
+      "x": 3401,
+      "y": 1385.5
+    },
+    {
+      "id": "庆菱路",
+      "x": 2826,
+      "y": 1718.5
+    },
+    {
+      "id": "下宁桥",
+      "x": 2583,
+      "y": 1523
+    },
+    {
+      "id": "黄龙体育中心",
+      "x": 2473.5,
+      "y": 1673
+    },
+    {
+      "id": "同协路",
+      "x": 3002.5,
+      "y": 1160.5
+    },
+    {
+      "id": "中医药大学",
+      "x": 2655.5,
+      "y": 2237
+    },
+    {
+      "id": "市民中心",
+      "x": 3010.5,
+      "y": 1799
+    },
+    {
+      "id": "新风",
+      "x": 2983,
+      "y": 1533
+    },
+    {
+      "id": "和睦",
+      "x": 2493,
+      "y": 1348
+    },
+    {
+      "id": "宝善桥",
+      "x": 2827.84,
+      "y": 1621.16
+    },
+    {
+      "id": "元宝塘",
+      "x": 2987,
+      "y": 1559
+    },
+    {
+      "id": "美院象山",
+      "x": 2278,
+      "y": 2410.5
+    },
+    {
+      "id": "花园岗",
+      "x": 2449.5,
+      "y": 1321.71
+    },
+    {
+      "id": "翠柏路",
+      "x": 2537.76,
+      "y": 1499.76
+    }
+  ],
+  "remainingLabelOverlapPairs": [],
+  "visualAdjustment": {
+    "西湖文化广场": "Keep the standard 14px Chinese name and two English rows in the open area east of Line 5.",
+    "闸弄口": "Maintain at least six source pixels between the actual label bounds and the adjacent long station name."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "成都东客站": [
+    { "mode": "rail", "destination": "成都东站", "access": "direct", "railways": ["遂成铁路"] },
+    { "mode": "highSpeedRail", "destination": "成都东站", "access": "direct", "railways": ["西成客运专线", "成贵客运专线", "成渝高速铁路", "成宜高速铁路"] }
+  ],
+  "火车南站": [
+    { "mode": "rail", "destination": "成都南站", "access": "direct", "railways": ["成昆铁路"] },
+    { "mode": "highSpeedRail", "destination": "成都南站", "access": "direct", "railways": ["成贵客运专线"] }
+  ],
+  "成都西站": [
+    { "mode": "rail", "destination": "成都西站", "access": "direct", "railways": ["成蒲铁路"] }
+  ],
+  "犀浦": [
+    { "mode": "rail", "destination": "犀浦站", "access": "direct", "railways": ["成灌铁路"] }
+  ],
+  "郫县西站": [
+    { "mode": "rail", "destination": "郫县西站", "access": "walk", "railways": ["成灌铁路"] }
+  ],
+  "新津站": [
+    { "mode": "highSpeedRail", "destination": "新津站", "access": "walk", "railways": ["成贵客运专线"] }
+  ],
+  "双流机场1航站楼": [
+    { "mode": "airport", "destination": "成都双流国际机场", "access": "walk" }
+  ],
+  "双流机场2航站楼": [
+    { "mode": "highSpeedRail", "destination": "双流机场站", "access": "direct", "railways": ["成贵客运专线"] },
+    { "mode": "airport", "destination": "成都双流国际机场", "access": "direct" }
+  ],
+  "双流机场2航站楼东": [
+    { "mode": "highSpeedRail", "destination": "双流机场站", "access": "direct", "railways": ["成贵客运专线"] },
+    { "mode": "airport", "destination": "成都双流国际机场", "access": "direct" }
+  ],
+  "天府机场1号2号航站楼": [
+    { "mode": "highSpeedRail", "destination": "天府机场站", "access": "direct", "railways": ["成宜高速铁路"] },
+    { "mode": "airport", "destination": "成都天府国际机场", "access": "direct" }
+  ],
+  "龙泉驿火车站": [
+    { "mode": "rail", "destination": "成都龙泉驿站", "access": "walk", "railways": ["成花铁路"] }
+  ],
+  "龙泉驿火车站南": [
+    { "mode": "rail", "destination": "成都龙泉驿站", "access": "walk", "railways": ["成花铁路"] }
+  ],
+  "资阳北站": [
+    { "mode": "highSpeedRail", "destination": "资阳北站", "access": "direct", "railways": ["成渝高速铁路"] }
+  ]
+}

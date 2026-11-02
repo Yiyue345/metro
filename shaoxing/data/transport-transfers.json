@@ -1,0 +1,23 @@
+{
+  "火车站": [
+    {
+      "mode": "rail",
+      "destination": "绍兴站",
+      "access": "walk",
+      "railways": [
+        "萧甬铁路"
+      ]
+    }
+  ],
+  "绍兴北站": [
+    {
+      "mode": "highSpeedRail",
+      "destination": "绍兴北站",
+      "access": "direct",
+      "railways": [
+        "杭甬高速铁路",
+        "杭台高速铁路"
+      ]
+    }
+  ]
+}
